@@ -6,12 +6,16 @@
     <script inline type="text/javascript" src="./polyfill.js"></script>
     <script inline type="text/javascript" src="jquery/dist/jquery.js"></script>
     <script inline type="text/javascript" src="highcharts/highcharts.js"></script>
-    <script inline type="text/javascript" src="highcharts/modules/exporting.js"></script>
     <script inline type="text/javascript" src="./rally.js"></script>
     <script inline type="text/javascript" src="./business-value-chart.js"></script>
 </head>
 
 <body>
+    <div>
+        <label for="selectProject">Project: </label><select id="selectProject"></select>
+        <label for="selectRelease">Release: </label><select id="selectRelease"></select>
+    </div>
+    
     <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 </body>
 
