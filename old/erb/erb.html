@@ -1,0 +1,21 @@
+<html>
+
+    <head>
+        <title>Business Value Chart</title>
+
+        <meta charset="UTF-8" />
+        <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <div id="title" style="font-family: 'Arial,Helvetica Neue,Helvetica,sans-serif'; font-weight: bold;font-size: 12pt;">{TITLE}</div>
+        <div id="releaseContainer"></div>
+        <div style="font-family: 'Arial,Helvetica Neue,Helvetica,sans-serif'; font-size: 11pt;">Mean Velocity for last 15 non-zero iterations:&nbsp;&nbsp;<span id="averageVelocity" style="font-weight: bold;">{??}</span>&nbsp;points</div>
+        <div id="chartContainer"></div>
+
+        <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="./erb.js"></script>
+    </body>
+
+</html>

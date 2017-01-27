@@ -1,0 +1,67 @@
+<!DOCTYPE html >
+<html>
+
+    <head>
+        <title>Business Value Chart</title>
+
+        <meta charset="UTF-8" />
+        <script type="text/javascript" src="https://agile.rms.ray.com/apps/2.0/sdk.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script inline type="text/javascript" src="./businessvalueapp.js"></script>
+        <script type="text/javascript">
+            /* global google */
+            /* global Rally */
+            /* global Ext */
+            /* global BusinessValueHandler */
+            
+            function on_resize(c,t){
+                onresize=function(){
+                    clearTimeout(t);
+                    t=setTimeout(c,100)
+                };
+                return c };
+                
+            on_resize( BusinessValueHandler.resize );
+                    
+            google.charts.load('current', {
+                'packages': ['corechart']
+            });
+            google.charts.setOnLoadCallback(
+                function() {
+                    Rally.onReady(function() {
+
+                        Ext.define('BVApp', {
+                            extend: 'Rally.app.App',
+                            componentCls: 'app',
+                            layout: 'border',
+                            items: [{
+                                xtype: 'panel',
+                                itemId: 'chartContainer',
+                                region: 'center',
+                                layout: 'fit',
+                            }],
+
+                            /**
+                             * Main entry point for the Rally application
+                             */
+                            launch: function() {
+                                BusinessValueHandler.run(this);
+                            }
+                        });
+
+                        // Launch the app
+                        Rally.launchApp('BVApp', {
+                            name: 'Business Value App'
+                        });
+                    });
+                });
+        </script>
+    </head>
+
+    <body>
+        <div id="releaseContainer"></div>
+        <div id="chartContainer"></div>
+
+    </body>
+
+</html>

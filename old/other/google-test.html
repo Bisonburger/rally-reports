@@ -1,0 +1,76 @@
+<html>
+<head>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+    /* global google */
+    
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+      
+    function drawChart2(){
+        var dataTable = new google.visualization.DataTable();
+        dataTable.addColumn('string', 'Year');
+        dataTable.addColumn('number', 'Sales');
+        dataTable.addColumn({'type': 'string', 'role': 'tooltip', 'p': {'html': true}})
+        dataTable.addRows([
+          ['2010', 600,'$600K in our first year!'],
+          ['2011', 1500, '<div>Sunspot activity made this our <b>best</b> year ever!</div>'],
+          ['2012', 800, '$800K in 2012.'],
+          ['2013', 1000, '$1M in sales last year.']
+        ]);
+
+        var options = {
+          tooltip: {isHtml: true},
+          legend: 'none'
+        };
+        chart = new google.visualization.ColumnChart(document.getElementById('line_top_x'));
+        chart.draw(dataTable, options);
+    }
+
+    function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Sprints');
+      data.addColumn('number', 'PlanEstimate');
+      data.addColumn( {'type': 'string', 'role': 'tooltip', 'p': {'html': true}});
+
+      data.addRows([
+        ['Sprint 1',  0, '<div>hello 1</div>'],
+        ['Sprint 2',  5, '<div>hello 2</div>'],
+        ['Sprint 3',  6, '<div>hello 3</div>'],
+        ['Sprint 4',  10, '<div>hello 4 </div>'],
+        ['Sprint 5',  20, '<div>hello 5 </div>'],
+        ['Sprint 6',   24, '<div>hello6 </div>'],
+        ['Sprint 7',   47,  '<div>hello7</div>'],
+        ['Sprint 8',  58,  '<div>hello8</div>'],
+        ['Sprint 9',  87,  '<div>hello9</div>'],
+        ['Sprint 10', 100,  '<div>hello10</div>']
+      ]);
+
+      var options = {
+        chart: {
+          title: 'Business Value Burn Up',
+          subtitle: 'for project {PROJECT NAME HERE}',
+          curveType: 'function',
+        },
+          legend: { position: 'bottom' },
+          tooltip: {isHtml: true},
+          focusTarget: 'datum',
+        pointsVisible: true,
+        height: 500,
+        axes: {
+          x: {
+            0: {side: 'bottom'}
+          }
+        }
+      };
+
+      var chart = new google.visualization.LineChart(document.getElementById('line_top_x'));
+      chart.draw(data, options);
+    }
+  </script>
+</head>
+<body>
+  <div id="line_top_x"></div>
+</body>
+</html>

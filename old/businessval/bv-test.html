@@ -1,0 +1,100 @@
+<!DOCTYPE html >
+<html>
+
+    <head>
+        <title>BubbleChart Test</title>
+        <script type="text/javascript" src="jquery/jquery.js"></script>
+        <script src="highcharts/highcharts.js"></script>
+        <script src="highcharts/highcharts-more.js"></script>
+        <script src="highcharts/modules/exporting.js"></script>
+        <style type="text/css">
+            .highcharts-tooltip h3 {
+                margin: 0.3em 0;
+            }
+        </style>
+        <script type='text/javascript'>
+            $(function() {
+                    $('#container').highcharts({
+                        chart: {
+                            type: 'spline',
+                            spacingBottom: 50
+                        },
+                        title: {
+                            text: 'Business Value Burn Up'
+                        },
+                        subtitle: {
+                            text: 'Project: Local Project'
+                        },
+                        xAxis: {
+                            type: 'category',
+                            categories: ['Sprint-1', 'Sprint-2', 'Sprint-3', 'Sprint-4', 'Sprint-5', 'Sprint-6', 'Sprint-7', 'Sprint-8', 'Sprint-9', 'Sprint-10'],
+                            labels: {
+                                useHTML: true
+                            }
+                        },
+                        yAxis: [{
+                            min: 0,
+                            max: 100,
+                            tickInterval: 10,
+                            labels: {
+                                format: '{value} %'
+                            },
+                            title: {
+                                text: 'Business Value % Complete'
+                            },
+                        }],
+                        tooltip: {
+                            headerFormat: '<table>',
+                            pointFormat: '<tr>' + '<td style="color:{series.color};padding:0;font-size:11px">{series.name}:&nbsp;</td>' + '<td style="padding:0;font-size:11px"><b>{point.y:.1f}%</b></td>' + '</tr>',
+                            footerFormat: '</table>',
+                            shared: true,
+                            useHTML: true
+                        },
+                        plotOptions: {
+                            column: {
+                                pointPadding: 0.2,
+                                borderWidth: 0
+                            }
+                        },
+                        legend: {
+                            align: 'right',
+                            verticalAlign: 'top',
+                            layout: 'vertical',
+                            x: 0,
+                            y: 100
+                        },
+                        series: [{
+                            name: 'Actuals',
+                            data: [5, 10, 30, 40, 45],
+                            color: '#3465AA',
+                            dashStyle: 'Solid',
+                            zIndex: 3,
+                            lineWidth: 3,
+                            pointPlacement: 'on'
+                        }, {
+                            name: 'Planned',
+                            data: [10, 20, 25, 40, 50, 60, 70, 85, 90, 100],
+                            color: '#0099CC',
+                            dashStyle: 'Dot',
+                            zIndex: 2,
+                            lineWidth: 3,
+                            pointPlacement: 'on'
+                        }, {
+                            name: 'Projected',
+                            data: [null, null, null, null, 45, 60, 70, 80, 90, 100],
+                            color: '#DEB887', //'#F2B701',
+                            dashStyle: 'ShortDash',
+                            zIndex: 1,
+                            lineWidth: 1,
+                            pointPlacement: 'on'
+                        }]
+                    });
+                }
+
+            );
+        </script>
+    </head>
+
+    <body>
+        <div id="container"> </div>
+    </body>

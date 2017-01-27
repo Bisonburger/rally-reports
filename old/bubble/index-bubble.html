@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Business Value Chart</title>
+<meta charset="UTF-8" />
+<meta http-equiv="x-ua-compatible" content="IE=Emulate10">
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+
+<script type="text/javascript" src="https://agile.rms.ray.com/apps/2.0/sdk.js"></script>
+
+
+<script inline type="text/javascript" src="./bubble_bv.js"></script>
+<script type='text/javascript'>
+
+
+//*********************************************************************************
+//                            Start Rally App
+//*********************************************************************************
+	/* global Rally */
+	/* global Ext */
+	/* global BubbleBVHandler */
+	// Define & initialize the app when Rally has loaded everything
+
+	Rally.onReady(function() {
+
+		Ext.define('BubbleBVApp', {
+			extend : 'Rally.app.App',
+			componentCls : 'app',
+
+			/**
+			 * Main entry point for the Rally application
+			 */
+			launch : function() {
+				// create the handler for the businessValue charting app
+				new BubbleBVHandler(this);
+			}
+		});
+
+		// Launch the app
+		Rally.launchApp('BubbleBVApp', { name : 'Bubble Business Value App'} );
+	});
+</script>
+</head>
+
+<body>
+	<div id="chart_div"></div>
+</body>
+
+</html>

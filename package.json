@@ -1,0 +1,20 @@
+{
+  "name": "rally-businessval",
+  "version": "1.0.0",
+  "description": "...",
+  "main": "server.js",
+  "repository": "",
+  "author": "Matt Young <matthew.young@bisonworks.com>",
+  "dependencies": {
+    "express": "~4",
+    "highcharts": "^5.0.7",
+    "jquery": "^2.2.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inline-source": "^3.0.0"
+  },
+  "scripts": {
+    "inline": "gulp inline"
+  }
+}
