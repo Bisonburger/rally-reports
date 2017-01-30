@@ -539,8 +539,8 @@ BusinessValueHandler = function BusinessValueHandler() {
 			url: url,
 			method: 'GET',
 			withCredentials: true,
-			success: this.processQueryResults,
-			failure: this.queryFailed
+			success: function(){ console.log( 'got a result'); },
+			failure: function(){ console.log( 'error'); }
 		});
 	};
 

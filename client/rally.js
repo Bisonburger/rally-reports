@@ -2,6 +2,13 @@
 
 function RallyAPI() {
     this.basePath = '/slm/webservice/v2.0';
+    $.ajaxSetup({
+        contentType: 'application/json',
+        dataType: 'text',
+        xhrFields: {
+            withCredentials: true
+        }
+    });
 }
 
 RallyAPI.prototype.hydrateIterations = function(userStories) {
@@ -9,21 +16,15 @@ RallyAPI.prototype.hydrateIterations = function(userStories) {
     
     var iterations = [];
     
-    userStories.map( function(story){
+    userStories.forEach( function(story){
         if( story.Iteration )
             iterations.push( me.getIterationForStory(story).then( function(iteration){ story.Iteration = iteration;}) );
     });
     return iterations;
 };
 
-RallyAPI.prototype.fetch = function( url ){
-    return $.ajax({
-        url: url,
-        contentType: 'application/json',
-        xhrFields: {
-            withCredentials: true
-        }
-    });
+RallyAPI.prototype.fetch = function( url, config ){
+    return $.get(url, config).then( function(res){ return JSON.parse(res); } );
 };
 
 
@@ -69,7 +70,7 @@ RallyAPI.prototype.buildChartData = function(userStories, fieldName){
     var showActuals = true;
     Object.keys( iterHash ).forEach( function(iteration) { 
         iterHash[iteration].p_actual = iterHash[iteration].c_actual / maxPlanned * 100;
-        if( iteration === 'Sprint 08' ) showActuals = false;
+        if( iteration === 'Sprint 09' ) showActuals = false;
         if( !showActuals ) iterHash[iteration].p_actual = undefined;
         iterHash[iteration].p_planned = iterHash[iteration].c_planned / maxPlanned * 100;
     });    
@@ -77,11 +78,12 @@ RallyAPI.prototype.buildChartData = function(userStories, fieldName){
 };
 
 RallyAPI.prototype.getProject = function(projectId){
-    return this.fetch( this.basePath + '/project/' + projectId ).then( function(res){ return res.Project; } );
+    return this.fetch( this.basePath + '/project/' + projectId ).then( function(res){ return res.Project; });
 };
 
 RallyAPI.prototype.getIterationsForProject = function( proj ){
-    return this.fetch( proj.Iterations._ref ).then( function(res){ return res.QueryResult.Results; } );
+    return this.fetch( proj.Iterations._ref )
+        .then( function(res){ return res.QueryResult.Results;});
 };
 
 RallyAPI.prototype.getIteration = function( iterationId ){
@@ -101,14 +103,35 @@ RallyAPI.prototype.getStoriesForProject = function( proj ){
         start: 1,
         project: proj._ref
     });
-    
-     return $.ajax({
-        url: this.basePath + '/hierarchicalrequirement?' + querystring,
-        contentType: 'application/json',
-        xhrFields: {
-            withCredentials: true
-        }
-    }).then( function(res){ return res.QueryResult.Results; } );    
+
+    return this.fetch(this.basePath + '/hierarchicalrequirement?' + querystring).then( function(res){ return res.QueryResult.Results; });    
 };
 
+RallyAPI.prototype.getProjects = function(){
+    return this.fetch( this.basePath + '/project' ).then( function(res){ return res.QueryResult.Results} );    
+};
 
+RallyAPI.prototype.hydrateProjects = function(projects) {
+    var me = this;
+    var proj = [];
+    projects.forEach( function(project,i,a){ 
+        proj.push( me.fetch(project._ref).then( function(pro){ a[i]=pro.Project; } ) );
+    });
+    return proj;
+};
+
+RallyAPI.prototype.getReleasesForProject = function( project ){
+    return this.fetch( project.Releases._ref ).then( function(res){ return res.QueryResult.Results; } );    
+};
+
+RallyAPI.prototype.hydrateReleases = function( rels ){
+    var me = this;
+    var releases = [];
+    rels.forEach( function(rel,i,a){releases.push( me.fetch(rel._ref).then( function(r){ a[i] = r.Release;}) );});
+    return releases;
+};
+
+RallyAPI.prototype.getRelease = function( relId ){
+    return this.fetch( this.basePath + '/release/' + relId ).then( function(res){ return res.Release; });    
+};
+    

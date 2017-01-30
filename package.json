@@ -12,7 +12,8 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-inline-source": "^3.0.0"
+    "gulp-inline-source": "^3.0.0",
+    "selenium-webdriver": "~2"
   },
   "scripts": {
     "inline": "gulp inline",
