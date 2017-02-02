@@ -164,10 +164,8 @@ if (!Array.prototype.indexOf) {
 
 Array.prototype.unique = function(a){ return function(){ return this.filter(a) } }(function(a,b,c){ return c.indexOf(a,b+1) < 0 });
 
-Math.roundx = function(x){ return Math.round((x) * 1000000) / 1000000; };
+Math.roundx = function(x){ return Math.round((x) * 10) / 10; };
 
 Array.prototype.max = function() {
   return Math.max.apply(null, this);
 };
-
-

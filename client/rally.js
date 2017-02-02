@@ -1,7 +1,34 @@
-/* global $ */
+/*
+    rally.js:  utility methods to access the RALLY REST API
+    
+    MIT License:
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+ */
+ 
+ /* global $ */
 
+/**
+ * RallyAPI
+ */
 function RallyAPI() {
     this.basePath = '/slm/webservice/v2.0';
+    this.summaryCol = 'c_BizValue';
     $.ajaxSetup({
         contentType: 'application/json',
         dataType: 'text',
@@ -11,11 +38,16 @@ function RallyAPI() {
     });
 }
 
+/**
+ * Hydrate the iterations section of a set of user stories by iterating through the stories and fetching
+ * the detailed iteration record for each iteration summary mentioned in the story
+ *
+ * @param {UserStory[]} userStories
+ * @return {Promise[] -> Iteration[]}
+ */
 RallyAPI.prototype.hydrateIterations = function(userStories) {
     var me = this;
-    
     var iterations = [];
-    
     userStories.forEach( function(story){
         if( story.Iteration )
             iterations.push( me.getIterationForStory(story).then( function(iteration){ story.Iteration = iteration;}) );
@@ -23,11 +55,20 @@ RallyAPI.prototype.hydrateIterations = function(userStories) {
     return iterations;
 };
 
+/**
+ * Fetch data from a URL with a given config and convert the results to JSON
+ * 
+ * @param {String} url
+ * @param {Object} config
+ * @return {Object}
+ */
 RallyAPI.prototype.fetch = function( url, config ){
     return $.get(url, config).then( function(res){ return JSON.parse(res); } );
 };
 
-
+/**
+ * Build the chart data for a set of user stories for a given field name
+ */
 RallyAPI.prototype.buildChartData = function(userStories, fieldName){
     var me = this;
     var iterHash = {};
@@ -36,24 +77,23 @@ RallyAPI.prototype.buildChartData = function(userStories, fieldName){
     
     // build actuals/planned
     userStories.forEach( function(story){
-        if( story.Iteration ){
-            if( !iterHash[story.Iteration.Name] )
-                iterHash[story.Iteration.Name] = { 
-                    start: new Date(story.Iteration.StartDate), 
-                    end: new Date(story.Iteration.EndDate), 
-                    actual: 0, 
-                    planned: 0,
-                    c_actual: 0,
-                    c_planned: 0,
-                    p_actual: 0,
-                    p_planned: 0
-                };
-            var storyCompleted = (story.ScheduleState === 'Accepted' || story.ScheduleState === 'Completed') ? 1 : 0;
-            iterHash[story.Iteration.Name].actual += storyCompleted * story.Iteration[fieldName];
-            iterHash[story.Iteration.Name].planned += story.Iteration[fieldName];
-        }
+        var iterationName = (story.Iteration)? story.Iteration.Name : 'UNASSIGNED';
+        if( !iterHash[iterationName] )
+            iterHash[iterationName] = { 
+                start: (story.Iteration)? new Date(story.Iteration.StartDate) : null, 
+                end: (story.Iteration)? new Date(story.Iteration.EndDate) : null,
+                hasActuals: (story.Iteration && new Date(story.Iteration.EndDate) <= new Date() ),
+                actual: 0, 
+                planned: 0,
+                c_actual: 0,
+                c_planned: 0,
+                p_actual: 0,
+                p_planned: 0
+            };
+        var storyCompleted = (story.ScheduleState === 'Accepted' || story.ScheduleState === 'Completed') ? 1 : 0;
+        iterHash[iterationName].actual += storyCompleted * story[fieldName];
+        iterHash[iterationName].planned += story[fieldName];
     });
-
         
     // build cumulatives
     var lastKey = undefined;
@@ -67,16 +107,21 @@ RallyAPI.prototype.buildChartData = function(userStories, fieldName){
     var maxPlanned = Object.keys(iterHash).map(function(e) {return iterHash[e].c_planned;}).max();
     
     // build %
-    var showActuals = true;
     Object.keys( iterHash ).forEach( function(iteration) { 
-        iterHash[iteration].p_actual = iterHash[iteration].c_actual / maxPlanned * 100;
-        if( iteration === 'Sprint 09' ) showActuals = false;
-        if( !showActuals ) iterHash[iteration].p_actual = undefined;
+        iterHash[iteration].p_actual = (iterHash[iteration].hasActuals)? iterHash[iteration].c_actual / maxPlanned * 100 : undefined;
         iterHash[iteration].p_planned = iterHash[iteration].c_planned / maxPlanned * 100;
     });    
+    
+    console.log( iterHash );
     return iterHash;
 };
 
+/**
+ * Get a project record by ID
+ * 
+ * @param {string} projectId 
+ * @return {Promise->Project}
+ */
 RallyAPI.prototype.getProject = function(projectId){
     return this.fetch( this.basePath + '/project/' + projectId ).then( function(res){ return res.Project; });
 };

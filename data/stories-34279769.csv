@@ -1,0 +1,119 @@
+US10687,34348531,"UXD Tasks - Sprint 0",COMPLETED,0,Sprint 00
+US10616,34303734,"As an admin user, I can specify comparable/related products to any given product (many to many relationship)",COMPLETED,0,Sprint 01
+US10617,34303876,"As an admin user, I can create/read/update/delete a product record and its attributes",COMPLETED,0,Sprint 01
+US10619,34303995,"As an admin user, I can clone a record to make a new product entry based off of a similar product.",COMPLETED,0,Sprint 01
+US10623,34305113,"As an admin user, I can view and configure system settings (Application settings)",COMPLETED,0,Sprint 01
+US10663,34321490,"UXD Tasks - Sprint 1",COMPLETED,0,Sprint 01
+US10700,34364643,"As a user I can see a home page that features large options to start a report (and see information/preview what the report offers)",COMPLETED,0,Sprint 01
+US10742,34459203,"As a developer, I can load data in less than 4 hours so that staged data can be imported into the tool during development of the tool.",COMPLETED,0,Sprint 01
+US10789,34485245,"Dev Tasks - Sprint 1",COMPLETED,0,Sprint 01
+US10591,34294314,"As a user, when selecting a product, I am presented with competitor and comparable products as suggestions to be added in the report",COMPLETED,0,Sprint 02
+US10615,34303640,"As an admin user, I can specify competitor products for any given product (many to many relationship)",COMPLETED,0,Sprint 02
+US10631,34305849,"As a user, I can show/hide groups of attributes (collapse)",COMPLETED,0,Sprint 02
+US10634,34306020,"As a user, I see the selected attributes grouped in their respective categories for ease of understanding",COMPLETED,0,Sprint 02
+US10635,34306158,"As a user, I can remove a selected product from my report, as well as add a new one (without going back)",COMPLETED,0,Sprint 02
+US10636,34306416,"As a user, I can add/remove attributes which were not configured in the Attribute Selection process (without going back)",COMPLETED,0,Sprint 02
+US10658,34317651,"As a user, I can select attributes using checkboxes that will be displayed on the interactive report",COMPLETED,0,Sprint 02
+US10681,34341568,"As a user, I can display the source information for each product attribute value.",COMPLETED,0,Sprint 02
+US10737,34454910,"As a user, I can view the Product Overview in the interactive report.",COMPLETED,0,Sprint 02
+US10738,34455076,"As a user, I can view the Product/Competitor Comparison in the interactive report.",COMPLETED,0,Sprint 02
+US10828,34564969,"Dev Tasks - Sprint 2",COMPLETED,0,Sprint 02
+US10842,34567505,"UXD Tasks - Sprint 2",COMPLETED,0,Sprint 02
+US10627,34305585,"As a user, I can preview a version of my PDF report before sending or saving it",COMPLETED,0,Sprint 03
+US10632,34305904,"As a user, I can reorder the list of products when viewing report with multiple products.",COMPLETED,0,Sprint 03
+US10644,34316237,"As a user, I can select layout report options so that I can define report generation.",COMPLETED,0,Sprint 03
+US10829,34565144,"Dev Tasks - Sprint 3",COMPLETED,0,Sprint 03
+US10843,34567680,"UXD Tasks - Sprint 3",COMPLETED,0,Sprint 03
+US10618,34303936,"As an admin user, I can modify attributes values by product. QC ID=51",COMPLETED,0,Sprint 04
+US10625,34305437,"As a user, when I view a Product Overview and Product Comparison PDF report, it will look similar in look and feel to the PCD web application, but not too similar to a Product Data Sheet. QC ID=94,99",COMPLETED,0,Sprint 04
+US10637,34306839,"As a user, I can reorder attribute groups, as well as attributes within a group. QC ID=104,106",COMPLETED,0,Sprint 04
+US10639,34306949,"As a user, I can modify the displayed text for a product attribute and the customization is saved on my report. QC ID=109,110",COMPLETED,0,Sprint 04
+US10830,34565319,"Dev Tasks - Sprint 4",COMPLETED,0,Sprint 04
+US10844,34567855,"UXD Tasks - Sprint 4",COMPLETED,0,Sprint 04
+US10606,34299958,"As an admin user, I can create a list of selected default attributes and assign it to a report type (product overview, mission area, portfolio, etc.)",COMPLETED,0,Sprint 05
+US10608,34302839,"As a non-ITAR user, I should be redirected to a EXIM page explaining why I do not have access",COMPLETED,0,Sprint 05
+US10609,34302894,"As a user with an administrative role, I can access administrative features in the application.",COMPLETED,0,Sprint 05
+US10610,34302984,"As an admin user I can add/remove users and configure roles and permissions",COMPLETED,0,Sprint 05
+US10630,34305786,"As a user, I can access options to download my report in various formats (PDF, Word, Excel) as supported by my device",COMPLETED,0,Sprint 05
+US10638,34306894,"As the System, all report configurations and customizations are saved in the database for replay and logging purposes",COMPLETED,0,Sprint 05
+US10659,34317876,"As a user, attributes will be selected by default based on default attribute configuration by report type.",COMPLETED,0,Sprint 05
+US10698,34361469,"As an admin user, I can manage a list of named users and configure users roles",COMPLETED,0,Sprint 05
+US10699,34361524,"As an admin user, I can configure roles and permissions for use throughout the application",COMPLETED,0,Sprint 05
+US10897,34750058,"Dev Tasks - Sprint 5",COMPLETED,0,Sprint 05
+US10901,34774584,"UXD Tasks - Sprint 5",COMPLETED,0,Sprint 05
+US10846,34568205,"UXD Tasks - Sprint 6",COMPLETED,0,Sprint 06
+US10905,34807271,"Dev Tasks - Sprint 6",COMPLETED,0,Sprint 06
+US10611,34303039,"As an admin user, I can CRUD Mission Areas and set a default attribute list related to each mission area",COMPLETED,0,Sprint 07
+US10621,34304393,"As an admin user, I can CRUD Portfolios and set a default attribute list related to each portfolio",COMPLETED,0,Sprint 07
+US10739,34455242,"As a user, I can view the Portfolio Overview in the interactive report.",COMPLETED,0,Sprint 07
+US10740,34455408,"As a user, I can view the Mission Areas Overview in the interactive report.",COMPLETED,0,Sprint 07
+US10833,34565844,"Dev Tasks - Sprint 7",COMPLETED,0,Sprint 07
+US10847,34568380,"UXD Tasks - Sprint 7",COMPLETED,0,Sprint 07
+US10914,34826814,"As an admin user, I can modify LIST TYPE attributes values by product. QC ID=51",COMPLETED,0,Sprint 07
+US10576,34285699,"As an admin user, I can see a list of all reports run by users and be able to re-run them",COMPLETED,0,Sprint 08
+US10684,34342662,"As a user, I can subscribe to, view, and modify all of my subscription so that I know when data changes on select reports.",COMPLETED,0,Sprint 08
+US10685,34342845,"As a user, all product subscriptions emails should be nicely format and tells me what data changed with the ability to unsubscribe.",COMPLETED,0,Sprint 08
+US10741,34458900,"As an admin user, I can see past versions of attribute values.",COMPLETED,0,Sprint 08
+US10743,34459374,"As a user, I can see a list of all of my previously run reports and be able to re-run them.",COMPLETED,0,Sprint 08
+US10834,34566019,"Dev Tasks - Sprint 8",COMPLETED,0,Sprint 08
+US10848,34568555,"UXD Tasks - Sprint 8",COMPLETED,0,Sprint 08
+US10574,34285596,"As an admin user, I can configure attributes into logical groups",COMPLETED,0,Sprint 09
+US10600,34295131,"SubFeature: Report - Create as Word document",NONE,0,Sprint 09
+US10620,34304133,"As an admin user, I can manage commonly defined "master" attributes used throughout PCD",COMPLETED,0,Sprint 09
+US10835,34566194,"Dev Tasks - Sprint 9",COMPLETED,0,Sprint 09
+US10849,34568730,"UXD Tasks - Sprint 9",COMPLETED,0,Sprint 09
+US10836,34566369,"Dev Tasks - Sprint 10",IN_PROGRESS,0,Sprint 10
+US10850,34568905,"UXD Tasks - Sprint 10",COMPLETED,0,Sprint 10
+US10950,34912909,"As a user, I need to view Mission Areas and Portfolios in a pivioted format on the interactive UI so that attribute values are legible.",COMPLETED,0,Sprint 10
+US10951,34913075,"As a user, I need to view Mission Areas and Portfolios in a pivioted format on the generated report so that attribute values are legible.",COMPLETED,0,Sprint 10
+US10989,34963196,"As a admin, I need to mark which attributes are restricted per the SCG so that I warn the user before editing sensitive values.",COMPLETED,0,Sprint 10
+US10581,34287128,"As an admin user, I can view and edit requests for data changes submitted by users",COMPLETED,0,Sprint 11
+US10633,34305959,"As a user, I can request a data change to the Admins for a specifc product attribute and provide required information",COMPLETED,0,Sprint 11
+US10702,34364840,"As a user, I can submit a data change request from the home page (will need to fill in product name and attribute)",COMPLETED,0,Sprint 11
+US10837,34566544,"Dev Tasks - Sprint 11",COMPLETED,0,Sprint 11
+US10851,34569080,"UXD Tasks - Sprint 11",COMPLETED,0,Sprint 11
+US10916,34859620,"As a user, I can send a generated PCD report to an EXISTING Rshare ITP folder that has permissions already setup.",COMPLETED,0,Sprint 11
+US10607,34302776,"As a non-named user, I should be redirected to an informational page explaining why I do not have access",COMPLETED,0,Sprint 12
+US10838,34566719,"Dev Tasks - Sprint 12",COMPLETED,0,Sprint 12
+US10904,34806108,"As an coordinator (new system role), I need to send reports to other people's ITP folder in addition to my own so I can prepare execs ITP folders.",COMPLETED,0,Sprint 12
+US11034,35085926,"As an admin, I need to email important messages to all users of the system in order to alert users of major, impactful changes.",COMPLETED,0,Sprint 12
+US11055,35138856,"As a user, I need to see help/about content easily from the landing page so that I know what the application does and how data is collected.",COMPLETED,0,Sprint 12
+US11056,35139029,"As an admin user, I can add users to the system based on function or Level so that I don't have to add users individually.",COMPLETED,0,Sprint 12
+US10628,34305660,"As a user on a PC/laptop device, I can download an Excel/CSV file version (not on iOS devices)",COMPLETED,0,Sprint 13
+US10839,34566894,"Dev Tasks - Sprint 13",IN_PROGRESS,0,Sprint 13
+US10853,34569430,"UXD Tasks - Sprint 13",COMPLETED,0,Sprint 13
+US11058,35147879,"As a admin user, I need to have preferences for subscriptions so that I can choose the frequency of all (global) subscription summary emails.",COMPLETED,0,Sprint 13
+US10840,34567069,"Dev Tasks - Sprint 14",COMPLETED,0,Sprint 14
+US10535,34280889,"Feature: Admin",null,0,null
+US10540,34281269,"SubFeature: Attribute Management",null,0,null
+US10541,34281328,"SubFeature: Product Management",null,0,null
+US10542,34281381,"SubFeature: Mission Area Management",null,0,null
+US10569,34283602,"SubFeature: Users and Roles management",null,0,null
+US10573,34285543,"SubFeature: Portfolio Management",null,0,null
+US10588,34293992,"Feature: Product Selection",null,0,null
+US10592,34294427,"Feature: Attribute Selection",null,0,null
+US10593,34294482,"SubFeature: Attribute(s) selection.",null,0,null
+US10594,34294543,"Feature: Attribute(s), operators, and values selection for Capabilities Overview",null,0,null
+US10595,34294726,"Feature: Interactive Report UI",null,0,null
+US10596,34294772,"SubFeature: Interactive report view in HTML",null,0,null
+US10597,34294911,"Feature: Generate Report",null,0,null
+US10598,34294957,"SubFeature: Report - Create PDF",null,0,null
+US10599,34295018,"SubFeature: Report - Create Excel/CSV",null,0,null
+US10601,34295184,"As a user, I can save my report to a dynamically created RShare location that will be viewed in the ITP app",NONE,0,null
+US10612,34303384,"As an admin user, I can set a default unit of measure for each attribute",NONE,0,null
+US10622,34304521,"SubFeature: Default Attribute Lists Management",null,0,null
+US10661,34318109,"As a user, I can create one to many attribute value pairs to find products that will display on the interactive capabilities report",NONE,0,null
+US10662,34321283,"Dev Tasks",null,0,null
+US10683,34342482,"SubFeature: Subscriptions",null,0,null
+US10701,34364731,"Feature: Home & Navigation",null,0,null
+US10734,34443621,"SubFeature: Audit Trail",null,0,null
+US10735,34443674,"SubFeature: Application Settings",null,0,null
+US10736,34444101,"SubFeature: Data change requests",null,0,null
+US10788,34483332,"UXD Tasks",null,0,null
+US10841,34567244,"Dev Tasks - Sprint 15",NONE,0,null
+US10854,34569605,"UXD Tasks - Sprint 14",NONE,0,null
+US10855,34569780,"UXD Tasks - Sprint 15",NONE,0,null
+US10900,34769457,"As a user, I can email the report to myself using a RefApp 5 microservice",IN_PROGRESS,0,null
+US10915,34858987,"As an RMS user, I need to access PCD in a limited fashion without too much burden on the PCD admin user in order to view product information.",NONE,0,null
+US10952,34913843,"As a user, I can run a diff on what's on a previously run report vs. what's in the database and choose whether or not to update the data.",NONE,0,null
+US11072,35214218,"QC-157 As I was navigating the app, I suddently got a "Seesion has expired" message and had to reload the page. I was only logged into the app in a single instance",NONE,0,null
