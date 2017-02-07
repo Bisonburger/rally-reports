@@ -169,3 +169,10 @@ Math.roundx = function(x){ return Math.round((x) * 10) / 10; };
 Array.prototype.max = function() {
   return Math.max.apply(null, this);
 };
+
+Math.randBetween = function(min,max){ return Math.random() * (max - min) + min; };
+
+Array.prototype.normalize = function(){
+  var max = Math.max.apply(null,this);
+  return this.map( function(e){ e/max} );
+};

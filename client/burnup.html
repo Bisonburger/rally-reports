@@ -9,16 +9,25 @@
     <script inline type="text/javascript" src="./business-value-chart.js"></script>
     <script inline type="text/javascript" src="chart.js/dist/Chart.min.js"></script>
     <script inline type="text/javascript" src="extrapolate/index.js"></script>
+    <style type="text/css">
+        body,select{
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 12px
+        } 
+    </style>
 </head>
 
 <body>
     <div>
-        <label for="selectProject">Project: </label><select id="selectProject"></select>
-        <label for="selectRelease">Release: </label><select id="selectRelease"></select>
+        <label style="font-weight: bold" for="selectProject">Project: </label><select id="selectProject"></select>
+        <label style="font-weight: bold" for="selectRelease">Release: </label><select id="selectRelease"></select>
+        <label style="font-weight: bold"><input id="showUnassigned" type="checkbox"> Show UNASSIGNED</label>
     </div>
     
-    <!-- <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div> -->
-    <canvas id="myChart" width="100" height="400"></canvas>
+    <div id=noData style="text-align: center; font-weight: bold; font-size: 20px" >
+        <br/><br/>No data to display - maybe the 'c_BizValue' field isn't present in the data?
+    </div>
+    <canvas id=myChart style="min-height: 400px" width=100 height=400></canvas>
 </body>
 
 </html>

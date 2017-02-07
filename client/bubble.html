@@ -5,159 +5,32 @@
     <title>Rally Test</title>
     <script inline type="text/javascript" src="./polyfill.js"></script>
     <script inline type="text/javascript" src="jquery/dist/jquery.js"></script>
-    <script inline type="text/javascript" src="highcharts/highcharts.js"></script>
-    <script inline type="text/javascript" src="highcharts/highcharts-more.js"></script>
     <script inline type="text/javascript" src="./rally.js"></script>
-    <script>
-        $(function() {
-            
-            /* global RallyAPI $ Highcharts */
-
-            var rally = new RallyAPI();
-
-            var projectId = '34279769';
-
-
-            var iterData;
-
-            rally.getProject(projectId).then(function(prj) {
-                rally.getIterationsForProject(prj).then(function(iterations) {
-                    iterData = iterations.map(function(iteration) {
-                        return {
-                            x: iteration.TaskEstimateTotal,
-                            y: Math.floor(Math.random() * 4),
-                            z: 3,
-                            name: iteration.Name,
-                            country: iteration.Name
-                        };
-                    });
-                    Highcharts.chart('container', {
-
-                        chart: {
-                            type: 'bubble',
-                            plotBorderWidth: 0,
-                            zoomType: 'xy'
-                        },
-
-                        legend: {
-                            enabled: false
-                        },
-
-                        title: {
-                            text: 'Iteration Task Hours'
-                        },
-
-                        subtitle: {
-                            text: 'Estimates vs Value'
-                        },
-
-                        xAxis: {
-                            gridLineWidth: 0,
-                            title: {
-                                text: 'Task Estaimte'
-                            },
-                            labels: {
-                                format: '{value} hrs'
-                            },
-                            min: -10,
-                            max: 225,
-                            plotLines: [{
-                                color: 'black',
-                                dashStyle: 'solid',
-                                width: 2,
-                                value: 100,
-                                label: {
-                                    rotation: 0,
-                                    y: 150,
-                                    style: {
-                                        fontStyle: 'italic'
-                                    },
-                                    text: 'AAAA'
-                                },
-                                zIndex: 3
-                            }]
-                        },
-
-                        yAxis: {
-                            gridLineWidth: 0,
-                            startOnTick: false,
-                            endOnTick: false,
-                            title: {
-                                text: 'Business Value'
-                            },
-                            labels: {
-                                format: '{value}'
-                            },
-                            min: 0,
-                            max: 3,
-                            maxPadding: 0.2,
-                            plotLines: [{
-                                color: 'black',
-                                dashStyle: 'dot',
-                                width: 2,
-                                value: 1.5,
-                                label: {
-                                    rotation: 0,
-                                    y: 15,
-                                    style: {
-                                        fontStyle: 'italic'
-                                    },
-                                    text: 'EEEE'
-                                },
-                                zIndex: 3
-                            }]
-                        },
-
-                        tooltip: {
-                            useHTML: true,
-                            headerFormat: '<table>',
-                            pointFormat: '<tr><th colspan="2"><h3>{point.name}</h3></th></tr>' +
-                                '<tr><th>Actual:</th><td>{point.x}hrs</td></tr>' +
-                                '<tr><th>Estimate:</th><td>{point.y}hrs</td></tr>' +
-                                '<tr><th>Business Value:</th><td>{point.z}</td></tr>',
-                            footerFormat: '</table>',
-                            followPointer: true
-                        },
-
-                        plotOptions: {
-                            series: {
-                                dataLabels: {
-                                    enabled: true,
-                                    format: '{point.name}'
-                                }
-                            }
-                        },
-
-                        series: [{
-                            data: iterData,
-                            marker: {
-                                fillColor: {
-                                    radialGradient: {
-                                        cx: 0.4,
-                                        cy: 0.3,
-                                        r: 0.7
-                                    },
-                                    stops: [
-                                        [0, 'rgba(255,255,255,0.5)'],
-                                        [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0.5).get('rgba')]
-                                    ]
-                                }
-                            }
-                        }]
-
-                    });
-
-
-                });
-            });
-
-        });
-    </script>
+    <script inline type="text/javascript" src="chart.js/dist/Chart.min.js"></script>
+    <script inline type="text/javascript" src="./bubble-chart.js"></script>
+    <style type="text/css">
+        body,select{
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 12px
+        } 
+    </style>
 </head>
 
 <body>
-
-    <div id="container" style="height: 600px; min-width: 310px; max-width: 900px; margin: 0 auto"></div>
+    <div>
+        <label style="font-weight: bold" for="selectProject">Project: </label><select id="selectProject"></select>
+        <label style="font-weight: bold" for="selectRelease">Effort Measure: </label>
+        <select id="selectEffort">
+            <option>Plan Estimates</option>
+            <option>Task Estimates</option>
+            <option>Task Actuals</option>
+        </select>
+    </div>
+    
+    <div id=noData style="text-align: center; font-weight: bold; font-size: 20px" >
+        <br/><br/>No data to display - maybe the 'c_BizValue' field isn't present in the data?
+    </div>
+    <canvas id=myChart style="max-height: 800px; max-width: 800px" width=800 height=800></canvas>
 </body>
 
 </html>

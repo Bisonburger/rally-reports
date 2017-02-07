@@ -66,14 +66,55 @@ RallyAPI.prototype.fetch = function( url, config ){
     return $.get(url, config).then( function(res){ return JSON.parse(res); } );
 };
 
+RallyAPI.prototype.buildBubbleChartData = function( userStories ){
+    var datasetHash = [];
+    
+    userStories.forEach( function(story){
+        if(story.Iteration){
+        var iterationName = story.Iteration.Name;
+
+        if( !datasetHash[iterationName] )
+            datasetHash[iterationName] = { 
+                start: (story.Iteration)? new Date(story.Iteration.StartDate) : null, 
+                end: (story.Iteration)? new Date(story.Iteration.EndDate) : null,
+                taskEstimate: 0,
+                planEstimate: 0,
+                taskActuals: 0,
+                bv: 0,
+            };
+        datasetHash[iterationName].taskEstimate += story.TaskEstimateTotal;
+        datasetHash[iterationName].taskActuals += story.TaskActualTotal;
+        datasetHash[iterationName].planEstimate += story.PlanEstimate;
+        datasetHash[iterationName].bv += story.c_BizValue;
+        }
+    });
+
+    var maxBV = Object.keys(datasetHash).map(function(e) {return datasetHash[e].bv;}).max();
+    var maxTaskEstimate = Object.keys(datasetHash).map(function(e) {return datasetHash[e].taskEstimate;}).max();
+    var maxTaskActuals = Object.keys(datasetHash).map(function(e) {return datasetHash[e].taskActuals;}).max();
+    var maxPlanEstimate = Object.keys(datasetHash).map(function(e) {return datasetHash[e].planEstimate;}).max();
+
+    Object.keys(datasetHash).forEach( function(key){ 
+        if( maxBV === 0 || maxTaskEstimate === 0 || maxTaskActuals === 0 || maxPlanEstimate === 0 || datasetHash[key].bv === 0  || datasetHash[key].taskEstimate === 0 || datasetHash[key].planEstimate === 0){
+            delete datasetHash[key]; 
+        }
+        else{
+            datasetHash[key].nBV = 1-(datasetHash[key].x / maxBV);
+            datasetHash[key].nTaskEstimate = (datasetHash[key].taskEstimate / maxTaskEstimate);
+            datasetHash[key].nTaskActuals = (datasetHash[key].taskActuals / maxTaskActuals);
+            datasetHash[key].nPlanEstimate = (datasetHash[key].planEstimate / maxPlanEstimate);
+        }
+    } );
+    return datasetHash;
+};
+
 /**
  * Build the chart data for a set of user stories for a given field name
  */
 RallyAPI.prototype.buildChartData = function(userStories, fieldName){
-    var me = this;
     var iterHash = {};
     
-    if( !fieldName ) fieldName = me.summaryCol;
+    if( !fieldName ) fieldName = this.summaryCol;
     
     // build actuals/planned
     userStories.forEach( function(story){
@@ -126,6 +167,7 @@ RallyAPI.prototype.getProject = function(projectId){
     return this.fetch( this.basePath + '/project/' + projectId ).then( function(res){ return res.Project; });
 };
 
+
 RallyAPI.prototype.getIterationsForProject = function( proj ){
     return this.fetch( proj.Iterations._ref )
         .then( function(res){ return res.QueryResult.Results;});
@@ -175,6 +217,15 @@ RallyAPI.prototype.hydrateReleases = function( rels ){
     rels.forEach( function(rel,i,a){releases.push( me.fetch(rel._ref).then( function(r){ a[i] = r.Release;}) );});
     return releases;
 };
+
+RallyAPI.prototype.hydrateIterationsForProject = function( iterations ){
+
+    var me = this;
+    var _iterations = [];
+    iterations.forEach( function(iter,i,a){_iterations.push( me.fetch(iter._ref).then( function(it){ a[i] = it.Iteration;}) );});
+    return _iterations;
+};
+
 
 RallyAPI.prototype.getRelease = function( relId ){
     return this.fetch( this.basePath + '/release/' + relId ).then( function(res){ return res.Release; });    
