@@ -18,16 +18,8 @@ var use = {
     '/extrapolate': 'node_modules/extrapolate'
 };
 
+// Setup the resolvers for the node_modules files
 Object.keys(use).forEach( (lookuppath) => app.use( lookuppath, express.static(path.resolve(__dirname, use[lookuppath]))) );
-
-/*
-app.use('/',express.static(path.resolve(__dirname, 'client')));
-app.use('/dist',express.static(path.resolve(__dirname, 'dist')));
-app.use( '/highcharts', express.static(path.resolve(__dirname, 'node_modules/highcharts')));
-app.use( '/jquery', express.static(path.resolve(__dirname, 'node_modules/jquery')));
-app.use( '/chartjs', express.static(path.resolve(__dirname, 'node_modules/chart.js/dist')));
-app.use( '/extrapolate', express.static(path.resolve(__dirname, 'node_modules/extrapolate')));
-*/
 
 // set up routes for REST services
 var router = express.Router();
@@ -44,7 +36,7 @@ router.route( '/project/:projectId' ).get( (req,res) => res.json( JSON.parse(fs.
 router.route( '/Project/:projectId/Releases' ).get( (req,res) => res.json( JSON.parse(fs.readFileSync(`./data/releases-${req.params.projectId}.json`))) );
 router.route( '/release/:releaseId' ).get( (req,res) => res.json( JSON.parse(fs.readFileSync(`./data/release/${req.params.releaseId}.json`))) );
 
-server.listen(process.env.PORT || 8222, process.env.IP || "127.0.0.1", () => {
+server.listen(process.env.RALLY_PORT || 8222, process.env.RALLY_IP || "127.0.0.1", () => {
     var addr = server.address();
     console.log( `Server listening at ${addr.address}:${addr.port}`);
 });

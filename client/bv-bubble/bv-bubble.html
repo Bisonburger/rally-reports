@@ -2,18 +2,18 @@
 <html>
 
 <head>
-    <title>Rally Test</title>
-    <script inline type="text/javascript" src="./polyfill.js"></script>
-    <script inline type="text/javascript" src="jquery/dist/jquery.js"></script>
-    <script inline type="text/javascript" src="./rally.js"></script>
-    <script inline type="text/javascript" src="chart.js/dist/Chart.min.js"></script>
-    <script inline type="text/javascript" src="./bubble-chart.js"></script>
-    <style type="text/css">
-        body,select{
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            font-size: 12px
-        } 
-    </style>
+    <title>Business Value Burnup</title>
+    <script inline type="text/javascript" src="/jquery/dist/jquery.min.js"></script>
+    <script inline type="text/javascript" src="/chart.js/dist/Chart.bundle.min.js"></script>
+    <script inline type="text/javascript" src="/extrapolate/index.js"></script>
+    <script inline type="text/javascript" src="../js/polyfill.js"></script>
+    <script inline type="text/javascript" src="../js/rally.js"></script>
+    <script inline type="text/javascript" src="./bv-bubble.js"></script>
+    <script type="text/javascript">
+        /* global $ BVBubbleChart */
+        $((new BVBubbleChart()).init());
+    </script>
+    <link inline rel="stylesheet" href="../css/rally.css" type="text/css" />
 </head>
 
 <body>

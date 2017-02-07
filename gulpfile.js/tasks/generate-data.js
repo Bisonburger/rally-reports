@@ -20,6 +20,7 @@
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
  */
+var gulp = require('gulp');
 var https = require('https');
 var fs = require('fs');
 var Q = require('q');
@@ -129,8 +130,12 @@ function getReleases(projectId) {
  * 35308565 - SSV / Subtier Supplier Viewer
  */
  
-['35308565', '34279769', '35271257'].forEach( (projectId) => {
+function generateDataTask(){ ['35308565', '34279769', '35271257'].forEach( (projectId) => {
     getProjectData(projectId);
     getStories(projectId);
     getReleases(projectId);
-});
+    });
+}
+
+gulp.task( 'generate-data', generateDataTask );
+module.exports = generateDataTask;

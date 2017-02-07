@@ -1,4 +1,30 @@
-if (!Array.prototype.find) {
+/*
+    polyfill.js:  polyfills to support missing functions in IE
+    
+    MIT License:
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+ */
+ 
+ /**
+  * Array.find() 
+  */
+ if (!Array.prototype.find) {
   Object.defineProperty(Array.prototype, 'find', {
     value: function(predicate) {
      // 1. Let O be ? ToObject(this value).
@@ -42,6 +68,9 @@ if (!Array.prototype.find) {
   });
 }
 
+/**
+ * Object.assign
+ */
 if (typeof Object.assign != 'function') {
   Object.assign = function (target, varArgs) { // .length of function is 2
     'use strict';
@@ -67,6 +96,9 @@ if (typeof Object.assign != 'function') {
   };
 }
 
+/**
+ * Array.filter()
+ */
 if (!Array.prototype.filter) {
   Array.prototype.filter = function(fun/*, thisArg*/) {
     'use strict';
@@ -102,6 +134,9 @@ if (!Array.prototype.filter) {
   };
 }
 
+/**
+ * Array.indexOf
+ */
 if (!Array.prototype.indexOf) {
   Array.prototype.indexOf = function(searchElement, fromIndex) {
 
@@ -162,16 +197,31 @@ if (!Array.prototype.indexOf) {
   };
 }
 
+/**
+ * Array.unique()
+ */
 Array.prototype.unique = function(a){ return function(){ return this.filter(a) } }(function(a,b,c){ return c.indexOf(a,b+1) < 0 });
 
+/**
+ * Math.roundx
+ */
 Math.roundx = function(x){ return Math.round((x) * 10) / 10; };
 
+/**
+ * Array.max()
+ */
 Array.prototype.max = function() {
   return Math.max.apply(null, this);
 };
 
+/**
+ * Math.randBetween()
+ */
 Math.randBetween = function(min,max){ return Math.random() * (max - min) + min; };
 
+/**
+ * Array.normalize()
+ */
 Array.prototype.normalize = function(){
   var max = Math.max.apply(null,this);
   return this.map( function(e){ e/max} );
