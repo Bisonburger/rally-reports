@@ -1,0 +1,56 @@
+{"UserIterationCapacity": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/useriterationcapacity/34863849",
+    "_refObjectUUID": "6684bf03-bc4e-4b2c-a6ae-d96388d83277",
+    "_objectVersion": "1",
+    "CreationDate": "2016-07-05T20:18:12.669Z",
+    "_CreatedAt": "Jul 5, 2016",
+    "ObjectID": 34863849,
+    "VersionId": "1",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/69587",
+        "_refObjectUUID": "59391212-ec86-42b1-a315-b881f4b94958",
+        "_refObjectName": "BSD Workspace",
+        "_type": "Workspace"
+    },
+    "Capacity": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/34442921",
+        "_refObjectUUID": "a289a98d-bc47-47ad-b2a8-9c32257fbc1d",
+        "_refObjectName": "Sprint 07",
+        "_type": "Iteration"
+    },
+    "Load": null,
+    "Project":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/project/34279769",
+        "_refObjectUUID": "82b32c7c-0e75-4735-a5ba-79099094b552",
+        "_refObjectName": "PCD",
+        "_type": "Project"
+    },
+    "TaskEstimates": 6,
+    "User":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/267053",
+        "_refObjectUUID": "322190e4-438b-4a45-8e0c-30abf54f47d3",
+        "_refObjectName": "Shauna L",
+        "_type": "User"
+    },
+    "Errors": [],
+    "Warnings": []
+}}

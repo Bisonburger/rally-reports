@@ -1,24 +1,124 @@
-Sprint,SumBV,Cumulative_SumBV,SumBVCompleted,Cumulative_SumBVCompleted,% completed
-Sprint 1,72,72,72,72,10%
-Sprint 2,72,144,72,144,20%
-Sprint 3,16,160,16,160,22%
-Sprint 4,0,160,0,160,22%
-Sprint 5,64,224,48,208,29%
-Sprint 6,128,352,0,,
-Sprint 7,0,352,0,,
-Sprint 8,0,352,0,,
-Sprint 9,0,352,0,,
-Sprint 10,0,352,0,,
-Sprint 11,0,352,0,,
-Sprint 12,0,352,0,,
-Sprint 13,0,352,0,,
-Sprint 14,0,352,0,,
-Sprint 15,0,352,0,,
-Sprint 16,0,352,0,,
-Sprint 17,0,352,0,,
-Sprint 18,0,352,0,,
-Sprint 19,0,352,0,,
-null,375,727,0,,
-,,,,,
-,,,,,
-,,,,,
+US11106,35320802,"AVO Request Process (UI - Request) - I need to view current PTO and planned PTO balances",COMPLETED,16,Sprint 1
+US11107,35320855,"AVO Request Process (UI - Request) - I need to request time off for one or more occurrences",COMPLETED,16,Sprint 1
+US11108,35320908,"AVO Request Process (UI - Request) - I need to enter an AVO on behalf of an employee",COMPLETED,16,Sprint 1
+US11111,35321212,"AVO Status Process (UI - My AVO) - I need to filter AVO (by status and date range) so that I can quickly view AVO of interest.",COMPLETED,4,Sprint 1
+US11112,35321262,"AVO Status Process (UI - My AVO) - I need to view MY own AVOs",COMPLETED,4,Sprint 1
+US11120,35322347,"AVO Approval Process (UI - Manage) - I need to assign alternate approvers",COMPLETED,16,Sprint 1
+US11167,35370895,"Usability SP1",COMPLETED,0,Sprint 1
+US11114,35321376,"AVO Approval Process (UI - Manage) - I need to filter AVO (such as cost center, date range, status) so that I can quickly view AVO of interest.",COMPLETED,16,Sprint 2
+US11115,35321472,"AVO Approval Process (UI - Manage) - I need to view all AVOs",COMPLETED,16,Sprint 2
+US11117,35321820,"AVO Approval Process (UI - Manage) - I need to view employee AVO  request info (such as current PTO balance, planned PTO) so that I can make informed decisions.",COMPLETED,16,Sprint 2
+US11118,35321994,"AVO Approval Process (UI - Manage) - I need to approve and/or deny partial or all time off requests in AVO",COMPLETED,16,Sprint 2
+US11123,35322869,"AVO Cancel Process (UI - My AVO) - I need to cancel an AVO which removes it from the AVO calendar",COMPLETED,8,Sprint 2
+US11168,35370947,"Backlog Refinement SP1",COMPLETED,0,Sprint 2
+US11170,35371093,"Usability SP2",COMPLETED,0,Sprint 2
+US11171,35371265,"UI/QC/Tech Review SP1",COMPLETED,0,Sprint 2
+US11116,35321646,"AVO Approval Process (UI - Manage) - I need to view all approved AVO in calendar format and canceling an AVO removes it from the calendar",COMPLETED,8,Sprint 3
+US11122,35322695,"AVO Approval Process (UI - Manage) - I need to view history of all AVO actions",COMPLETED,8,Sprint 3
+US11172,35371437,"Backlog Refinement SP2",COMPLETED,0,Sprint 3
+US11173,35371867,"Usability SP3",COMPLETED,0,Sprint 3
+US11175,35372338,"UI/QC/Tech Review SP2",COMPLETED,0,Sprint 3
+US11174,35372042,"Backlog Refinement SP3",COMPLETED,0,Sprint 4
+US11176,35372771,"Usability SP4",COMPLETED,0,Sprint 4
+US11177,35372943,"UI/QC/Tech Review SP3",COMPLETED,0,Sprint 4
+US11127,35323565,"Discrepancy Resolution Process - I need to query discrepancies by cost center and date range",COMPLETED,16,Sprint 5
+US11128,35323739,"Discrepancy Resolution Process - I need to view employee info: current PTO balance, planned PTO, AVOs so that I can make an informed decision",COMPLETED,16,Sprint 5
+US11131,35324261,"Discrepancy Resolution Process - I need to clear discrepancies for an employee filtering on type of discrepancy",COMPLETED,16,Sprint 5
+US11178,35373115,"Backlog Refinement SP4",COMPLETED,0,Sprint 5
+US11180,35373459,"UI/QC/Tech Review SP4",COMPLETED,0,Sprint 5
+US11182,35373803,"Usability SP5",COMPLETED,0,Sprint 5
+US11286,35635677,"Discrepancy Resolution Process - I need to clear multiple discrepancies for a cost center at one time, not forcing individual transactions",COMPLETED,16,Sprint 5
+US11129,35323913,"Discrepancy Resolution Process - I need to view an individual's discrepancies in calendar filtering on types of discrepancies",COMPLETED,16,Sprint 6
+US11130,35324087,"Discrepancy Resolution Process - I need calendar to color code discrepancies and display more than one absence on single day so that I have an easy to read,  complete visualization of discrepancies",COMPLETED,16,Sprint 6
+US11132,35324435,"Discrepancy Resolution Process - I need mass clearing up of discrepancies for an employee so that I can save time.",COMPLETED,16,Sprint 6
+US11134,35324783,"Discrepancy Resolution Process - I need to view number of dings auto calculated within rolling 60 working days so that I don't have to manually count them which is time consuming and error prone.",IN_PROGRESS,16,Sprint 6
+US11137,35325305,"Discrepancy Resolution Process - Process data feeds to analyze and calculate discrepancies",IN_PROGRESS,16,Sprint 6
+US11138,35325479,"Discrepancy Resolution Process - I need the ability to add discrepancies in the AMS tool in the event that PRISM is not providing that data to the application -- PERMISSIONS TBD",DEFINED,32,Sprint 6
+US11181,35373631,"Backlog Refinement SP5",DEFINED,0,Sprint 6
+US11183,35374136,"Usability SP6",IN_PROGRESS,0,Sprint 6
+US11184,35374308,"UI/QC/Tech Review SP5",IN_PROGRESS,0,Sprint 6
+US11287,35659201,"Discrepancy Resolution Process - I need to issue disciplinary actions - NEED MORE INFO",DEFINED,16,Sprint 6
+US11185,35374480,"Backlog Refinement SP6",NONE,0,Sprint 7
+US11186,35374652,"Usability SP7",NONE,0,Sprint 7
+US11187,35374824,"UI/QC/Tech Review SP6",NONE,0,Sprint 7
+US11188,35374996,"Backlog Refinement SP7",NONE,0,Sprint 8
+US11189,35375168,"Usability SP8",NONE,0,Sprint 8
+US11190,35375340,"UI/QC/Tech Review SP7",NONE,0,Sprint 8
+US11191,35375512,"Backlog Refinement SP8",NONE,0,Sprint 9
+US11192,35375684,"Usability SP9",NONE,0,Sprint 9
+US11193,35375856,"UI/QC/Tech Review SP8",NONE,0,Sprint 9
+US11194,35376028,"Backlog Refinement SP9",NONE,0,Sprint 10
+US11195,35376200,"Usability SP10",NONE,0,Sprint 10
+US11196,35376372,"UI/QC/Tech Review SP9",NONE,0,Sprint 10
+US11197,35376544,"Backlog Refinement SP10",NONE,0,Sprint 11
+US11198,35376716,"Usability SP11",NONE,0,Sprint 11
+US11199,35376888,"UI/QC/Tech Review SP10",NONE,0,Sprint 11
+US11200,35377060,"Backlog Refinement SP11",NONE,0,Sprint 12
+US11201,35377232,"Usability SP12",NONE,0,Sprint 12
+US11202,35377404,"UI/QC/Tech Review SP11",NONE,0,Sprint 12
+US11203,35377576,"Backlog Refinement SP12",NONE,0,Sprint 13
+US11204,35377748,"Usability SP13",NONE,0,Sprint 13
+US11205,35377920,"UI/QC/Tech Review SP12",NONE,0,Sprint 13
+US11206,35378092,"Backlog Refinement SP13",NONE,0,Sprint 14
+US11207,35378264,"Usability SP14",NONE,0,Sprint 14
+US11208,35378436,"UI/QC/Tech Review SP13",NONE,0,Sprint 14
+US11209,35378608,"Backlog Refinement SP14",NONE,0,Sprint 15
+US11210,35378780,"Usability SP15",NONE,0,Sprint 15
+US11211,35378952,"UI/QC/Tech Review SP14",NONE,0,Sprint 15
+US11212,35379124,"Backlog Refinement SP15",NONE,0,Sprint 16
+US11213,35379296,"Usability SP16",NONE,0,Sprint 16
+US11214,35379468,"UI/QC/Tech Review SP15",NONE,0,Sprint 16
+US11216,35379812,"Backlog Refinement SP16",NONE,0,Sprint 17
+US11217,35379984,"Usability SP17",NONE,0,Sprint 17
+US11218,35380156,"UI/QC/Tech Review SP16",NONE,0,Sprint 17
+US11219,35380328,"Backlog Refinement SP17",NONE,0,Sprint 18
+US11220,35380500,"Usability SP18",NONE,0,Sprint 18
+US11221,35380854,"UI/QC/Tech Review SP17",NONE,0,Sprint 18
+US11222,35381026,"Backlog Refinement SP18",NONE,0,Sprint 19
+US11223,35381198,"Usability SP19",NONE,0,Sprint 19
+US11224,35381370,"UI/QC/Tech Review SP18",NONE,0,Sprint 19
+US11095,35285545,"(Copy of) Setup Environment",COMPLETED,0,null
+US11096,35286039,"(Copy of) Initiate Security Artifacts",COMPLETED,0,null
+US11097,35286374,"(Copy of) Create Architecture Artifacts",COMPLETED,0,null
+US11098,35286674,"(Copy of) Prepare and Present PO with Customer Facing Docs",COMPLETED,0,null
+US11109,35320997,"nice to have - AVO Request Process (UI - Request) - I need to print AVO",DEFINED,1,null
+US11113,35321327,"nice to have - AVO Status Process (UI - My AVO) - I need to print AVO",DEFINED,1,null
+US11119,35322168,"removed 0n 11/16/16 - AVO Approval Process (UI - Manage) - I need to "bump" requests based on seniority and floor availability",DEFINED,0,null
+US11121,35322521,"nice to have - AVO Approval Process (UI - Manage) - I need to print AVO",DEFINED,1,null
+US11124,35323043,"ACS Call-In Process - I need to view and hear the called in absences from the ACS",DEFINED,16,null
+US11125,35323217,"ACS Call-In Process - I need to make selections via voice recognition so that I don't have to use the phone keypad which could be dangerous when driving",DEFINED,16,null
+US11126,35323391,"ACS Call-In Process - I need to receive broadcast message to pull over if I am driving prior to using the system as a safety reminder",DEFINED,16,null
+US11133,35324609,"Discrepancy Resolution Process - I need to adjust modified work schedule for factories to decrease the number of incorrectly identified discrepancies so that I can save time by not having to resolve these - NEED MORE INFO.",DEFINED,16,null
+US11135,35324957,"Discrepancy Resolution Process - I need to view employee's status in "step back process" auto calculated based on the number of disciplinary actions with a predefined timeframe.",DEFINED,16,null
+US11136,35325131,"nice to have - Discrepancy Resolution Process - I need to print the "step back" status so that I can attach it for delivery in the event that recipients don't have access to computer.",DEFINED,1,null
+US11139,35325653,"Discrepancy Resolution Process - I need the ability to make corrections such as "no PTO/FMLA" to "FMLA" has been approved - NEED MORE INFO",DEFINED,32,null
+US11140,35325827,"Reports - I need to create Ad hoc/customizable reports with templates can be saved for future use (SOLR)",DEFINED,8,null
+US11141,35326001,"Reports - I need to export all reports",DEFINED,16,null
+US11142,35326175,"Reports - I need to view open discrepancies that require supervisor action so they can be addressed in a timely manner per Union rules; Supervisor Discrepancies",DEFINED,8,null
+US11143,35326349,"Reports - I need to view Pre-Planned Absence Reports (AVO) to assist with manpower planning.",DEFINED,8,null
+US11144,35326523,"Reports - I need to view Employee Attendance filter by date range (such as 30, 60, 1 year) for historical comparision and trends.",DEFINED,8,null
+US11145,35326697,"Reports - I need to view Occupation Cost Center by Seniority for manpower planning.",DEFINED,8,null
+US11146,35326871,"Reports - I need to view Scheduled Start Times for employees for troubleshooting purposes to assist with common discrepancy of Prism not being updated with employee's new schedule.",DEFINED,8,null
+US11147,35327045,"Reports - ACS Call Volume and ACS Custom Call Volume - TBD",DEFINED,8,null
+US11148,35327219,"Admin - I need to maintain look up values to support the application.",DEFINED,16,null
+US11149,35327393,"Admin - I need to maintain user access so that information is limited to the correct audience.",DEFINED,16,null
+US11150,35327574,"Data Integration - receive updates from SPEED on a daily basis to note when disciplinary actions have been removed",DEFINED,8,null
+US11151,35327748,"Data Integration - receive updates from SPEED on a daily basis to see all disciplinary actions for an employee",DEFINED,8,null
+US11152,35327922,"removed on 11/16/16 - Data Integration - Updates made to PRISM timecards should automatically be posted to AMS calendar",DEFINED,0,null
+US11153,35328096,"Data Integration - Receive discrepancy data for Sat and Sun since those are working days for some employees",DEFINED,8,null
+US11154,35328270,"Data Integration - Receive from PRISM holiday hours tagged as such eliminating it from showing up as discrepancy",DEFINED,8,null
+US11155,35328444,"Notifications - FIRST NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",DEFINED,8,null
+US11156,35328618,"Notifications - SECOND NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",DEFINED,8,null
+US11157,35328792,"Notifications - THIRD NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",DEFINED,8,null
+US11158,35328966,"Notifications - FOURTH receive notifications of any un-cleared discrepancies on a weekly basis",DEFINED,8,null
+US11159,35329140,"nice to have - Notifications - I want to manage my preferences for receiving notifications (e.g. frequency, email, dashboard, etc.)",DEFINED,1,null
+US11160,35336071,"nice to have - Notifications - I need to receive notification when an AVO request has been submitted, with the option to opt out of these emails",DEFINED,1,null
+US11161,35336245,"Notifications - I need to receive notification when an employee adds an absence to the Automated Call-In System, with the option to opt out of these emails",DEFINED,8,null
+US11162,35336419,"Notifications - I need to receive notification when my  AVO request is approved or denied,",DEFINED,16,null
+US11163,35336593,"nice to have - Notifications - I need to receive notification when an AVO is cancelled, with the option to opt out of these emails",DEFINED,1,null
+US11164,35336767,"Notifications - I need to be able to send out email notifications",DEFINED,8,null
+US11165,35336941,"Reports - I need to view Employee or Department Absence to assist with manpower planning and to answer how discrepancies are being answered; already esiting application as multiple reports.",DEFINED,8,null
+US11250,35554151,"ACS Call-In Process - ACS / IVR Service Integration",DEFINED,8,null
+US11260,35588346,"Discrepancy Resolution Process - I need to view employee info: disciplinary steps so that I can make an informed decision",DEFINED,16,null
+US11261,35588846,"Discrepancy Resolution Process - I need to view employee info: ACS calls so that I can make an informed decision",DEFINED,16,null
+US11269,35603106,"ACS Call-In Process - ACS/IVR Service Integration (Architecture Requirement)",DEFINED,8,null

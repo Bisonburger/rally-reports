@@ -20,6 +20,14 @@
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
  */
+ 
+ if( typeof require === 'function' ){
+    var RallyAPI = require('../../js/rally.js');
+    var $ = require('jquery');
+    var Chart = require('chart.js');
+    var extrapolate = require('extrapolate');
+}
+
 function BVBurnupChart() {
 
     var column = 'c_BizValue';

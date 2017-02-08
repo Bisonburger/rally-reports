@@ -1,13 +1,13 @@
-{
-    "QueryResult": {
-        "_rallyAPIMajor": "2",
-        "_rallyAPIMinor": "0",
-        "Errors": [],
-        "Warnings": [],
-        "TotalResultCount": 19,
-        "StartIndex": 1,
-        "PageSize": 20,
-        "Results": [{
+{"QueryResult": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "Errors": [],
+    "Warnings": [],
+    "TotalResultCount": 19,
+    "StartIndex": 1,
+    "PageSize": 20,
+    "Results":     [
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35320659",
@@ -18,7 +18,7 @@
             "_CreatedAt": "Oct 31, 2016",
             "ObjectID": 35320659,
             "VersionId": "1",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -26,7 +26,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -37,9 +37,9 @@
             "EndDate": "2016-11-16T06:59:59.000Z",
             "Name": "Sprint 1",
             "Notes": "",
-            "PlanEstimate": 49.0,
+            "PlanEstimate": 49,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -47,7 +47,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35320661",
@@ -58,9 +58,9 @@
             "State": "Planning",
             "TaskActualTotal": 139.5,
             "TaskEstimateTotal": 157.5,
-            "TaskRemainingTotal": 0.0,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35320659/UserIterationCapacities",
@@ -68,7 +68,8 @@
                 "Count": 4
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35367437",
@@ -79,7 +80,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35367437,
             "VersionId": "1",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -87,7 +88,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -98,9 +99,9 @@
             "EndDate": "2016-11-30T06:59:59.000Z",
             "Name": "Sprint 2",
             "Notes": "",
-            "PlanEstimate": 31.0,
+            "PlanEstimate": 31,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -108,7 +109,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35367439",
@@ -117,11 +118,11 @@
             },
             "StartDate": "2016-11-16T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 94.0,
-            "TaskEstimateTotal": 84.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskActualTotal": 94,
+            "TaskEstimateTotal": 84,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35367437/UserIterationCapacities",
@@ -129,7 +130,8 @@
                 "Count": 4
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35367460",
@@ -140,7 +142,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35367460,
             "VersionId": "1",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -148,7 +150,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -159,9 +161,9 @@
             "EndDate": "2016-12-14T06:59:59.000Z",
             "Name": "Sprint 3",
             "Notes": "",
-            "PlanEstimate": 21.0,
+            "PlanEstimate": 21,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -169,7 +171,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35367462",
@@ -179,10 +181,10 @@
             "StartDate": "2016-11-30T07:00:00.000Z",
             "State": "Planning",
             "TaskActualTotal": 131.5,
-            "TaskEstimateTotal": 114.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskEstimateTotal": 114,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35367460/UserIterationCapacities",
@@ -190,7 +192,8 @@
                 "Count": 4
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35367483",
@@ -201,7 +204,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35367483,
             "VersionId": "1",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -209,7 +212,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -220,9 +223,9 @@
             "EndDate": "2017-01-18T06:59:59.000Z",
             "Name": "Sprint 4",
             "Notes": "",
-            "PlanEstimate": 21.0,
+            "PlanEstimate": 21,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -230,7 +233,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35367485",
@@ -240,10 +243,10 @@
             "StartDate": "2016-12-14T07:00:00.000Z",
             "State": "Planning",
             "TaskActualTotal": 125.5,
-            "TaskEstimateTotal": 98.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskEstimateTotal": 98,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35367483/UserIterationCapacities",
@@ -251,7 +254,8 @@
                 "Count": 3
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35370594",
@@ -262,7 +266,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35370594,
             "VersionId": "1",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -270,7 +274,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -281,9 +285,9 @@
             "EndDate": "2017-03-29T06:59:59.000Z",
             "Name": "Sprint 9",
             "Notes": "",
-            "PlanEstimate": 5.0,
+            "PlanEstimate": 5,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -291,7 +295,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35370596",
@@ -300,11 +304,11 @@
             },
             "StartDate": "2017-03-15T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0.0,
-            "TaskEstimateTotal": 0.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370594/UserIterationCapacities",
@@ -312,7 +316,8 @@
                 "Count": 2
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35370686",
@@ -323,7 +328,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35370686,
             "VersionId": "1",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -331,7 +336,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -342,9 +347,9 @@
             "EndDate": "2017-05-24T06:59:59.000Z",
             "Name": "Sprint 13",
             "Notes": "",
-            "PlanEstimate": 5.0,
+            "PlanEstimate": 5,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -352,7 +357,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35370688",
@@ -361,11 +366,11 @@
             },
             "StartDate": "2017-05-10T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0.0,
-            "TaskEstimateTotal": 0.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370686/UserIterationCapacities",
@@ -373,7 +378,8 @@
                 "Count": 2
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35370709",
@@ -384,7 +390,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35370709,
             "VersionId": "2",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -392,7 +398,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -403,9 +409,9 @@
             "EndDate": "2017-06-14T06:59:59.000Z",
             "Name": "Sprint 14",
             "Notes": "",
-            "PlanEstimate": 5.0,
+            "PlanEstimate": 5,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -413,7 +419,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35370711",
@@ -422,11 +428,11 @@
             },
             "StartDate": "2017-05-24T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0.0,
-            "TaskEstimateTotal": 0.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370709/UserIterationCapacities",
@@ -434,7 +440,8 @@
                 "Count": 2
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35370732",
@@ -445,7 +452,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35370732,
             "VersionId": "2",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -453,7 +460,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -464,9 +471,9 @@
             "EndDate": "2017-06-28T06:59:59.000Z",
             "Name": "Sprint 15",
             "Notes": "",
-            "PlanEstimate": 5.0,
+            "PlanEstimate": 5,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -474,7 +481,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35370734",
@@ -483,11 +490,11 @@
             },
             "StartDate": "2017-06-14T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0.0,
-            "TaskEstimateTotal": 0.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370732/UserIterationCapacities",
@@ -495,7 +502,8 @@
                 "Count": 2
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35370755",
@@ -506,7 +514,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35370755,
             "VersionId": "2",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -514,7 +522,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -525,9 +533,9 @@
             "EndDate": "2017-07-19T06:59:59.000Z",
             "Name": "Sprint 16",
             "Notes": "",
-            "PlanEstimate": 5.0,
+            "PlanEstimate": 5,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -535,7 +543,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35370757",
@@ -544,11 +552,11 @@
             },
             "StartDate": "2017-06-28T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0.0,
-            "TaskEstimateTotal": 0.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370755/UserIterationCapacities",
@@ -556,7 +564,8 @@
                 "Count": 2
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35370778",
@@ -567,7 +576,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35370778,
             "VersionId": "2",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -575,7 +584,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -586,9 +595,9 @@
             "EndDate": "2017-08-02T06:59:59.000Z",
             "Name": "Sprint 17",
             "Notes": "",
-            "PlanEstimate": 5.0,
+            "PlanEstimate": 5,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -596,7 +605,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35370780",
@@ -605,11 +614,11 @@
             },
             "StartDate": "2017-07-19T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0.0,
-            "TaskEstimateTotal": 0.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370778/UserIterationCapacities",
@@ -617,7 +626,8 @@
                 "Count": 2
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35367506",
@@ -628,7 +638,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35367506,
             "VersionId": "1",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -636,7 +646,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -647,9 +657,9 @@
             "EndDate": "2017-02-01T06:59:59.000Z",
             "Name": "Sprint 5",
             "Notes": "",
-            "PlanEstimate": 34.0,
+            "PlanEstimate": 34,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -657,7 +667,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35367508",
@@ -667,10 +677,10 @@
             "StartDate": "2017-01-18T07:00:00.000Z",
             "State": "Planning",
             "TaskActualTotal": 80.75,
-            "TaskEstimateTotal": 117.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskEstimateTotal": 117,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35367506/UserIterationCapacities",
@@ -678,7 +688,8 @@
                 "Count": 4
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35370525",
@@ -689,7 +700,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35370525,
             "VersionId": "1",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -697,7 +708,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -708,9 +719,9 @@
             "EndDate": "2017-02-15T06:59:59.000Z",
             "Name": "Sprint 6",
             "Notes": "",
-            "PlanEstimate": 63.0,
+            "PlanEstimate": 63,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -718,7 +729,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35370527",
@@ -727,19 +738,20 @@
             },
             "StartDate": "2017-02-01T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 34.5,
-            "TaskEstimateTotal": 120.0,
-            "TaskRemainingTotal": 94.5,
+            "TaskActualTotal": 83.5,
+            "TaskEstimateTotal": 171,
+            "TaskRemainingTotal": 125.5,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370525/UserIterationCapacities",
                 "_type": "UserIterationCapacity",
-                "Count": 3
+                "Count": 4
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35370548",
@@ -750,7 +762,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35370548,
             "VersionId": "1",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -758,7 +770,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -769,9 +781,9 @@
             "EndDate": "2017-03-01T06:59:59.000Z",
             "Name": "Sprint 7",
             "Notes": "",
-            "PlanEstimate": 5.0,
+            "PlanEstimate": 5,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -779,7 +791,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35370550",
@@ -788,11 +800,11 @@
             },
             "StartDate": "2017-02-15T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0.0,
-            "TaskEstimateTotal": 0.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370548/UserIterationCapacities",
@@ -800,7 +812,8 @@
                 "Count": 2
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35370571",
@@ -811,7 +824,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35370571,
             "VersionId": "1",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -819,7 +832,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -830,9 +843,9 @@
             "EndDate": "2017-03-15T06:59:59.000Z",
             "Name": "Sprint 8",
             "Notes": "",
-            "PlanEstimate": 5.0,
+            "PlanEstimate": 5,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -840,7 +853,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35370573",
@@ -849,11 +862,11 @@
             },
             "StartDate": "2017-03-01T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0.0,
-            "TaskEstimateTotal": 0.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370571/UserIterationCapacities",
@@ -861,7 +874,8 @@
                 "Count": 2
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35370617",
@@ -872,7 +886,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35370617,
             "VersionId": "1",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -880,7 +894,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -891,9 +905,9 @@
             "EndDate": "2017-04-12T06:59:59.000Z",
             "Name": "Sprint 10",
             "Notes": "",
-            "PlanEstimate": 5.0,
+            "PlanEstimate": 5,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -901,7 +915,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35370619",
@@ -910,11 +924,11 @@
             },
             "StartDate": "2017-03-29T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0.0,
-            "TaskEstimateTotal": 0.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370617/UserIterationCapacities",
@@ -922,7 +936,8 @@
                 "Count": 2
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35370640",
@@ -933,7 +948,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35370640,
             "VersionId": "1",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -941,7 +956,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -952,9 +967,9 @@
             "EndDate": "2017-04-26T06:59:59.000Z",
             "Name": "Sprint 11",
             "Notes": "",
-            "PlanEstimate": 5.0,
+            "PlanEstimate": 5,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -962,7 +977,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35370642",
@@ -971,11 +986,11 @@
             },
             "StartDate": "2017-04-12T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0.0,
-            "TaskEstimateTotal": 0.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370640/UserIterationCapacities",
@@ -983,7 +998,8 @@
                 "Count": 2
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35370663",
@@ -994,7 +1010,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35370663,
             "VersionId": "1",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -1002,7 +1018,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -1013,9 +1029,9 @@
             "EndDate": "2017-05-10T06:59:59.000Z",
             "Name": "Sprint 12",
             "Notes": "",
-            "PlanEstimate": 5.0,
+            "PlanEstimate": 5,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -1023,7 +1039,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35370665",
@@ -1032,11 +1048,11 @@
             },
             "StartDate": "2017-04-26T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0.0,
-            "TaskEstimateTotal": 0.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370663/UserIterationCapacities",
@@ -1044,7 +1060,8 @@
                 "Count": 2
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35370801",
@@ -1055,7 +1072,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35370801,
             "VersionId": "2",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -1063,7 +1080,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -1076,7 +1093,7 @@
             "Notes": "",
             "PlanEstimate": null,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -1084,7 +1101,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35370803",
@@ -1093,11 +1110,11 @@
             },
             "StartDate": "2017-08-02T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0.0,
-            "TaskEstimateTotal": 0.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370801/UserIterationCapacities",
@@ -1105,7 +1122,8 @@
                 "Count": 2
             },
             "_type": "Iteration"
-        }, {
+        },
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/iteration/35370824",
@@ -1116,7 +1134,7 @@
             "_CreatedAt": "Nov 3, 2016",
             "ObjectID": 35370824,
             "VersionId": "2",
-            "Subscription": {
+            "Subscription":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/subscription/5104",
@@ -1124,7 +1142,7 @@
                 "_refObjectName": "raytheon_az_-163",
                 "_type": "Subscription"
             },
-            "Workspace": {
+            "Workspace":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/workspace/69587",
@@ -1137,7 +1155,7 @@
             "Notes": "",
             "PlanEstimate": null,
             "PlannedVelocity": null,
-            "Project": {
+            "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/project/35271257",
@@ -1145,7 +1163,7 @@
                 "_refObjectName": "AVO / AMS Enhancements",
                 "_type": "Project"
             },
-            "RevisionHistory": {
+            "RevisionHistory":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/revisionhistory/35370826",
@@ -1154,11 +1172,11 @@
             },
             "StartDate": "2017-08-16T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0.0,
-            "TaskEstimateTotal": 0.0,
-            "TaskRemainingTotal": 0.0,
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
             "Theme": "",
-            "UserIterationCapacities": {
+            "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370824/UserIterationCapacities",
@@ -1166,6 +1184,6 @@
                 "Count": 2
             },
             "_type": "Iteration"
-        }]
-    }
-}
+        }
+    ]
+}}

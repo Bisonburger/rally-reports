@@ -20,13 +20,22 @@
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
  */
+
+if (typeof require === 'function') {
+    var RallyAPI = require('../../js/rally.js');
+    var $ = require('jquery');
+    var Chart = require('chart.js');
+    var extrapolate = require('extrapolate');
+}
+
 function EnhancedBurnupChart() {
 
-    var column = 'c_BizValue';
     var rally = new RallyAPI();
     var selectedProject = null;
     var selectedRelease = null;
     var type = 'ALL';
+    
+    var chart = undefined;
 
     this.updateReleases = updateReleases;
     this.extrapolateBurnup = extrapolateBurnup;
@@ -65,19 +74,43 @@ function EnhancedBurnupChart() {
             });
         });
     }
+    
+    function averageVelocity(chartValues, iterations ){
+        var actives =
+            iterations.filter(function(s) {
+                return new Date(s.EndDate) <= new Date();
+            }).map(function(sp) {
+                return chartValues[sp.Name].accepted;
+            });
+            
+            var sum = actives.reduce(function (p, c ) {
+                return p + c;
+            });
+            
+            return { mean: sum / actives.length, last: actives[actives.length-1] };
+    }
 
     /**
      * Extrapolates the line required to get to 100% BV using simple linear extrapolation
      * Note that we need at least 2 points to successfuly extrapolate the data, we'll
      * fail silently if this isnt the case - and no projections will be displayed
      */
-    function extrapolateBurnup(chartValues) {
+    function extrapolateBurnup(chartValues, iterations) {
 
-        var cumulatives = Object.keys(chartValues).filter(function(s) {
-            return chartValues[s].hasActuals;
-        }).map(function(sp) {
-            return chartValues[sp].p_actual;
-        });
+
+    
+        
+        var cumulatives =
+            iterations.filter(function(s) {
+                return new Date(s.EndDate) <= new Date();
+            })
+            .map(function(sp) {
+                return chartValues[sp.Name].c_accepted;
+            });
+
+        var aV = averageVelocity( chartValues, iterations);
+        
+        $('#velocityTrend').html( 'Mean Velocity: ' + aV.mean + ((aV.last > aV.mean)? '<span style="color: green">&#x25B2;</span>' : (aV.last < aV.mean)? '<span style="color: red">&#x25BC;</span>' : ''));
 
         var ex = new extrapolate();
 
@@ -90,41 +123,22 @@ function EnhancedBurnupChart() {
             return (i === cumulatives.length - 1) ? Math.roundx(cumulatives[cumulatives.length - 1]) : undefined;
         });
 
-        var len = cumulatives.length;
-        do {
-            var end = ex.getLinear(len);
-            if (end > 100) end = 100;
-            ext.push(Math.roundx(end));
-            len += 1;
-        } while (end !== 100 && len < 20);
-        // stop when we're at 100% or after 20 added sprints
-
+        for (var idx = cumulatives.length; idx < iterations.length; idx++)
+            ext.push(Math.roundx(ex.getLinear(idx)));
         return ext;
+
     }
 
     /**
      * Build the actual chart from the data; uses Chart.js.
      * 
      */
-    function buildChartJS(chartValues, prj) {
+    function buildChartJS(chartValues, prj, iterations) {
 
         var maxPlanned = Object.keys(chartValues).map(function(e) {
             return chartValues[e].c_planned;
         }).max();
 
-        if (!$('#showUnassigned').prop('checked')) {
-            console.log('showUnassigned is not checked!');
-            var cv = {};
-            Object.keys(chartValues).filter(function(key) {
-                return key !== 'UNASSIGNED';
-            }).forEach(function(key) {
-                cv[key] = chartValues[key];
-            });
-            chartValues = cv;
-        }
-        else {
-            console.log('showUnassigned is checked!');
-        }
 
         if (maxPlanned <= 0) {
             $("#myChart").hide();
@@ -134,14 +148,14 @@ function EnhancedBurnupChart() {
             var options = {
                 title: {
                     display: true,
-                    text: 'Business Value Burn Up\nfor ' + prj.Description + ' (' + prj._refObjectName + ')',
+                    text: 'Enhanced Release Burn Up\nfor ' + prj.Description + ' (' + prj._refObjectName + ')',
                     fontSize: 16
                 },
                 scales: {
                     yAxes: [{
                         scaleLabel: {
                             display: true,
-                            labelString: 'Business Value % Complete'
+                            labelString: 'Story Points'
                         }
                     }],
                     xAxes: [{
@@ -155,15 +169,15 @@ function EnhancedBurnupChart() {
                 layout: {
                     padding: 10
                 },
+                hover: { mode: 'x' },
                 tooltips: {
-                    mode: 'x'
-                        /*,
-                        callbacks: {
-                            label(tooltipItem, data) {
-                                var dataset = data.datasets[tooltipItem.datasetIndex];
-                                return ' ' + dataset.label + ': ' + dataset.data[tooltipItem.index] + '0%';
-                            }
-                        }*/
+                    mode: 'x',
+                    callbacks: {
+                        label(tooltipItem, data) {
+                            var dataset = data.datasets[tooltipItem.datasetIndex];
+                            return ' ' + dataset.label + ': ' + dataset.data[tooltipItem.index] + ' Points';
+                        }
+                    }
 
                 }
             };
@@ -171,34 +185,24 @@ function EnhancedBurnupChart() {
             var data = {
                 labels: Object.keys(chartValues),
                 datasets: [{
-                        label: 'Actual',
+                        label: 'Accepted',
                         data: Object.keys(chartValues).map(function(e) {
-                            return Math.roundx(chartValues[e].p_actual);
+                            return chartValues[e].c_accepted;
                         }),
+                        type: 'line',
+                        startAtZero: true,
                         fill: true,
+                        lineTension: 0,
                         borderColor: '#3465AA',
                         backgroundColor: 'rgba(52, 101, 170, 0.3)',
                         pointBorderColor: '#3465AA',
                         pointBackgroundColor: '#3465AA'
-                    },
-
-                    {
-                        label: "Planned",
-                        data: Object.keys(chartValues).map(function(e) {
-                            return Math.roundx(chartValues[e].p_planned);
-                        }),
-                        fill: false,
-                        lineTension: 0,
-                        borderColor: '#E8D7AB',
-                        backgroundColor: '#E8D7AB',
-                        pointBorderColor: '#E8D7AB',
-                        pointBackgroundColor: '#E8D7AB'
-
-                    },
-
+                    }, 
                     {
                         label: 'Projected',
-                        data: extrapolateBurnup(chartValues),
+                        data: extrapolateBurnup(chartValues, iterations),
+                        type: 'line',
+                        startAtZero: true,
                         fill: false,
                         lineTension: 0,
                         borderWidth: 1,
@@ -207,7 +211,15 @@ function EnhancedBurnupChart() {
                         backgroundColor: 'black',
                         pointBorderColor: 'black',
                         pointBackgroundColor: 'black'
-                    }
+                    },
+                    {
+                        label: "Planned",
+                        data: Object.keys(chartValues).map(function(e) {
+                            return chartValues[e].c_planned;
+                        }),
+                        backgroundColor: '#E8D7AB',
+                    } 
+
                 ]
             };
 
@@ -215,69 +227,85 @@ function EnhancedBurnupChart() {
             ctx.show();
             $("#noData").hide();
 
-            new Chart(ctx, {
-                type: 'line',
+            if( chart ) chart.destroy();
+            
+            chart = new Chart(ctx, {
+                type: 'bar',
                 data: data,
                 options: options
             });
         }
     }
-    
-        /**
+
+    function acceptedIn(story, iterations) {
+        var lastIterationName = "UNASSIGNED";
+        var storyAcceptedDate = new Date(story.AcceptedDate);
+        var storyCompleted = (story.ScheduleState === 'Accepted' || story.ScheduleState === 'Completed' && story.AcceptedDate);
+        if (storyCompleted) {
+            iterations.forEach(function(iteration) {
+                if (storyAcceptedDate >= new Date(iteration.StartDate) && storyAcceptedDate <= new Date(iteration.EndDate))
+                    lastIterationName = iteration.Name;
+            });
+        }
+        return lastIterationName;
+    }
+
+    /**
      * Build the chart data for a set of user stories for a given field name
      */
-    function buildChartData(userStories, fieldName) {
+    function buildChartData(userStories, iterations) {
         var iterHash = {};
 
-        if (!fieldName) fieldName = this.summaryCol;
+        iterations.sort(function(a, b) {
+            var aD = new Date(a.StartDate);
+            var bD = new Date(b.StartDate);
+            return (aD < bD) ? -1 :
+                (aD > bD) ? 1 : 0;
+        });
+
+
+        iterations.forEach(function(iteration) {
+            iterHash[iteration.Name] = {
+                start: new Date(iteration.StartDate),
+                end: new Date(iteration.EndDate),
+                accepted: 0,
+                planned: 0,
+                c_accepted: 0,
+                c_planned: 0
+            };
+        });
 
         // build actuals/planned
         userStories.forEach(function(story) {
             var iterationName = (story.Iteration) ? story.Iteration.Name : 'UNASSIGNED';
-            if (!iterHash[iterationName])
-                iterHash[iterationName] = {
-                    start: (story.Iteration) ? new Date(story.Iteration.StartDate) : null,
-                    end: (story.Iteration) ? new Date(story.Iteration.EndDate) : null,
-                    hasActuals: (story.Iteration && new Date(story.Iteration.EndDate) <= new Date()),
-                    actual: 0,
-                    planned: 0,
-                    c_actual: 0,
-                    c_planned: 0,
-                    p_actual: 0,
-                    p_planned: 0
-                };
             var storyCompleted = (story.ScheduleState === 'Accepted' || story.ScheduleState === 'Completed') ? 1 : 0;
-            iterHash[iterationName].actual += storyCompleted * story[fieldName];
-            iterHash[iterationName].planned += story[fieldName];
+            if (storyCompleted ) {
+                var acceptedIter = acceptedIn(story, iterations);
+                if (iterHash[acceptedIter])
+                    iterHash[acceptedIter].accepted += story.PlanEstimate;
+            }
+            if( story.Iteration ) iterHash[iterationName].planned += story.PlanEstimate;
         });
 
         // build cumulatives
         var lastKey = undefined;
-        Object.keys(iterHash).forEach(function(iteration) {
+
+
+
+        iterations.map(function(i) {
+            return i.Name;
+        }).forEach(function(iteration) {
             var lastValue = (lastKey) ? iterHash[lastKey] : {
-                actual: 0,
+                accepted: 0,
                 planned: 0,
-                c_actual: 0,
-                c_planned: 0,
-                p_actual: 0,
-                p_planned: 0
+                c_accepted: 0,
+                c_planned: 0
             };
-            iterHash[iteration].c_actual += lastValue.c_actual + iterHash[iteration].actual;
+            iterHash[iteration].c_accepted += (iterHash[iteration].end <= new Date() ) ? lastValue.c_accepted + iterHash[iteration].accepted : undefined;
             iterHash[iteration].c_planned += lastValue.c_planned + iterHash[iteration].planned;
             lastKey = iteration;
         });
 
-        var maxPlanned = Object.keys(iterHash).map(function(e) {
-            return iterHash[e].c_planned;
-        }).max();
-
-        // build %
-        Object.keys(iterHash).forEach(function(iteration) {
-            iterHash[iteration].p_actual = (iterHash[iteration].hasActuals) ? iterHash[iteration].c_actual / maxPlanned * 100 : undefined;
-            iterHash[iteration].p_planned = iterHash[iteration].c_planned / maxPlanned * 100;
-        });
-
-        console.log(iterHash);
         return iterHash;
     }
 
@@ -285,65 +313,55 @@ function EnhancedBurnupChart() {
     function updateChart(projectId) {
         rally.getProject(projectId).then(function(prj) {
             rally.getStoriesForProject(prj).then(function(stories) {
-                    //TODO: filter stories by release
-                    if (selectedRelease)
-                        stories = stories.filter(function(story) {
-                            return (story.Release && story.Release._ref === selectedRelease._ref);
+                //TODO: filter stories by release
+                if (selectedRelease) {
+                    stories = stories.filter(function(story) {
+                        return (story.Release && story.Release._ref === selectedRelease._ref);
+                    });
+                }
+
+                rally.getIterationsForProject(prj).then(function(iters) {
+                    $.when.apply(null, rally.hydrateIterationsForProject(iters)).then(function() {
+                        $.when.apply(null, rally.hydrateIterations(stories)).then(function() {
+                            var chartValues = buildChartData(stories, iters);
+                            buildChartJS(chartValues, prj, iters);
                         });
-                    else {
-                        if (type === 'NONE')
-                            stories = stories.filter(function(story) {
-                                return (!story.Release);
-                            });
-                    }
-                    $.when.apply(null, rally.hydrateIterations(stories)).then(function() {
-                        var chartValues = buildChartData(stories, column);
-                        buildChartJS(chartValues, prj);
                     });
-                })
-                .fail(function(err) {
-                    console.log(err);
-                });
-        });
-        
-    }
-    
-    function init() {
-            $('#showUnassigned').prop('checked', true);
-
-            rally.getProjects().then(function(projectSummaries) {
-                $.when.apply(null, rally.hydrateProjects(projectSummaries)).then(function() {
-
-                    var projSelect = $('#selectProject');
-                    projSelect.change(function() {
-                        var sp = $('#selectProject option:selected');
-                        $('#showUnassigned').prop('checked', true);
-                        selectedProject = sp.val();
-                        updateChart(selectedProject);
-                        updateReleases(selectedProject);
-                    });
-
-                    $("#showUnassigned").change(function() {
-                        updateChart(selectedProject);
-                    });
-
-                    projectSummaries.forEach(function(project, i) {
-                        if (i === 0) {
-                            selectedProject = project.ObjectID.toString();
-                            updateChart(project.ObjectID.toString());
-                            updateReleases(project.ObjectID.toString());
-                        }
-                        projSelect.append($('<option></option>').val(project.ObjectID.toString()).html(project._refObjectName + ' - ' + project.Description));
-                    });
-
                 });
             });
-        }
+        });
+
+    }
+
+    function init() {
+
+        rally.getProjects().then(function(projectSummaries) {
+            $.when.apply(null, rally.hydrateProjects(projectSummaries)).then(function() {
+
+                var projSelect = $('#selectProject');
+                projSelect.change(function() {
+                    var sp = $('#selectProject option:selected');
+                    selectedProject = sp.val();
+                    updateChart(selectedProject);
+                    updateReleases(selectedProject);
+                });
+
+                projectSummaries.forEach(function(project, i) {
+                    if (i === 0) {
+                        selectedProject = project.ObjectID.toString();
+                        updateChart(project.ObjectID.toString());
+                        updateReleases(project.ObjectID.toString());
+                    }
+                    projSelect.append($('<option></option>').val(project.ObjectID.toString()).html(project._refObjectName + ' - ' + project.Description));
+                });
+
+            });
+        });
+    }
 
     return this;
 
 }
 
-if( typeof module !== 'undefined' )
+if (typeof module !== 'undefined')
     module.exports = EnhancedBurnupChart;
-

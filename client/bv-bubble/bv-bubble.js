@@ -21,6 +21,12 @@
     SOFTWARE.
  */
  
+if( typeof require === 'function' ){
+    var RallyAPI = require('../../js/rally.js');
+    var $ = require('jquery');
+    var Chart = require('chart.js');
+}
+ 
  function BVBubbleChart() {
 
     var rally = new RallyAPI();
@@ -205,15 +211,21 @@
             }]
         };
 
-        var ctx = $("#myChart");
-        ctx.show();
-        $("#noData").hide();
+        if( chartValues.length > 0 ){
+            var ctx = $("#myChart");
+            ctx.show();
+            $("#noData").hide();
 
         new Chart(ctx, {
             type: 'bubble',
             data: data,
             options: options
         });
+        }
+        else{
+            $("#myChart").hide();
+            $("#noData").show();
+        }
     }
 
 

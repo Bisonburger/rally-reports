@@ -1,1 +1,85 @@
-{"Project": {"_rallyAPIMajor": "2", "_rallyAPIMinor": "0", "_ref": "/slm/webservice/v2.0/project/35271257", "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da", "_objectVersion": "7", "_refObjectName": "AVO / AMS Enhancements", "CreationDate": "2016-10-13T23:17:55.096Z", "_CreatedAt": "Oct 13, 2016", "ObjectID": 35271257, "VersionId": "7", "Subscription": {"_rallyAPIMajor": "2", "_rallyAPIMinor": "0", "_ref": "/slm/webservice/v2.0/subscription/5104", "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8", "_refObjectName": "raytheon_az_-163", "_type": "Subscription"}, "Workspace": {"_rallyAPIMajor": "2", "_rallyAPIMinor": "0", "_ref": "/slm/webservice/v2.0/workspace/69587", "_refObjectUUID": "59391212-ec86-42b1-a315-b881f4b94958", "_refObjectName": "BSD Workspace", "_type": "Workspace"}, "BuildDefinitions": {"_rallyAPIMajor": "2", "_rallyAPIMinor": "0", "_ref": "/slm/webservice/v2.0/Project/35271257/BuildDefinitions", "_type": "BuildDefinition", "Count": 1}, "Children": {"_rallyAPIMajor": "2", "_rallyAPIMinor": "0", "_ref": "/slm/webservice/v2.0/Project/35271257/Children", "_type": "Project", "Count": 0}, "Description": "Avoid Verbal Order / Attendance Management System Enhancements", "Editors": {"_rallyAPIMajor": "2", "_rallyAPIMinor": "0", "_ref": "/slm/webservice/v2.0/Project/35271257/Editors", "_type": "User", "Count": 10}, "Iterations": {"_rallyAPIMajor": "2", "_rallyAPIMinor": "0", "_ref": "/slm/webservice/v2.0/Project/35271257/Iterations", "_type": "Iteration", "Count": 19}, "Name": "AVO / AMS Enhancements", "Notes": "", "Owner": {"_rallyAPIMajor": "2", "_rallyAPIMinor": "0", "_ref": "/slm/webservice/v2.0/user/35256558", "_refObjectUUID": "469650aa-d10c-4380-a743-b53856ee81f8", "_refObjectName": "Homa", "_type": "User"}, "Releases": {"_rallyAPIMajor": "2", "_rallyAPIMinor": "0", "_ref": "/slm/webservice/v2.0/Project/35271257/Releases", "_type": "Release", "Count": 1}, "SchemaVersion": "bf99eb3454265d97c626b82abc0a321c", "State": "Open", "TeamMembers": {"_rallyAPIMajor": "2", "_rallyAPIMinor": "0", "_ref": "/slm/webservice/v2.0/Project/35271257/TeamMembers", "_type": "User", "Count": 5}, "Errors": [], "Warnings": []}}
+{"Project": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/project/35271257",
+    "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
+    "_objectVersion": "7",
+    "_refObjectName": "AVO / AMS Enhancements",
+    "CreationDate": "2016-10-13T23:17:55.096Z",
+    "_CreatedAt": "Oct 13, 2016",
+    "ObjectID": 35271257,
+    "VersionId": "7",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/69587",
+        "_refObjectUUID": "59391212-ec86-42b1-a315-b881f4b94958",
+        "_refObjectName": "BSD Workspace",
+        "_type": "Workspace"
+    },
+    "BuildDefinitions":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35271257/BuildDefinitions",
+        "_type": "BuildDefinition",
+        "Count": 1
+    },
+    "Children":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35271257/Children",
+        "_type": "Project",
+        "Count": 0
+    },
+    "Description": "Avoid Verbal Order / Attendance Management System Enhancements",
+    "Editors":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35271257/Editors",
+        "_type": "User",
+        "Count": 10
+    },
+    "Iterations":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35271257/Iterations",
+        "_type": "Iteration",
+        "Count": 19
+    },
+    "Name": "AVO / AMS Enhancements",
+    "Notes": "",
+    "Owner":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/35256558",
+        "_refObjectUUID": "469650aa-d10c-4380-a743-b53856ee81f8",
+        "_refObjectName": "Homa",
+        "_type": "User"
+    },
+    "Releases":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35271257/Releases",
+        "_type": "Release",
+        "Count": 1
+    },
+    "SchemaVersion": "bf99eb3454265d97c626b82abc0a321c",
+    "State": "Open",
+    "TeamMembers":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35271257/TeamMembers",
+        "_type": "User",
+        "Count": 5
+    },
+    "Errors": [],
+    "Warnings": []
+}}

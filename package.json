@@ -1,13 +1,14 @@
 {
   "name": "rally-businessval",
   "version": "1.0.0",
-  "description": "...",
+  "description": "Rally Report",
   "engines": {
     "node": ">=0.12.0 ~5.9.0",
     "npm": ">=2.14.12 ~3.7.3"
   },
   "main": "server.js",
-  "repository": "",
+  "license": "MIT",
+  "repository": "Bisonburger/rally-reports",
   "author": "Matt Young <matthew.young@bisonworks.com>",
   "dependencies": {
     "chart.js": "^2.4.0",
@@ -19,13 +20,15 @@
   "devDependencies": {
     "browserify": "^14.0.0",
     "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
     "gulp-inline-source": "^3.0.0",
     "gulp-nodemon": "^2.2.1",
     "polyify": "0.0.4",
-    "require-dir": "^0.3.0"
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.2.2"
   },
   "scripts": {
-    "start": "gulp",
+    "start": "node server.js",
     "gulp": "gulp"
   }
 }
