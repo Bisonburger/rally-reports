@@ -20,8 +20,8 @@
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
  */
- 
- if( typeof require === 'function' ){
+
+if (typeof require === 'function') {
     var RallyAPI = require('../../js/rally.js');
     var $ = require('jquery');
     var Chart = require('chart.js');
@@ -35,7 +35,7 @@ function BVBurnupChart() {
     var selectedProject = null;
     var selectedRelease = null;
     var type = 'ALL';
-    
+
     var chart = undefined;
 
     this.updateReleases = updateReleases;
@@ -225,8 +225,8 @@ function BVBurnupChart() {
             ctx.show();
             $("#noData").hide();
 
-            if( chart ) chart.destroy();
-            
+            if (chart) chart.destroy();
+
             chart = new Chart(ctx, {
                 type: 'line',
                 data: data,
@@ -234,8 +234,8 @@ function BVBurnupChart() {
             });
         }
     }
-    
-        /**
+
+    /**
      * Build the chart data for a set of user stories for a given field name
      */
     function buildChartData(userStories, fieldName) {
@@ -317,45 +317,44 @@ function BVBurnupChart() {
                     console.log(err);
                 });
         });
-        
+
     }
-    
+
     function init() {
-            $('#showUnassigned').prop('checked', true);
+        $('#showUnassigned').prop('checked', true);
 
-            rally.getProjects().then(function(projectSummaries) {
-                $.when.apply(null, rally.hydrateProjects(projectSummaries)).then(function() {
+        rally.getProjects().then(function(projectSummaries) {
+            $.when.apply(null, rally.hydrateProjects(projectSummaries)).then(function() {
 
-                    var projSelect = $('#selectProject');
-                    projSelect.change(function() {
-                        var sp = $('#selectProject option:selected');
-                        $('#showUnassigned').prop('checked', true);
-                        selectedProject = sp.val();
-                        updateChart(selectedProject);
-                        updateReleases(selectedProject);
-                    });
-
-                    $("#showUnassigned").change(function() {
-                        updateChart(selectedProject);
-                    });
-
-                    projectSummaries.forEach(function(project, i) {
-                        if (i === 0) {
-                            selectedProject = project.ObjectID.toString();
-                            updateChart(project.ObjectID.toString());
-                            updateReleases(project.ObjectID.toString());
-                        }
-                        projSelect.append($('<option></option>').val(project.ObjectID.toString()).html(project._refObjectName + ' - ' + project.Description));
-                    });
-
+                var projSelect = $('#selectProject');
+                projSelect.change(function() {
+                    var sp = $('#selectProject option:selected');
+                    $('#showUnassigned').prop('checked', true);
+                    selectedProject = sp.val();
+                    updateChart(selectedProject);
+                    updateReleases(selectedProject);
                 });
+
+                $("#showUnassigned").change(function() {
+                    updateChart(selectedProject);
+                });
+
+                projectSummaries.forEach(function(project, i) {
+                    if (i === 0) {
+                        selectedProject = project.ObjectID.toString();
+                        updateChart(project.ObjectID.toString());
+                        updateReleases(project.ObjectID.toString());
+                    }
+                    projSelect.append($('<option></option>').val(project.ObjectID.toString()).html(project._refObjectName + ' - ' + project.Description));
+                });
+
             });
-        }
+        });
+    }
 
     return this;
 
 }
 
-if( typeof module !== 'undefined' )
+if (typeof module !== 'undefined')
     module.exports = BVBurnupChart;
-

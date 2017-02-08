@@ -94,6 +94,22 @@ function getProjectData(projectId) {
         });
 }
 
+function processChildren( childrenRef, story ){
+    getDataFromURL( `${childrenRef}?pretty=true` ).then( function(rawChildrenList){ 
+    console.log( `writing ./data/userstory/children-${story.ObjectID}.json` );
+    fs.writeFileSync(`./data/userstory/children-${story.ObjectID}.json`,rawChildrenList.replace(/https:\/\/agile.rms.ray.com/g, ''));
+    var childrenList = JSON.parse( rawChildrenList ).QueryResult.Results;
+    childrenList.forEach( function(child){ 
+        getDataFromURL( `${child._ref}?pretty=true` ).then( function(rawChild){ 
+            if( child.Children && child.Children._ref ) processChildren( child.Children._ref, child );
+            console.log( `writing ./data/userstory/${child.ObjectID}.json` );
+            fs.writeFileSync(`./data/userstory/${child.ObjectID}.json`,rawChild.replace(/https:\/\/agile.rms.ray.com/g, ''));
+        });
+    });
+});
+
+}
+
 /**
  * Retrive the User stories for the given project ID.
  * 
@@ -112,7 +128,8 @@ function getStories(projectId) {
                 getDataFromURL( `${story._ref}?pretty=true` ).then( function(rawStory){
                     console.log( `writing ./data/userstory/${story.ObjectID}.json` );
                     fs.writeFileSync(`./data/userstory/${story.ObjectID}.json`,rawStory.replace(/https:\/\/agile.rms.ray.com/g, ''));
-                });           
+                });     
+                processChildren( story.Children._ref, story );
             });
         });
 }
