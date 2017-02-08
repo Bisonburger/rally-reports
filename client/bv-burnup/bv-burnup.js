@@ -35,6 +35,8 @@ function BVBurnupChart() {
     var selectedProject = null;
     var selectedRelease = null;
     var type = 'ALL';
+    
+    var chart = undefined;
 
     this.updateReleases = updateReleases;
     this.extrapolateBurnup = extrapolateBurnup;
@@ -223,7 +225,9 @@ function BVBurnupChart() {
             ctx.show();
             $("#noData").hide();
 
-            new Chart(ctx, {
+            if( chart ) chart.destroy();
+            
+            chart = new Chart(ctx, {
                 type: 'line',
                 data: data,
                 options: options

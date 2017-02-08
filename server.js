@@ -25,15 +25,15 @@ Object.keys(use).forEach( (lookuppath) => app.use( lookuppath, express.static(pa
 var router = express.Router();
 app.use('/slm/webservice/v2.0/', router);
 
-router.route( '/hierarchicalrequirement' ).get( (req,res) =>res.json(JSON.parse(fs.readFileSync( `./data/stories-${req.query.project.slice( -8 )}.json`))) );
+router.route( '/hierarchicalrequirement' ).get( (req,res) =>res.json(JSON.parse(fs.readFileSync( `./data/project/stories-${req.query.project.slice( -8 )}.json`))) );
 router.route( '/hierarchicalrequirement/:storyId' ).get( (req,res) => res.json( JSON.parse(fs.readFileSync(`./data/userstory/${req.params.storyId}.json`))) );
-router.route( '/Project/:projectId/Iterations' ).get( (req,res) => res.json( JSON.parse(fs.readFileSync(`./data/iterations-${req.params.projectId}.json`))) );
+router.route( '/Project/:projectId/Iterations' ).get( (req,res) => res.json( JSON.parse(fs.readFileSync(`./data/project/iterations-${req.params.projectId}.json`))) );
 router.route( '/iteration/:iterationId').get( (req,res) => res.json( JSON.parse( fs.readFileSync( `./data/iteration/${req.params.iterationId}.json` ))));
 router.route( '/Iteration/:iterationId/UserIterationCapacities').get( (req,res) => res.json( JSON.parse(fs.readFileSync( `./data/iteration/uic-${req.params.iterationId}.json` )) ));
 router.route( '/useriterationcapacity/:uicId').get( (req,res) => res.json( JSON.parse(fs.readFileSync( `./data/uic/${req.params.uicId}.json` )) ));
 router.route( '/project' ).get( (req,res) => res.json( JSON.parse(fs.readFileSync('./data/projects.json'))) );
 router.route( '/project/:projectId' ).get( (req,res) => res.json( JSON.parse(fs.readFileSync(`./data/project/${req.params.projectId}.json`))) );
-router.route( '/Project/:projectId/Releases' ).get( (req,res) => res.json( JSON.parse(fs.readFileSync(`./data/releases-${req.params.projectId}.json`))) );
+router.route( '/Project/:projectId/Releases' ).get( (req,res) => res.json( JSON.parse(fs.readFileSync(`./data/project/releases-${req.params.projectId}.json`))) );
 router.route( '/release/:releaseId' ).get( (req,res) => res.json( JSON.parse(fs.readFileSync(`./data/release/${req.params.releaseId}.json`))) );
 server.listen(process.env.RALLY_PORT || 8222, process.env.RALLY_IP || "127.0.0.1", () => {
     var addr = server.address();
