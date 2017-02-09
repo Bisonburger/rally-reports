@@ -21,6 +21,10 @@
     SOFTWARE.
  */
 
+if( typeof require === 'function' ){
+    var $ = require( 'jquery' ); 
+}
+
 /**
  * RallyAPI
  */
@@ -49,7 +53,6 @@ function RallyAPI() {
     this.hydrateReleases = hydrateReleases;
     this.hydrateIterationsForProject = hydrateIterationsForProject;
     this.getRelease = getRelease;
-    
 
     /**
      * Hydrate the iterations section of a set of user stories by iterating through the stories and fetching
@@ -59,6 +62,7 @@ function RallyAPI() {
      * @return {Promise[] -> Iteration[]}
      */
     function hydrateIterations(userStories) {
+        
         var iterations = [];
         userStories.forEach(function(story) {
             if (story.Iteration)
@@ -93,7 +97,6 @@ function RallyAPI() {
             return res.Project;
         });
     }
-
 
     function getIterationsForProject(proj) {
         return fetch(proj.Iterations._ref)
@@ -135,14 +138,18 @@ function RallyAPI() {
         });
     }
 
-    function hydrateProjects(projects) {
-        var proj = [];
-        projects.forEach(function(project, i, a) {
-            proj.push(fetch(project._ref).then(function(pro) {
-                a[i] = pro.Project;
-            }));
+    function hydrateList(list,type){
+        var promiseList = [];    
+        list.forEach(function(e,i,a){ 
+            promiseList.push( fetch(e._ref).then(function(res){ 
+                a[i] = res[type];    
+            }));    
         });
-        return proj;
+        return promiseList;
+    }
+
+    function hydrateProjects(projects) {
+        return hydrateList(projects,'Project');
     }
 
     function getReleasesForProject(project) {
@@ -152,26 +159,14 @@ function RallyAPI() {
     }
 
     function hydrateReleases(rels) {
-        var releases = [];
-        rels.forEach(function(rel, i, a) {
-            releases.push(fetch(rel._ref).then(function(r) {
-                a[i] = r.Release;
-            }));
-        });
-        return releases;
+        return hydrateList(rels,'Release');
     }
 
     function hydrateIterationsForProject(iterations) {
-
-        var _iterations = [];
-        iterations.forEach(function(iter, i, a) {
-            _iterations.push(fetch(iter._ref).then(function(it) {
-                a[i] = it.Iteration;
-            }));
-        });
-        return _iterations;
+        return hydrateList(iterations,'Iteration');
     }
-
+    
+    
 
     function getRelease(relId) {
         return fetch(this.basePath + '/release/' + relId).then(function(res) {

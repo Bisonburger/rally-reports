@@ -96,10 +96,6 @@ function EnhancedBurnupChart() {
      * fail silently if this isnt the case - and no projections will be displayed
      */
     function extrapolateBurnup(chartValues, iterations) {
-
-
-    
-        
         var cumulatives =
             iterations.filter(function(s) {
                 return new Date(s.EndDate) <= new Date();
@@ -315,9 +311,7 @@ function EnhancedBurnupChart() {
             rally.getStoriesForProject(prj).then(function(stories) {
                 //TODO: filter stories by release
                 if (selectedRelease) {
-                    stories = stories.filter(function(story) {
-                        return (story.Release && story.Release._ref === selectedRelease._ref);
-                    });
+                    stories = stories.filter(function(story) {return (story.Release && story.Release._ref === selectedRelease._ref);});
                 }
 
                 rally.getIterationsForProject(prj).then(function(iters) {

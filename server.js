@@ -27,6 +27,7 @@ app.use('/slm/webservice/v2.0/', router);
 
 router.route( '/hierarchicalrequirement' ).get( (req,res) =>res.json(JSON.parse(fs.readFileSync( `./data/project/stories-${req.query.project.slice( -8 )}.json`))) );
 router.route( '/hierarchicalrequirement/:storyId' ).get( (req,res) => res.json( JSON.parse(fs.readFileSync(`./data/userstory/${req.params.storyId}.json`))) );
+router.route( '/hierarchicalrequirement/:storyId/Children' ).get( (req,res) => res.json( JSON.parse(fs.readFileSync(`./data/userstory/children-${req.params.storyId}.json`))) );
 router.route( '/Project/:projectId/Iterations' ).get( (req,res) => res.json( JSON.parse(fs.readFileSync(`./data/project/iterations-${req.params.projectId}.json`))) );
 router.route( '/iteration/:iterationId').get( (req,res) => res.json( JSON.parse( fs.readFileSync( `./data/iteration/${req.params.iterationId}.json` ))));
 router.route( '/Iteration/:iterationId/UserIterationCapacities').get( (req,res) => res.json( JSON.parse(fs.readFileSync( `./data/iteration/uic-${req.params.iterationId}.json` )) ));
