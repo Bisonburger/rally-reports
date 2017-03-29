@@ -1,0 +1,183 @@
+{"HierarchicalRequirement": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35928659",
+    "_refObjectUUID": "732b6c63-9811-4cb5-958d-33868c406766",
+    "_objectVersion": "26",
+    "_refObjectName": "Late to Dock",
+    "CreationDate": "2017-03-14T15:17:08.015Z",
+    "_CreatedAt": "Mar 14",
+    "ObjectID": 35928659,
+    "VersionId": "26",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/35545775",
+        "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+        "_refObjectName": "Business_Integration",
+        "_type": "Workspace"
+    },
+    "Changesets":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Changesets",
+        "_type": "Changeset",
+        "Count": 0
+    },
+    "Description": "",
+    "Discussion":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Discussion",
+        "_type": "ConversationPost",
+        "Count": 0
+    },
+    "DisplayColor": null,
+    "Expedite": false,
+    "FormattedID": "US904",
+    "LastUpdateDate": "2017-03-29T17:59:52.742Z",
+    "LatestDiscussionAgeInMinutes": null,
+    "Milestones":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Milestones",
+        "_type": "Milestone",
+        "_tagsNameArray": [],
+        "Count": 0
+    },
+    "Name": "Late to Dock",
+    "Notes": "",
+    "Owner":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/53903",
+        "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+        "_refObjectName": "Rhonda",
+        "_type": "User"
+    },
+    "Project":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/project/35743125",
+        "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+        "_refObjectName": "CFM Data & Reporting",
+        "_type": "Project"
+    },
+    "Ready": false,
+    "RevisionHistory":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/revisionhistory/35928660",
+        "_refObjectUUID": "0d882119-22f8-448b-a033-8821f23fef91",
+        "_type": "RevisionHistory"
+    },
+    "Tags":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Tags",
+        "_type": "Tag",
+        "_tagsNameArray": [],
+        "Count": 0
+    },
+    "LastBuild": null,
+    "LastRun": null,
+    "PassingTestCaseCount": 0,
+    "ScheduleState": "In-Progress",
+    "TestCaseCount": 0,
+    "Attachments":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Attachments",
+        "_type": "Attachment",
+        "Count": 0
+    },
+    "Package": null,
+    "AcceptedDate": null,
+    "Blocked": false,
+    "BlockedReason": null,
+    "Blocker": null,
+    "Children":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Children",
+        "_type": "HierarchicalRequirement",
+        "Count": 0
+    },
+    "DefectStatus": "NONE",
+    "Defects":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Defects",
+        "_type": "Defect",
+        "Count": 0
+    },
+    "DirectChildrenCount": 0,
+    "DragAndDropRank": "O~~zNo4np>D8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "HasParent": false,
+    "InProgressDate": "2017-03-24T15:57:52.322Z",
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35906852",
+        "_refObjectUUID": "4b360115-577d-41cd-83fe-f37c2e4e7fee",
+        "_refObjectName": "Sprint Mar (03/13-04/15)",
+        "_type": "Iteration"
+    },
+    "Parent": null,
+    "PlanEstimate": null,
+    "Predecessors":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Predecessors",
+        "_type": "HierarchicalRequirement",
+        "Count": 0
+    },
+    "Recycled": false,
+    "Release":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/release/35814605",
+        "_refObjectUUID": "8648dfcf-c319-482e-be59-ad5397a9e282",
+        "_refObjectName": "Release 1",
+        "_type": "Release"
+    },
+    "Successors":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Successors",
+        "_type": "HierarchicalRequirement",
+        "Count": 0
+    },
+    "TaskActualTotal": 12,
+    "TaskEstimateTotal": 180,
+    "TaskRemainingTotal": 145,
+    "TaskStatus": "IN_PROGRESS",
+    "Tasks":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Tasks",
+        "_type": "Task",
+        "Count": 25
+    },
+    "TestCaseStatus": "NONE",
+    "TestCases":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/TestCases",
+        "_type": "TestCase",
+        "Count": 0
+    },
+    "c_BizValue": null,
+    "Feature": null,
+    "PortfolioItem": null,
+    "Errors": [],
+    "Warnings": []
+}}

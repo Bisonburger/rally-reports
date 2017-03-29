@@ -1,0 +1,183 @@
+{"HierarchicalRequirement": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35915207",
+    "_refObjectUUID": "e2282405-8a04-478c-960c-d203c5dd242d",
+    "_objectVersion": "5",
+    "_refObjectName": "Model VIPERS Data",
+    "CreationDate": "2017-03-10T18:47:20.522Z",
+    "_CreatedAt": "Mar 10",
+    "ObjectID": 35915207,
+    "VersionId": "5",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/35545775",
+        "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+        "_refObjectName": "Business_Integration",
+        "_type": "Workspace"
+    },
+    "Changesets":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35915207/Changesets",
+        "_type": "Changeset",
+        "Count": 0
+    },
+    "Description": "",
+    "Discussion":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35915207/Discussion",
+        "_type": "ConversationPost",
+        "Count": 0
+    },
+    "DisplayColor": null,
+    "Expedite": false,
+    "FormattedID": "US797",
+    "LastUpdateDate": "2017-03-10T20:52:23.686Z",
+    "LatestDiscussionAgeInMinutes": null,
+    "Milestones":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35915207/Milestones",
+        "_type": "Milestone",
+        "_tagsNameArray": [],
+        "Count": 0
+    },
+    "Name": "Model VIPERS Data",
+    "Notes": "",
+    "Owner": null,
+    "Project":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/project/35734993",
+        "_refObjectUUID": "b0797f7e-f500-4649-b56f-8a8c66a1fa7a",
+        "_refObjectName": "PRS Data & Reporting",
+        "_type": "Project"
+    },
+    "Ready": false,
+    "RevisionHistory":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/revisionhistory/35915208",
+        "_refObjectUUID": "aa425fa4-b4ef-4981-84bd-4cfa11be5660",
+        "_type": "RevisionHistory"
+    },
+    "Tags":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35915207/Tags",
+        "_type": "Tag",
+        "_tagsNameArray": [],
+        "Count": 0
+    },
+    "LastBuild": null,
+    "LastRun": null,
+    "PassingTestCaseCount": 0,
+    "ScheduleState": "Defined",
+    "TestCaseCount": 0,
+    "Attachments":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35915207/Attachments",
+        "_type": "Attachment",
+        "Count": 0
+    },
+    "Package": null,
+    "AcceptedDate": null,
+    "Blocked": false,
+    "BlockedReason": null,
+    "Blocker": null,
+    "Children":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35915207/Children",
+        "_type": "HierarchicalRequirement",
+        "Count": 0
+    },
+    "DefectStatus": "NONE",
+    "Defects":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35915207/Defects",
+        "_type": "Defect",
+        "Count": 0
+    },
+    "DirectChildrenCount": 0,
+    "DragAndDropRank": "O~~zC~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "HasParent": true,
+    "InProgressDate": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35894706",
+        "_refObjectUUID": "2fac0de9-264e-45b8-92f8-952ee71239e4",
+        "_refObjectName": "Sprint 17",
+        "_type": "Iteration"
+    },
+    "Parent":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35915077",
+        "_refObjectUUID": "949a3286-0a5a-4249-8992-0a0939011908",
+        "_refObjectName": "VIPERS Data",
+        "_type": "HierarchicalRequirement"
+    },
+    "PlanEstimate": 1,
+    "Predecessors":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35915207/Predecessors",
+        "_type": "HierarchicalRequirement",
+        "Count": 0
+    },
+    "Recycled": false,
+    "Release":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/release/35809444",
+        "_refObjectUUID": "9301d0b9-1077-4bd3-831b-5d6785b0e4c1",
+        "_refObjectName": "April 2018",
+        "_type": "Release"
+    },
+    "Successors":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35915207/Successors",
+        "_type": "HierarchicalRequirement",
+        "Count": 0
+    },
+    "TaskActualTotal": 0,
+    "TaskEstimateTotal": 0,
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "NONE",
+    "Tasks":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35915207/Tasks",
+        "_type": "Task",
+        "Count": 0
+    },
+    "TestCaseStatus": "NONE",
+    "TestCases":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35915207/TestCases",
+        "_type": "TestCase",
+        "Count": 0
+    },
+    "c_BizValue": null,
+    "Feature": null,
+    "PortfolioItem": null,
+    "Errors": [],
+    "Warnings": []
+}}

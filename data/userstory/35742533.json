@@ -1,0 +1,176 @@
+{"HierarchicalRequirement": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35742533",
+    "_refObjectUUID": "fa0e58e0-9c8a-49d2-afc8-c5d97ec5f6d3",
+    "_objectVersion": "13",
+    "_refObjectName": "assign actions",
+    "CreationDate": "2017-02-23T00:22:26.922Z",
+    "_CreatedAt": "Feb 22",
+    "ObjectID": 35742533,
+    "VersionId": "13",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/35545775",
+        "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+        "_refObjectName": "Business_Integration",
+        "_type": "Workspace"
+    },
+    "Changesets":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742533/Changesets",
+        "_type": "Changeset",
+        "Count": 0
+    },
+    "Description": "<p>as a GFM admin or&nbsp;Program Manager I need to assign GFM&nbsp;property actions so that the property can be handled accordingly<\/p><p>for each property line item, user <\/p><ul><li>selects an assignee (role) <\/li><li>enters details (free form text field)<\/li><li>saves entry<\/li><\/ul><p>system<\/p><ul><li>sends assignee a notice of new action <em><strong>&lt;30 day timer per person ???&gt; <\/strong><\/em><\/li><li>displays entered details and&nbsp;area/location for each line item on assignee action dashboard<br /><\/li><\/ul>",
+    "Discussion":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742533/Discussion",
+        "_type": "ConversationPost",
+        "Count": 0
+    },
+    "DisplayColor": null,
+    "Expedite": false,
+    "FormattedID": "US96",
+    "LastUpdateDate": "2017-03-16T17:24:39.240Z",
+    "LatestDiscussionAgeInMinutes": null,
+    "Milestones":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742533/Milestones",
+        "_type": "Milestone",
+        "_tagsNameArray": [],
+        "Count": 0
+    },
+    "Name": "assign actions",
+    "Notes": "",
+    "Owner": null,
+    "Project":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/project/35734880",
+        "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+        "_refObjectName": "PRS Java",
+        "_type": "Project"
+    },
+    "Ready": false,
+    "RevisionHistory":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/revisionhistory/35742534",
+        "_refObjectUUID": "ce3f0cdd-3c80-45bb-a780-82f90f6e5907",
+        "_type": "RevisionHistory"
+    },
+    "Tags":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742533/Tags",
+        "_type": "Tag",
+        "_tagsNameArray": [],
+        "Count": 0
+    },
+    "LastBuild": null,
+    "LastRun": null,
+    "PassingTestCaseCount": 0,
+    "ScheduleState": "Defined",
+    "TestCaseCount": 0,
+    "Attachments":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742533/Attachments",
+        "_type": "Attachment",
+        "Count": 0
+    },
+    "Package": null,
+    "AcceptedDate": null,
+    "Blocked": false,
+    "BlockedReason": null,
+    "Blocker": null,
+    "Children":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742533/Children",
+        "_type": "HierarchicalRequirement",
+        "Count": 0
+    },
+    "DefectStatus": "NONE",
+    "Defects":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742533/Defects",
+        "_type": "Defect",
+        "Count": 0
+    },
+    "DirectChildrenCount": 0,
+    "DragAndDropRank": "O~~~W/a[gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "HasParent": true,
+    "InProgressDate": null,
+    "Iteration": null,
+    "Parent":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35737329",
+        "_refObjectUUID": "728bb7f2-3ccf-4f24-be81-1c75e26bd026",
+        "_refObjectName": "Gov't Furnished Material",
+        "_type": "HierarchicalRequirement"
+    },
+    "PlanEstimate": 13,
+    "Predecessors":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742533/Predecessors",
+        "_type": "HierarchicalRequirement",
+        "Count": 0
+    },
+    "Recycled": false,
+    "Release":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/release/35734891",
+        "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
+        "_refObjectName": "Dec 2017",
+        "_type": "Release"
+    },
+    "Successors":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742533/Successors",
+        "_type": "HierarchicalRequirement",
+        "Count": 0
+    },
+    "TaskActualTotal": 0,
+    "TaskEstimateTotal": 0,
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "NONE",
+    "Tasks":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742533/Tasks",
+        "_type": "Task",
+        "Count": 0
+    },
+    "TestCaseStatus": "NONE",
+    "TestCases":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742533/TestCases",
+        "_type": "TestCase",
+        "Count": 0
+    },
+    "c_BizValue": 9,
+    "Feature": null,
+    "PortfolioItem": null,
+    "Errors": [],
+    "Warnings": []
+}}

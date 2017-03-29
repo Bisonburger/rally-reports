@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35327219",
     "_refObjectUUID": "fb5480c8-1040-4c78-943e-41ff5ebf4b15",
-    "_objectVersion": "16",
-    "_refObjectName": "Admin - I need to maintain look up values to support the application.",
+    "_objectVersion": "18",
+    "_refObjectName": "Admin - I need to maintain look up values to support the application. - REMINDER STORY",
     "CreationDate": "2016-10-31T23:17:01.865Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35327219,
-    "VersionId": "16",
+    "VersionId": "18",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>Role: Admin<br /><\/p><p><br /><\/p>",
+    "Description": "<p>Role: Admin<\/p><p><br /><\/p><p>Reminder story that probably won't need any action<br /><\/p><p><br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11148",
-    "LastUpdateDate": "2017-01-23T22:10:43.622Z",
+    "LastUpdateDate": "2017-03-14T21:22:02.860Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Admin - I need to maintain look up values to support the application.",
+    "Name": "Admin - I need to maintain look up values to support the application. - REMINDER STORY",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -127,14 +127,7 @@
         "Count": 0
     },
     "Recycled": false,
-    "Release":     {
-        "_rallyAPIMajor": "2",
-        "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/release/35284864",
-        "_refObjectUUID": "5b63a09a-fad4-403f-a68b-c8e0e98826ee",
-        "_refObjectName": "Release 1",
-        "_type": "Release"
-    },
+    "Release": null,
     "Successors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

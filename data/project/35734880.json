@@ -1,0 +1,93 @@
+{"Project": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/project/35734880",
+    "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+    "_objectVersion": "8",
+    "_refObjectName": "PRS Java",
+    "CreationDate": "2017-02-21T22:18:08.149Z",
+    "_CreatedAt": "Feb 21",
+    "ObjectID": 35734880,
+    "VersionId": "8",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/35545775",
+        "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+        "_refObjectName": "Business_Integration",
+        "_type": "Workspace"
+    },
+    "BuildDefinitions":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35734880/BuildDefinitions",
+        "_type": "BuildDefinition",
+        "Count": 1
+    },
+    "Children":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35734880/Children",
+        "_type": "Project",
+        "Count": 0
+    },
+    "Description": "Biz Value = 405 points",
+    "Editors":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35734880/Editors",
+        "_type": "User",
+        "Count": 20
+    },
+    "Iterations":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35734880/Iterations",
+        "_type": "Iteration",
+        "Count": 22
+    },
+    "Name": "PRS Java",
+    "Notes": "",
+    "Owner":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/33806288",
+        "_refObjectUUID": "25b93424-2c3d-4ae3-b273-7aabce9cdff6",
+        "_refObjectName": "Terri Pauline",
+        "_type": "User"
+    },
+    "Parent":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/project/35723837",
+        "_refObjectUUID": "d2825bcd-6755-4bb6-ab24-65e423f70678",
+        "_refObjectName": "PRS  (PPM 287099)",
+        "_type": "Project"
+    },
+    "Releases":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35734880/Releases",
+        "_type": "Release",
+        "Count": 2
+    },
+    "SchemaVersion": "5e22df7e7202e0155f63d93bb206d695",
+    "State": "Open",
+    "TeamMembers":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35734880/TeamMembers",
+        "_type": "User",
+        "Count": 6
+    },
+    "Errors": [],
+    "Warnings": []
+}}

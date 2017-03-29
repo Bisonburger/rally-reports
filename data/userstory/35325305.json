@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35325305",
     "_refObjectUUID": "9b167871-d5be-45cd-a712-72c66245b4f9",
-    "_objectVersion": "48",
+    "_objectVersion": "56",
     "_refObjectName": "Discrepancy Resolution Process - Process data feeds to analyze and calculate discrepancies",
     "CreationDate": "2016-10-31T23:10:28.410Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35325305,
-    "VersionId": "48",
+    "VersionId": "56",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11137",
-    "LastUpdateDate": "2017-02-03T01:03:43.775Z",
+    "LastUpdateDate": "2017-03-01T16:39:45.731Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "In-Progress",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-03-01T16:39:45.702Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -119,13 +119,13 @@
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/iteration/35370525",
-        "_refObjectUUID": "c195be64-3dc0-458e-8e59-a0e616521823",
-        "_refObjectName": "Sprint 6",
+        "_ref": "/slm/webservice/v2.0/iteration/35370548",
+        "_refObjectUUID": "bb4b0e00-4139-46d3-9762-45efd079e176",
+        "_refObjectName": "Sprint 7",
         "_type": "Iteration"
     },
     "Parent": null,
-    "PlanEstimate": 13,
+    "PlanEstimate": 8,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -151,8 +151,8 @@
     },
     "TaskActualTotal": 31.5,
     "TaskEstimateTotal": 29,
-    "TaskRemainingTotal": 16.5,
-    "TaskStatus": "IN_PROGRESS",
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

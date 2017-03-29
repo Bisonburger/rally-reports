@@ -1,0 +1,44 @@
+US1,35717856,"Data Source - ESDM (RMS IT has this in RAW) - Enterprise Supplier Data Mgt.",NONE,16,null
+US15,35718590,"Reports - Need automated process for generating flexible PO reports",NONE,16,null
+US16,35718637,"Reports - Need to apply filters (from predetermined list of filters)",NONE,16,null
+US17,35718684,"Reports - Need reports to be only on PO's awarded or issued to supplier",NONE,32,null
+US18,35718736,"Reports - Need to remove report selection (filtering) criteria and columns",NONE,16,null
+US19,35718783,"Reports - Need to create and save customizable (adhoc) report for PO data dating back to 2005 - APEX and PRISM",NONE,16,null
+US20,35718835,"Reports - Need contract summary (commit amount) for each contract on a PO",NONE,16,null
+US21,35718882,"Reports - Need to view all contracts for each PO line item (rather than use the "MULTI" field in PRISM). Would have to be fixed in BW if we have to get everything from BW.",NONE,32,null
+US22,35718929,"Reports - Need PO summary",NONE,16,null
+US23,35718976,"Data Source - data from GBS SC Sharepoint site: Enterprise Checklist",NONE,8,null
+US24,35719023,"Sharepoint - Need a Sharpoint form to identify PO's that were manually validated to be included or excluded from DoD designation and change variables",DEFINED,8,null
+US25,35719070,"Reports -I need Reports on DoD PO's. These are PO's that can be determined as DoD PO. Only PO's awarded or issued to supplier. GBS might need to do this.",NONE,16,null
+US26,35719117,"Reports -For DoD Reports only: I need to add report selection (filtering) criteria and columns. This might need  Sharepoint (see separate story).",NONE,16,null
+US27,35719164,"Reports - For DoD Reports only:I need to format the way govt. wants it (currently: comma separated to contract level). Will need CRs for major changes or change in Excel. We can give the comma separated one.",NONE,8,null
+US28,35719211,"Reports - I need to classify POs as DoD, Non DoD and "Undetermined PO's" (these are PO's that cannot be determined as DoD or non-DoD PO's). Only PO's awarded or issued to supplier.",NONE,16,null
+US29,35719263,"Reports - I need 6 canned reports (see spreadsheet from SC)",NONE,8,null
+US30,35719468,"Sprint Backlog Refinement",NONE,1,null
+US97,35743248,"Data Source - I need GBS IT BW report for SAS integrated - contract pegging and PO weekly snapshots",NONE,16,null
+US130,35755277,"IT - Data Modeling: Analysis and Design",IN_PROGRESS,32,null
+US131,35755336,"IT - ETL for Exclusion Criteria",DEFINED,32,null
+US133,35755466,"IT - Business Analysis",NONE,32,null
+US134,35756390,"IT ETL Refinement",NONE,8,null
+US135,35756474,"Data sources to BW - GBS IT",DEFINED,32,null
+US137,35764593,"IT Data Modeling - Verify and Move",DEFINED,32,null
+US138,35764758,"IT Data Modeling - Universe",DEFINED,32,null
+US140,35765067,"IT - ETL for Customer and MULTI functions",DEFINED,32,null
+US141,35765705,"IT - ETL - Load Tables - RAW tables",DEFINED,32,null
+US142,35766157,"IT - ETL - Load Tables - Stage Tables",DEFINED,32,null
+US143,35766547,"IT - ETL - Load Tables - FACT Tables",DEFINED,32,null
+US144,35766735,"IT - ETL Documentation",DEFINED,32,null
+US145,35766934,"IT - ETL QA testing",DEFINED,32,null
+US152,35768882,"IT - Reports Writing - Webi Reports",DEFINED,32,null
+US153,35769151,"IT - Reports Writing - Reports Documentation",DEFINED,32,null
+US154,35769432,"IT - Reports Writing - Peer Reviews",DEFINED,32,null
+US155,35769708,"IT - Reports Writing - Testing and Refinement",DEFINED,32,null
+US156,35769988,"IT - Reports Writing - Universe",DEFINED,32,null
+US222,35801300,"Data Source - data from 2005",NONE,16,null
+US287,35814049,"Usability",NONE,0,null
+US895,35924789,"Data Source - EPAD - Ent. Purchase Order & Agreement Documentation",NONE,16,null
+US896,35924878,"Data Source - Default Data Filter",NONE,16,null
+US897,35924937,"Data Source - Initial  Data Load Filter",NONE,16,null
+US898,35924995,"Reports - Removable Report Filter",NONE,16,null
+US899,35925054,"Data Source - all RTN contracts that RMS has awarded PO's against",NONE,16,null
+US900,35925113,"Data Source - identiy aggregate PO's",NONE,16,null

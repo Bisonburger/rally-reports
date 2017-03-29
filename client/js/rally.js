@@ -81,6 +81,7 @@ function RallyAPI() {
      * @return {Object}
      */
     function fetch(url, config) {
+        //console.log( 'fetching ' + url );
         return $.get(url, config).then(function(res) {
             return JSON.parse(res);
         });

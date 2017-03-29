@@ -1,0 +1,56 @@
+{"UserIterationCapacity": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/useriterationcapacity/35943841",
+    "_refObjectUUID": "da83cc71-e99b-4aba-930f-10b5d7d15d81",
+    "_objectVersion": "1",
+    "CreationDate": "2017-03-21T18:16:33.301Z",
+    "_CreatedAt": "Mar 21",
+    "ObjectID": 35943841,
+    "VersionId": "1",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/35545775",
+        "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+        "_refObjectName": "Business_Integration",
+        "_type": "Workspace"
+    },
+    "Capacity": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35807027",
+        "_refObjectUUID": "9154587c-94d0-4766-892b-b7eca2b38563",
+        "_refObjectName": "Sprint 1",
+        "_type": "Iteration"
+    },
+    "Load": null,
+    "Project":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/project/35723837",
+        "_refObjectUUID": "d2825bcd-6755-4bb6-ab24-65e423f70678",
+        "_refObjectName": "PRS  (PPM 287099)",
+        "_type": "Project"
+    },
+    "TaskEstimates": null,
+    "User":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/292290",
+        "_refObjectUUID": "7d82c98b-6065-44ca-85de-8535fd6d2d80",
+        "_refObjectName": "Bill W.",
+        "_type": "User"
+    },
+    "Errors": [],
+    "Warnings": []
+}}

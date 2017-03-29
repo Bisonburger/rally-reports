@@ -1,0 +1,56 @@
+{"UserIterationCapacity": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/useriterationcapacity/35772143",
+    "_refObjectUUID": "2fd5efb2-39ca-45f5-92e9-35d4e661d9d4",
+    "_objectVersion": "1",
+    "CreationDate": "2017-02-28T20:16:08.740Z",
+    "_CreatedAt": "Feb 28",
+    "ObjectID": 35772143,
+    "VersionId": "1",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/69587",
+        "_refObjectUUID": "59391212-ec86-42b1-a315-b881f4b94958",
+        "_refObjectName": "BSD Workspace",
+        "_type": "Workspace"
+    },
+    "Capacity": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370571",
+        "_refObjectUUID": "395135c9-4236-41f0-9288-64ee95cac26d",
+        "_refObjectName": "Sprint 8",
+        "_type": "Iteration"
+    },
+    "Load": null,
+    "Project":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/project/35271257",
+        "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
+        "_type": "Project"
+    },
+    "TaskEstimates": 30,
+    "User":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/267053",
+        "_refObjectUUID": "322190e4-438b-4a45-8e0c-30abf54f47d3",
+        "_refObjectName": "Shauna L",
+        "_type": "User"
+    },
+    "Errors": [],
+    "Warnings": []
+}}

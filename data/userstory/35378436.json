@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35378436",
     "_refObjectUUID": "8a102f76-8cd6-4f1f-83f5-8ec3bf136b13",
-    "_objectVersion": "3",
-    "_refObjectName": "UI/QC/Tech Review SP13",
+    "_objectVersion": "4",
+    "_refObjectName": "UI/QC/Tech/Archi Review SP13",
     "CreationDate": "2016-11-03T23:35:11.432Z",
     "_CreatedAt": "Nov 3, 2016",
     "ObjectID": 35378436,
-    "VersionId": "3",
+    "VersionId": "4",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11208",
-    "LastUpdateDate": "2016-11-21T17:17:16.781Z",
+    "LastUpdateDate": "2017-03-08T17:29:00.321Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "UI/QC/Tech Review SP13",
+    "Name": "UI/QC/Tech/Archi Review SP13",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,

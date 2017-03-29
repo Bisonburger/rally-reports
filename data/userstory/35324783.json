@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35324783",
     "_refObjectUUID": "0c0a9963-44f4-467a-a96a-b5f7ae75e7b4",
-    "_objectVersion": "23",
-    "_refObjectName": "Discrepancy Resolution Process - I need to view number of dings auto calculated within rolling 60 working days so that I don't have to manually count them which is time consuming and error prone.",
+    "_objectVersion": "35",
+    "_refObjectName": "Discrepancy Resolution Process - I need to view number of dings/occurrences auto calculated within rolling 60 working days so that I don't have to manually count them which is time consuming and error prone.",
     "CreationDate": "2016-10-31T23:08:59.584Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35324783,
-    "VersionId": "23",
+    "VersionId": "35",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11134",
-    "LastUpdateDate": "2017-02-07T23:09:03.994Z",
+    "LastUpdateDate": "2017-02-15T00:18:02.817Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Discrepancy Resolution Process - I need to view number of dings auto calculated within rolling 60 working days so that I don't have to manually count them which is time consuming and error prone.",
+    "Name": "Discrepancy Resolution Process - I need to view number of dings/occurrences auto calculated within rolling 60 working days so that I don't have to manually count them which is time consuming and error prone.",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "In-Progress",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-02-15T00:18:02.765Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -149,10 +149,10 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
+    "TaskActualTotal": 9,
     "TaskEstimateTotal": 9,
-    "TaskRemainingTotal": 9,
-    "TaskStatus": "IN_PROGRESS",
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35659201",
     "_refObjectUUID": "464f267c-1314-496f-bb6a-ca61f6f8aed8",
-    "_objectVersion": "12",
-    "_refObjectName": "Discrepancy Resolution Process - I need to issue disciplinary actions - NEED MORE INFO",
+    "_objectVersion": "32",
+    "_refObjectName": "Discrepancy Resolution Process - I need to issue disciplinary actions",
     "CreationDate": "2017-01-31T21:07:57.764Z",
     "_CreatedAt": "Jan 31",
     "ObjectID": 35659201,
-    "VersionId": "12",
+    "VersionId": "32",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11287",
-    "LastUpdateDate": "2017-01-31T22:40:49.733Z",
+    "LastUpdateDate": "2017-02-28T17:45:42.232Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Discrepancy Resolution Process - I need to issue disciplinary actions - NEED MORE INFO",
+    "Name": "Discrepancy Resolution Process - I need to issue disciplinary actions",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-02-28T17:45:42.200Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,13 +115,13 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hN}OV;TCM`Zx{;J,gP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
+    "InProgressDate": "2017-02-15T15:55:51.146Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/iteration/35370525",
-        "_refObjectUUID": "c195be64-3dc0-458e-8e59-a0e616521823",
-        "_refObjectName": "Sprint 6",
+        "_ref": "/slm/webservice/v2.0/iteration/35370548",
+        "_refObjectUUID": "bb4b0e00-4139-46d3-9762-45efd079e176",
+        "_refObjectName": "Sprint 7",
         "_type": "Iteration"
     },
     "Parent": null,
@@ -149,10 +149,10 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
+    "TaskActualTotal": 26,
     "TaskEstimateTotal": 21,
-    "TaskRemainingTotal": 21,
-    "TaskStatus": "DEFINED",
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

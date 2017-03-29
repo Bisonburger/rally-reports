@@ -1,0 +1,56 @@
+{"UserIterationCapacity": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/useriterationcapacity/35934196",
+    "_refObjectUUID": "bd46609c-4031-464a-8b7d-b257330ba24b",
+    "_objectVersion": "4",
+    "CreationDate": "2017-03-15T20:31:11.436Z",
+    "_CreatedAt": "Mar 15",
+    "ObjectID": 35934196,
+    "VersionId": "4",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/35545775",
+        "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+        "_refObjectName": "Business_Integration",
+        "_type": "Workspace"
+    },
+    "Capacity": 64,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35807033",
+        "_refObjectUUID": "aff2b912-12c0-45b7-b3e4-8b7c0c4d724f",
+        "_refObjectName": "Sprint 1",
+        "_type": "Iteration"
+    },
+    "Load": 0.640625,
+    "Project":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/project/35734880",
+        "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+        "_refObjectName": "PRS Java",
+        "_type": "Project"
+    },
+    "TaskEstimates": 41,
+    "User":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/225441",
+        "_refObjectUUID": "30dec7ad-c142-42e7-8ecb-54fc46110de9",
+        "_refObjectName": "Brian T.",
+        "_type": "User"
+    },
+    "Errors": [],
+    "Warnings": []
+}}

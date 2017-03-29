@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35325827",
     "_refObjectUUID": "f8085414-9b83-4773-9f7e-1120be5669cd",
-    "_objectVersion": "15",
-    "_refObjectName": "Reports - I need to create Ad hoc/customizable reports with templates can be saved for future use (SOLR)",
+    "_objectVersion": "41",
+    "_refObjectName": "Reports - I need to create Ad hoc/customizable reports using (SOLR)",
     "CreationDate": "2016-10-31T23:12:20.175Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35325827,
-    "VersionId": "15",
+    "VersionId": "41",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11140",
-    "LastUpdateDate": "2017-01-23T22:09:45.932Z",
+    "LastUpdateDate": "2017-03-28T20:14:28.642Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,15 +53,22 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Reports - I need to create Ad hoc/customizable reports with templates can be saved for future use (SOLR)",
+    "Name": "Reports - I need to create Ad hoc/customizable reports using (SOLR)",
     "Notes": "",
-    "Owner": null,
+    "Owner":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/215337",
+        "_refObjectUUID": "2eb4f3ec-92a9-4685-94e4-0d46976f312c",
+        "_refObjectName": "Khanh P.",
+        "_type": "User"
+    },
     "Project":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -83,7 +90,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "In-Progress",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -115,10 +122,17 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hN~&U%X}(>^7YP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
-    "Iteration": null,
+    "InProgressDate": "2017-03-15T17:07:05.138Z",
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370617",
+        "_refObjectUUID": "01fd8edb-1fec-463e-a2f4-93e7d1e43d24",
+        "_refObjectName": "Sprint 10",
+        "_type": "Iteration"
+    },
     "Parent": null,
-    "PlanEstimate": 13,
+    "PlanEstimate": 8,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -142,16 +156,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
-    "TaskRemainingTotal": 0,
-    "TaskStatus": "DEFINED",
+    "TaskActualTotal": 44,
+    "TaskEstimateTotal": 61,
+    "TaskRemainingTotal": 57,
+    "TaskStatus": "IN_PROGRESS",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35325827/Tasks",
         "_type": "Task",
-        "Count": 8
+        "Count": 9
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

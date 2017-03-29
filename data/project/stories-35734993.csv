@@ -1,0 +1,200 @@
+US766,35912561,"Create ICMS Data Sample",COMPLETED,0,Sprint 1
+US787,35914372,"Identify PCCS Fields",COMPLETED,0,Sprint 1
+US917,35949716,"Obtain Access to Property Data Source",COMPLETED,0,Sprint 1
+US919,35960549,"[Unfinished] Analyze VIPERS Data - Part 1",NONE,0,Sprint 1
+US924,35961308,"[Unfinished] Obtain Access to ICMS Data Source",COMPLETED,0,Sprint 1
+US925,35961477,"[Unfinished] Obtain Access to SPCS Data Source",COMPLETED,0,Sprint 1
+US765,35912477,"[Continued] Obtain Access to ICMS Data Source",IN_PROGRESS,0,Sprint 2
+US768,35912689,"Model ICMS Data",DEFINED,0,Sprint 2
+US773,35913183,"Create Property Data Sample",DEFINED,0,Sprint 2
+US774,35913246,"Analyze Property Data (BA)",IN_PROGRESS,0,Sprint 2
+US775,35913301,"Model Property Data",NONE,0,Sprint 2
+US784,35914089,"Model SPCS Data",DEFINED,0,Sprint 2
+US793,35914905,"Analyze SPCS Data (BA)",DEFINED,0,Sprint 2
+US798,35915272,"[Continued] Analyze VIPERS Data - Part 1",IN_PROGRESS,0,Sprint 2
+US918,35950295,"[Continued] Obtain Access to SPCS Data Source",IN_PROGRESS,0,Sprint 2
+US926,35961706,"SOLR POC Support - BA",IN_PROGRESS,0,Sprint 2
+US929,35961958,"Analysis - Property Data Warehouse - BA",IN_PROGRESS,0,Sprint 2
+US931,35962274,"Analysis - Property Data Warehouse - Data Modeler",IN_PROGRESS,0,Sprint 2
+US776,35913356,"Format Property Data (ETL)",NONE,0,Sprint 3
+US785,35914144,"Format SPCS Data (ETL)",NONE,0,Sprint 3
+US788,35914435,"Obtain Access to PCCS Data Source",IN_PROGRESS,0,Sprint 3
+US789,35914490,"Create  PCCS Data Sample",NONE,0,Sprint 3
+US881,35920667,"Model PROC04 Data",NONE,0,Sprint 3
+US883,35920797,"Create PROC04 Data Sample",NONE,0,Sprint 3
+US767,35912634,"Analyze ICMS Data (BA)",NONE,0,Sprint 4
+US769,35912744,"Format ICMS Data (ETL)",NONE,0,Sprint 4
+US791,35914600,"Model PCCS Data",NONE,0,Sprint 4
+US790,35914545,"Analyze PCCS Data (BA)",NONE,0,Sprint 5
+US792,35914655,"Format Data (ETL)",NONE,0,Sprint 5
+US826,35917092,"Analyze EMMS Data (BA)",NONE,0,Sprint 5
+US874,35920212,"Model LTAP Data (Risk Mitigation)",NONE,0,Sprint 5
+US880,35920594,"Format PROC04 Data (ETL)",NONE,0,Sprint 5
+US882,35920732,"Analyze PROC04 Data (BA)",NONE,0,Sprint 5
+US886,35921189,"Create LTAP Data Sample",NONE,0,Sprint 5
+US850,35918652,"Identify Pegging History Fields",NONE,0,Sprint 6
+US867,35919757,"Model LiNV Data (Risk Mitigation)",NONE,0,Sprint 6
+US869,35919887,"Create LiNV Data Sample",NONE,0,Sprint 6
+US873,35920139,"Format Data (ETL) (Risk Mitigation)",NONE,0,Sprint 6
+US875,35920277,"Analyze LTAP Data (BA)",NONE,0,Sprint 6
+US887,35921296,"Format LTAP Data (Non-ETL)",NONE,0,Sprint 6
+US843,35918197,"Identify Goods Receipt Fields",NONE,0,Sprint 7
+US860,35919302,"Model MEQUIPMNT Data (Risk Mitigation)",NONE,0,Sprint 7
+US862,35919432,"Create MEQUIPMNT Data Sample",NONE,0,Sprint 7
+US866,35919684,"Format LiNV Data (ETL) (Risk Mitigation)",NONE,0,Sprint 7
+US868,35919822,"Analyze LiNV Data (BA)",NONE,0,Sprint 7
+US888,35921493,"Format LiNV Data (Non-ETL)",NONE,0,Sprint 7
+US836,35917742,"Identify ZCMR Fields",NONE,0,Sprint 8
+US859,35919229,"Format MEQUIPMNT Data (ETL) (Risk Mitigation)",NONE,0,Sprint 8
+US861,35919367,"Analyze MEQUIPMNT Data (BA)",NONE,0,Sprint 8
+US889,35921700,"Format MEQUIPMNT Data (non-etl)",NONE,0,Sprint 8
+US849,35918587,"Obtain Access to Pegging History Data Source",NONE,0,Sprint 9
+US853,35918847,"Model ZCON7A Data (Risk Mitigation)",NONE,0,Sprint 9
+US855,35918977,"Create ZCON7A Data Sample",NONE,0,Sprint 9
+US890,35921953,"Format ZCON7A Data (non-ETL)",NONE,0,Sprint 9
+US822,35916832,"Identify AMIS Fields",NONE,0,Sprint 10
+US842,35918132,"Obtain Access to Goods Receipt Data Source",NONE,0,Sprint 10
+US846,35918392,"Model Pegging History Data (Risk Mitigation)",NONE,0,Sprint 10
+US848,35918522,"Create Pegging History Data Sample",NONE,0,Sprint 10
+US852,35918774,"Format Data (ETL) (Risk Mitigation)",NONE,0,Sprint 10
+US854,35918912,"Analyze ZCON7A Data (BA)",NONE,0,Sprint 10
+US815,35916377,"Identify RayTrack Fields",NONE,0,Sprint 11
+US835,35917677,"Obtain Access to ZCMR Data Source",NONE,0,Sprint 11
+US839,35917937,"Model Goods Receipt Data (Risk Mitigation)",NONE,0,Sprint 11
+US841,35918067,"Create Goods Receipt Data Sample",NONE,0,Sprint 11
+US845,35918319,"Format Data (ETL) (Risk Mitigation)",NONE,0,Sprint 11
+US847,35918457,"Analyze Pegging History Data (BA)",NONE,0,Sprint 11
+US891,35922200,"Format Pegging History Data (non-ETL)",NONE,0,Sprint 11
+US808,35915922,"Identify ADSUBCON Fields",NONE,0,Sprint 12
+US828,35917222,"Obtain Access to EMMS Data Source",NONE,0,Sprint 12
+US832,35917482,"Model ZCMR Data (Risk Mitigation)",NONE,0,Sprint 12
+US834,35917612,"Create ZCMR Data Sample",NONE,0,Sprint 12
+US838,35917864,"Format Data (ETL) (Risk Mitigation)",NONE,0,Sprint 12
+US840,35918002,"Analyze Goods Receipt Data (BA)",NONE,0,Sprint 12
+US892,35922292,"Format Goods Receipt Data (non-ETL)",NONE,0,Sprint 12
+US821,35916767,"Obtain Access to AMIS Data Source",NONE,0,Sprint 13
+US825,35917027,"Model EMMS Data",NONE,0,Sprint 13
+US827,35917157,"Create EMMS Data Sample",NONE,0,Sprint 13
+US831,35917409,"Format Data (ETL) (Risk Mitigation)",NONE,0,Sprint 13
+US833,35917547,"Analyze ZCMR Data (BA)",NONE,0,Sprint 13
+US893,35922490,"Format ZCMR Data (non-ETL)",NONE,0,Sprint 13
+US814,35916312,"Obtain Access to RayTrack Data Source",NONE,0,Sprint 14
+US818,35916572,"Model AMIS Data",NONE,0,Sprint 14
+US820,35916702,"Create AMIS Data Sample",NONE,0,Sprint 14
+US824,35916954,"Format Data (ETL)",NONE,0,Sprint 14
+US807,35915857,"Obtain Access to ADSUBCON Data Source",NONE,0,Sprint 15
+US811,35916117,"Model RayTrack Data",NONE,0,Sprint 15
+US813,35916247,"Create RayTrack Data Sample",NONE,0,Sprint 15
+US817,35916499,"Format AMIS Data (ETL)",NONE,0,Sprint 15
+US819,35916637,"Analyze AMIS Data (BA)",NONE,0,Sprint 15
+US804,35915662,"Model ADSUBCON Data (Risk Mitigation)",NONE,0,Sprint 16
+US806,35915792,"Create ADSUBCON Data Sample",NONE,0,Sprint 16
+US810,35916044,"Format Data (ETL)",NONE,0,Sprint 16
+US812,35916182,"Analyze RayTrack Data (BA)",NONE,0,Sprint 16
+US796,35915134,"Format Data (ETL)",NONE,0,Sprint 17
+US797,35915207,"Model VIPERS Data",NONE,0,Sprint 17
+US803,35915589,"Format Data (ETL) (Risk Mitigation)",NONE,0,Sprint 17
+US805,35915727,"Analyze ADSUBCON Data (BA)",NONE,0,Sprint 17
+US894,35923078,"Format ADSUBCON Data (non-ETL)",NONE,0,Sprint 17
+US32,35723964,"Property Direction & Workflow",null,0,null
+US42,35724486,"Progress & Burndown",null,0,null
+US67,35735414,"Property Views & Reports",null,0,null
+US68,35735469,"in labs",NONE,3,null
+US69,35735540,"compare EMMS, Vipers,  &  UPS",NONE,3,null
+US70,35735613,"compare EMMS and Prism",NONE,3,null
+US71,35735672,"Data Acquisition & Preparation",null,0,null
+US74,35735868,"failure notification",NONE,0,null
+US79,35736424,"view Raytrak",NONE,1,null
+US80,35736487,"upload Mocas report",NONE,0,null
+US86,35737329,"Gov't Furnished Material",null,0,null
+US87,35737661,"IOT report",NONE,3,null
+US93,35742344,"view contract exceptions",NONE,9,null
+US94,35742407,"view last count by storage unit",NONE,9,null
+US95,35742470,"see move status",NONE,3,null
+US223,35801861,"Create IDT Business Layer",null,0,null
+US224,35802430,"Create Analytics Reports",null,0,null
+US225,35802981,"Create BI Service Report",null,0,null
+US226,35803483,"Create BI Service WSDL",null,0,null
+US227,35804076,"Create Xcelsius Dashboard",null,0,null
+US230,35807594,"Production maintenance interruptions",null,0,null
+US433,35842574,"(RPT) Develop IDT Business Layer",DEFINED,0,null
+US438,35842986,"(RPT) Test Data",NONE,0,null
+US439,35843041,"(RPT) Peer Review",NONE,0,null
+US440,35843096,"(RPT) Rework",NONE,0,null
+US441,35843151,"(RPT) Migrate to QA",NONE,0,null
+US442,35843206,"(RPT) Test in QA",NONE,0,null
+US443,35843261,"(RPT) Migrate to Production",NONE,0,null
+US444,35843316,"(RPT) Verify in Production",NONE,0,null
+US454,35844328,"(RPT) Create WSDL",NONE,0,null
+US455,35844463,"(RPT) Test Data in Webi and Xcelsius",NONE,0,null
+US456,35844518,"(RPT) Migrate to QA",NONE,0,null
+US457,35844573,"(RPT) Test in QA",NONE,0,null
+US458,35844628,"(RPT) Migrate to Production",NONE,0,null
+US459,35844683,"(RPT) Verify in Production",NONE,0,null
+US460,35844801,"(RPT) Develop BI Service Report",DEFINED,0,null
+US461,35844984,"(RPT) Test Data",NONE,0,null
+US462,35845039,"(RPT) Test Report (Error Free and Standardization)",NONE,0,null
+US463,35845099,"(RPT) Peer Review",NONE,0,null
+US464,35845154,"(RPT) Documentation",NONE,0,null
+US465,35845209,"(RPT) Migrate to QA",NONE,0,null
+US466,35845264,"(RPT) Test in QA",NONE,0,null
+US467,35845319,"(RPT) Migrate to Production",NONE,0,null
+US468,35845374,"(RPT) Verify in Production",NONE,0,null
+US469,35845524,"(RPT) Develop Xcelsius Dashboard",DEFINED,0,null
+US470,35845743,"(RPT) Test Data to match with Webi BI Reports",NONE,0,null
+US471,35845798,"(RPT) Create Index File",NONE,0,null
+US472,35845853,"(RPT) Testing",NONE,0,null
+US473,35845908,"(RPT) Rework",NONE,0,null
+US474,35845963,"(RPT) Migrate to QA",NONE,0,null
+US475,35846018,"(RPT) Test in QA",NONE,0,null
+US476,35846073,"(RPT) Migrate to Production",NONE,0,null
+US477,35846133,"(RPT) Verify in Production",NONE,0,null
+US478,35846283,"(RPT) Configure Index file on portal",NONE,0,null
+US481,35858646,"(RPT) Develop GFM Universe IDT",NONE,0,null
+US482,35858709,"(RPT) Develop GFM Analytics Webi Reports",NONE,0,null
+US483,35858777,"(RPT) Document GFM Analytics Reports",NONE,0,null
+US484,35859064,"(RPT) Test GFM Analytics Reports",NONE,0,null
+US485,35859207,"(RPT) Peer Review GFM Analytics Reports",NONE,0,null
+US486,35859286,"(RPT) Migrate to QA",NONE,0,null
+US487,35859389,"(RPT) Test in QA",NONE,0,null
+US488,35859464,"(RPT) Migrate to Production",NONE,0,null
+US489,35859543,"(RPT) Verify in Production",NONE,0,null
+US492,35859955,"(RPT) Develop GFM Analytics Reports - Webi",null,0,null
+US496,35861013,"(BI) Sprint Review Changes",null,0,null
+US497,35861070,"sprint 1 feedback changes",NONE,0,null
+US498,35861133,"sprint 2 feedback changes",NONE,0,null
+US499,35861188,"sprint 3 feedback changes",NONE,0,null
+US500,35861243,"sprint 4 feedback changes",NONE,0,null
+US501,35861298,"sprint 5 feedback changes",NONE,0,null
+US502,35861353,"sprint 6 feedback changes",NONE,0,null
+US503,35861408,"sprint 7 feedback changes",NONE,0,null
+US504,35861463,"sprint 8 feedback changes",NONE,0,null
+US505,35861518,"sprint 9 feedback changes",NONE,0,null
+US506,35861573,"sprint 10 feedback changes",NONE,0,null
+US507,35861628,"sprint 11 feedback changes",NONE,0,null
+US508,35861683,"sprint 12 feedback changes",NONE,0,null
+US509,35861738,"sprint 13 feedback changes",NONE,0,null
+US510,35861793,"sprint 14 feedback changes",NONE,0,null
+US511,35861848,"sprint 15 feedback changes",NONE,0,null
+US512,35862351,"(BI) Report Prodution Maintenance Interruption",NONE,0,null
+US513,35862694,"(BI) ETL Prodution Maintenance Interruption",NONE,0,null
+US514,35862771,"(BI) Source System Changes",NONE,0,null
+US515,35862848,"(BI) Business Partner requests additional data field(s)",NONE,0,null
+US528,35864670,"(RPT) Develop TS Test Systems Analytics Reports - Webi",null,0,null
+US529,35864740,"(RPT) Verify in Production",NONE,0,null
+US530,35864821,"(RPT) Migrate to Production",NONE,0,null
+US531,35864908,"(RPT) Test in QA",NONE,0,null
+US532,35864995,"(RPT) Migrate to QA",NONE,0,null
+US533,35865082,"(RPT) Peer Review TS Test Systems Analytics Reports",NONE,0,null
+US534,35865157,"(RPT) Test TS Test Systems Analytics Reports",NONE,0,null
+US535,35865244,"(RPT) Document TS Test Systems  Analytics Reports",NONE,0,null
+US536,35865323,"(RPT) Develop TS Test Systems  Analytics Webi Reports",NONE,0,null
+US537,35865422,"(RPT) Develop TS Test Systems Universe IDT",NONE,0,null
+US558,35867599,"(RPT) Develop PC Production Control Analytics Reports - Webi",null,0,null
+US559,35867675,"(RPT) Verify in Production",NONE,0,null
+US560,35867762,"(RPT) Migrate to Production",NONE,0,null
+US561,35867861,"(RPT) Test in QA",NONE,0,null
+US562,35867960,"(RPT) Migrate to QA",NONE,0,null
+US563,35868059,"(RPT) Peer Review PC Production Control Analytics Reports",NONE,0,null
+US564,35868140,"(RPT) Test PC Production Control Analytics Reports",NONE,0,null
+US565,35868239,"(RPT) Document PC Production Control Analytics Reports",NONE,0,null

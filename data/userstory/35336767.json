@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35336767",
     "_refObjectUUID": "05347ee9-c2b3-4aa7-b66a-1659b5eee638",
-    "_objectVersion": "14",
+    "_objectVersion": "55",
     "_refObjectName": "Notifications - I need to be able to send out email notifications",
     "CreationDate": "2016-10-31T23:26:31.792Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35336767,
-    "VersionId": "14",
+    "VersionId": "55",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11164",
-    "LastUpdateDate": "2017-01-23T22:17:23.029Z",
+    "LastUpdateDate": "2017-03-14T20:38:51.038Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -55,13 +55,20 @@
     },
     "Name": "Notifications - I need to be able to send out email notifications",
     "Notes": "",
-    "Owner": null,
+    "Owner":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/225399",
+        "_refObjectUUID": "54da74e5-db67-4ab8-8d6c-fad2c6341e16",
+        "_refObjectName": "Dave L.",
+        "_type": "User"
+    },
     "Project":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -83,7 +90,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +100,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-03-14T20:38:51.025Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,8 +122,15 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hN~'ujs]iqavh2[gP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
-    "Iteration": null,
+    "InProgressDate": "2017-03-02T23:53:23.700Z",
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370571",
+        "_refObjectUUID": "395135c9-4236-41f0-9288-64ee95cac26d",
+        "_refObjectName": "Sprint 8",
+        "_type": "Iteration"
+    },
     "Parent": null,
     "PlanEstimate": 13,
     "Predecessors":     {
@@ -142,16 +156,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
+    "TaskActualTotal": 23.5,
+    "TaskEstimateTotal": 58,
     "TaskRemainingTotal": 0,
-    "TaskStatus": "DEFINED",
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35336767/Tasks",
         "_type": "Task",
-        "Count": 8
+        "Count": 7
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

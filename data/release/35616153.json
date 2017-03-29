@@ -1,0 +1,59 @@
+{"Release": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/release/35616153",
+    "_refObjectUUID": "a7b7efd3-3dd3-4173-9042-20446dd6911f",
+    "_objectVersion": "2",
+    "_refObjectName": "Release 1 - Full Solution",
+    "CreationDate": "2017-01-25T18:10:09.761Z",
+    "_CreatedAt": "Jan 25",
+    "ObjectID": 35616153,
+    "VersionId": "2",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/35545775",
+        "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+        "_refObjectName": "Business_Integration",
+        "_type": "Workspace"
+    },
+    "Accepted": null,
+    "GrossEstimateConversionRatio": 1,
+    "Name": "Release 1 - Full Solution",
+    "Notes": "",
+    "PlanEstimate": 233,
+    "PlannedVelocity": null,
+    "Project":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/project/35615624",
+        "_refObjectUUID": "5df05f02-142f-4dac-a548-ee3765664b2d",
+        "_refObjectName": "PO Reporting  (PPM 255621)",
+        "_type": "Project"
+    },
+    "ReleaseDate": "2018-03-31T06:59:59.000Z",
+    "ReleaseStartDate": "2017-03-06T07:00:00.000Z",
+    "RevisionHistory":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/revisionhistory/35616155",
+        "_refObjectUUID": "7904a619-ceb5-4db1-bcd8-5529536bb89f",
+        "_type": "RevisionHistory"
+    },
+    "State": "Planning",
+    "TaskActualTotal": 0,
+    "TaskEstimateTotal": 2946,
+    "TaskRemainingTotal": 2941,
+    "Theme": "DoD Purchase Order Reporting - Full Solution",
+    "Version": null,
+    "Errors": [],
+    "Warnings": []
+}}

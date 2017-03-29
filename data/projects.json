@@ -12,7 +12,7 @@
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/project/34279769",
             "_refObjectUUID": "82b32c7c-0e75-4735-a5ba-79099094b552",
-            "_refObjectName": "PCD",
+            "_refObjectName": "PCD  (PPM 258276)",
             "_type": "Project"
         },
                 {
@@ -20,7 +20,7 @@
             "_rallyAPIMinor": "0",
             "_ref": "/slm/webservice/v2.0/project/35271257",
             "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-            "_refObjectName": "AVO / AMS Enhancements",
+            "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
             "_type": "Project"
         },
                 {
@@ -29,6 +29,46 @@
             "_ref": "/slm/webservice/v2.0/project/35308565",
             "_refObjectUUID": "ace9b014-fff5-4e2b-9b61-25e2055e20ae",
             "_refObjectName": "SSV",
+            "_type": "Project"
+        },
+        {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/project/35615624",
+            "_refObjectUUID": "5df05f02-142f-4dac-a548-ee3765664b2d",
+            "_refObjectName": "PO Reporting  (PPM 255621)",
+            "_type": "Project"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/project/35723837",
+            "_refObjectUUID": "d2825bcd-6755-4bb6-ab24-65e423f70678",
+            "_refObjectName": "PRS  (PPM 287099)",
+            "_type": "Project"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/project/35734880",
+            "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+            "_refObjectName": "PRS Java",
+            "_type": "Project"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/project/35734993",
+            "_refObjectUUID": "b0797f7e-f500-4649-b56f-8a8c66a1fa7a",
+            "_refObjectName": "PRS Data & Reporting",
+            "_type": "Project"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/project/35743125",
+            "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+            "_refObjectName": "CFM Data & Reporting",
             "_type": "Project"
         }
     ]

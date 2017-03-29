@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35323913",
     "_refObjectUUID": "bad74c98-c26a-4dde-99bb-a865fee2c3cb",
-    "_objectVersion": "61",
+    "_objectVersion": "62",
     "_refObjectName": "Discrepancy Resolution Process - I need to view an individual's discrepancies in calendar filtering on types of discrepancies",
     "CreationDate": "2016-10-31T23:05:18.101Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35323913,
-    "VersionId": "61",
+    "VersionId": "62",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11129",
-    "LastUpdateDate": "2017-02-07T23:06:37.785Z",
+    "LastUpdateDate": "2017-02-15T00:16:49.985Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Completed",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-02-15T00:16:49.940Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,

@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35324957",
     "_refObjectUUID": "f30d4ec3-9ba1-46c3-8d80-1fe05e675a5b",
-    "_objectVersion": "14",
+    "_objectVersion": "39",
     "_refObjectName": "Discrepancy Resolution Process - I need to view employee's status in \"step back process\" auto calculated based on the number of disciplinary actions with a predefined timeframe.",
     "CreationDate": "2016-10-31T23:09:30.853Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35324957,
-    "VersionId": "14",
+    "VersionId": "39",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11135",
-    "LastUpdateDate": "2017-01-23T22:08:03.648Z",
+    "LastUpdateDate": "2017-03-14T20:38:15.418Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -55,13 +55,20 @@
     },
     "Name": "Discrepancy Resolution Process - I need to view employee's status in \"step back process\" auto calculated based on the number of disciplinary actions with a predefined timeframe.",
     "Notes": "",
-    "Owner": null,
+    "Owner":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/215337",
+        "_refObjectUUID": "2eb4f3ec-92a9-4685-94e4-0d46976f312c",
+        "_refObjectName": "Khanh P.",
+        "_type": "User"
+    },
     "Project":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -83,7 +90,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +100,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-03-14T20:38:15.404Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,8 +122,15 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hN}MT1[CIC&I68P!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
-    "Iteration": null,
+    "InProgressDate": "2017-03-02T16:17:03.798Z",
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370571",
+        "_refObjectUUID": "395135c9-4236-41f0-9288-64ee95cac26d",
+        "_refObjectName": "Sprint 8",
+        "_type": "Iteration"
+    },
     "Parent": null,
     "PlanEstimate": 8,
     "Predecessors":     {
@@ -142,10 +156,10 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
+    "TaskActualTotal": 18,
+    "TaskEstimateTotal": 18,
     "TaskRemainingTotal": 0,
-    "TaskStatus": "DEFINED",
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

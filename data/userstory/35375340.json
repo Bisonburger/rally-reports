@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35375340",
     "_refObjectUUID": "4c563588-40d5-43ad-89f6-0c66348c29ac",
-    "_objectVersion": "3",
-    "_refObjectName": "UI/QC/Tech Review SP7",
+    "_objectVersion": "28",
+    "_refObjectName": "UI/QC/Tech/Archi Review SP7",
     "CreationDate": "2016-11-03T23:28:12.680Z",
     "_CreatedAt": "Nov 3, 2016",
     "ObjectID": 35375340,
-    "VersionId": "3",
+    "VersionId": "28",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11190",
-    "LastUpdateDate": "2016-11-21T17:15:39.906Z",
+    "LastUpdateDate": "2017-03-14T20:37:50.127Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "UI/QC/Tech Review SP7",
+    "Name": "UI/QC/Tech/Archi Review SP7",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-03-14T20:37:50.110Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,7 +115,7 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hJrQM&sjdS5+q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
+    "InProgressDate": "2017-03-06T16:19:04.003Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -149,16 +149,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
+    "TaskActualTotal": 22,
+    "TaskEstimateTotal": 44,
     "TaskRemainingTotal": 0,
-    "TaskStatus": "NONE",
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35375340/Tasks",
         "_type": "Task",
-        "Count": 0
+        "Count": 5
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

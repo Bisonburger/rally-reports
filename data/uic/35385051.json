@@ -33,16 +33,16 @@
         "_refObjectName": "Sprint 6",
         "_type": "Iteration"
     },
-    "Load": 0.75,
+    "Load": 0.26666666666666666,
     "Project":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
-    "TaskEstimates": 45,
+    "TaskEstimates": 16,
     "User":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

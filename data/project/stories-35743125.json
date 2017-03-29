@@ -1,0 +1,2545 @@
+{"QueryResult": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "Errors": [],
+    "Warnings": [],
+    "TotalResultCount": 14,
+    "StartIndex": 1,
+    "PageSize": 200,
+    "Results":     [
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35899712",
+            "_refObjectUUID": "f7f6aa22-f18a-496a-9510-ce84bbc97490",
+            "_objectVersion": "23",
+            "_refObjectName": "Customer Escapes 1&2",
+            "CreationDate": "2017-03-08T22:56:26.686Z",
+            "_CreatedAt": "Mar 8",
+            "ObjectID": 35899712,
+            "VersionId": "23",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899712/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899712/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US748",
+            "LastUpdateDate": "2017-03-28T15:06:47.724Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899712/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "Customer Escapes 1&2",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/53903",
+                "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+                "_refObjectName": "Rhonda",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35899713",
+                "_refObjectUUID": "c344d706-cd7e-451b-8835-617eb4aaabc4",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899712/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899712/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899712/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899712/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~zNO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": false,
+            "InProgressDate": "2017-03-09T17:54:21.687Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35837745",
+                "_refObjectUUID": "fb089e9d-fbbf-4738-97f9-07d3724665a8",
+                "_refObjectName": "Sprint Feb (02/13-03/10)",
+                "_type": "Iteration"
+            },
+            "Parent": null,
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899712/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35814605",
+                "_refObjectUUID": "8648dfcf-c319-482e-be59-ad5397a9e282",
+                "_refObjectName": "Release 1",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899712/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 164,
+            "TaskRemainingTotal": 19,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899712/Tasks",
+                "_type": "Task",
+                "Count": 21
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899712/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35899764",
+            "_refObjectUUID": "40b10247-4f44-4467-a01a-ac0c73ba4916",
+            "_objectVersion": "23",
+            "_refObjectName": "Customer Escapes 3&4",
+            "CreationDate": "2017-03-08T22:56:38.578Z",
+            "_CreatedAt": "Mar 8",
+            "ObjectID": 35899764,
+            "VersionId": "23",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899764/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899764/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US749",
+            "LastUpdateDate": "2017-03-28T15:07:12.156Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899764/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "Customer Escapes 3&4",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/53903",
+                "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+                "_refObjectName": "Rhonda",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35899765",
+                "_refObjectUUID": "2d872bc0-8658-419a-a0d0-fa696c00b535",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899764/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899764/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899764/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899764/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~zNgO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": false,
+            "InProgressDate": "2017-03-09T19:13:38.472Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35837745",
+                "_refObjectUUID": "fb089e9d-fbbf-4738-97f9-07d3724665a8",
+                "_refObjectName": "Sprint Feb (02/13-03/10)",
+                "_type": "Iteration"
+            },
+            "Parent": null,
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899764/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35814605",
+                "_refObjectUUID": "8648dfcf-c319-482e-be59-ad5397a9e282",
+                "_refObjectName": "Release 1",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899764/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 164,
+            "TaskRemainingTotal": 19,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899764/Tasks",
+                "_type": "Task",
+                "Count": 21
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899764/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35926735",
+            "_refObjectUUID": "e9b61500-5c49-466c-aecd-a7647ad0313f",
+            "_objectVersion": "31",
+            "_refObjectName": "Late to Place PR",
+            "CreationDate": "2017-03-14T15:15:58.507Z",
+            "_CreatedAt": "Mar 14",
+            "ObjectID": 35926735,
+            "VersionId": "31",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35926735/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35926735/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US902",
+            "LastUpdateDate": "2017-03-28T15:51:32.024Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35926735/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "Late to Place PR",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/53903",
+                "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+                "_refObjectName": "Rhonda",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35926736",
+                "_refObjectUUID": "df569e76-6e31-4f28-94ce-7d9178f1082a",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35926735/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35926735/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35926735/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35926735/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~zNnp>D8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": false,
+            "InProgressDate": "2017-03-14T15:57:48.147Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906852",
+                "_refObjectUUID": "4b360115-577d-41cd-83fe-f37c2e4e7fee",
+                "_refObjectName": "Sprint Mar (03/13-04/15)",
+                "_type": "Iteration"
+            },
+            "Parent": null,
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35926735/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35814605",
+                "_refObjectUUID": "8648dfcf-c319-482e-be59-ad5397a9e282",
+                "_refObjectName": "Release 1",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35926735/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 63,
+            "TaskEstimateTotal": 176,
+            "TaskRemainingTotal": 111,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35926735/Tasks",
+                "_type": "Task",
+                "Count": 24
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35926735/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35927699",
+            "_refObjectUUID": "99ec61d7-79c6-4ce8-be23-b825f3710862",
+            "_objectVersion": "20",
+            "_refObjectName": "Late to Place PO",
+            "CreationDate": "2017-03-14T15:16:49.741Z",
+            "_CreatedAt": "Mar 14",
+            "ObjectID": 35927699,
+            "VersionId": "20",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35927699/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35927699/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US903",
+            "LastUpdateDate": "2017-03-28T15:05:29.978Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35927699/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "Late to Place PO",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/53903",
+                "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+                "_refObjectName": "Rhonda",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35927700",
+                "_refObjectUUID": "b82501ef-79d8-4466-a994-07aa6cbfe077",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35927699/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35927699/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35927699/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35927699/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~zNoWA>D8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": false,
+            "InProgressDate": "2017-03-22T15:57:21.512Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906852",
+                "_refObjectUUID": "4b360115-577d-41cd-83fe-f37c2e4e7fee",
+                "_refObjectName": "Sprint Mar (03/13-04/15)",
+                "_type": "Iteration"
+            },
+            "Parent": null,
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35927699/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35814605",
+                "_refObjectUUID": "8648dfcf-c319-482e-be59-ad5397a9e282",
+                "_refObjectName": "Release 1",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35927699/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 11,
+            "TaskEstimateTotal": 186,
+            "TaskRemainingTotal": 145,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35927699/Tasks",
+                "_type": "Task",
+                "Count": 26
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35927699/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35928659",
+            "_refObjectUUID": "732b6c63-9811-4cb5-958d-33868c406766",
+            "_objectVersion": "26",
+            "_refObjectName": "Late to Dock",
+            "CreationDate": "2017-03-14T15:17:08.015Z",
+            "_CreatedAt": "Mar 14",
+            "ObjectID": 35928659,
+            "VersionId": "26",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US904",
+            "LastUpdateDate": "2017-03-29T17:59:52.742Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "Late to Dock",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/53903",
+                "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+                "_refObjectName": "Rhonda",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35928660",
+                "_refObjectUUID": "0d882119-22f8-448b-a033-8821f23fef91",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~zNo4np>D8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": false,
+            "InProgressDate": "2017-03-24T15:57:52.322Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906852",
+                "_refObjectUUID": "4b360115-577d-41cd-83fe-f37c2e4e7fee",
+                "_refObjectName": "Sprint Mar (03/13-04/15)",
+                "_type": "Iteration"
+            },
+            "Parent": null,
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35814605",
+                "_refObjectUUID": "8648dfcf-c319-482e-be59-ad5397a9e282",
+                "_refObjectName": "Release 1",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 12,
+            "TaskEstimateTotal": 180,
+            "TaskRemainingTotal": 145,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/Tasks",
+                "_type": "Task",
+                "Count": 25
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35928659/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35936279",
+            "_refObjectUUID": "2daeb88a-e1e2-41aa-a7d7-eecf95ce4bd4",
+            "_objectVersion": "11",
+            "_refObjectName": "Single data source scorecard",
+            "CreationDate": "2017-03-16T16:14:24.234Z",
+            "_CreatedAt": "Mar 16",
+            "ObjectID": 35936279,
+            "VersionId": "11",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936279/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936279/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US910",
+            "LastUpdateDate": "2017-03-28T23:31:59.896Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936279/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "Single data source scorecard",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/53903",
+                "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+                "_refObjectName": "Rhonda",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35936280",
+                "_refObjectUUID": "4e21dbc1-cf1f-440f-b38d-44869cfec07b",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936279/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936279/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936279/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936279/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~yF~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": false,
+            "InProgressDate": "2017-03-16T16:23:04.377Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906852",
+                "_refObjectUUID": "4b360115-577d-41cd-83fe-f37c2e4e7fee",
+                "_refObjectName": "Sprint Mar (03/13-04/15)",
+                "_type": "Iteration"
+            },
+            "Parent": null,
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936279/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35814605",
+                "_refObjectUUID": "8648dfcf-c319-482e-be59-ad5397a9e282",
+                "_refObjectName": "Release 1",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936279/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 24,
+            "TaskEstimateTotal": 60,
+            "TaskRemainingTotal": 30,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936279/Tasks",
+                "_type": "Task",
+                "Count": 3
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936279/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35944575",
+            "_refObjectUUID": "bf02028f-477f-4127-b906-218dfaf7b36a",
+            "_objectVersion": "9",
+            "_refObjectName": "product / program hierarchy data feed for all metrics",
+            "CreationDate": "2017-03-22T16:14:51.240Z",
+            "_CreatedAt": "Mar 22",
+            "ObjectID": 35944575,
+            "VersionId": "9",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944575/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944575/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US914",
+            "LastUpdateDate": "2017-03-27T17:46:02.418Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944575/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "product / program hierarchy data feed for all metrics",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/53903",
+                "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+                "_refObjectName": "Rhonda",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35944576",
+                "_refObjectUUID": "048d93b2-31ec-4653-9aad-8a5c3cabddec",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944575/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944575/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944575/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944575/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~yFO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": false,
+            "InProgressDate": "2017-03-22T16:20:01.574Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906852",
+                "_refObjectUUID": "4b360115-577d-41cd-83fe-f37c2e4e7fee",
+                "_refObjectName": "Sprint Mar (03/13-04/15)",
+                "_type": "Iteration"
+            },
+            "Parent": null,
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944575/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release": null,
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944575/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 19,
+            "TaskEstimateTotal": 21,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944575/Tasks",
+                "_type": "Task",
+                "Count": 3
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944575/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35944633",
+            "_refObjectUUID": "fa2acc1e-806a-403c-af60-0263a87cc572",
+            "_objectVersion": "4",
+            "_refObjectName": "standardized metric attribute in central location for all metrics",
+            "CreationDate": "2017-03-22T16:15:39.993Z",
+            "_CreatedAt": "Mar 22",
+            "ObjectID": 35944633,
+            "VersionId": "4",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944633/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944633/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US915",
+            "LastUpdateDate": "2017-03-22T16:20:27.415Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944633/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "standardized metric attribute in central location for all metrics",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/53903",
+                "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+                "_refObjectName": "Rhonda",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35944634",
+                "_refObjectUUID": "20ff7492-3271-4c6f-9eb6-00ac0ffb58c5",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944633/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944633/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944633/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944633/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~yF8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": false,
+            "InProgressDate": "2017-03-22T16:20:27.389Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906852",
+                "_refObjectUUID": "4b360115-577d-41cd-83fe-f37c2e4e7fee",
+                "_refObjectName": "Sprint Mar (03/13-04/15)",
+                "_type": "Iteration"
+            },
+            "Parent": null,
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944633/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release": null,
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944633/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 2,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944633/Tasks",
+                "_type": "Task",
+                "Count": 1
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35944633/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35899816",
+            "_refObjectUUID": "4de3970f-5f59-414d-8848-cb7327e45f6b",
+            "_objectVersion": "12",
+            "_refObjectName": "OTD",
+            "CreationDate": "2017-03-08T22:56:45.863Z",
+            "_CreatedAt": "Mar 8",
+            "ObjectID": 35899816,
+            "VersionId": "12",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899816/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899816/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US750",
+            "LastUpdateDate": "2017-03-14T15:19:37.435Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899816/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "OTD",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/53903",
+                "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+                "_refObjectName": "Rhonda",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35899817",
+                "_refObjectUUID": "04a2df3f-99bc-44f0-8852-529dfd6e58ca",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899816/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899816/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899816/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899816/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~zPk.~vCs}Ry,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": false,
+            "InProgressDate": "2017-03-09T16:18:11.340Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906875",
+                "_refObjectUUID": "b76dbae4-50a8-461f-8a62-95cfc22d8f86",
+                "_refObjectName": "Sprint Apr (04/17-05/12)",
+                "_type": "Iteration"
+            },
+            "Parent": null,
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899816/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35814605",
+                "_refObjectUUID": "8648dfcf-c319-482e-be59-ad5397a9e282",
+                "_refObjectName": "Release 1",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899816/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 6,
+            "TaskEstimateTotal": 164,
+            "TaskRemainingTotal": 152,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899816/Tasks",
+                "_type": "Task",
+                "Count": 22
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899816/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35899868",
+            "_refObjectUUID": "c7fb0b8b-a8c0-4c51-8eda-7be3a9ce0a4c",
+            "_objectVersion": "10",
+            "_refObjectName": "Revenue Growth",
+            "CreationDate": "2017-03-08T22:56:55.038Z",
+            "_CreatedAt": "Mar 8",
+            "ObjectID": 35899868,
+            "VersionId": "10",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899868/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899868/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US751",
+            "LastUpdateDate": "2017-03-14T15:19:40.654Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899868/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "Revenue Growth",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/53903",
+                "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+                "_refObjectName": "Rhonda",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35899869",
+                "_refObjectUUID": "d6b08596-e20f-46da-a882-2e4face80eeb",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899868/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899868/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899868/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899868/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~zOsSLf`@yqjJ,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": false,
+            "InProgressDate": "2017-03-09T18:16:31.622Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906875",
+                "_refObjectUUID": "b76dbae4-50a8-461f-8a62-95cfc22d8f86",
+                "_refObjectName": "Sprint Apr (04/17-05/12)",
+                "_type": "Iteration"
+            },
+            "Parent": null,
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899868/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35814605",
+                "_refObjectUUID": "8648dfcf-c319-482e-be59-ad5397a9e282",
+                "_refObjectName": "Release 1",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899868/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 4,
+            "TaskEstimateTotal": 164,
+            "TaskRemainingTotal": 160,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899868/Tasks",
+                "_type": "Task",
+                "Count": 22
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899868/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35899920",
+            "_refObjectUUID": "a0f63b26-8bea-4d56-93d5-3d26cd3e0f7b",
+            "_objectVersion": "18",
+            "_refObjectName": "CPAR",
+            "CreationDate": "2017-03-08T22:57:01.211Z",
+            "_CreatedAt": "Mar 8",
+            "ObjectID": 35899920,
+            "VersionId": "18",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899920/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899920/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US752",
+            "LastUpdateDate": "2017-03-28T15:07:49.924Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899920/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "CPAR",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/53903",
+                "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+                "_refObjectName": "Rhonda",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35899921",
+                "_refObjectUUID": "a272f0f0-a168-4e84-a9f0-5d8fee9a1a5b",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899920/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899920/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899920/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899920/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~zP@A6nR+LbBjJ,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": false,
+            "InProgressDate": "2017-03-09T16:17:40.002Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906875",
+                "_refObjectUUID": "b76dbae4-50a8-461f-8a62-95cfc22d8f86",
+                "_refObjectName": "Sprint Apr (04/17-05/12)",
+                "_type": "Iteration"
+            },
+            "Parent": null,
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899920/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35814605",
+                "_refObjectUUID": "8648dfcf-c319-482e-be59-ad5397a9e282",
+                "_refObjectName": "Release 1",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899920/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 16,
+            "TaskEstimateTotal": 340,
+            "TaskRemainingTotal": 322,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899920/Tasks",
+                "_type": "Task",
+                "Count": 22
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899920/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35936343",
+            "_refObjectUUID": "123b862b-2197-4c5c-b92c-a4145f5a0c7c",
+            "_objectVersion": "1",
+            "_refObjectName": "Support Tasks (Apr Sprint)",
+            "CreationDate": "2017-03-16T16:15:30.080Z",
+            "_CreatedAt": "Mar 16",
+            "ObjectID": 35936343,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936343/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936343/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US911",
+            "LastUpdateDate": "2017-03-16T16:15:30.174Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936343/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "Support Tasks (Apr Sprint)",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/53903",
+                "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+                "_refObjectName": "Rhonda",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35936344",
+                "_refObjectUUID": "5fa8a45d-4c37-46d5-ad79-bb4b1bf051bf",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936343/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936343/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936343/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936343/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~yE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": false,
+            "InProgressDate": null,
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906875",
+                "_refObjectUUID": "b76dbae4-50a8-461f-8a62-95cfc22d8f86",
+                "_refObjectName": "Sprint Apr (04/17-05/12)",
+                "_type": "Iteration"
+            },
+            "Parent": null,
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936343/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35814605",
+                "_refObjectUUID": "8648dfcf-c319-482e-be59-ad5397a9e282",
+                "_refObjectName": "Release 1",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936343/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936343/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35936343/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35899972",
+            "_refObjectUUID": "2c13e362-9e8d-4674-8d05-f16dda432112",
+            "_objectVersion": "8",
+            "_refObjectName": "EXIM Cycle Count",
+            "CreationDate": "2017-03-08T22:57:09.047Z",
+            "_CreatedAt": "Mar 8",
+            "ObjectID": 35899972,
+            "VersionId": "8",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899972/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899972/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US753",
+            "LastUpdateDate": "2017-03-14T15:19:33.649Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899972/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "EXIM Cycle Count",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/53903",
+                "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+                "_refObjectName": "Rhonda",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35899973",
+                "_refObjectUUID": "35ec73bd-3463-4553-9bf1-534d521a8113",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899972/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899972/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899972/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899972/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~zT=aS,D}Ry,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": false,
+            "InProgressDate": "2017-03-09T16:17:51.715Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35929574",
+                "_refObjectUUID": "2795c372-765f-4f1c-a664-223e621e2ff9",
+                "_refObjectName": "Sprint May (05/15 - 06/09)",
+                "_type": "Iteration"
+            },
+            "Parent": null,
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899972/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35814605",
+                "_refObjectUUID": "8648dfcf-c319-482e-be59-ad5397a9e282",
+                "_refObjectName": "Release 1",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899972/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 2,
+            "TaskEstimateTotal": 340,
+            "TaskRemainingTotal": 338,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899972/Tasks",
+                "_type": "Task",
+                "Count": 22
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35899972/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35900024",
+            "_refObjectUUID": "80a0ff95-1f6d-483b-9843-738ea89728df",
+            "_objectVersion": "12",
+            "_refObjectName": "EXIM Number Outstanding",
+            "CreationDate": "2017-03-08T22:57:16.949Z",
+            "_CreatedAt": "Mar 8",
+            "ObjectID": 35900024,
+            "VersionId": "12",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35900024/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35900024/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US754",
+            "LastUpdateDate": "2017-03-14T15:19:29.381Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35900024/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "EXIM Number Outstanding",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/53903",
+                "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+                "_refObjectName": "Rhonda",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35900025",
+                "_refObjectUUID": "b58b4346-f35f-40d9-bb0c-3aa5bafda2e7",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35900024/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35900024/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35900024/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35900024/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~zRZD'7h|&s8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": false,
+            "InProgressDate": "2017-03-09T16:18:24.135Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35929574",
+                "_refObjectUUID": "2795c372-765f-4f1c-a664-223e621e2ff9",
+                "_refObjectName": "Sprint May (05/15 - 06/09)",
+                "_type": "Iteration"
+            },
+            "Parent": null,
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35900024/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35814605",
+                "_refObjectUUID": "8648dfcf-c319-482e-be59-ad5397a9e282",
+                "_refObjectName": "Release 1",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35900024/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 2,
+            "TaskEstimateTotal": 164,
+            "TaskRemainingTotal": 162,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35900024/Tasks",
+                "_type": "Task",
+                "Count": 22
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35900024/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        }
+    ]
+}}

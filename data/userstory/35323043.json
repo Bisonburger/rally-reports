@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35323043",
     "_refObjectUUID": "dc235c5d-c6c1-4081-aa30-e6420b67924f",
-    "_objectVersion": "15",
+    "_objectVersion": "52",
     "_refObjectName": "ACS Call-In Process - I need to view and hear the called in absences from the ACS",
     "CreationDate": "2016-10-31T23:01:09.642Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35323043,
-    "VersionId": "15",
+    "VersionId": "52",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "role: supervisor",
+    "Description": "<p>role: supervisor<\/p><p>there is no need to identify users through their computer ID's as is currently done in the application<\/p><p>see audio icon only if there's an audio message (that's not empty)<\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11124",
-    "LastUpdateDate": "2017-01-23T22:03:31.679Z",
+    "LastUpdateDate": "2017-02-28T20:12:17.759Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-02-28T20:12:17.685Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,8 +115,15 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hNP!!!!S5S5+q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
-    "Iteration": null,
+    "InProgressDate": "2017-02-16T21:35:29.752Z",
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370548",
+        "_refObjectUUID": "bb4b0e00-4139-46d3-9762-45efd079e176",
+        "_refObjectName": "Sprint 7",
+        "_type": "Iteration"
+    },
     "Parent": null,
     "PlanEstimate": 8,
     "Predecessors":     {
@@ -142,16 +149,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
+    "TaskActualTotal": 20.75,
+    "TaskEstimateTotal": 28,
     "TaskRemainingTotal": 0,
-    "TaskStatus": "DEFINED",
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35323043/Tasks",
         "_type": "Task",
-        "Count": 8
+        "Count": 9
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

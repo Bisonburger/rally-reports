@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35328270",
     "_refObjectUUID": "d908c49f-8075-418a-b537-8477a8cf9246",
-    "_objectVersion": "15",
-    "_refObjectName": "Data Integration - Receive from PRISM holiday hours tagged as such eliminating it from showing up as discrepancy",
+    "_objectVersion": "17",
+    "_refObjectName": "removed - Data Integration - Receive from PRISM holiday hours tagged as such eliminating it from showing up as discrepancy",
     "CreationDate": "2016-10-31T23:20:13.096Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35328270,
-    "VersionId": "15",
+    "VersionId": "17",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11154",
-    "LastUpdateDate": "2017-01-23T22:11:47.251Z",
+    "LastUpdateDate": "2017-02-23T19:09:56.381Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Data Integration - Receive from PRISM holiday hours tagged as such eliminating it from showing up as discrepancy",
+    "Name": "removed - Data Integration - Receive from PRISM holiday hours tagged as such eliminating it from showing up as discrepancy",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -127,14 +127,7 @@
         "Count": 0
     },
     "Recycled": false,
-    "Release":     {
-        "_rallyAPIMajor": "2",
-        "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/release/35284864",
-        "_refObjectUUID": "5b63a09a-fad4-403f-a68b-c8e0e98826ee",
-        "_refObjectName": "Release 1",
-        "_type": "Release"
-    },
+    "Release": null,
     "Successors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

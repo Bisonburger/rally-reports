@@ -259,7 +259,11 @@ function BVBurnupChart() {
                     p_planned: 0
                 };
             var storyCompleted = (story.ScheduleState === 'Accepted' || story.ScheduleState === 'Completed') ? 1 : 0;
-            iterHash[iterationName].actual += storyCompleted * story[fieldName];
+            if( storyCompleted ) console.log( 'Story ' + story.FormattedID + ':' + story.Name + ' completed!');
+            
+            
+            
+            iterHash[iterationName].actual += (storyCompleted * story[fieldName]);
             iterHash[iterationName].planned += story[fieldName];
         });
 

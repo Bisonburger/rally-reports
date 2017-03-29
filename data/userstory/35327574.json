@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35327574",
     "_refObjectUUID": "5a7e6424-5045-48e8-a814-c9ebcbf0ca08",
-    "_objectVersion": "34",
-    "_refObjectName": "Data Integration - receive updates from SPEED on a daily basis to note when disciplinary actions have been removed",
+    "_objectVersion": "49",
+    "_refObjectName": "Data Integration - receive updates from SPEED on a daily basis",
     "CreationDate": "2016-10-31T23:18:26.336Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35327574,
-    "VersionId": "34",
+    "VersionId": "49",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p><font face=\"Times New Roman\" size=\"3\">  <\/font><span style=\"color: rgb(31, 73, 125);\">The intent for this is to be able to receive supervisor, and cost center updates more frequently.<\/span><\/p><p><font face=\"Times New Roman\" size=\"3\">  <\/font><br /><\/p><p><br /><\/p>",
+    "Description": "<p><font face=\"Times New Roman\" size=\"3\">  <\/font><span style=\"color: rgb(31, 73, 125);\">The intent for this is to be able to receive supervisor, and cost center updates more frequently.<\/span><\/p><p><font face=\"Times New Roman\" size=\"3\">  <\/font>Data (tasref / tasout feed) has been added to feed by GBS - John W. Morgan is PoC<\/p><p>This story captures anything that needs to be done in the application to take advantage of the additional feed / data<br /><\/p><p><br /><\/p><p><br /><\/p><p><br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11150",
-    "LastUpdateDate": "2017-01-23T22:11:10.614Z",
+    "LastUpdateDate": "2017-03-14T20:38:39.404Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Data Integration - receive updates from SPEED on a daily basis to note when disciplinary actions have been removed",
+    "Name": "Data Integration - receive updates from SPEED on a daily basis",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-03-14T20:38:39.367Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,8 +115,15 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hVD/rs~'/^{Zq!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
-    "Iteration": null,
+    "InProgressDate": "2017-03-06T18:04:27.585Z",
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370571",
+        "_refObjectUUID": "395135c9-4236-41f0-9288-64ee95cac26d",
+        "_refObjectName": "Sprint 8",
+        "_type": "Iteration"
+    },
     "Parent": null,
     "PlanEstimate": 5,
     "Predecessors":     {
@@ -143,15 +150,15 @@
         "Count": 0
     },
     "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
+    "TaskEstimateTotal": 8,
     "TaskRemainingTotal": 0,
-    "TaskStatus": "DEFINED",
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35327574/Tasks",
         "_type": "Task",
-        "Count": 8
+        "Count": 1
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

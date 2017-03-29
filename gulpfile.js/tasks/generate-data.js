@@ -20,11 +20,12 @@
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
  */
-var gulp = require('gulp');
-var https = require('https');
-var fs = require('fs');
-var Q = require('q');
-var url = require('url');
+var gulp = require('gulp'),
+    https = require('https'),
+    fs = require('fs'),
+    Q = require('q'),
+    url = require('url'),
+    sleep = require('system-sleep');
 
 
 /**
@@ -62,28 +63,26 @@ function getDataFromURL(inUrl) {
  * @return {Promise -> Project}
  */
 function getProjectData(projectId) {
+    if( !fs.existsSync('./data/project') ) fs.mkdirSync('./data/project' );
+    if( !fs.existsSync('./data/iteration') ) fs.mkdirSync('./data/iteration' );
+    if( !fs.existsSync('./data/uic') ) fs.mkdirSync('./data/uic' );
     getDataFromURL(`https://agile.rms.ray.com/slm/webservice/v2.0/project/${projectId}?pretty=true`)
         .then((rawProj) => {
-            console.log(`writing ./data/project/${projectId}.json`);
             fs.writeFileSync(`./data/project/${projectId}.json`, rawProj.replace(/https:\/\/agile.rms.ray.com/g, ''));
             getDataFromURL(`https://agile.rms.ray.com/slm/webservice/v2.0/project/${projectId}/iterations?pretty=true`)
                 .then((rawIterationList) => {
-                    console.log(`writing ./data/project/iterations-${projectId}.json`);
                     fs.writeFileSync(`./data/project/iterations-${projectId}.json`, rawIterationList.replace(/https:\/\/agile.rms.ray.com/g, ''));
                     var iterationList = JSON.parse(rawIterationList).QueryResult.Results;
                     iterationList.forEach(function(iteration) {
                         getDataFromURL(`${iteration._ref}?pretty=true`).then(function(rawIter) {
-                            console.log(`writing ./data/iteration/${iteration.ObjectID}.json`);
                             var rI = JSON.parse( rawIter );
                             var iter = JSON.parse( rawIter.replace(/https:\/\/agile.rms.ray.com/g, '') );
                             fs.writeFileSync(`./data/iteration/${iteration.ObjectID}.json`, JSON.stringify(iter) );
                             getDataFromURL( `${rI.Iteration.UserIterationCapacities._ref}?pretty=true` ).then( function (rawUICList){ 
-                                console.log( `writing ./data/iteration/uic-${iteration.ObjectID}.json` );
                                 fs.writeFileSync(`./data/iteration/uic-${iteration.ObjectID}.json`,rawUICList.replace(/https:\/\/agile.rms.ray.com/g, ''));
                                 var UICList = JSON.parse( rawUICList ).QueryResult.Results;
                                 UICList.forEach( function(uic){ 
                                     getDataFromURL( `${uic._ref}?pretty=true` ).then( function(rawUIC){ 
-                                        console.log( `writing ./data/uic/${uic.ObjectID}.json` );
                                         fs.writeFileSync(`./data/uic/${uic.ObjectID}.json`,rawUIC.replace(/https:\/\/agile.rms.ray.com/g, ''));
                                     });    
                                 });
@@ -95,14 +94,13 @@ function getProjectData(projectId) {
 }
 
 function processChildren( childrenRef, story ){
+    if( !fs.existsSync('./data/userstory') ) fs.mkdirSync('./data/userstory' );
     getDataFromURL( `${childrenRef}?pretty=true` ).then( function(rawChildrenList){ 
-    console.log( `writing ./data/userstory/children-${story.ObjectID}.json` );
     fs.writeFileSync(`./data/userstory/children-${story.ObjectID}.json`,rawChildrenList.replace(/https:\/\/agile.rms.ray.com/g, ''));
     var childrenList = JSON.parse( rawChildrenList ).QueryResult.Results;
     childrenList.forEach( function(child){ 
         getDataFromURL( `${child._ref}?pretty=true` ).then( function(rawChild){ 
             if( child.Children && child.Children._ref ) processChildren( child.Children._ref, child );
-            console.log( `writing ./data/userstory/${child.ObjectID}.json` );
             fs.writeFileSync(`./data/userstory/${child.ObjectID}.json`,rawChild.replace(/https:\/\/agile.rms.ray.com/g, ''));
         });
     });
@@ -117,16 +115,16 @@ function processChildren( childrenRef, story ){
  * @return {Promise -> UserStory[]}
  */
 function getStories(projectId) {
+    if( !fs.existsSync('./data/project') ) fs.mkdirSync('./data/project' );
+    if( !fs.existsSync('./data/userstory') ) fs.mkdirSync('./data/userstory' );
     getDataFromURL(`https://agile.rms.ray.com/slm/webservice/v2.0/hierarchicalrequirement?pretty=true&order=Iteration.StartDate&fetch=true&pagesize=200&project=https://agile.rms.ray.com/slm/webservice/v2.0/project/${projectId}`)
         .then((rawStoriesList) => {
-            console.log(`writing ./data/project/stories-${projectId}.json`);
             fs.writeFileSync(`./data/project/stories-${projectId}.json`, rawStoriesList.replace(/https:\/\/agile.rms.ray.com/g, ''));
             var stories = JSON.parse( rawStoriesList ).QueryResult.Results;
             var storyMap = stories.map( (story) => `${story.FormattedID},${story.ObjectID},\"${story.Name}\",${story.TaskStatus},${(story.c_BizValue)?story.c_BizValue:0},${(story.Iteration)?story.Iteration._refObjectName:'null'}`);
             fs.writeFileSync(`./data/project/stories-${projectId}.csv`,storyMap.join('\n'));
             stories.forEach( function(story){ 
                 getDataFromURL( `${story._ref}?pretty=true` ).then( function(rawStory){
-                    console.log( `writing ./data/userstory/${story.ObjectID}.json` );
                     fs.writeFileSync(`./data/userstory/${story.ObjectID}.json`,rawStory.replace(/https:\/\/agile.rms.ray.com/g, ''));
                 });     
                 processChildren( story.Children._ref, story );
@@ -141,13 +139,13 @@ function getStories(projectId) {
  * @return {Promise -> Release[]}
  */
 function getReleases(projectId) {
+    if( !fs.existsSync('./data/project') ) fs.mkdirSync('./data/project' );
+    if( !fs.existsSync('./data/release') ) fs.mkdirSync('./data/release' );
     getDataFromURL(`https://agile.rms.ray.com/slm/webservice/v2.0/releases?pretty=true&order=ReleaseDate&fetch=true&pagesize=200&project=https://agile.rms.ray.com/slm/webservice/v2.0/project/${projectId}`)
         .then((rawReleaseList) => {
-            console.log(`writing ./data/project/releases-${projectId}.json`);
             fs.writeFileSync(`./data/project/releases-${projectId}.json`, rawReleaseList.replace(/https:\/\/agile.rms.ray.com/g, ''));
             var releaseList = JSON.parse(rawReleaseList).QueryResult.Results;
             releaseList.forEach(function(release) {
-                console.log('release: ' + release.ObjectID);
                 getDataFromURL(`https://agile.rms.ray.com/slm/webservice/v2.0/release/${release.ObjectID}?pretty=true`).then((rawRelease) => {
                     fs.writeFileSync(`./data/release/${release.ObjectID}.json`, rawRelease.replace(/https:\/\/agile.rms.ray.com/g, ''));
                 });
@@ -162,20 +160,32 @@ function getReleases(projectId) {
  * 35271257 - AVO / AMS Enhancements
  * 34279769 - PCD / Product Comparison Database
  * 35308565 - SSV / Subtier Supplier View
+ * 35743125 - CFM Data * Reporting
+ * 35615624 - PO Reporting
+ * 35723837 - PRS (PPM 287099)
+ * 35734993 - PRS Data & Reporting
+ * 35734880 - PRS Java
+ * 
  */
- 
-function generateDataTask(){ ['35308565', '34279769', '35271257'].forEach( (projectId) => {
-    getProjectData(projectId);
-    getStories(projectId);
-    getReleases(projectId);
+ // '35271257','34279769','35308565','35743125', '35615624', '35723837', '35734993', '35734880' 
+function generateDataTask(){
+    ['35734993', '35734880'].forEach( (projectId) =>{
+        console.log( `Building data for ${projectId}`);
+        getProjectData(projectId);
+        sleep(5000);
+        getStories(projectId);
+        sleep(5000);
+        getReleases(projectId);
+        sleep(5000);
     });
 }
 
+
 gulp.task( 'generate-data', function(){
     getDataFromURL(`https://agile.rms.ray.com/slm/webservice/v2.0/project?pretty=true`).then( function(rawProjectList){
-        console.log(`writing ./data/projects.json`);
         fs.writeFileSync(`./data/projects.json`, rawProjectList.replace(/https:\/\/agile.rms.ray.com/g, ''));
     });   
-    generateDataTask(); 
+    generateDataTask();
 });
+
 module.exports = generateDataTask;

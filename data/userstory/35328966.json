@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35328966",
     "_refObjectUUID": "e688812a-57f8-4fbf-bd2d-b1541fd9f469",
-    "_objectVersion": "14",
-    "_refObjectName": "Notifications - FOURTH receive notifications of any un-cleared discrepancies on a weekly basis",
+    "_objectVersion": "17",
+    "_refObjectName": "removed - Notifications - FOURTH receive notifications of any un-cleared discrepancies on a weekly basis",
     "CreationDate": "2016-10-31T23:22:07.870Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35328966,
-    "VersionId": "14",
+    "VersionId": "17",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p><br /><\/p><p><br /><\/p>",
+    "Description": "<p>during Sprint planning 2/14, business partners said they don't need a fourth notification, just 3<br /><\/p><p><br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11158",
-    "LastUpdateDate": "2017-01-23T22:18:58.629Z",
+    "LastUpdateDate": "2017-02-15T23:55:49.487Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Notifications - FOURTH receive notifications of any un-cleared discrepancies on a weekly basis",
+    "Name": "removed - Notifications - FOURTH receive notifications of any un-cleared discrepancies on a weekly basis",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -127,14 +127,7 @@
         "Count": 0
     },
     "Recycled": false,
-    "Release":     {
-        "_rallyAPIMajor": "2",
-        "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/release/35284864",
-        "_refObjectUUID": "5b63a09a-fad4-403f-a68b-c8e0e98826ee",
-        "_refObjectName": "Release 1",
-        "_type": "Release"
-    },
+    "Release": null,
     "Successors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

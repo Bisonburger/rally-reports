@@ -1,0 +1,141 @@
+US650,35882123,"create Solr framework",COMPLETED,9,Sprint 1
+US756,35903443,"UX design for contract closeout record",COMPLETED,0,Sprint 1
+US913,35943743,"Chores - architect",COMPLETED,0,Sprint 1
+US920,35960641,"[Unfinished] UX design for viewing and entering workflow status",NONE,0,Sprint 1
+US921,35960724,"[Unfinished] create new contract closeout record",COMPLETED,9,Sprint 1
+US922,35961003,"[Unfinished] create user roles and permissions",COMPLETED,0,Sprint 1
+US923,35961148,"[Unfinished] Select Property Zero Certifiers people",COMPLETED,9,Sprint 1
+US36,35724152,"[Continued] create new contract closeout record",IN_PROGRESS,9,Sprint 2
+US37,35724213,"[Continued] Select Property Zero Certifiers people",DEFINED,9,Sprint 2
+US40,35724372,"enter workflow status",NONE,9,Sprint 2
+US51,35734033,"view property list by property type per contract",DEFINED,9,Sprint 2
+US236,35808211,"sprint 1 feedback changes [should total < 10 hours]",IN_PROGRESS,0,Sprint 2
+US257,35809939,"upload attachments",DEFINED,9,Sprint 2
+US269,35811609,"sprint 2 defect fixes",DEFINED,0,Sprint 2
+US762,35904107,"[Continued] UX design for viewing and entering workflow status",IN_PROGRESS,0,Sprint 2
+US763,35910874,"[Continued] create user roles and permissions",DEFINED,0,Sprint 2
+US39,35724319,"receive new action notice",NONE,9,Sprint 3
+US41,35724433,"enter direction",NONE,9,Sprint 3
+US237,35808324,"sprint 2 feedback changes",NONE,0,Sprint 3
+US270,35811676,"sprint 3 defect fixes",NONE,0,Sprint 3
+US296,35815121,"export Solr results to Excel",NONE,9,Sprint 3
+US46,35733686,"inactivitiy escalation",NONE,9,Sprint 4
+US50,35733945,"direction notification",NONE,9,Sprint 4
+US238,35808383,"sprint 3 feedback changes",NONE,0,Sprint 4
+US271,35811743,"sprint 4 defect fixes",NONE,0,Sprint 4
+US239,35808442,"sprint 4 feedback changes",NONE,0,Sprint 5
+US272,35811810,"sprint 5 defect fixes",NONE,0,Sprint 5
+US240,35808492,"sprint 5 feedback changes",NONE,0,Sprint 6
+US273,35811877,"sprint 6 defect fixes",NONE,0,Sprint 6
+US241,35808542,"sprint 6 feedback changes",NONE,0,Sprint 7
+US274,35811945,"sprint 7 defect fixes",NONE,0,Sprint 7
+US242,35808593,"sprint 7 feedback changes",NONE,0,Sprint 8
+US263,35810772,"OMIS interruption",NONE,0,Sprint 8
+US275,35812012,"sprint 8 defect fixes",NONE,0,Sprint 8
+US243,35808646,"sprint 8 feedback changes",NONE,0,Sprint 9
+US276,35812079,"sprint 9 defect fixes",NONE,0,Sprint 9
+US244,35808696,"sprint 9 feedback changes",NONE,0,Sprint 10
+US277,35812146,"sprint 10 defect fixes",NONE,0,Sprint 10
+US245,35808746,"sprint 10 feedback changes",NONE,0,Sprint 11
+US278,35812213,"sprint 11 defect fixes",NONE,0,Sprint 11
+US246,35808796,"sprint 11 feedback changes",NONE,0,Sprint 12
+US282,35812736,"sprint 12 defect fixes",NONE,0,Sprint 12
+US279,35812535,"sprint 12 feedback changes",NONE,0,Sprint 13
+US283,35812803,"sprint 13 defect fixes",NONE,0,Sprint 13
+US280,35812602,"sprint 13 feedback changes",NONE,0,Sprint 14
+US284,35812870,"sprint 14 defect fixes",NONE,0,Sprint 14
+US281,35812669,"sprint 14 feedback changes",NONE,0,Sprint 15
+US285,35812938,"sprint 15 defect fixes",NONE,0,Sprint 15
+US745,35894551,"sprint 15 feedback changes",NONE,0,Sprint 16
+US746,35894631,"sprint 16 defect fixes",NONE,0,Sprint 16
+US248,35809057,"create Prod environment",NONE,0,Sprint 17
+US249,35809116,"Fortify scan at end",NONE,0,Sprint 17
+US251,35809270,"WebInspect & remediation, gate 10",NONE,0,Sprint 17
+US31,35723918,"Initiate Closeout",null,0,null
+US32,35723964,"Property Direction & Workflow",null,0,null
+US34,35724056,"Complete Closeout",null,0,null
+US35,35724102,"Utilization",null,0,null
+US38,35724266,"view received ICMS notifications",NONE,3,null
+US42,35724486,"Progress & Burndown",null,0,null
+US47,35733753,"system administration",null,0,null
+US48,35733799,"user help",null,0,null
+US49,35733849,"maintain responsible person list",NONE,9,null
+US52,35734116,"visual progress status display",NONE,1,null
+US53,35734187,"view aging problems",NONE,9,null
+US54,35734250,"view burndown of items",null,9,null
+US55,35734313,"apply permissions for viewing status",NONE,9,null
+US56,35734376,"escalation",NONE,9,null
+US57,35734439,"added item notification",NONE,9,null
+US58,35734516,"help document management",NONE,3,null
+US59,35734587,"available documents",NONE,9,null
+US61,35734713,"manage users & roles",null,9,null
+US62,35734781,"zero cert cycle time",NONE,9,null
+US63,35735152,"Disposition",null,0,null
+US64,35735208,"create & send PTR",NONE,9,null
+US65,35735285,"see on hand balance by CC admin",NONE,3,null
+US66,35735348,"view summary of all contracts in closure",NONE,9,null
+US67,35735414,"Property Views & Reports",null,0,null
+US68,35735469,"in labs",NONE,3,null
+US69,35735540,"compare EMMS, Vipers,  &  UPS",NONE,3,null
+US70,35735613,"compare EMMS and Prism",NONE,3,null
+US75,35736008,"user preferences",NONE,3,null
+US76,35736071,"Initiate Utilization",NONE,3,null
+US77,35736207,"notify of inventory date",NONE,3,null
+US78,35736303,"enter property status/actiom",NONE,3,null
+US79,35736424,"view Raytrak",NONE,1,null
+US80,35736487,"upload Mocas report",NONE,0,null
+US81,35736570,"edit auto ZC",NONE,3,null
+US83,35737087,"final ZC approval",NONE,9,null
+US84,35737158,"ZC letter",NONE,9,null
+US85,35737221,"files for cPDM",NONE,9,null
+US86,35737329,"Gov't Furnished Material",null,0,null
+US87,35737661,"IOT report",NONE,3,null
+US89,35738587,"Contract Admin updates PTR",NONE,9,null
+US93,35742344,"view contract exceptions",NONE,9,null
+US94,35742407,"view last count by storage unit",NONE,9,null
+US95,35742470,"see move status",NONE,3,null
+US96,35742533,"assign actions",NONE,9,null
+US150,35767967,"Data visuliation of burn down",NONE,0,null
+US151,35768036,"Calculate burn down",NONE,0,null
+US228,35806965,"view property on any contract",NONE,9,null
+US229,35807548,"IT Supporting Activities",null,0,null
+US230,35807594,"Production maintenance interruptions",null,0,null
+US231,35807655,"Data Migration",NONE,0,null
+US232,35807708,"Sprint Review Changes",null,0,null
+US234,35807814,"Defects & Refactoriing",null,0,null
+US235,35807867,"Chores, Processes, etc.",null,0,null
+US247,35808990,"create PreProd environment",NONE,0,null
+US250,35809175,"WebInspect & remediation, gate 7",NONE,0,null
+US252,35809334,"implement permissions",NONE,0,null
+US254,35809716,"Supporting user story stories",null,0,null
+US255,35809775,"create daily snapshots of property lists",NONE,9,null
+US256,35809876,""follow" a CC workflow",NONE,1,null
+US258,35810059,"RP approve or disapprove system ZC",NONE,3,null
+US259,35810342,"document tokenization",NONE,9,null
+US260,35810499,"manage users",NONE,0,null
+US261,35810614,"mid project refactoring",NONE,0,null
+US262,35810695,"Fortify scan at gate 6",NONE,0,null
+US264,35810949,"MPM: no inventory / auto zero cert option",NONE,3,null
+US265,35811016,"R&D: no inventory / auto zero cert option",NONE,3,null
+US266,35811083,"AEP: no inventory / auto zero cert option",NONE,3,null
+US267,35811150,"ProdCntl: no inventory / auto zero cert option",NONE,3,null
+US268,35811217,"GFM: no inventory / auto zero cert option",NONE,3,null
+US297,35815186,"learn Javascript testing framework",NONE,0,null
+US299,35815326,"learn Solr 6",NONE,0,null
+US651,35882392,"data segregation",NONE,0,null
+US653,35884843,"Phase 2 WebInspect & remediation, gate 10",NONE,0,null
+US654,35884913,"Phase 2 Fortify scan at end",NONE,0,null
+US747,35897465,"save search",NONE,9,null
+US755,35903382,"User Experience",null,0,null
+US757,35903538,"UX design for property (viewing list, viewing by contract, etc)",NONE,0,null
+US758,35903647,"UX design for GFM inventory",NONE,0,null
+US759,35903729,"UX design for viewing, creating, and editing inventory status",NONE,0,null
+US760,35903784,"UX design for visual progress status display",NONE,0,null
+US761,35903971,"UX design for ZC approval",NONE,0,null
+US901,35926256,"contracts nearing closure",NONE,3,null
+US905,35930174,"Placeholder: forgotten story",NONE,9,null
+US906,35935300,"GFM overview",NONE,9,null
+US907,35935467,"assignee updates",NONE,9,null
+US908,35935549,"create governement signoff ??",NONE,9,null
+US909,35935624,"disposition summary",NONE,9,null
+US912,35936899,"Display Worklist",NONE,9,null

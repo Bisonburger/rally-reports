@@ -1,0 +1,86 @@
+{"Project": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/project/35743125",
+    "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+    "_objectVersion": "10",
+    "_refObjectName": "CFM Data & Reporting",
+    "CreationDate": "2017-02-23T15:33:17.056Z",
+    "_CreatedAt": "Feb 23",
+    "ObjectID": 35743125,
+    "VersionId": "10",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/35545775",
+        "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+        "_refObjectName": "Business_Integration",
+        "_type": "Workspace"
+    },
+    "BuildDefinitions":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35743125/BuildDefinitions",
+        "_type": "BuildDefinition",
+        "Count": 1
+    },
+    "Children":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35743125/Children",
+        "_type": "Project",
+        "Count": 0
+    },
+    "Description": "Cross Functional Metrics",
+    "Editors":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35743125/Editors",
+        "_type": "User",
+        "Count": 13
+    },
+    "Iterations":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35743125/Iterations",
+        "_type": "Iteration",
+        "Count": 4
+    },
+    "Name": "CFM Data & Reporting",
+    "Notes": "",
+    "Owner":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/53903",
+        "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+        "_refObjectName": "Rhonda",
+        "_type": "User"
+    },
+    "Parent": null,
+    "Releases":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35743125/Releases",
+        "_type": "Release",
+        "Count": 1
+    },
+    "SchemaVersion": "5e22df7e7202e0155f63d93bb206d695",
+    "State": "Open",
+    "TeamMembers":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35743125/TeamMembers",
+        "_type": "User",
+        "Count": 8
+    },
+    "Errors": [],
+    "Warnings": []
+}}

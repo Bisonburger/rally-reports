@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35328618",
     "_refObjectUUID": "1ae46222-2a91-4a87-a9e1-43c84d4e7f5c",
-    "_objectVersion": "15",
+    "_objectVersion": "18",
     "_refObjectName": "Notifications - SECOND NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",
     "CreationDate": "2016-10-31T23:21:25.333Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35328618,
-    "VersionId": "15",
+    "VersionId": "18",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p><br /><\/p><p><br /><\/p>",
+    "Description": "<p><br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11156",
-    "LastUpdateDate": "2017-01-23T22:18:45.948Z",
+    "LastUpdateDate": "2017-02-15T23:59:07.379Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,

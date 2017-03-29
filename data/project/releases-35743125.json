@@ -1,0 +1,67 @@
+{"QueryResult": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "Errors": [],
+    "Warnings": [],
+    "TotalResultCount": 1,
+    "StartIndex": 1,
+    "PageSize": 200,
+    "Results": [    {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/release/35814605",
+        "_refObjectUUID": "8648dfcf-c319-482e-be59-ad5397a9e282",
+        "_objectVersion": "1",
+        "_refObjectName": "Release 1",
+        "CreationDate": "2017-03-02T20:29:43.115Z",
+        "_CreatedAt": "Mar 2",
+        "ObjectID": 35814605,
+        "VersionId": "1",
+        "Subscription":         {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/subscription/5104",
+            "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+            "_refObjectName": "raytheon_az_-163",
+            "_type": "Subscription"
+        },
+        "Workspace":         {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/workspace/35545775",
+            "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+            "_refObjectName": "Business_Integration",
+            "_type": "Workspace"
+        },
+        "Accepted": null,
+        "GrossEstimateConversionRatio": 1,
+        "Name": "Release 1",
+        "Notes": "",
+        "PlanEstimate": null,
+        "PlannedVelocity": null,
+        "Project":         {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/project/35743125",
+            "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+            "_refObjectName": "CFM Data & Reporting",
+            "_type": "Project"
+        },
+        "ReleaseDate": "2017-12-31T06:59:59.000Z",
+        "ReleaseStartDate": "2017-03-01T07:00:00.000Z",
+        "RevisionHistory":         {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/revisionhistory/35814607",
+            "_refObjectUUID": "5781cabf-bfb4-4b5e-b73d-9645a91a8be4",
+            "_type": "RevisionHistory"
+        },
+        "State": "Planning",
+        "TaskActualTotal": 140,
+        "TaskEstimateTotal": 2102,
+        "TaskRemainingTotal": 1603,
+        "Theme": "",
+        "Version": null,
+        "_type": "Release"
+    }]
+}}

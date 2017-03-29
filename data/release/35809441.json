@@ -1,0 +1,59 @@
+{"Release": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/release/35809441",
+    "_refObjectUUID": "51cee7a2-d0c4-458a-9ff8-a4c06da08435",
+    "_objectVersion": "6",
+    "_refObjectName": "April 2018",
+    "CreationDate": "2017-03-01T20:33:57.941Z",
+    "_CreatedAt": "Mar 1",
+    "ObjectID": 35809441,
+    "VersionId": "6",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/35545775",
+        "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+        "_refObjectName": "Business_Integration",
+        "_type": "Workspace"
+    },
+    "Accepted": null,
+    "GrossEstimateConversionRatio": 1,
+    "Name": "April 2018",
+    "Notes": "",
+    "PlanEstimate": 34,
+    "PlannedVelocity": null,
+    "Project":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/project/35723837",
+        "_refObjectUUID": "d2825bcd-6755-4bb6-ab24-65e423f70678",
+        "_refObjectName": "PRS  (PPM 287099)",
+        "_type": "Project"
+    },
+    "ReleaseDate": "2018-09-01T06:59:59.000Z",
+    "ReleaseStartDate": "2018-01-08T07:00:00.000Z",
+    "RevisionHistory":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/revisionhistory/35809443",
+        "_refObjectUUID": "0f22e6bb-56f5-444c-bc6f-2cc93c2f0820",
+        "_type": "RevisionHistory"
+    },
+    "State": "Planning",
+    "TaskActualTotal": 0,
+    "TaskEstimateTotal": 0,
+    "TaskRemainingTotal": 0,
+    "Theme": "",
+    "Version": null,
+    "Errors": [],
+    "Warnings": []
+}}

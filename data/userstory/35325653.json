@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35325653",
     "_refObjectUUID": "ae036739-6a80-4f71-96d3-2496da09dc4f",
-    "_objectVersion": "18",
-    "_refObjectName": "Discrepancy Resolution Process - I need the ability to make corrections such as \"no PTO/FMLA\" to \"FMLA\" has been approved - NEED MORE INFO",
+    "_objectVersion": "36",
+    "_refObjectName": "Discrepancy Resolution Process - I need the ability to make corrections such as \"no PTO/FMLA\" to \"FMLA\" has been approved",
     "CreationDate": "2016-10-31T23:11:30.030Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35325653,
-    "VersionId": "18",
+    "VersionId": "36",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>Role: Supervisor<\/p><p>According to the product owner, this capability is critical<\/p><p><br /><\/p><p>On 11/16/16 said they don't want to have: \"Enter \"No PTO/FMLA\", Enter partial company convenience\" which was originally documented&nbsp;in backlog<br /><\/p>",
+    "Description": "<p>Role: Supervisor<\/p><p>According to the product owner, this capability is critical<\/p><p><br /><\/p><p><br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11139",
-    "LastUpdateDate": "2017-01-31T20:46:56.214Z",
+    "LastUpdateDate": "2017-02-28T17:45:33.928Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Discrepancy Resolution Process - I need the ability to make corrections such as \"no PTO/FMLA\" to \"FMLA\" has been approved - NEED MORE INFO",
+    "Name": "Discrepancy Resolution Process - I need the ability to make corrections such as \"no PTO/FMLA\" to \"FMLA\" has been approved",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-02-28T17:45:33.890Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,8 +115,15 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hVCs}Ry^|$5+q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
-    "Iteration": null,
+    "InProgressDate": "2017-02-15T15:13:50.550Z",
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370548",
+        "_refObjectUUID": "bb4b0e00-4139-46d3-9762-45efd079e176",
+        "_refObjectName": "Sprint 7",
+        "_type": "Iteration"
+    },
     "Parent": null,
     "PlanEstimate": 5,
     "Predecessors":     {
@@ -142,10 +149,10 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
+    "TaskActualTotal": 4,
+    "TaskEstimateTotal": 5,
     "TaskRemainingTotal": 0,
-    "TaskStatus": "DEFINED",
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

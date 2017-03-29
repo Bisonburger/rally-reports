@@ -1,0 +1,396 @@
+{"QueryResult": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "Errors": [],
+    "Warnings": [],
+    "TotalResultCount": 7,
+    "StartIndex": 1,
+    "PageSize": 20,
+    "Results":     [
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/useriterationcapacity/35908772",
+            "_refObjectUUID": "0c4233ae-ce10-4aba-b769-ca3151b8ce89",
+            "_objectVersion": "1",
+            "CreationDate": "2017-03-09T16:06:15.384Z",
+            "_CreatedAt": "Mar 9",
+            "ObjectID": 35908772,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Capacity": 96,
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906852",
+                "_refObjectUUID": "4b360115-577d-41cd-83fe-f37c2e4e7fee",
+                "_refObjectName": "Sprint Mar (03/13-04/15)",
+                "_type": "Iteration"
+            },
+            "Load": 0.375,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "TaskEstimates": 36,
+            "User":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/49832",
+                "_refObjectUUID": "71fcfa23-9ff3-4538-8e61-b176448ec5bd",
+                "_refObjectName": "Daniel Millet",
+                "_type": "User"
+            },
+            "_type": "UserIterationCapacity"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/useriterationcapacity/35908776",
+            "_refObjectUUID": "d1b37ebd-77a4-4b1b-b865-fa355ee8f823",
+            "_objectVersion": "1",
+            "CreationDate": "2017-03-09T16:07:13.911Z",
+            "_CreatedAt": "Mar 9",
+            "ObjectID": 35908776,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Capacity": 128,
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906852",
+                "_refObjectUUID": "4b360115-577d-41cd-83fe-f37c2e4e7fee",
+                "_refObjectName": "Sprint Mar (03/13-04/15)",
+                "_type": "Iteration"
+            },
+            "Load": 1.09375,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "TaskEstimates": 140,
+            "User":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/871246",
+                "_refObjectUUID": "9f6c850f-d1b4-49d7-af36-ec521d11b412",
+                "_refObjectName": "John King",
+                "_type": "User"
+            },
+            "_type": "UserIterationCapacity"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/useriterationcapacity/35908780",
+            "_refObjectUUID": "94aaaa39-6e76-485f-abec-4d7b2fd64ac2",
+            "_objectVersion": "1",
+            "CreationDate": "2017-03-09T16:07:22.576Z",
+            "_CreatedAt": "Mar 9",
+            "ObjectID": 35908780,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Capacity": 128,
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906852",
+                "_refObjectUUID": "4b360115-577d-41cd-83fe-f37c2e4e7fee",
+                "_refObjectName": "Sprint Mar (03/13-04/15)",
+                "_type": "Iteration"
+            },
+            "Load": 0.5625,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "TaskEstimates": 72,
+            "User":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/35907379",
+                "_refObjectUUID": "29f6f9f2-9aa5-4b9c-b0f1-68f3f875fee1",
+                "_refObjectName": "Mark B",
+                "_type": "User"
+            },
+            "_type": "UserIterationCapacity"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/useriterationcapacity/35908784",
+            "_refObjectUUID": "09b44428-0363-4936-bce5-ee33906b8bb2",
+            "_objectVersion": "1",
+            "CreationDate": "2017-03-09T16:07:27.335Z",
+            "_CreatedAt": "Mar 9",
+            "ObjectID": 35908784,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Capacity": 96,
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906852",
+                "_refObjectUUID": "4b360115-577d-41cd-83fe-f37c2e4e7fee",
+                "_refObjectName": "Sprint Mar (03/13-04/15)",
+                "_type": "Iteration"
+            },
+            "Load": 0.7083333333333334,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "TaskEstimates": 68,
+            "User":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/35907419",
+                "_refObjectUUID": "07af46a3-2fa5-4e7d-a2fe-50c3d9eb0c6a",
+                "_refObjectName": "Jesse C",
+                "_type": "User"
+            },
+            "_type": "UserIterationCapacity"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/useriterationcapacity/35948296",
+            "_refObjectUUID": "af43984d-c9f3-4ebf-87e7-2141fc681c34",
+            "_objectVersion": "1",
+            "CreationDate": "2017-03-24T16:44:10.297Z",
+            "_CreatedAt": "Mar 24",
+            "ObjectID": 35948296,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Capacity": null,
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906852",
+                "_refObjectUUID": "4b360115-577d-41cd-83fe-f37c2e4e7fee",
+                "_refObjectName": "Sprint Mar (03/13-04/15)",
+                "_type": "Iteration"
+            },
+            "Load": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "TaskEstimates": 67,
+            "User":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/54648",
+                "_refObjectUUID": "a262d5c7-5211-41b4-85ff-88eeb5f12871",
+                "_refObjectName": "Wasiq",
+                "_type": "User"
+            },
+            "_type": "UserIterationCapacity"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/useriterationcapacity/35948338",
+            "_refObjectUUID": "b6359e9a-d5ee-4860-8357-c88ff2818024",
+            "_objectVersion": "1",
+            "CreationDate": "2017-03-24T16:48:26.803Z",
+            "_CreatedAt": "Mar 24",
+            "ObjectID": 35948338,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Capacity": null,
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906852",
+                "_refObjectUUID": "4b360115-577d-41cd-83fe-f37c2e4e7fee",
+                "_refObjectName": "Sprint Mar (03/13-04/15)",
+                "_type": "Iteration"
+            },
+            "Load": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "TaskEstimates": 0,
+            "User":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/34996915",
+                "_refObjectUUID": "7b864881-f6f1-45c5-a1b4-c2007a466b4f",
+                "_refObjectName": "Diana R",
+                "_type": "User"
+            },
+            "_type": "UserIterationCapacity"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/useriterationcapacity/35953324",
+            "_refObjectUUID": "68eb77c6-518d-474e-aa5b-5df77adddc8b",
+            "_objectVersion": "1",
+            "CreationDate": "2017-03-27T16:09:25.466Z",
+            "_CreatedAt": "Mar 27",
+            "ObjectID": 35953324,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Capacity": null,
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35906852",
+                "_refObjectUUID": "4b360115-577d-41cd-83fe-f37c2e4e7fee",
+                "_refObjectName": "Sprint Mar (03/13-04/15)",
+                "_type": "Iteration"
+            },
+            "Load": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35743125",
+                "_refObjectUUID": "fe437444-dbc8-4c07-a3bb-4a8d0100fa01",
+                "_refObjectName": "CFM Data & Reporting",
+                "_type": "Project"
+            },
+            "TaskEstimates": 4,
+            "User":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/35715095",
+                "_refObjectUUID": "b19f3ddc-ed01-4765-b6ab-f22d8582c274",
+                "_refObjectName": "Mark",
+                "_type": "User"
+            },
+            "_type": "UserIterationCapacity"
+        }
+    ]
+}}

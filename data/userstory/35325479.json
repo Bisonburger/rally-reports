@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35325479",
     "_refObjectUUID": "e2e70411-02bf-4186-ab0b-427dd7a575cf",
-    "_objectVersion": "29",
-    "_refObjectName": "Discrepancy Resolution Process - I need the ability to add discrepancies in the AMS tool in the event that PRISM is not providing that data to the application -- PERMISSIONS TBD",
+    "_objectVersion": "40",
+    "_refObjectName": "Discrepancy Resolution Process - I need the ability to add discrepancies in the AMS tool in the event that PRISM is not providing that data to the application",
     "CreationDate": "2016-10-31T23:10:57.440Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35325479,
-    "VersionId": "29",
+    "VersionId": "40",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>Role: Supervisor<\/p><p>According to the product owner, this capability is critical<\/p><p>TBD: what permissions are needed for this?<\/p><p><br /><\/p>",
+    "Description": "<p>Role: Supervisor<\/p><p>According to the product owner, this capability is critical<\/p><p><br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11138",
-    "LastUpdateDate": "2017-02-02T16:07:48.166Z",
+    "LastUpdateDate": "2017-02-15T18:13:26.988Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Discrepancy Resolution Process - I need the ability to add discrepancies in the AMS tool in the event that PRISM is not providing that data to the application -- PERMISSIONS TBD",
+    "Name": "Discrepancy Resolution Process - I need the ability to add discrepancies in the AMS tool in the event that PRISM is not providing that data to the application",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-02-15T18:13:26.959Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,7 +115,7 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hN}QXEMCQ~1Jb>D8P!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
+    "InProgressDate": "2017-02-09T21:09:53.501Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -149,10 +149,10 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
+    "TaskActualTotal": 11,
     "TaskEstimateTotal": 10,
-    "TaskRemainingTotal": 10,
-    "TaskStatus": "DEFINED",
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

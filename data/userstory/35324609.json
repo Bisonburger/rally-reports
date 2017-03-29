@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35324609",
     "_refObjectUUID": "e53b86b8-0889-42b1-9478-1833da4c362c",
-    "_objectVersion": "17",
-    "_refObjectName": "Discrepancy Resolution Process - I need to adjust modified work schedule for factories to decrease the number of incorrectly identified discrepancies so that I can save time by not having to resolve these - NEED MORE INFO.",
+    "_objectVersion": "20",
+    "_refObjectName": "Discrepancy Resolution Process - I need to adjust modified work schedule for factories to decrease the number of incorrectly identified discrepancies so that I can save time by not having to resolve these",
     "CreationDate": "2016-10-31T23:08:18.433Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35324609,
-    "VersionId": "17",
+    "VersionId": "20",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>Role: Supervisor<\/p><p>this is when PRISM has different work schedule than what the factory has<\/p><p>this should go maybe in the admin section<\/p><p>Need more info on this<\/p>",
+    "Description": "<p>Role: Supervisor<\/p><p>this is when PRISM has different work schedule than what the factory has<\/p><p>this should go maybe in the admin section<\/p><p>Tucson bargaining unit employees don't have 9/80 nor 4/10 schedules. Only Dine has those schedules for bargaining unit employees / contractors.<\/p><p>Use of PTO on a Holiday should trigger a ding - Kerry Bollman and Karen Molina 3/7. Reasoning: it isn't too cumbersome to clear the discrepancy for the small number that this happens to.<\/p><p><br /><\/p><p><br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11133",
-    "LastUpdateDate": "2017-01-31T20:52:17.433Z",
+    "LastUpdateDate": "2017-03-08T16:29:45.566Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Discrepancy Resolution Process - I need to adjust modified work schedule for factories to decrease the number of incorrectly identified discrepancies so that I can save time by not having to resolve these - NEED MORE INFO.",
+    "Name": "Discrepancy Resolution Process - I need to adjust modified work schedule for factories to decrease the number of incorrectly identified discrepancies so that I can save time by not having to resolve these",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,

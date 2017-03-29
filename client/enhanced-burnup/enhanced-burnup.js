@@ -139,6 +139,7 @@ function EnhancedBurnupChart() {
         if (maxPlanned <= 0) {
             $("#myChart").hide();
             $("#noData").show();
+            $("#velocityTrend").hide();
         }
         else {
             var options = {
@@ -222,6 +223,7 @@ function EnhancedBurnupChart() {
             var ctx = $("#myChart");
             ctx.show();
             $("#noData").hide();
+            $("#velocityTrend").show();
 
             if( chart ) chart.destroy();
             
@@ -236,7 +238,7 @@ function EnhancedBurnupChart() {
     function acceptedIn(story, iterations) {
         var lastIterationName = "UNASSIGNED";
         var storyAcceptedDate = new Date(story.AcceptedDate);
-        var storyCompleted = (story.ScheduleState === 'Accepted' || story.ScheduleState === 'Completed' && story.AcceptedDate);
+        var storyCompleted = (story.ScheduleState === 'Accepted' || (story.ScheduleState === 'Completed' && story.AcceptedDate ) );
         if (storyCompleted) {
             iterations.forEach(function(iteration) {
                 if (storyAcceptedDate >= new Date(iteration.StartDate) && storyAcceptedDate <= new Date(iteration.EndDate))
@@ -250,6 +252,7 @@ function EnhancedBurnupChart() {
      * Build the chart data for a set of user stories for a given field name
      */
     function buildChartData(userStories, iterations) {
+        
         var iterHash = {};
 
         iterations.sort(function(a, b) {
@@ -270,37 +273,49 @@ function EnhancedBurnupChart() {
                 c_planned: 0
             };
         });
-
+        
         // build actuals/planned
         userStories.forEach(function(story) {
+            
             var iterationName = (story.Iteration) ? story.Iteration.Name : 'UNASSIGNED';
             var storyCompleted = (story.ScheduleState === 'Accepted' || story.ScheduleState === 'Completed') ? 1 : 0;
+            
             if (storyCompleted ) {
                 var acceptedIter = acceptedIn(story, iterations);
+                console.log( 'Story ' + story.FormattedID + ':' + story.Name + ' completed in iteration ' + acceptedIter );
                 if (iterHash[acceptedIter])
                     iterHash[acceptedIter].accepted += story.PlanEstimate;
             }
-            if( story.Iteration ) iterHash[iterationName].planned += story.PlanEstimate;
+            if( story.Iteration && iterationName !== 'UNASSIGNED' ){
+                if( iterHash[iterationName] )
+                    iterHash[iterationName].planned += story.PlanEstimate;
+            }
         });
+
+
 
         // build cumulatives
         var lastKey = undefined;
 
 
-
-        iterations.map(function(i) {
-            return i.Name;
-        }).forEach(function(iteration) {
+        
+        iterations.map(function(i) {return i.Name;}).forEach(function(iteration) {
             var lastValue = (lastKey) ? iterHash[lastKey] : {
                 accepted: 0,
                 planned: 0,
                 c_accepted: 0,
                 c_planned: 0
             };
-            iterHash[iteration].c_accepted += (iterHash[iteration].end <= new Date() ) ? lastValue.c_accepted + iterHash[iteration].accepted : undefined;
+            
+            if( !iterHash[iteration].accepted ) iterHash[iteration].accepted = 0;
+            if( !iterHash[iteration].planned ) iterHash[iteration].planned = 0;
+            
+            iterHash[iteration].c_accepted += (iterHash[iteration].start <= new Date() ) ? (lastValue.c_accepted + iterHash[iteration].accepted) : undefined;
             iterHash[iteration].c_planned += lastValue.c_planned + iterHash[iteration].planned;
+            
             lastKey = iteration;
         });
+        
 
         return iterHash;
     }
@@ -313,8 +328,9 @@ function EnhancedBurnupChart() {
                 if (selectedRelease) {
                     stories = stories.filter(function(story) {return (story.Release && story.Release._ref === selectedRelease._ref);});
                 }
-
+                
                 rally.getIterationsForProject(prj).then(function(iters) {
+                    
                     $.when.apply(null, rally.hydrateIterationsForProject(iters)).then(function() {
                         $.when.apply(null, rally.hydrateIterations(stories)).then(function() {
                             var chartValues = buildChartData(stories, iters);
@@ -346,6 +362,7 @@ function EnhancedBurnupChart() {
                         updateChart(project.ObjectID.toString());
                         updateReleases(project.ObjectID.toString());
                     }
+                    if( project.Children.Count === 0 )
                     projSelect.append($('<option></option>').val(project.ObjectID.toString()).html(project._refObjectName + ' - ' + project.Description));
                 });
 

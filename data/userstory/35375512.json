@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35375512",
     "_refObjectUUID": "da967346-4162-45b5-b1bd-e86ff8a42600",
-    "_objectVersion": "4",
+    "_objectVersion": "33",
     "_refObjectName": "Backlog Refinement SP8",
     "CreationDate": "2016-11-03T23:28:31.777Z",
     "_CreatedAt": "Nov 3, 2016",
     "ObjectID": 35375512,
-    "VersionId": "4",
+    "VersionId": "33",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11191",
-    "LastUpdateDate": "2017-01-18T21:12:08.618Z",
+    "LastUpdateDate": "2017-03-29T18:46:38.051Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -61,7 +61,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/project/35271257",
         "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-        "_refObjectName": "AVO / AMS Enhancements",
+        "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
     "Ready": false,
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-03-29T18:46:38.009Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,7 +115,7 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hKrQM&sjdS5+q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
+    "InProgressDate": "2017-03-15T16:20:00.986Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -149,16 +149,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
+    "TaskActualTotal": 90.75,
+    "TaskEstimateTotal": 70,
     "TaskRemainingTotal": 0,
-    "TaskStatus": "NONE",
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35375512/Tasks",
         "_type": "Task",
-        "Count": 0
+        "Count": 5
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {
@@ -171,7 +171,7 @@
     "c_ACv4ReqID": null,
     "c_AISRequirementID": null,
     "c_ANTReqID": null,
-    "c_BizValue": null,
+    "c_BizValue": 1,
     "c_CAPTSReqID": null,
     "c_COTSAISReqID": null,
     "c_CromaReqID": null,
