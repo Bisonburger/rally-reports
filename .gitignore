@@ -2,3 +2,5 @@ dist
 node_modules
 .c9
 **/*-browserify.js
+/.project
+/.settings/

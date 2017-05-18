@@ -25,7 +25,8 @@ var gulp = require('gulp'),
     fs = require('fs'),
     Q = require('q'),
     url = require('url'),
-    sleep = require('system-sleep');
+    sleep = require('system-sleep'),
+    runSequence = require('run-sequence');
 
 
 /**
@@ -168,7 +169,36 @@ function getReleases(projectId) {
  * 
  */
  // '35271257','34279769','35308565','35743125', '35615624', '35723837', '35734993', '35734880' 
-function generateDataTask(){
+
+// Note that we need to 'slow down' as Rally will lock the user account due to too much activity...
+
+gulp.task( 'generate-part1', () => {
+    ['35271257','34279769','35308565'].forEach( (projectId) =>{
+        console.log( `Building data for ${projectId}`);
+        getProjectData(projectId);
+        sleep(5000);
+        getStories(projectId);
+        sleep(5000);
+        getReleases(projectId);
+        sleep(5000);
+    });
+    
+});
+
+gulp.task( 'generate-part2', () => {
+    ['35743125', '35615624', '35723837'].forEach( (projectId) =>{
+        console.log( `Building data for ${projectId}`);
+        getProjectData(projectId);
+        sleep(5000);
+        getStories(projectId);
+        sleep(5000);
+        getReleases(projectId);
+        sleep(5000);
+    });
+    
+});
+
+gulp.task( 'generate-part3', () => {
     ['35734993', '35734880'].forEach( (projectId) =>{
         console.log( `Building data for ${projectId}`);
         getProjectData(projectId);
@@ -178,13 +208,19 @@ function generateDataTask(){
         getReleases(projectId);
         sleep(5000);
     });
+});
+
+
+function generateDataTask(){
+  runSequence('generate-par1','generate-part2', 'generate-part3');
 }
 
-
 gulp.task( 'generate-data', function(){
+    /*
     getDataFromURL(`https://agile.rms.ray.com/slm/webservice/v2.0/project?pretty=true`).then( function(rawProjectList){
         fs.writeFileSync(`./data/projects.json`, rawProjectList.replace(/https:\/\/agile.rms.ray.com/g, ''));
-    });   
+    });
+    */
     generateDataTask();
 });
 

@@ -30,12 +30,11 @@ if (typeof require === 'function') {
 
 function EnhancedBurnupChart() {
 
-    var rally = new RallyAPI();
-    var selectedProject = null;
-    var selectedRelease = null;
-    var type = 'ALL';
-    
-    var chart = undefined;
+    var rally = new RallyAPI(),
+        selectedProject = null,
+        selectedRelease = null,
+        type = 'ALL',
+        chart = undefined;
 
     this.updateReleases = updateReleases;
     this.extrapolateBurnup = extrapolateBurnup;
@@ -74,20 +73,23 @@ function EnhancedBurnupChart() {
             });
         });
     }
-    
-    function averageVelocity(chartValues, iterations ){
+
+    function averageVelocity(chartValues, iterations) {
         var actives =
             iterations.filter(function(s) {
                 return new Date(s.EndDate) <= new Date();
             }).map(function(sp) {
                 return chartValues[sp.Name].accepted;
             });
-            
-            var sum = actives.reduce(function (p, c ) {
-                return p + c;
-            });
-            
-            return { mean: sum / actives.length, last: actives[actives.length-1] };
+
+        var sum = actives.reduce(function(p, c) {
+            return p + c;
+        });
+
+        return {
+            mean: sum / actives.length,
+            last: actives[actives.length - 1]
+        };
     }
 
     /**
@@ -104,9 +106,9 @@ function EnhancedBurnupChart() {
                 return chartValues[sp.Name].c_accepted;
             });
 
-        var aV = averageVelocity( chartValues, iterations);
-        
-        $('#velocityTrend').html( 'Mean Velocity: ' + aV.mean + ((aV.last > aV.mean)? '<span style="color: green">&#x25B2;</span>' : (aV.last < aV.mean)? '<span style="color: red">&#x25BC;</span>' : ''));
+        var aV = averageVelocity(chartValues, iterations);
+
+        $('#velocityTrend').html('Mean Velocity: ' + aV.mean + ((aV.last > aV.mean) ? '<span style="color: green">&#x25B2;</span>' : (aV.last < aV.mean) ? '<span style="color: red">&#x25BC;</span>' : ''));
 
         var ex = new extrapolate();
 
@@ -166,15 +168,18 @@ function EnhancedBurnupChart() {
                 layout: {
                     padding: 10
                 },
-                hover: { mode: 'x' },
+                hover: {
+                    mode: 'x'
+                },
                 tooltips: {
-                    mode: 'x',
+                    mode: 'x' /*,
                     callbacks: {
+                        
                         label(tooltipItem, data) {
                             var dataset = data.datasets[tooltipItem.datasetIndex];
                             return ' ' + dataset.label + ': ' + dataset.data[tooltipItem.index] + ' Points';
                         }
-                    }
+                    }*/
 
                 }
             };
@@ -194,8 +199,7 @@ function EnhancedBurnupChart() {
                         backgroundColor: 'rgba(52, 101, 170, 0.3)',
                         pointBorderColor: '#3465AA',
                         pointBackgroundColor: '#3465AA'
-                    }, 
-                    {
+                    }, {
                         label: 'Projected',
                         data: extrapolateBurnup(chartValues, iterations),
                         type: 'line',
@@ -208,14 +212,13 @@ function EnhancedBurnupChart() {
                         backgroundColor: 'black',
                         pointBorderColor: 'black',
                         pointBackgroundColor: 'black'
-                    },
-                    {
+                    }, {
                         label: "Planned",
                         data: Object.keys(chartValues).map(function(e) {
                             return chartValues[e].c_planned;
                         }),
                         backgroundColor: '#E8D7AB',
-                    } 
+                    }
 
                 ]
             };
@@ -225,8 +228,8 @@ function EnhancedBurnupChart() {
             $("#noData").hide();
             $("#velocityTrend").show();
 
-            if( chart ) chart.destroy();
-            
+            if (chart) chart.destroy();
+
             chart = new Chart(ctx, {
                 type: 'bar',
                 data: data,
@@ -238,7 +241,7 @@ function EnhancedBurnupChart() {
     function acceptedIn(story, iterations) {
         var lastIterationName = "UNASSIGNED";
         var storyAcceptedDate = new Date(story.AcceptedDate);
-        var storyCompleted = (story.ScheduleState === 'Accepted' || (story.ScheduleState === 'Completed' && story.AcceptedDate ) );
+        var storyCompleted = (story.ScheduleState === 'Accepted' || (story.ScheduleState === 'Completed' && story.AcceptedDate));
         if (storyCompleted) {
             iterations.forEach(function(iteration) {
                 if (storyAcceptedDate >= new Date(iteration.StartDate) && storyAcceptedDate <= new Date(iteration.EndDate))
@@ -252,7 +255,7 @@ function EnhancedBurnupChart() {
      * Build the chart data for a set of user stories for a given field name
      */
     function buildChartData(userStories, iterations) {
-        
+
         var iterHash = {};
 
         iterations.sort(function(a, b) {
@@ -273,21 +276,21 @@ function EnhancedBurnupChart() {
                 c_planned: 0
             };
         });
-        
+
         // build actuals/planned
         userStories.forEach(function(story) {
-            
+
             var iterationName = (story.Iteration) ? story.Iteration.Name : 'UNASSIGNED';
             var storyCompleted = (story.ScheduleState === 'Accepted' || story.ScheduleState === 'Completed') ? 1 : 0;
-            
-            if (storyCompleted ) {
+
+            if (storyCompleted) {
                 var acceptedIter = acceptedIn(story, iterations);
-                console.log( 'Story ' + story.FormattedID + ':' + story.Name + ' completed in iteration ' + acceptedIter );
+                console.log('Story ' + story.FormattedID + ':' + story.Name + ' completed in iteration ' + acceptedIter);
                 if (iterHash[acceptedIter])
                     iterHash[acceptedIter].accepted += story.PlanEstimate;
             }
-            if( story.Iteration && iterationName !== 'UNASSIGNED' ){
-                if( iterHash[iterationName] )
+            if (story.Iteration && iterationName !== 'UNASSIGNED') {
+                if (iterHash[iterationName])
                     iterHash[iterationName].planned += story.PlanEstimate;
             }
         });
@@ -298,24 +301,26 @@ function EnhancedBurnupChart() {
         var lastKey = undefined;
 
 
-        
-        iterations.map(function(i) {return i.Name;}).forEach(function(iteration) {
+
+        iterations.map(function(i) {
+            return i.Name;
+        }).forEach(function(iteration) {
             var lastValue = (lastKey) ? iterHash[lastKey] : {
                 accepted: 0,
                 planned: 0,
                 c_accepted: 0,
                 c_planned: 0
             };
-            
-            if( !iterHash[iteration].accepted ) iterHash[iteration].accepted = 0;
-            if( !iterHash[iteration].planned ) iterHash[iteration].planned = 0;
-            
-            iterHash[iteration].c_accepted += (iterHash[iteration].start <= new Date() ) ? (lastValue.c_accepted + iterHash[iteration].accepted) : undefined;
+
+            if (!iterHash[iteration].accepted) iterHash[iteration].accepted = 0;
+            if (!iterHash[iteration].planned) iterHash[iteration].planned = 0;
+
+            iterHash[iteration].c_accepted += (iterHash[iteration].start <= new Date()) ? (lastValue.c_accepted + iterHash[iteration].accepted) : undefined;
             iterHash[iteration].c_planned += lastValue.c_planned + iterHash[iteration].planned;
-            
+
             lastKey = iteration;
         });
-        
+
 
         return iterHash;
     }
@@ -326,11 +331,13 @@ function EnhancedBurnupChart() {
             rally.getStoriesForProject(prj).then(function(stories) {
                 //TODO: filter stories by release
                 if (selectedRelease) {
-                    stories = stories.filter(function(story) {return (story.Release && story.Release._ref === selectedRelease._ref);});
+                    stories = stories.filter(function(story) {
+                        return (story.Release && story.Release._ref === selectedRelease._ref);
+                    });
                 }
-                
+
                 rally.getIterationsForProject(prj).then(function(iters) {
-                    
+
                     $.when.apply(null, rally.hydrateIterationsForProject(iters)).then(function() {
                         $.when.apply(null, rally.hydrateIterations(stories)).then(function() {
                             var chartValues = buildChartData(stories, iters);
@@ -362,17 +369,15 @@ function EnhancedBurnupChart() {
                         updateChart(project.ObjectID.toString());
                         updateReleases(project.ObjectID.toString());
                     }
-                    if( project.Children.Count === 0 )
                     projSelect.append($('<option></option>').val(project.ObjectID.toString()).html(project._refObjectName + ' - ' + project.Description));
                 });
-
             });
         });
     }
 
     return this;
 
-}
+};
 
 if (typeof module !== 'undefined')
     module.exports = EnhancedBurnupChart;
