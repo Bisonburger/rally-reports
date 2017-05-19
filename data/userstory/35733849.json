@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35733849",
     "_refObjectUUID": "0d540e05-5599-463d-b388-0b20820419bc",
-    "_objectVersion": "7",
-    "_refObjectName": "maintain responsible person list",
+    "_objectVersion": "8",
+    "_refObjectName": "maintain contract type & duration list",
     "CreationDate": "2017-02-21T18:20:53.255Z",
     "_CreatedAt": "Feb 21",
     "ObjectID": 35733849,
-    "VersionId": "7",
+    "VersionId": "8",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>as a Program Manager I need to maintain the list of responsible people in my program so they can be correctly assigned<\/p><p><br /><\/p><p>Developer Question:<\/p><p>Does system need to maintain history of users in list? Activity workflow keeps track of all info for given processes.<\/p>",
+    "Description": "<p>as a Program Manager I need to maintain the list of contract types and durations so it is correct<\/p><ul><li>contract type<\/li><li>description<\/li><li>duration in days<br /><\/li><\/ul><p>.<\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US49",
-    "LastUpdateDate": "2017-03-14T19:19:24.663Z",
+    "LastUpdateDate": "2017-03-30T18:01:31.477Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "maintain responsible person list",
+    "Name": "maintain contract type & duration list",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -134,14 +134,7 @@
         "Count": 0
     },
     "Recycled": false,
-    "Release":     {
-        "_rallyAPIMajor": "2",
-        "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/release/35734891",
-        "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
-        "_refObjectName": "Dec 2017",
-        "_type": "Release"
-    },
+    "Release": null,
     "Successors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -168,7 +161,7 @@
         "_type": "TestCase",
         "Count": 0
     },
-    "c_BizValue": 9,
+    "c_BizValue": 1,
     "Feature": null,
     "PortfolioItem": null,
     "Errors": [],

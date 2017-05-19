@@ -1,0 +1,1586 @@
+{"QueryResult": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "Errors": [],
+    "Warnings": [],
+    "TotalResultCount": 9,
+    "StartIndex": 1,
+    "PageSize": 20,
+    "Results":     [
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35871970",
+            "_refObjectUUID": "a566c30c-84e9-43fb-ba0c-f42e99f8ca67",
+            "_objectVersion": "8",
+            "_refObjectName": "(RPT) Develop R&D Reutilization & Disposal Universe IDT",
+            "CreationDate": "2017-03-06T21:57:36.856Z",
+            "_CreatedAt": "Mar 6",
+            "ObjectID": 35871970,
+            "VersionId": "8",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35871970/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35871970/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US609",
+            "LastUpdateDate": "2017-03-06T22:57:07.503Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35871970/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "(RPT) Develop R&D Reutilization & Disposal Universe IDT",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/54648",
+                "_refObjectUUID": "a262d5c7-5211-41b4-85ff-88eeb5f12871",
+                "_refObjectName": "Wasiq",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734993",
+                "_refObjectUUID": "b0797f7e-f500-4649-b56f-8a8c66a1fa7a",
+                "_refObjectName": "PRS Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35871971",
+                "_refObjectUUID": "a79f6c3c-e187-447e-9501-91bd53ef47fd",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35871970/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35871970/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35871970/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35871970/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~{uO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35871821",
+                "_refObjectUUID": "e2b8fb3e-687e-408b-8cea-202e2049e756",
+                "_refObjectName": "(RPT) Develop R&D Reutilization & Disposal Analytics Reports - Webi",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 3.5,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35871970/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release": null,
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35871970/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 1
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35871970/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35871970/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35872069",
+            "_refObjectUUID": "019d163c-3dc5-4375-8c7e-3a3711a4dca0",
+            "_objectVersion": "17",
+            "_refObjectName": "(RPT) Develop R&D Reutilization & Disposal Analytics Webi Reports",
+            "CreationDate": "2017-03-06T21:57:38.452Z",
+            "_CreatedAt": "Mar 6",
+            "ObjectID": 35872069,
+            "VersionId": "17",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872069/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872069/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US610",
+            "LastUpdateDate": "2017-03-06T22:58:30.946Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872069/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "(RPT) Develop R&D Reutilization & Disposal Analytics Webi Reports",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/54648",
+                "_refObjectUUID": "a262d5c7-5211-41b4-85ff-88eeb5f12871",
+                "_refObjectName": "Wasiq",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734993",
+                "_refObjectUUID": "b0797f7e-f500-4649-b56f-8a8c66a1fa7a",
+                "_refObjectName": "PRS Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35872070",
+                "_refObjectUUID": "4156633e-2816-4da0-b137-abd2b22e5b9d",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872069/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872069/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872069/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872069/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~{ugO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35871821",
+                "_refObjectUUID": "e2b8fb3e-687e-408b-8cea-202e2049e756",
+                "_refObjectName": "(RPT) Develop R&D Reutilization & Disposal Analytics Reports - Webi",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 2,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872069/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 1
+            },
+            "Recycled": false,
+            "Release": null,
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872069/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 2
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872069/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872069/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35872216",
+            "_refObjectUUID": "7d0581b3-26a0-43e9-a09b-3858f4faaf9c",
+            "_objectVersion": "7",
+            "_refObjectName": "(RPT) Document R&D Reutilization & Disposal Analytics Reports",
+            "CreationDate": "2017-03-06T21:57:39.687Z",
+            "_CreatedAt": "Mar 6",
+            "ObjectID": 35872216,
+            "VersionId": "7",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872216/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872216/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US611",
+            "LastUpdateDate": "2017-03-06T22:55:11.145Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872216/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "(RPT) Document R&D Reutilization & Disposal Analytics Reports",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/54648",
+                "_refObjectUUID": "a262d5c7-5211-41b4-85ff-88eeb5f12871",
+                "_refObjectName": "Wasiq",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734993",
+                "_refObjectUUID": "b0797f7e-f500-4649-b56f-8a8c66a1fa7a",
+                "_refObjectName": "PRS Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35872217",
+                "_refObjectUUID": "766d9feb-a059-4ae2-ad44-91dfc106bb64",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872216/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872216/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872216/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872216/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~{us8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35871821",
+                "_refObjectUUID": "e2b8fb3e-687e-408b-8cea-202e2049e756",
+                "_refObjectName": "(RPT) Develop R&D Reutilization & Disposal Analytics Reports - Webi",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 1.5,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872216/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 1
+            },
+            "Recycled": false,
+            "Release": null,
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872216/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872216/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872216/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35872313",
+            "_refObjectUUID": "321d99d9-ec72-4344-ba8b-d6d93758bf2a",
+            "_objectVersion": "12",
+            "_refObjectName": "(RPT) Test R&D Reutilization & Disposal Analytics Reports",
+            "CreationDate": "2017-03-06T21:57:40.402Z",
+            "_CreatedAt": "Mar 6",
+            "ObjectID": 35872313,
+            "VersionId": "12",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872313/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872313/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US612",
+            "LastUpdateDate": "2017-03-06T22:58:56.956Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872313/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "(RPT) Test R&D Reutilization & Disposal Analytics Reports",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/54648",
+                "_refObjectUUID": "a262d5c7-5211-41b4-85ff-88eeb5f12871",
+                "_refObjectName": "Wasiq",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734993",
+                "_refObjectUUID": "b0797f7e-f500-4649-b56f-8a8c66a1fa7a",
+                "_refObjectName": "PRS Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35872314",
+                "_refObjectUUID": "b9503e71-8022-48f9-a759-067906cdcbe9",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872313/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872313/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872313/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872313/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~{uy,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35871821",
+                "_refObjectUUID": "e2b8fb3e-687e-408b-8cea-202e2049e756",
+                "_refObjectName": "(RPT) Develop R&D Reutilization & Disposal Analytics Reports - Webi",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 2,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872313/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 1
+            },
+            "Recycled": false,
+            "Release": null,
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872313/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 1
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872313/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872313/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35872436",
+            "_refObjectUUID": "efcb4bb9-32f1-493d-ac6d-8ed5361f8b1d",
+            "_objectVersion": "7",
+            "_refObjectName": "(RPT) Peer Review R&D Reutilization & Disposal Analytics Reports",
+            "CreationDate": "2017-03-06T21:57:42.158Z",
+            "_CreatedAt": "Mar 6",
+            "ObjectID": 35872436,
+            "VersionId": "7",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872436/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872436/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US613",
+            "LastUpdateDate": "2017-03-06T22:57:10.834Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872436/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "(RPT) Peer Review R&D Reutilization & Disposal Analytics Reports",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/54648",
+                "_refObjectUUID": "a262d5c7-5211-41b4-85ff-88eeb5f12871",
+                "_refObjectName": "Wasiq",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734993",
+                "_refObjectUUID": "b0797f7e-f500-4649-b56f-8a8c66a1fa7a",
+                "_refObjectName": "PRS Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35872437",
+                "_refObjectUUID": "63e3147a-fb9c-4eeb-8c3a-bc57eed1e099",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872436/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872436/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872436/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872436/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~{u|&s8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35871821",
+                "_refObjectUUID": "e2b8fb3e-687e-408b-8cea-202e2049e756",
+                "_refObjectName": "(RPT) Develop R&D Reutilization & Disposal Analytics Reports - Webi",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 2,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872436/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 1
+            },
+            "Recycled": false,
+            "Release": null,
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872436/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872436/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872436/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35872535",
+            "_refObjectUUID": "c7564370-0835-4045-83fa-5f3e09ab4d4c",
+            "_objectVersion": "11",
+            "_refObjectName": "(RPT) Migrate to QA",
+            "CreationDate": "2017-03-06T21:57:44.539Z",
+            "_CreatedAt": "Mar 6",
+            "ObjectID": 35872535,
+            "VersionId": "11",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872535/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872535/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US614",
+            "LastUpdateDate": "2017-03-06T22:59:16.934Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872535/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "(RPT) Migrate to QA",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/54648",
+                "_refObjectUUID": "a262d5c7-5211-41b4-85ff-88eeb5f12871",
+                "_refObjectName": "Wasiq",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734993",
+                "_refObjectUUID": "b0797f7e-f500-4649-b56f-8a8c66a1fa7a",
+                "_refObjectName": "PRS Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35872536",
+                "_refObjectUUID": "8eeef7f7-6a46-495f-8000-52d67f5d6033",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872535/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872535/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872535/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872535/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~{u}Ry,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35871821",
+                "_refObjectUUID": "e2b8fb3e-687e-408b-8cea-202e2049e756",
+                "_refObjectName": "(RPT) Develop R&D Reutilization & Disposal Analytics Reports - Webi",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 0.5,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872535/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 1
+            },
+            "Recycled": false,
+            "Release": null,
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872535/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 1
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872535/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872535/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35872714",
+            "_refObjectUUID": "b20e8e41-e66a-486f-aa44-ad8b1856b8ad",
+            "_objectVersion": "11",
+            "_refObjectName": "(RPT) Test in QA",
+            "CreationDate": "2017-03-06T21:57:45.883Z",
+            "_CreatedAt": "Mar 6",
+            "ObjectID": 35872714,
+            "VersionId": "11",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872714/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872714/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US615",
+            "LastUpdateDate": "2017-03-06T22:59:37.686Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872714/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "(RPT) Test in QA",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/54648",
+                "_refObjectUUID": "a262d5c7-5211-41b4-85ff-88eeb5f12871",
+                "_refObjectName": "Wasiq",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734993",
+                "_refObjectUUID": "b0797f7e-f500-4649-b56f-8a8c66a1fa7a",
+                "_refObjectName": "PRS Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35872715",
+                "_refObjectUUID": "73de665e-02a4-41b9-857e-8eaa4700f23e",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872714/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872714/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872714/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872714/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~{u~9|&s8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35871821",
+                "_refObjectUUID": "e2b8fb3e-687e-408b-8cea-202e2049e756",
+                "_refObjectName": "(RPT) Develop R&D Reutilization & Disposal Analytics Reports - Webi",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 1,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872714/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 1
+            },
+            "Recycled": false,
+            "Release": null,
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872714/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 1
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872714/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872714/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35872837",
+            "_refObjectUUID": "f3a4bcf7-65b3-45ad-9596-9d47323467cf",
+            "_objectVersion": "11",
+            "_refObjectName": "(RPT) Migrate to Production",
+            "CreationDate": "2017-03-06T21:57:47.711Z",
+            "_CreatedAt": "Mar 6",
+            "ObjectID": 35872837,
+            "VersionId": "11",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872837/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872837/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US616",
+            "LastUpdateDate": "2017-03-06T22:59:59.606Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872837/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "(RPT) Migrate to Production",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/54648",
+                "_refObjectUUID": "a262d5c7-5211-41b4-85ff-88eeb5f12871",
+                "_refObjectName": "Wasiq",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734993",
+                "_refObjectUUID": "b0797f7e-f500-4649-b56f-8a8c66a1fa7a",
+                "_refObjectName": "PRS Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35872838",
+                "_refObjectUUID": "366e0e35-d77e-43e7-8a4a-61dbed91be38",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872837/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872837/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872837/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872837/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~{u~\\NRy,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35871821",
+                "_refObjectUUID": "e2b8fb3e-687e-408b-8cea-202e2049e756",
+                "_refObjectName": "(RPT) Develop R&D Reutilization & Disposal Analytics Reports - Webi",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 0.5,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872837/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 1
+            },
+            "Recycled": false,
+            "Release": null,
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872837/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 1
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872837/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872837/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35872960",
+            "_refObjectUUID": "d6c6ffca-93a6-42b6-aaa7-36eb92896034",
+            "_objectVersion": "5",
+            "_refObjectName": "(RPT) Verify in Production",
+            "CreationDate": "2017-03-06T21:57:49.001Z",
+            "_CreatedAt": "Mar 6",
+            "ObjectID": 35872960,
+            "VersionId": "5",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872960/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872960/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US617",
+            "LastUpdateDate": "2017-03-06T22:59:41.606Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872960/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "(RPT) Verify in Production",
+            "Notes": "",
+            "Owner":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/user/54648",
+                "_refObjectUUID": "a262d5c7-5211-41b4-85ff-88eeb5f12871",
+                "_refObjectName": "Wasiq",
+                "_type": "User"
+            },
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734993",
+                "_refObjectUUID": "b0797f7e-f500-4649-b56f-8a8c66a1fa7a",
+                "_refObjectName": "PRS Data & Reporting",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35872961",
+                "_refObjectUUID": "8ad9333b-146a-480e-ac8f-3264974e077f",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872960/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872960/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872960/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872960/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~{u~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35871821",
+                "_refObjectUUID": "e2b8fb3e-687e-408b-8cea-202e2049e756",
+                "_refObjectName": "(RPT) Develop R&D Reutilization & Disposal Analytics Reports - Webi",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 1,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872960/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 1
+            },
+            "Recycled": false,
+            "Release": null,
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872960/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872960/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35872960/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        }
+    ]
+}}

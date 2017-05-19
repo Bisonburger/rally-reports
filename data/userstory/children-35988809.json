@@ -1,0 +1,347 @@
+{"QueryResult": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "Errors": [],
+    "Warnings": [],
+    "TotalResultCount": 2,
+    "StartIndex": 1,
+    "PageSize": 20,
+    "Results":     [
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35990494",
+            "_refObjectUUID": "9a679b84-0c5a-4bfb-8140-9bdffcc73581",
+            "_objectVersion": "4",
+            "_refObjectName": "View Archived Contracts List",
+            "CreationDate": "2017-04-06T00:22:39.986Z",
+            "_CreatedAt": "Apr 5",
+            "ObjectID": 35990494,
+            "VersionId": "4",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990494/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "QC Req ID 425",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990494/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US993",
+            "LastUpdateDate": "2017-04-26T22:45:15.396Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990494/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "View Archived Contracts List",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35808274",
+                "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+                "_refObjectName": "mSTAT",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35990495",
+                "_refObjectUUID": "db148b3e-e250-4fc7-9371-34df5e8f3663",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990494/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990494/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990494/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990494/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "P!!$M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35988809",
+                "_refObjectUUID": "97a17ac0-691f-4717-96fc-9ab4b49aed13",
+                "_refObjectName": "Archived Contracts",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 2,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990494/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release": null,
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990494/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990494/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990494/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35990555",
+            "_refObjectUUID": "8eec4a61-46e3-439c-960e-bba80182aa13",
+            "_objectVersion": "5",
+            "_refObjectName": "Filter Archived Contracts List",
+            "CreationDate": "2017-04-06T00:22:49.222Z",
+            "_CreatedAt": "Apr 5",
+            "ObjectID": 35990555,
+            "VersionId": "5",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990555/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>QC Req ID 427<\/p><p>QC Req ID 428<\/p>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990555/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US994",
+            "LastUpdateDate": "2017-04-26T22:45:56.267Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990555/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "Filter Archived Contracts List",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35808274",
+                "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+                "_refObjectName": "mSTAT",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35990556",
+                "_refObjectUUID": "bb1d9d7d-3f7c-419a-a1f2-52937ca2b761",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990555/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990555/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990555/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990555/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "P!!$N~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35988809",
+                "_refObjectUUID": "97a17ac0-691f-4717-96fc-9ab4b49aed13",
+                "_refObjectName": "Archived Contracts",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 2,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990555/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release": null,
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990555/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990555/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35990555/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        }
+    ]
+}}

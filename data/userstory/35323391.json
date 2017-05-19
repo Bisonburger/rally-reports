@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35323391",
     "_refObjectUUID": "be25891f-3f2e-4272-a0dc-9cd0a403ecf2",
-    "_objectVersion": "22",
+    "_objectVersion": "24",
     "_refObjectName": "ACS Call-In Process - I need to receive broadcast message to pull over if I am driving prior to using the system as a safety reminder - IVR VENDOR TASKS",
     "CreationDate": "2016-10-31T23:02:28.553Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35323391,
-    "VersionId": "22",
+    "VersionId": "24",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11126",
-    "LastUpdateDate": "2017-02-28T20:35:50.905Z",
+    "LastUpdateDate": "2017-04-25T22:57:01.988Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -116,7 +116,14 @@
     "DragAndDropRank": ",~~hVA>D8PS5S5+q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
     "InProgressDate": null,
-    "Iteration": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370709",
+        "_refObjectUUID": "0c97f731-42dd-4899-9179-56d46a55e4b1",
+        "_refObjectName": "Sprint 14",
+        "_type": "Iteration"
+    },
     "Parent": null,
     "PlanEstimate": 5,
     "Predecessors":     {

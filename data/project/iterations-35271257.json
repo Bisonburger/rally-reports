@@ -347,7 +347,7 @@
             "EndDate": "2017-05-24T06:59:59.000Z",
             "Name": "Sprint 13",
             "Notes": "",
-            "PlanEstimate": 5,
+            "PlanEstimate": 42,
             "PlannedVelocity": null,
             "Project":             {
                 "_rallyAPIMajor": "2",
@@ -366,16 +366,16 @@
             },
             "StartDate": "2017-05-10T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0,
-            "TaskEstimateTotal": 0,
-            "TaskRemainingTotal": 0,
+            "TaskActualTotal": 132.5,
+            "TaskEstimateTotal": 217,
+            "TaskRemainingTotal": 107,
             "Theme": "",
             "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370686/UserIterationCapacities",
                 "_type": "UserIterationCapacity",
-                "Count": 2
+                "Count": 5
             },
             "_type": "Iteration"
         },
@@ -409,7 +409,7 @@
             "EndDate": "2017-06-14T06:59:59.000Z",
             "Name": "Sprint 14",
             "Notes": "",
-            "PlanEstimate": 5,
+            "PlanEstimate": 41,
             "PlannedVelocity": null,
             "Project":             {
                 "_rallyAPIMajor": "2",
@@ -429,8 +429,8 @@
             "StartDate": "2017-05-24T07:00:00.000Z",
             "State": "Planning",
             "TaskActualTotal": 0,
-            "TaskEstimateTotal": 0,
-            "TaskRemainingTotal": 0,
+            "TaskEstimateTotal": 71,
+            "TaskRemainingTotal": 71,
             "Theme": "",
             "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
@@ -905,7 +905,7 @@
             "EndDate": "2017-04-12T06:59:59.000Z",
             "Name": "Sprint 10",
             "Notes": "",
-            "PlanEstimate": 28,
+            "PlanEstimate": 23,
             "PlannedVelocity": null,
             "Project":             {
                 "_rallyAPIMajor": "2",
@@ -924,16 +924,16 @@
             },
             "StartDate": "2017-03-29T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 47,
-            "TaskEstimateTotal": 198,
-            "TaskRemainingTotal": 194,
+            "TaskActualTotal": 116,
+            "TaskEstimateTotal": 195,
+            "TaskRemainingTotal": 0,
             "Theme": "",
             "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370617/UserIterationCapacities",
                 "_type": "UserIterationCapacity",
-                "Count": 4
+                "Count": 5
             },
             "_type": "Iteration"
         },
@@ -967,7 +967,7 @@
             "EndDate": "2017-04-26T06:59:59.000Z",
             "Name": "Sprint 11",
             "Notes": "",
-            "PlanEstimate": 5,
+            "PlanEstimate": 18,
             "PlannedVelocity": null,
             "Project":             {
                 "_rallyAPIMajor": "2",
@@ -986,8 +986,8 @@
             },
             "StartDate": "2017-04-12T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0,
-            "TaskEstimateTotal": 0,
+            "TaskActualTotal": 67,
+            "TaskEstimateTotal": 84,
             "TaskRemainingTotal": 0,
             "Theme": "",
             "UserIterationCapacities":             {
@@ -995,7 +995,7 @@
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370640/UserIterationCapacities",
                 "_type": "UserIterationCapacity",
-                "Count": 2
+                "Count": 5
             },
             "_type": "Iteration"
         },
@@ -1029,7 +1029,7 @@
             "EndDate": "2017-05-10T06:59:59.000Z",
             "Name": "Sprint 12",
             "Notes": "",
-            "PlanEstimate": 5,
+            "PlanEstimate": 37,
             "PlannedVelocity": null,
             "Project":             {
                 "_rallyAPIMajor": "2",
@@ -1048,16 +1048,16 @@
             },
             "StartDate": "2017-04-26T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0,
-            "TaskEstimateTotal": 0,
-            "TaskRemainingTotal": 0,
+            "TaskActualTotal": 128.25,
+            "TaskEstimateTotal": 183,
+            "TaskRemainingTotal": 20,
             "Theme": "",
             "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35370663/UserIterationCapacities",
                 "_type": "UserIterationCapacity",
-                "Count": 2
+                "Count": 5
             },
             "_type": "Iteration"
         },

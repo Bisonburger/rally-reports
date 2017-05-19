@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35736303",
     "_refObjectUUID": "28f0be82-cfb8-43e4-9e00-d3f272958a62",
-    "_objectVersion": "15",
+    "_objectVersion": "16",
     "_refObjectName": "enter property status/actiom",
     "CreationDate": "2017-02-22T00:29:57.709Z",
     "_CreatedAt": "Feb 21",
     "ObjectID": 35736303,
-    "VersionId": "15",
+    "VersionId": "16",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>as a responsible person I need to enter the proper direction for my utilization&nbsp;inventory list so it is accurate<\/p><p>for each item of property:<\/p><ul><li>reason to keep it on&nbsp;contract - answer yes/no:&nbsp; <font color=\"#ffff00\">&lt;<font color=\"#000000\" style=\"background-color: rgb(255, 255, 0);\">can there be only 1 or multiple?&gt;<\/font><\/font><\/li><ul><li>rate production<\/li><li>maintenance<\/li><li>FMS&nbsp;sales configuration<\/li><li>engineering development<\/li><li>failure investigating / troubleshooting<\/li><li>other - comment required<\/li><\/ul><li>select action to take (only 1)<\/li><ul><li><font style=\"background-color: rgb(255, 255, 0);\">store it ?<\/font><\/li><li><font style=\"background-color: rgb(255, 255, 0);\">cannibalize ?<\/font><\/li><li><font style=\"background-color: rgb(255, 255, 0);\">rent free use ?<\/font><\/li><li>contract transfer -&nbsp;to contract #____<\/li><li>plant clearance - <\/li><li>loss<\/li><li>other<\/li><\/ul><\/ul><p>optional comment for each choice?<\/p><p>notify PM &amp; PPS<br /><\/p>",
+    "Description": "<p>as a responsible person I need to enter the proper direction for my utilization&nbsp;inventory list so it is accurate<\/p><p>for each item of property:<\/p><ul><li>reason to keep it on&nbsp;contract - answer yes/no:&nbsp; <font color=\"#ffff00\">&lt;<font color=\"#000000\" style=\"background-color: rgb(255, 255, 0);\">can there be only 1 or multiple?&gt;<\/font><\/font><\/li><ul><li>rate production<\/li><li>maintenance<\/li><li>FMS&nbsp;sales configuration<\/li><li>engineering development<\/li><li>warranty contract<\/li><li>depot contract<\/li><li>other - comment required<\/li><\/ul><li>select action to take (only 1)<\/li><ul><li><font style=\"background-color: rgb(255, 255, 0);\">store it ?<\/font><\/li><li><font style=\"background-color: rgb(255, 255, 0);\">cannibalize ?<\/font><\/li><li><font style=\"background-color: rgb(255, 255, 0);\">rent free use ?<\/font><\/li><li>contract transfer -&nbsp;to contract #____<\/li><li>plant clearance - <\/li><li>loss<\/li><li>other<\/li><\/ul><\/ul><p>optional comment for each choice?<\/p><p>notify PM &amp; PPS<br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US78",
-    "LastUpdateDate": "2017-03-28T17:44:50.433Z",
+    "LastUpdateDate": "2017-05-03T19:24:26.640Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",

@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35807548",
     "_refObjectUUID": "09cc50b3-28f4-40ce-bb0b-66981dba0a57",
-    "_objectVersion": "156",
+    "_objectVersion": "235",
     "_refObjectName": "IT Supporting Activities",
     "CreationDate": "2017-03-01T19:53:42.956Z",
     "_CreatedAt": "Mar 1",
     "ObjectID": 35807548,
-    "VersionId": "156",
+    "VersionId": "235",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US229",
-    "LastUpdateDate": "2017-03-29T17:50:48.146Z",
+    "LastUpdateDate": "2017-05-17T21:33:23.618Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -97,9 +97,15 @@
     },
     "Package": null,
     "AcceptedDate": null,
-    "Blocked": false,
+    "Blocked": true,
     "BlockedReason": null,
-    "Blocker": null,
+    "Blocker":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/blocker/36159230",
+        "_refObjectUUID": "02fa1039-e7e4-420d-bd44-b3319481abcb",
+        "_type": "Blocker"
+    },
     "Children":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -121,7 +127,7 @@
     "InProgressDate": "2017-03-16T00:05:42.374Z",
     "Iteration": null,
     "Parent": null,
-    "PlanEstimate": 858,
+    "PlanEstimate": 853,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -138,9 +144,9 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 43,
-    "TaskEstimateTotal": 98.5,
-    "TaskRemainingTotal": 34.5,
+    "TaskActualTotal": 97.5,
+    "TaskEstimateTotal": 141.5,
+    "TaskRemainingTotal": 20,
     "TaskStatus": null,
     "Tasks":     {
         "_rallyAPIMajor": "2",

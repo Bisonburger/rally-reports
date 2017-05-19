@@ -3,8 +3,1234 @@
     "_rallyAPIMinor": "0",
     "Errors": [],
     "Warnings": [],
-    "TotalResultCount": 0,
+    "TotalResultCount": 7,
     "StartIndex": 1,
     "PageSize": 20,
-    "Results": []
+    "Results":     [
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35742344",
+            "_refObjectUUID": "edc19269-71de-4bbb-bba5-ec722c62e3e0",
+            "_objectVersion": "12",
+            "_refObjectName": "view contract exceptions",
+            "CreationDate": "2017-02-23T00:12:12.914Z",
+            "_CreatedAt": "Feb 22",
+            "ObjectID": 35742344,
+            "VersionId": "12",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742344/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>as a GFM admin I need to see records with blank contract Codes or Numbers&nbsp;to help determine what to do to correct<\/p><p>\"vgroup not acceptable for determining contract assignment\"<\/p><p>a) code exists but number does not<\/p><p>b) number exists but code does not<br /><\/p>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742344/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US93",
+            "LastUpdateDate": "2017-03-29T16:21:23.702Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742344/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "view contract exceptions",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35723837",
+                "_refObjectUUID": "d2825bcd-6755-4bb6-ab24-65e423f70678",
+                "_refObjectName": "PRS  (PPM 287099)",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35742345",
+                "_refObjectUUID": "52056e80-2f92-4371-bcb1-5626ecdf99b0",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742344/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742344/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742344/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742344/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~~WCQM&s8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35737329",
+                "_refObjectUUID": "728bb7f2-3ccf-4f24-be81-1c75e26bd026",
+                "_refObjectName": "Gov't Furnished Material",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 5,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742344/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35723897",
+                "_refObjectUUID": "6b67e9de-c0e0-429f-b1a5-4225b11e6871",
+                "_refObjectName": "Dec 2017",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742344/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742344/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742344/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 9,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35742407",
+            "_refObjectUUID": "880689a9-2ed5-4320-972f-57789831057e",
+            "_objectVersion": "6",
+            "_refObjectName": "view last count by storage unit",
+            "CreationDate": "2017-02-23T00:16:06.998Z",
+            "_CreatedAt": "Feb 22",
+            "ObjectID": 35742407,
+            "VersionId": "6",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742407/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>as a GFM admin I need to see last count date by storage unit so that __________<\/p><ul><li>by storage unit, location, bin<\/li><li>by part number<\/li><li>status CD of (?)<\/li><li>count date<\/li><li>status \"L\" for completed count<\/li><li>compart to contract CL (? date<\/li><li>vendor and plant sites visible<br /><\/li><\/ul>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742407/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US94",
+            "LastUpdateDate": "2017-03-08T16:24:22.517Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742407/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "view last count by storage unit",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35723837",
+                "_refObjectUUID": "d2825bcd-6755-4bb6-ab24-65e423f70678",
+                "_refObjectName": "PRS  (PPM 287099)",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35742408",
+                "_refObjectUUID": "a9d8cb33-7d48-4109-8544-6f009bd28b25",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742407/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742407/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742407/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742407/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~~X~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35737329",
+                "_refObjectUUID": "728bb7f2-3ccf-4f24-be81-1c75e26bd026",
+                "_refObjectName": "Gov't Furnished Material",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 8,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742407/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35723897",
+                "_refObjectUUID": "6b67e9de-c0e0-429f-b1a5-4225b11e6871",
+                "_refObjectName": "Dec 2017",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742407/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742407/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742407/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 9,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35742470",
+            "_refObjectUUID": "cd628b55-3c8e-4a3f-827b-fae90ab81ec6",
+            "_objectVersion": "6",
+            "_refObjectName": "see move status",
+            "CreationDate": "2017-02-23T00:19:34.069Z",
+            "_CreatedAt": "Feb 22",
+            "ObjectID": 35742470,
+            "VersionId": "6",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742470/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>as a GFM admin I need to see if a transfer has completed so that __<\/p><p>need for daily status meeting<\/p><p>\"property X needs to move to Rita location. System should complete the action when X is in Rita location\"<\/p><p><br /><\/p><p>What are the source systems to get this information?<br /><\/p>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742470/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US95",
+            "LastUpdateDate": "2017-03-08T16:26:06.908Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742470/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "see move status",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35723837",
+                "_refObjectUUID": "d2825bcd-6755-4bb6-ab24-65e423f70678",
+                "_refObjectName": "PRS  (PPM 287099)",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35742471",
+                "_refObjectUUID": "06430110-5d8d-400d-9fa1-deb481d67677",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742470/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742470/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742470/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742470/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~~\\gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35737329",
+                "_refObjectUUID": "728bb7f2-3ccf-4f24-be81-1c75e26bd026",
+                "_refObjectName": "Gov't Furnished Material",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 13,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742470/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35809441",
+                "_refObjectUUID": "51cee7a2-d0c4-458a-9ff8-a4c06da08435",
+                "_refObjectName": "April 2018",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742470/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742470/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742470/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 3,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35935300",
+            "_refObjectUUID": "66e8abe1-d328-4db7-af06-dd5ad5d62f29",
+            "_objectVersion": "7",
+            "_refObjectName": "GFM overview",
+            "CreationDate": "2017-03-16T00:02:11.729Z",
+            "_CreatedAt": "Mar 15",
+            "ObjectID": 35935300,
+            "VersionId": "7",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935300/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>as a GFM admin and program manager, I need to see a summary of the types of material so I know the scope of work to be done<\/p><p>--&gt; replicate GFM overview tab in current workbook<\/p><p>query and summarize by<\/p><ul><li>plant clearance<\/li><li>sensitivity<\/li><li>MARA fields<\/li><li>condition code &lt;batch&gt;<\/li><li>last inventory date<\/li><\/ul><p>system&nbsp;notifies GFM admin and Program manager when this view is created; include link to take them directly to it<\/p><p><br /><\/p>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935300/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US906",
+            "LastUpdateDate": "2017-05-10T16:17:44.145Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935300/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "GFM overview",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734880",
+                "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+                "_refObjectName": "PRS Java",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35935301",
+                "_refObjectUUID": "5e1dad40-3941-4a4e-8ba5-48c5cea05e9b",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935300/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935300/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935300/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935300/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~~0|&s8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35807354",
+                "_refObjectUUID": "37fe0f20-85c8-43d5-a023-98f555b53b5d",
+                "_refObjectName": "Sprint 6",
+                "_type": "Iteration"
+            },
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35737329",
+                "_refObjectUUID": "728bb7f2-3ccf-4f24-be81-1c75e26bd026",
+                "_refObjectName": "Gov't Furnished Material",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 13,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935300/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35734891",
+                "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
+                "_refObjectName": "Dec 2017",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935300/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935300/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935300/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 9,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35935467",
+            "_refObjectUUID": "7a66f2eb-ddaf-495c-8e23-62589a2dcaf2",
+            "_objectVersion": "6",
+            "_refObjectName": "assignee updates *same as US 40",
+            "CreationDate": "2017-03-16T00:35:08.778Z",
+            "_CreatedAt": "Mar 15",
+            "ObjectID": 35935467,
+            "VersionId": "6",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935467/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>as an assigned RP, I need to provide an update on my actions so management knows if additional actions are required<\/p><p>user:<\/p><ul><li>enters comments (in RP only comment field), update 30 day timer<\/li><li>may upload attachments<\/li><li>saves<\/li><\/ul><p>system time stamps comments, appends to any prior comments<br /><\/p>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935467/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US907",
+            "LastUpdateDate": "2017-05-16T19:46:52.592Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935467/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "assignee updates *same as US 40",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734880",
+                "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+                "_refObjectName": "PRS Java",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35935468",
+                "_refObjectUUID": "7d789a0d-b6dc-4ce0-82a4-2f7a62944f5d",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935467/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935467/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935467/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935467/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~~W<v2[gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35737329",
+                "_refObjectUUID": "728bb7f2-3ccf-4f24-be81-1c75e26bd026",
+                "_refObjectName": "Gov't Furnished Material",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 8,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935467/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35734891",
+                "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
+                "_refObjectName": "Dec 2017",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935467/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935467/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935467/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 9,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35935549",
+            "_refObjectUUID": "2eb649bd-4206-47c2-b7d4-9e5d1b5f56f8",
+            "_objectVersion": "4",
+            "_refObjectName": "create governement signoff ??",
+            "CreationDate": "2017-03-16T00:40:33.482Z",
+            "_CreatedAt": "Mar 15",
+            "ObjectID": 35935549,
+            "VersionId": "4",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935549/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>&lt;data may be getting pulled from Prism today rather than workbook&gt;<\/p><p>as a GFM admin I need to prepare the government signoff document so required processes are completed<\/p><p>user:<\/p><ul><li>gets required data<\/li><li>creates document &lt;from template&gt;<\/li><li>prints/saves/emails it?<br /><\/li><\/ul>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935549/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US908",
+            "LastUpdateDate": "2017-03-30T18:27:12.667Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935549/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "create governement signoff ??",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734880",
+                "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+                "_refObjectName": "PRS Java",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35935550",
+                "_refObjectUUID": "377cd5d2-6c70-4f6a-92c5-4eda33d1c60a",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935549/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935549/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935549/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935549/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~yG~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35737329",
+                "_refObjectUUID": "728bb7f2-3ccf-4f24-be81-1c75e26bd026",
+                "_refObjectName": "Gov't Furnished Material",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 8,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935549/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release": null,
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935549/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935549/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935549/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 9,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35935624",
+            "_refObjectUUID": "08804e4b-313e-4a98-8bcf-bdddf97def83",
+            "_objectVersion": "5",
+            "_refObjectName": "disposition summary",
+            "CreationDate": "2017-03-16T00:46:42.021Z",
+            "_CreatedAt": "Mar 15",
+            "ObjectID": 35935624,
+            "VersionId": "5",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935624/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>as a GFM admin I need to see a disposition&nbsp;summary so I know how the workflow is progressing<\/p><ul><li>by category (clear, transfer, lost), display totals of items dispositioned and items still to be dispositioned. <\/li><li>compare to beginning count<br /><\/li><\/ul>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935624/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US909",
+            "LastUpdateDate": "2017-03-16T17:48:45.539Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935624/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "disposition summary",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734880",
+                "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+                "_refObjectName": "PRS Java",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35935625",
+                "_refObjectUUID": "293d7b26-37a3-47e0-9848-d7aac491e602",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935624/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935624/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935624/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935624/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~~W@4np>D8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35737329",
+                "_refObjectUUID": "728bb7f2-3ccf-4f24-be81-1c75e26bd026",
+                "_refObjectName": "Gov't Furnished Material",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 5,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935624/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35734891",
+                "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
+                "_refObjectName": "Dec 2017",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935624/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935624/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35935624/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 9,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        }
+    ]
 }}

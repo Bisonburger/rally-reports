@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35724319",
     "_refObjectUUID": "8f0dd091-5f3c-4793-b187-a66799221953",
-    "_objectVersion": "26",
-    "_refObjectName": "receive new action notice",
+    "_objectVersion": "56",
+    "_refObjectName": "[Continued] ZC PoC receive assignment notice *",
     "CreationDate": "2017-02-21T17:40:23.206Z",
     "_CreatedAt": "Feb 21",
     "ObjectID": 35724319,
-    "VersionId": "26",
+    "VersionId": "56",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>as&nbsp;the assigned zero certifier&nbsp;I need to be notified when I have material on&nbsp;a new closeout to work so I can begin<\/p><ul><li>new actions show up on user's action to do list<\/li><li>recipient&nbsp;may delegate to another person&nbsp; <\/li><li>recipient's manager may also reassign<\/li><li>notification to include:<\/li><ul><li>contract number<\/li><li>contract code<\/li><li>closure date<\/li><li>number of items on list ??<\/li><li>for GFM only, include instructions to update Prism to 'in closure'<\/li><\/ul><li>&lt;notification type is based on entered user preference&gt;<\/li><li>&lt;user may select to receive notice even if system finds no inventory&gt;<br /><\/li><\/ul><p>Developer Notes:<br /><br /><\/p><p>The system may need to handle scenarios where data in the source system does not reflect a workflow action.&nbsp; For example, a PRISM inventory count is incorrect in our app but has been fixed in the source system. Our app would have to wait a day to get the correct count.&nbsp; <\/p><p>Also, should the system enforce validation checks on workflow tasks? For instance, inventory is still assigned to a user but they have an option of progressing to the next step in the workflow.<\/p><p>TASKS:<\/p><ul><li>notification handling<\/li><li>workflow actions<\/li><li>determine which inventory&nbsp; needs to be researched --&gt; done in previous story<br /><\/li><\/ul>",
+    "Description": "<p>as&nbsp;the assigned zero certifier PoC&nbsp;I need to be notified when I have material to work so I can begin<\/p><ul><li>new actions show up on user's action to do list <font style=\"background-color: rgb(255, 255, 255);\">and in an email<\/font><\/li><li>recipient&nbsp;may delegate to another person&nbsp; <\/li><li>recipient's manager may also reassign<\/li><li>notification to include:<\/li><ul><li>contract number<\/li><li>contract code<\/li><li>closure date<\/li><li>number of items on list ??<\/li><li>for GFM only, include instructions to update Prism to 'in closure'<\/li><\/ul><li>future release:<\/li><ul><li>&lt;notification type is based on entered user preference&gt;<\/li><li>&lt;user may select to receive notice even if system finds no inventory&gt;<br /><\/li><\/ul><\/ul><p>Developer Notes:<br /><br /><\/p><p>The system may need to handle scenarios where data in the source system does not reflect a workflow action.&nbsp; For example, a PRISM inventory count is incorrect in our app but has been fixed in the source system. Our app would have to wait a day to get the correct count.&nbsp; <\/p><p>Also, should the system enforce validation checks on workflow tasks? For instance, inventory is still assigned to a user but they have an option of progressing to the next step in the workflow.<\/p><p>TASKS:<\/p><ul><li>notification handling<\/li><li>workflow actions<\/li><li>determine which inventory&nbsp; needs to be researched --&gt; done in previous story<\/li><\/ul><p>QUESTIONS:<\/p><ul><li><font style=\"background-color: rgb(255, 255, 0);\">Is this the <\/font><font style=\"background-color: rgb(255, 255, 0);\"><font style=\"background-color: rgb(255, 255, 0);\">desired<\/font> functionality?: admin user indicates that a notification needs to be sent to an assigned person (notification request), daily these notification requests are aggregated and sent to the appropriate people<\/font><br /><\/li><\/ul>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US39",
-    "LastUpdateDate": "2017-03-28T18:34:52.327Z",
+    "LastUpdateDate": "2017-05-17T17:09:33.608Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "receive new action notice",
+    "Name": "[Continued] ZC PoC receive assignment notice *",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "In-Progress",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -113,15 +113,15 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~~1D8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "P!!!@8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
-    "InProgressDate": null,
+    "InProgressDate": "2017-05-02T14:46:27.702Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/iteration/35807162",
-        "_refObjectUUID": "bcca9b84-de3b-4aa3-8c13-4595597f6530",
-        "_refObjectName": "Sprint 3",
+        "_ref": "/slm/webservice/v2.0/iteration/35807291",
+        "_refObjectUUID": "1853c13b-17b8-45ed-9934-f62982876728",
+        "_refObjectName": "Sprint 5",
         "_type": "Iteration"
     },
     "Parent":     {
@@ -156,16 +156,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
-    "TaskRemainingTotal": 0,
-    "TaskStatus": "NONE",
+    "TaskActualTotal": 2,
+    "TaskEstimateTotal": 14,
+    "TaskRemainingTotal": 12,
+    "TaskStatus": "IN_PROGRESS",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724319/Tasks",
         "_type": "Task",
-        "Count": 0
+        "Count": 3
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

@@ -3,8 +3,62 @@
     "_rallyAPIMinor": "0",
     "Errors": [],
     "Warnings": [],
-    "TotalResultCount": 0,
+    "TotalResultCount": 1,
     "StartIndex": 1,
     "PageSize": 20,
-    "Results": []
+    "Results": [    {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/useriterationcapacity/36102030",
+        "_refObjectUUID": "51440abb-e05c-4d8f-87e7-3775a2ef296d",
+        "_objectVersion": "1",
+        "CreationDate": "2017-05-04T20:38:37.269Z",
+        "_CreatedAt": "May 4",
+        "ObjectID": 36102030,
+        "VersionId": "1",
+        "Subscription":         {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/subscription/5104",
+            "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+            "_refObjectName": "raytheon_az_-163",
+            "_type": "Subscription"
+        },
+        "Workspace":         {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/workspace/35545775",
+            "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+            "_refObjectName": "Business_Integration",
+            "_type": "Workspace"
+        },
+        "Capacity": null,
+        "Iteration":         {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/iteration/35807288",
+            "_refObjectUUID": "93c279e4-728b-4c4d-92f5-cb25b2d439a5",
+            "_refObjectName": "Sprint 5",
+            "_type": "Iteration"
+        },
+        "Load": null,
+        "Project":         {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/project/35734993",
+            "_refObjectUUID": "b0797f7e-f500-4649-b56f-8a8c66a1fa7a",
+            "_refObjectName": "PRS Data & Reporting",
+            "_type": "Project"
+        },
+        "TaskEstimates": 5,
+        "User":         {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/user/887012",
+            "_refObjectUUID": "6d1e1889-5591-4239-9e53-0ee5a2f54f78",
+            "_refObjectName": "Solen",
+            "_type": "User"
+        },
+        "_type": "UserIterationCapacity"
+    }]
 }}

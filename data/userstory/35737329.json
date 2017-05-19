@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35737329",
     "_refObjectUUID": "728bb7f2-3ccf-4f24-be81-1c75e26bd026",
-    "_objectVersion": "40",
+    "_objectVersion": "41",
     "_refObjectName": "Gov't Furnished Material",
     "CreationDate": "2017-02-22T18:31:25.541Z",
     "_CreatedAt": "Feb 22",
     "ObjectID": 35737329,
-    "VersionId": "40",
+    "VersionId": "41",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US86",
-    "LastUpdateDate": "2017-03-16T17:31:27.430Z",
+    "LastUpdateDate": "2017-05-16T19:45:07.168Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -105,7 +105,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35737329/Children",
         "_type": "HierarchicalRequirement",
-        "Count": 8
+        "Count": 7
     },
     "DefectStatus": null,
     "Defects":     {
@@ -115,13 +115,13 @@
         "_type": "Defect",
         "Count": 0
     },
-    "DirectChildrenCount": 8,
+    "DirectChildrenCount": 7,
     "DragAndDropRank": "P!!!:O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": false,
     "InProgressDate": null,
     "Iteration": null,
     "Parent": null,
-    "PlanEstimate": 73,
+    "PlanEstimate": 60,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

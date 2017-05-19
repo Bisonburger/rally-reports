@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35376028",
     "_refObjectUUID": "7c0b44ce-d82e-450b-be43-1135edee5977",
-    "_objectVersion": "7",
+    "_objectVersion": "15",
     "_refObjectName": "Backlog Refinement SP9",
     "CreationDate": "2016-11-03T23:30:03.280Z",
     "_CreatedAt": "Nov 3, 2016",
     "ObjectID": 35376028,
-    "VersionId": "7",
+    "VersionId": "15",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11194",
-    "LastUpdateDate": "2017-03-28T23:13:20.137Z",
+    "LastUpdateDate": "2017-04-17T16:01:43.957Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-04-17T16:01:43.925Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,7 +115,7 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hKrs}Ry^|$5+q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
+    "InProgressDate": "2017-04-03T16:28:49.210Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -149,16 +149,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 42,
-    "TaskRemainingTotal": 42,
-    "TaskStatus": "DEFINED",
+    "TaskActualTotal": 13,
+    "TaskEstimateTotal": 47,
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35376028/Tasks",
         "_type": "Task",
-        "Count": 2
+        "Count": 3
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

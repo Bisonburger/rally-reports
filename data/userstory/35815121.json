@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35815121",
     "_refObjectUUID": "55111881-efba-4d10-9c2d-67b9414cb8fa",
-    "_objectVersion": "6",
+    "_objectVersion": "12",
     "_refObjectName": "export Solr results to Excel",
     "CreationDate": "2017-03-02T20:39:27.712Z",
     "_CreatedAt": "Mar 2",
     "ObjectID": 35815121,
-    "VersionId": "6",
+    "VersionId": "12",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US296",
-    "LastUpdateDate": "2017-03-24T17:01:52.906Z",
+    "LastUpdateDate": "2017-05-04T20:42:28.124Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -113,15 +113,15 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~~18O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "P!!!B,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": null,
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/iteration/35807162",
-        "_refObjectUUID": "bcca9b84-de3b-4aa3-8c13-4595597f6530",
-        "_refObjectName": "Sprint 3",
+        "_ref": "/slm/webservice/v2.0/iteration/35807354",
+        "_refObjectUUID": "37fe0f20-85c8-43d5-a023-98f555b53b5d",
+        "_refObjectName": "Sprint 6",
         "_type": "Iteration"
     },
     "Parent":     {
@@ -157,15 +157,15 @@
         "Count": 0
     },
     "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
-    "TaskRemainingTotal": 0,
-    "TaskStatus": "NONE",
+    "TaskEstimateTotal": 20,
+    "TaskRemainingTotal": 20,
+    "TaskStatus": "DEFINED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35815121/Tasks",
         "_type": "Task",
-        "Count": 0
+        "Count": 3
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

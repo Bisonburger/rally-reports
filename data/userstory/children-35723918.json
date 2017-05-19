@@ -3,8 +3,1822 @@
     "_rallyAPIMinor": "0",
     "Errors": [],
     "Warnings": [],
-    "TotalResultCount": 0,
+    "TotalResultCount": 10,
     "StartIndex": 1,
     "PageSize": 20,
-    "Results": []
+    "Results":     [
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35724152",
+            "_refObjectUUID": "3dede1a5-3396-455e-80b8-8e54b689aff9",
+            "_objectVersion": "98",
+            "_refObjectName": "[Continued] [Continued] create new contract closeout record",
+            "CreationDate": "2017-02-21T17:36:27.761Z",
+            "_CreatedAt": "Feb 21",
+            "ObjectID": 35724152,
+            "VersionId": "98",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724152/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>As a SC Property Manager, once notified &nbsp;I need to create a new closeout record so the workflow can begin:<\/p>User enters the following information:<br /><ol><li><b style=\"mso-bidi-font-weight: normal;\">Contract Number <\/b>(copy and paste from email or type ahead)<\/li><li><b style=\"mso-bidi-font-weight: normal;\">Contract Type<\/b> (types are: CS, CSNF, CP, CPAF, CPIF, CPFF, FPI, FPIF, FFP, TM) multi-select <\/li><li><b style=\"mso-bidi-font-weight: normal;\">Closure Notification Date <\/b><span style=\"mso-bidi-font-weight: normal;\">(<\/span>CCN email was sent from ICMS) today or before only<\/li><li><b style=\"mso-bidi-font-weight: normal;\">Performance End Date<\/b> (That's the date the contract is over)<\/li><li><b style=\"mso-bidi-font-weight: normal;\">Closure Status<\/b> (statuses are: In closure, Pre-closure, <font color=\"#ff0000\" style=\"background-color: rgb(255, 255, 255);\">Closed, Open, cancelled<\/font><\/li><li><b style=\"mso-bidi-font-weight: normal;\">Property Closure Administrator<\/b><span style=\"mso-bidi-font-weight: normal;\"> (assign from list)<\/span><b style=\"mso-bidi-font-weight: normal;\"><br /><\/b><\/li><li><b style=\"mso-bidi-font-weight: normal;\">Property Closure Secondary Admin<\/b><span style=\"mso-bidi-font-weight: normal;\"> (assign from list)<\/span><\/li><\/ol>  <ul><li>all fields required<\/li><li>system capture entered by user ID and time stamp<\/li><li>after Enter clicked, system&nbsp;verify that contract # is a valid # in our DB, and unique #<\/li><ul><li>if number is NOT unique, then a message displays allowing user choice of going to existing or starting a new closeout for a different contract<br /><\/li><\/ul><li>if contract # not found, system accepts user entered contract #, and flags \"manual entry\"<br /><\/li><\/ul><p>system creates new record and Detail page opens<\/p><ul><li>system pulls workflow # (if can't, manual entry)<\/li><li>displays apex data, and alternate contract title<br /><\/li><li>system displays contract code (from PCIS)<\/li><li>system displays type, from Apex<\/li><li>system displays planned closeout duration<\/li><li>DCMA check box (from ICMS)? if we get it, otherwise user selects it<br /><\/li><li>user may edit status (from pre or in to closed, or canceled)<\/li><li>system displays perf end date<\/li><li>sys displays project def (multiple) (former GLA Network Activiti)<br /><\/li><li>can all fields be edited?<br /><\/li><li>when clicking save, system will go out and analyze data to display property type (and count ??)<br /><\/li><\/ul><p><br /><\/p><p><br /><\/p><p><br /><\/p>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724152/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US36",
+            "LastUpdateDate": "2017-05-10T21:13:42.752Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724152/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "[Continued] [Continued] create new contract closeout record",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734880",
+                "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+                "_refObjectName": "PRS Java",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35724153",
+                "_refObjectUUID": "558268af-9195-4048-804b-aa9ecf7b8263",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724152/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Accepted",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724152/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": "2017-05-10T17:35:38.818Z",
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724152/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724152/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "P!!!;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": "2017-03-15T20:31:11.420Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35807162",
+                "_refObjectUUID": "bcca9b84-de3b-4aa3-8c13-4595597f6530",
+                "_refObjectName": "Sprint 3",
+                "_type": "Iteration"
+            },
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35723918",
+                "_refObjectUUID": "05da7c3f-8b54-499d-8eaf-c4b15f476fa4",
+                "_refObjectName": "Initiate Closeout",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 13,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724152/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35734891",
+                "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
+                "_refObjectName": "Dec 2017",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724152/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 31,
+            "TaskEstimateTotal": 19,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "COMPLETED",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724152/Tasks",
+                "_type": "Task",
+                "Count": 3
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724152/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 9,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35724213",
+            "_refObjectUUID": "173f7a64-917b-4118-8922-8d79b47d3aba",
+            "_objectVersion": "52",
+            "_refObjectName": "[Continued] [Continued] Select Property Zero Certifiers",
+            "CreationDate": "2017-02-21T17:36:51.749Z",
+            "_CreatedAt": "Feb 21",
+            "ObjectID": 35724213,
+            "VersionId": "52",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724213/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>as a&nbsp;<font color=\"#ff0000\">contract closeout admin or<\/font>&nbsp;<font color=\"#ff0000\">Manager<\/font> I need to assign all property zero certifiers to a CC so they will be aware of their <font color=\"#ff0000\">future<\/font>&nbsp;required actions<br /><\/p><ul><li>user&nbsp;selects ZC&nbsp;names based on&nbsp;ZC roles list, and&nbsp;type of material found <\/li><li><br /><\/li><li>selections may be edited by CC admin and the assigned ZC<\/li><li>system provides save button and send button<\/li><li>send button<font color=\"#e06666\"> sends notice of new contract closure created to assigned people<\/font><br /><\/li><li>do we need to have secondary ZCs? Yes<\/li><li>ZC roles are per property type (CAM Primary, etc)<\/li><li><br /><\/li><\/ul><p><br />&nbsp;Notes: <font color=\"#ff0000\">no workflow required for ZC, &nbsp;ZC does nothing at this point<\/font><\/p><p><font color=\"#ff0000\"><br /><\/font><\/p><p><br /><\/p><p><br /><\/p>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724213/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US37",
+            "LastUpdateDate": "2017-05-17T22:01:06.492Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724213/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "[Continued] [Continued] Select Property Zero Certifiers",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734880",
+                "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+                "_refObjectName": "PRS Java",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35724214",
+                "_refObjectUUID": "8a04a4b3-5f7f-48bb-83a2-58567f6032d6",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724213/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Completed",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724213/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724213/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724213/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~yH[gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": "2017-03-29T16:27:01.520Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35807225",
+                "_refObjectUUID": "1674aa33-93df-45ac-ab8c-aec0b8327d20",
+                "_refObjectName": "Sprint 4",
+                "_type": "Iteration"
+            },
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35723918",
+                "_refObjectUUID": "05da7c3f-8b54-499d-8eaf-c4b15f476fa4",
+                "_refObjectName": "Initiate Closeout",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 5,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724213/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35734891",
+                "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
+                "_refObjectName": "Dec 2017",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724213/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 4,
+            "TaskEstimateTotal": 6,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "COMPLETED",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724213/Tasks",
+                "_type": "Task",
+                "Count": 1
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724213/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 9,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35724266",
+            "_refObjectUUID": "cac1ecc5-5793-42b6-937c-fa82ceec7ea4",
+            "_objectVersion": "21",
+            "_refObjectName": "view received ICMS notifications",
+            "CreationDate": "2017-02-21T17:37:18.108Z",
+            "_CreatedAt": "Feb 21",
+            "ObjectID": 35724266,
+            "VersionId": "21",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724266/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>as a SC Property Manager I need to see a list of all received CCN's &nbsp;so I know what&nbsp;I need to enter into the system<\/p><p>try to &nbsp;integrate with ICMS so that instead of emails going to group mail box, notice is sent directly to new system, or can IT system&nbsp;read emails from ICMS?<\/p>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724266/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US38",
+            "LastUpdateDate": "2017-05-16T00:24:49.906Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724266/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "view received ICMS notifications",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734880",
+                "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+                "_refObjectName": "PRS Java",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35724267",
+                "_refObjectUUID": "1b7eab05-f87d-4e94-ba34-206364ce691a",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724266/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Defined",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724266/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724266/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724266/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "P!!!@J,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": null,
+            "Iteration": null,
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35723918",
+                "_refObjectUUID": "05da7c3f-8b54-499d-8eaf-c4b15f476fa4",
+                "_refObjectName": "Initiate Closeout",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": null,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724266/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35809447",
+                "_refObjectUUID": "d19d0129-2d7b-4802-8ac7-07462c1c5add",
+                "_refObjectName": "April 2018",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724266/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "NONE",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724266/Tasks",
+                "_type": "Task",
+                "Count": 0
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724266/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 3,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35724319",
+            "_refObjectUUID": "8f0dd091-5f3c-4793-b187-a66799221953",
+            "_objectVersion": "56",
+            "_refObjectName": "[Continued] ZC PoC receive assignment notice *",
+            "CreationDate": "2017-02-21T17:40:23.206Z",
+            "_CreatedAt": "Feb 21",
+            "ObjectID": 35724319,
+            "VersionId": "56",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724319/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>as&nbsp;the assigned zero certifier PoC&nbsp;I need to be notified when I have material to work so I can begin<\/p><ul><li>new actions show up on user's action to do list <font style=\"background-color: rgb(255, 255, 255);\">and in an email<\/font><\/li><li>recipient&nbsp;may delegate to another person&nbsp; <\/li><li>recipient's manager may also reassign<\/li><li>notification to include:<\/li><ul><li>contract number<\/li><li>contract code<\/li><li>closure date<\/li><li>number of items on list ??<\/li><li>for GFM only, include instructions to update Prism to 'in closure'<\/li><\/ul><li>future release:<\/li><ul><li>&lt;notification type is based on entered user preference&gt;<\/li><li>&lt;user may select to receive notice even if system finds no inventory&gt;<br /><\/li><\/ul><\/ul><p>Developer Notes:<br /><br /><\/p><p>The system may need to handle scenarios where data in the source system does not reflect a workflow action.&nbsp; For example, a PRISM inventory count is incorrect in our app but has been fixed in the source system. Our app would have to wait a day to get the correct count.&nbsp; <\/p><p>Also, should the system enforce validation checks on workflow tasks? For instance, inventory is still assigned to a user but they have an option of progressing to the next step in the workflow.<\/p><p>TASKS:<\/p><ul><li>notification handling<\/li><li>workflow actions<\/li><li>determine which inventory&nbsp; needs to be researched --&gt; done in previous story<\/li><\/ul><p>QUESTIONS:<\/p><ul><li><font style=\"background-color: rgb(255, 255, 0);\">Is this the <\/font><font style=\"background-color: rgb(255, 255, 0);\"><font style=\"background-color: rgb(255, 255, 0);\">desired<\/font> functionality?: admin user indicates that a notification needs to be sent to an assigned person (notification request), daily these notification requests are aggregated and sent to the appropriate people<\/font><br /><\/li><\/ul>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724319/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US39",
+            "LastUpdateDate": "2017-05-17T17:09:33.608Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724319/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "[Continued] ZC PoC receive assignment notice *",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734880",
+                "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+                "_refObjectName": "PRS Java",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35724320",
+                "_refObjectUUID": "2c69569a-e3b6-434e-9a33-3e8ec8bb06b7",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724319/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724319/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724319/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724319/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "P!!!@8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": "2017-05-02T14:46:27.702Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35807291",
+                "_refObjectUUID": "1853c13b-17b8-45ed-9934-f62982876728",
+                "_refObjectName": "Sprint 5",
+                "_type": "Iteration"
+            },
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35723918",
+                "_refObjectUUID": "05da7c3f-8b54-499d-8eaf-c4b15f476fa4",
+                "_refObjectName": "Initiate Closeout",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 13,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724319/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35734891",
+                "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
+                "_refObjectName": "Dec 2017",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724319/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 2,
+            "TaskEstimateTotal": 14,
+            "TaskRemainingTotal": 12,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724319/Tasks",
+                "_type": "Task",
+                "Count": 3
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724319/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 9,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35960724",
+            "_refObjectUUID": "8ab4b45e-f034-4f30-b668-fe95372d9350",
+            "_objectVersion": "7",
+            "_refObjectName": "[Unfinished] create new contract closeout record",
+            "CreationDate": "2017-03-29T16:26:04.310Z",
+            "_CreatedAt": "Mar 29",
+            "ObjectID": 35960724,
+            "VersionId": "7",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35960724/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>As a SC Property Manager, once notified &nbsp;I need to create a new closeout record so the workflow can begin:<\/p>User enters the following information:<br /><ol><li><b style=\"mso-bidi-font-weight:normal\">Contract Number <\/b>(copy and paste from email or type ahead)<\/li><li><b style=\"mso-bidi-font-weight:normal\">Contract Type<\/b> (types are: CS, CSNF, CP, CPAF, CPIF, CPFF, FPI, FPIF, FFP, TM) <b style=\"mso-bidi-font-weight:normal\">Note<\/b>: I am waiting for an answer if this is a multi-select or not<\/li><li><b style=\"mso-bidi-font-weight:normal\">Closure Notification Date <\/b><span style=\"mso-bidi-font-weight:normal\">(<\/span>CCN email was sent from ICMS)<\/li><li><b style=\"mso-bidi-font-weight:normal\">Performance End Date<\/b> (That's the date the contract is over)<\/li><li><b style=\"mso-bidi-font-weight:normal\">Closure Status<\/b> (statuses are: In closure, Pre-closure, Closed, Open)<\/li><li><b style=\"mso-bidi-font-weight:normal\">Property Closure Administrator<\/b><span style=\"mso-bidi-font-weight:normal\"> (assign from list)<\/span><b style=\"mso-bidi-font-weight:normal\"><br /><\/b><\/li><li><b style=\"mso-bidi-font-weight:normal\">Property Closure Secondary Admin<\/b><span style=\"mso-bidi-font-weight:normal\"> (assign from list)<\/span><\/li><\/ol>  <ul><li>all fields required<\/li><li>system capture entered by user ID and time stamp<\/li><li>after Enter clicked, system&nbsp;verify that contract # is a valid # in our DB, and unique #<\/li><ul><li>if number is NOT unique, then _______________??<br /><\/li><\/ul><li>if contract # not found, system accepts user entered contract #, and flags \"manual entry\"<br /><\/li><\/ul><p>system creates new record and Detail page opens<\/p><ul><li>system pulls workflow # (if can't, manual entry)<\/li><li>displays apex data, and alternate contract title<br /><\/li><li>system displays contract code (from PCIS)<\/li><li>system displays type, from Apex<\/li><li>system displays planned closeout duration<\/li><li>DCMA check box (from ICMS)? if we get it, otherwise user selects it<br /><\/li><li>user may edit status (from pre or in to closed, or canceled)<\/li><li>system displays perf end date<\/li><li>sys displays project def (multiple) (former GLA Network Activiti)<br /><\/li><li>can all fields be edited?<br /><\/li><li>when clicking save, system will go out and analyze data to display property type (and count ??)<br /><\/li><\/ul><p><br /><\/p><p><br /><\/p><p><br /><\/p>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35960724/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US921",
+            "LastUpdateDate": "2017-03-29T16:26:10.212Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35960724/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "[Unfinished] create new contract closeout record",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734880",
+                "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+                "_refObjectName": "PRS Java",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35960725",
+                "_refObjectUUID": "a449dd89-7960-46a8-8c7d-2b3709769d00",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35960724/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Completed",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35960724/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35960724/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35960724/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~y@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": "2017-03-29T16:26:04.342Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35807033",
+                "_refObjectUUID": "aff2b912-12c0-45b7-b3e4-8b7c0c4d724f",
+                "_refObjectName": "Sprint 1",
+                "_type": "Iteration"
+            },
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35723918",
+                "_refObjectUUID": "05da7c3f-8b54-499d-8eaf-c4b15f476fa4",
+                "_refObjectName": "Initiate Closeout",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 0,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35960724/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35734891",
+                "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
+                "_refObjectName": "Dec 2017",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35960724/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 34,
+            "TaskEstimateTotal": 25,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "COMPLETED",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35960724/Tasks",
+                "_type": "Task",
+                "Count": 6
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35960724/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 9,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35961148",
+            "_refObjectUUID": "0c1850fe-3a13-4d7e-b670-221125fcdff8",
+            "_objectVersion": "4",
+            "_refObjectName": "[Unfinished] Select Property Zero Certifiers people",
+            "CreationDate": "2017-03-29T16:26:57.975Z",
+            "_CreatedAt": "Mar 29",
+            "ObjectID": 35961148,
+            "VersionId": "4",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35961148/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>as a SC Property Manager I need to assign all property zero certifiers to a CC so they will be aware of their required actions<br /><\/p><ul><li>system automatically selects names based on&nbsp;ZC roles list, and&nbsp;type of material found <br /><\/li><li>selections may be edited by CC admin and the assigned ZC person<\/li><li>system provides save button and send button<\/li><li>send button starts workflow for all involved ZCs<br /><\/li><li>do we need to have secondary ZCs? Yes<\/li><li>roles are per property type (CAM Primary, etc)<br /><\/li><\/ul><p><br /><br />Developer Notes:<\/p><p>We will need to determine the business logic for auto-assigning responsibilities.<\/p><p>need to create program/responsible person table and populate<\/p>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35961148/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US923",
+            "LastUpdateDate": "2017-05-16T00:26:31.065Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35961148/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "[Unfinished] Select Property Zero Certifiers people",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734880",
+                "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+                "_refObjectName": "PRS Java",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35961149",
+                "_refObjectUUID": "99618af5-8f2a-432d-b441-55767389286d",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35961148/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Completed",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35961148/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35961148/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35961148/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "P!!!<>fh|&s8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": "2017-03-29T16:26:58.014Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35807033",
+                "_refObjectUUID": "aff2b912-12c0-45b7-b3e4-8b7c0c4d724f",
+                "_refObjectName": "Sprint 1",
+                "_type": "Iteration"
+            },
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35723918",
+                "_refObjectUUID": "05da7c3f-8b54-499d-8eaf-c4b15f476fa4",
+                "_refObjectName": "Initiate Closeout",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 0,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35961148/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35734891",
+                "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
+                "_refObjectName": "Dec 2017",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35961148/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 10,
+            "TaskEstimateTotal": 10,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "COMPLETED",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35961148/Tasks",
+                "_type": "Task",
+                "Count": 2
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35961148/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 9,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/36052983",
+            "_refObjectUUID": "729e180d-5921-468a-8a41-ed42d53ce33a",
+            "_objectVersion": "17",
+            "_refObjectName": "IDIQ differences",
+            "CreationDate": "2017-04-25T22:17:33.850Z",
+            "_CreatedAt": "Apr 25",
+            "ObjectID": 36052983,
+            "VersionId": "17",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36052983/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>add \"IDIQ DO\" with yes/no selection<\/p><p>check for existence of PCIS code<\/p><p>if IDIQ = yes and code exists, complete zero certs and&nbsp;follow full workflow<\/p><p>if IDIQ = yes and no code exists, skip zero certs then continue workflow at that point<\/p><p>if IDIQ = no and code exists, skip zero cert steps then continue workflow at that point<\/p><p>if IDIQ = no and no code exists, skip zero cert steps then continue workflow at that point<br /><\/p>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36052983/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US1163",
+            "LastUpdateDate": "2017-05-16T00:26:48.134Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36052983/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "IDIQ differences",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734880",
+                "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+                "_refObjectName": "PRS Java",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/36052984",
+                "_refObjectUUID": "881652ea-fb7a-4297-9a20-b36b287b1ead",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36052983/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Accepted",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36052983/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": "2017-05-09T23:05:56.293Z",
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36052983/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36052983/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "P!!!<\/rs}Ry,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": "2017-04-26T22:48:49.743Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35807162",
+                "_refObjectUUID": "bcca9b84-de3b-4aa3-8c13-4595597f6530",
+                "_refObjectName": "Sprint 3",
+                "_type": "Iteration"
+            },
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35723918",
+                "_refObjectUUID": "05da7c3f-8b54-499d-8eaf-c4b15f476fa4",
+                "_refObjectName": "Initiate Closeout",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 8,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36052983/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35734891",
+                "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
+                "_refObjectName": "Dec 2017",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36052983/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 12.75,
+            "TaskEstimateTotal": 13,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "COMPLETED",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36052983/Tasks",
+                "_type": "Task",
+                "Count": 4
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36052983/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": null,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/36054796",
+            "_refObjectUUID": "6114cfca-9ffd-4a4e-bdde-17b9478c8ab1",
+            "_objectVersion": "4",
+            "_refObjectName": "[Unfinished] [Continued] create new contract closeout record",
+            "CreationDate": "2017-04-25T22:53:48.800Z",
+            "_CreatedAt": "Apr 25",
+            "ObjectID": 36054796,
+            "VersionId": "4",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36054796/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>As a SC Property Manager, once notified &nbsp;I need to create a new closeout record so the workflow can begin:<\/p>User enters the following information:<br /><ol><li><b style=\"mso-bidi-font-weight:normal\">Contract Number <\/b>(copy and paste from email or type ahead)<\/li><li><b style=\"mso-bidi-font-weight:normal\">Contract Type<\/b> (types are: CS, CSNF, CP, CPAF, CPIF, CPFF, FPI, FPIF, FFP, TM) <b style=\"mso-bidi-font-weight:normal\">Note<\/b>: I am waiting for an answer if this is a multi-select or not<\/li><li><b style=\"mso-bidi-font-weight:normal\">Closure Notification Date <\/b><span style=\"mso-bidi-font-weight:normal\">(<\/span>CCN email was sent from ICMS)<\/li><li><b style=\"mso-bidi-font-weight:normal\">Performance End Date<\/b> (That's the date the contract is over)<\/li><li><b style=\"mso-bidi-font-weight:normal\">Closure Status<\/b> (statuses are: In closure, Pre-closure, Closed, Open)<\/li><li><b style=\"mso-bidi-font-weight:normal\">Property Closure Administrator<\/b><span style=\"mso-bidi-font-weight:normal\"> (assign from list)<\/span><b style=\"mso-bidi-font-weight:normal\"><br /><\/b><\/li><li><b style=\"mso-bidi-font-weight:normal\">Property Closure Secondary Admin<\/b><span style=\"mso-bidi-font-weight:normal\"> (assign from list)<\/span><\/li><\/ol>  <ul><li>all fields required<\/li><li>system capture entered by user ID and time stamp<\/li><li>after Enter clicked, system&nbsp;verify that contract # is a valid # in our DB, and unique #<\/li><ul><li>if number is NOT unique, then _______________??<br /><\/li><\/ul><li>if contract # not found, system accepts user entered contract #, and flags \"manual entry\"<br /><\/li><\/ul><p>system creates new record and Detail page opens<\/p><ul><li>system pulls workflow # (if can't, manual entry)<\/li><li>displays apex data, and alternate contract title<br /><\/li><li>system displays contract code (from PCIS)<\/li><li>system displays type, from Apex<\/li><li>system displays planned closeout duration<\/li><li>DCMA check box (from ICMS)? if we get it, otherwise user selects it<br /><\/li><li>user may edit status (from pre or in to closed, or canceled)<\/li><li>system displays perf end date<\/li><li>sys displays project def (multiple) (former GLA Network Activiti)<br /><\/li><li>can all fields be edited?<br /><\/li><li>when clicking save, system will go out and analyze data to display property type (and count ??)<br /><\/li><\/ul><p><br /><\/p><p><br /><\/p><p><br /><\/p>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36054796/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US1165",
+            "LastUpdateDate": "2017-05-16T00:26:16.602Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36054796/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "[Unfinished] [Continued] create new contract closeout record",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734880",
+                "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+                "_refObjectName": "PRS Java",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/36054797",
+                "_refObjectUUID": "e83e11a9-5824-4f6e-ac0f-cd913e3788f3",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36054796/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Completed",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36054796/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36054796/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36054796/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~yA8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": "2017-04-25T22:53:48.832Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35807099",
+                "_refObjectUUID": "0cb5296a-6940-42c2-b235-87d1ddf23515",
+                "_refObjectName": "Sprint 2",
+                "_type": "Iteration"
+            },
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35723918",
+                "_refObjectUUID": "05da7c3f-8b54-499d-8eaf-c4b15f476fa4",
+                "_refObjectName": "Initiate Closeout",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 0,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36054796/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35734891",
+                "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
+                "_refObjectName": "Dec 2017",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36054796/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 17.5,
+            "TaskEstimateTotal": 12,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "COMPLETED",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36054796/Tasks",
+                "_type": "Task",
+                "Count": 2
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36054796/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 9,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/36142151",
+            "_refObjectUUID": "95cb03fb-6205-4b83-9d4b-1c9939e9e43b",
+            "_objectVersion": "7",
+            "_refObjectName": "[Unfinished] ZC PoC receive new action notice",
+            "CreationDate": "2017-05-09T23:41:03.687Z",
+            "_CreatedAt": "May 9",
+            "ObjectID": 36142151,
+            "VersionId": "7",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36142151/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>as&nbsp;the assigned zero certifier&nbsp;I need to be notified when I have material on&nbsp;a new closeout to work so I can begin<\/p><ul><li>new actions show up on user's action to do list<\/li><li>recipient&nbsp;may delegate to another person&nbsp; <\/li><li>recipient's manager may also reassign<\/li><li>notification to include:<\/li><ul><li>contract number<\/li><li>contract code<\/li><li>closure date<\/li><li>number of items on list ??<\/li><li>for GFM only, include instructions to update Prism to 'in closure'<\/li><\/ul><li>&lt;notification type is based on entered user preference&gt;<\/li><li>&lt;user may select to receive notice even if system finds no inventory&gt;<br /><\/li><\/ul><p>Developer Notes:<br /><br /><\/p><p>The system may need to handle scenarios where data in the source system does not reflect a workflow action.&nbsp; For example, a PRISM inventory count is incorrect in our app but has been fixed in the source system. Our app would have to wait a day to get the correct count.&nbsp; <\/p><p>Also, should the system enforce validation checks on workflow tasks? For instance, inventory is still assigned to a user but they have an option of progressing to the next step in the workflow.<\/p><p>TASKS:<\/p><ul><li>notification handling<\/li><li>workflow actions<\/li><li>determine which inventory&nbsp; needs to be researched --&gt; done in previous story<br /><\/li><\/ul>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36142151/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US1663",
+            "LastUpdateDate": "2017-05-16T22:14:02.282Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36142151/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "[Unfinished] ZC PoC receive new action notice",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734880",
+                "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+                "_refObjectName": "PRS Java",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/36142152",
+                "_refObjectUUID": "5aff23ab-27ef-40aa-84f9-422e2694825e",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36142151/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "Completed",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36142151/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36142151/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36142151/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "P!!!<\\NRy,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": "2017-05-09T23:41:03.701Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35807162",
+                "_refObjectUUID": "bcca9b84-de3b-4aa3-8c13-4595597f6530",
+                "_refObjectName": "Sprint 3",
+                "_type": "Iteration"
+            },
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35723918",
+                "_refObjectUUID": "05da7c3f-8b54-499d-8eaf-c4b15f476fa4",
+                "_refObjectName": "Initiate Closeout",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 0,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36142151/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35734891",
+                "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
+                "_refObjectName": "Dec 2017",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36142151/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 2,
+            "TaskEstimateTotal": 16,
+            "TaskRemainingTotal": 0,
+            "TaskStatus": "COMPLETED",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36142151/Tasks",
+                "_type": "Task",
+                "Count": 3
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36142151/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 9,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/36157665",
+            "_refObjectUUID": "6bcb161a-bd19-4872-96db-57ba6d582fd7",
+            "_objectVersion": "20",
+            "_refObjectName": "Assign Program Manager; delegate & reassign",
+            "CreationDate": "2017-05-16T17:47:43.651Z",
+            "_CreatedAt": "May 16",
+            "ObjectID": 36157665,
+            "VersionId": "20",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "Changesets":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36157665/Changesets",
+                "_type": "Changeset",
+                "Count": 0
+            },
+            "Description": "<p>1. as a&nbsp;CC Admin&nbsp;I need to assign a Program Manager to a CC so they&nbsp;can start their required actions<br /><\/p><ul><li>CC admin enters desired name <\/li><li>system finds person in Directory Services then assigns selected person to role of PM&nbsp;for that contract<\/li><li>systems sends email to assigned PM<\/li><\/ul><p>2. PM may reassign role to another PM same as above process. Original PM no longer responsible.<\/p><p>3. PM may delegate responsibility to a PM PoC using same as above process.&nbsp; system retains both names in PM role for that contract&nbsp; <font style=\"background-color: rgb(255, 255, 0);\">? can more than 1 PoC be assigned ?<\/font><\/p><p><br /><\/p><p><br /><\/p><p><br /><\/p>",
+            "Discussion":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36157665/Discussion",
+                "_type": "ConversationPost",
+                "Count": 0
+            },
+            "DisplayColor": null,
+            "Expedite": false,
+            "FormattedID": "US1682",
+            "LastUpdateDate": "2017-05-18T14:11:43.436Z",
+            "LatestDiscussionAgeInMinutes": null,
+            "Milestones":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36157665/Milestones",
+                "_type": "Milestone",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "Name": "Assign Program Manager; delegate & reassign",
+            "Notes": "",
+            "Owner": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35734880",
+                "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+                "_refObjectName": "PRS Java",
+                "_type": "Project"
+            },
+            "Ready": false,
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/36157666",
+                "_refObjectUUID": "1e4eb848-9dd7-4d95-b8f8-58d25ee323c6",
+                "_type": "RevisionHistory"
+            },
+            "Tags":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36157665/Tags",
+                "_type": "Tag",
+                "_tagsNameArray": [],
+                "Count": 0
+            },
+            "LastBuild": null,
+            "LastRun": null,
+            "PassingTestCaseCount": 0,
+            "ScheduleState": "In-Progress",
+            "TestCaseCount": 0,
+            "Attachments":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36157665/Attachments",
+                "_type": "Attachment",
+                "Count": 0
+            },
+            "Package": null,
+            "AcceptedDate": null,
+            "Blocked": false,
+            "BlockedReason": null,
+            "Blocker": null,
+            "Children":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36157665/Children",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "DefectStatus": "NONE",
+            "Defects":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36157665/Defects",
+                "_type": "Defect",
+                "Count": 0
+            },
+            "DirectChildrenCount": 0,
+            "DragAndDropRank": "O~~yHgO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+            "HasParent": true,
+            "InProgressDate": "2017-05-18T14:02:38.705Z",
+            "Iteration":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/iteration/35807225",
+                "_refObjectUUID": "1674aa33-93df-45ac-ab8c-aec0b8327d20",
+                "_refObjectName": "Sprint 4",
+                "_type": "Iteration"
+            },
+            "Parent":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35723918",
+                "_refObjectUUID": "05da7c3f-8b54-499d-8eaf-c4b15f476fa4",
+                "_refObjectName": "Initiate Closeout",
+                "_type": "HierarchicalRequirement"
+            },
+            "PlanEstimate": 5,
+            "Predecessors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36157665/Predecessors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "Recycled": false,
+            "Release":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/release/35734891",
+                "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
+                "_refObjectName": "Dec 2017",
+                "_type": "Release"
+            },
+            "Successors":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36157665/Successors",
+                "_type": "HierarchicalRequirement",
+                "Count": 0
+            },
+            "TaskActualTotal": 8,
+            "TaskEstimateTotal": 19,
+            "TaskRemainingTotal": 10,
+            "TaskStatus": "IN_PROGRESS",
+            "Tasks":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36157665/Tasks",
+                "_type": "Task",
+                "Count": 6
+            },
+            "TestCaseStatus": "NONE",
+            "TestCases":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36157665/TestCases",
+                "_type": "TestCase",
+                "Count": 0
+            },
+            "c_BizValue": 9,
+            "Feature": null,
+            "PortfolioItem": null,
+            "_type": "HierarchicalRequirement"
+        }
+    ]
 }}

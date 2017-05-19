@@ -42,7 +42,7 @@
                 "_refObjectName": "Sprint 2",
                 "_type": "Iteration"
             },
-            "Load": 0.2708333333333333,
+            "Load": 0.16666666666666666,
             "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
@@ -51,7 +51,7 @@
                 "_refObjectName": "PRS Java",
                 "_type": "Project"
             },
-            "TaskEstimates": 13,
+            "TaskEstimates": 8,
             "User":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
@@ -97,7 +97,7 @@
                 "_refObjectName": "Sprint 2",
                 "_type": "Iteration"
             },
-            "Load": 0.5520833333333334,
+            "Load": 0.53125,
             "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
@@ -106,7 +106,7 @@
                 "_refObjectName": "PRS Java",
                 "_type": "Project"
             },
-            "TaskEstimates": 26.5,
+            "TaskEstimates": 25.5,
             "User":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
@@ -152,7 +152,7 @@
                 "_refObjectName": "Sprint 2",
                 "_type": "Iteration"
             },
-            "Load": 0.20833333333333334,
+            "Load": 0.3958333333333333,
             "Project":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
@@ -161,7 +161,7 @@
                 "_refObjectName": "PRS Java",
                 "_type": "Project"
             },
-            "TaskEstimates": 10,
+            "TaskEstimates": 19,
             "User":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
@@ -179,7 +179,7 @@
             "_refObjectUUID": "19ca8357-b207-46a6-9e79-51b98fc76cb3",
             "_objectVersion": "1",
             "CreationDate": "2017-03-29T13:14:50.204Z",
-            "_CreatedAt": "today at 6:14 am",
+            "_CreatedAt": "Mar 29",
             "ObjectID": 35959875,
             "VersionId": "1",
             "Subscription":             {
@@ -216,7 +216,7 @@
                 "_refObjectName": "PRS Java",
                 "_type": "Project"
             },
-            "TaskEstimates": 8,
+            "TaskEstimates": null,
             "User":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",

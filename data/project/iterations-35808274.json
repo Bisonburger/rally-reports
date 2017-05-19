@@ -1,0 +1,693 @@
+{"QueryResult": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "Errors": [],
+    "Warnings": [],
+    "TotalResultCount": 11,
+    "StartIndex": 1,
+    "PageSize": 20,
+    "Results":     [
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/iteration/35996321",
+            "_refObjectUUID": "2a85cf04-0d82-49b8-955b-1bf9d3c0a5ca",
+            "_objectVersion": "1",
+            "_refObjectName": "Sprint 1",
+            "CreationDate": "2017-04-06T22:04:40.585Z",
+            "_CreatedAt": "Apr 6",
+            "ObjectID": 35996321,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "EndDate": "2017-04-22T06:59:59.000Z",
+            "Name": "Sprint 1",
+            "Notes": "",
+            "PlanEstimate": 27,
+            "PlannedVelocity": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35808274",
+                "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+                "_refObjectName": "mSTAT",
+                "_type": "Project"
+            },
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35996323",
+                "_refObjectUUID": "5b3fc5a1-34d6-41cf-a65f-0540382be4a2",
+                "_type": "RevisionHistory"
+            },
+            "StartDate": "2017-04-10T07:00:00.000Z",
+            "State": "Planning",
+            "TaskActualTotal": 87.75,
+            "TaskEstimateTotal": 96,
+            "TaskRemainingTotal": 0,
+            "Theme": "",
+            "UserIterationCapacities":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/Iteration/35996321/UserIterationCapacities",
+                "_type": "UserIterationCapacity",
+                "Count": 4
+            },
+            "_type": "Iteration"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/iteration/35996350",
+            "_refObjectUUID": "6d8cc5c4-13fd-4f00-94f1-56391c333568",
+            "_objectVersion": "1",
+            "_refObjectName": "Sprint 2",
+            "CreationDate": "2017-04-06T22:05:44.481Z",
+            "_CreatedAt": "Apr 6",
+            "ObjectID": 35996350,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "EndDate": "2017-05-06T06:59:59.000Z",
+            "Name": "Sprint 2",
+            "Notes": "",
+            "PlanEstimate": 45,
+            "PlannedVelocity": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35808274",
+                "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+                "_refObjectName": "mSTAT",
+                "_type": "Project"
+            },
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35996352",
+                "_refObjectUUID": "dcc124a4-18a9-484b-b137-609afb48c332",
+                "_type": "RevisionHistory"
+            },
+            "StartDate": "2017-04-24T07:00:00.000Z",
+            "State": "Planning",
+            "TaskActualTotal": 122.5,
+            "TaskEstimateTotal": 127,
+            "TaskRemainingTotal": 0,
+            "Theme": "",
+            "UserIterationCapacities":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/Iteration/35996350/UserIterationCapacities",
+                "_type": "UserIterationCapacity",
+                "Count": 4
+            },
+            "_type": "Iteration"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/iteration/35996437",
+            "_refObjectUUID": "9cedfc07-0ade-4d5b-aa8d-849e0259a8ba",
+            "_objectVersion": "1",
+            "_refObjectName": "Sprint 3",
+            "CreationDate": "2017-04-06T22:11:59.170Z",
+            "_CreatedAt": "Apr 6",
+            "ObjectID": 35996437,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "EndDate": "2017-05-20T06:59:59.000Z",
+            "Name": "Sprint 3",
+            "Notes": "",
+            "PlanEstimate": 56,
+            "PlannedVelocity": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35808274",
+                "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+                "_refObjectName": "mSTAT",
+                "_type": "Project"
+            },
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35996439",
+                "_refObjectUUID": "486dda0f-6582-474a-8ea2-988d034ab54c",
+                "_type": "RevisionHistory"
+            },
+            "StartDate": "2017-05-08T07:00:00.000Z",
+            "State": "Planning",
+            "TaskActualTotal": 114.75,
+            "TaskEstimateTotal": 149,
+            "TaskRemainingTotal": 77,
+            "Theme": "",
+            "UserIterationCapacities":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/Iteration/35996437/UserIterationCapacities",
+                "_type": "UserIterationCapacity",
+                "Count": 4
+            },
+            "_type": "Iteration"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/iteration/35996460",
+            "_refObjectUUID": "5372cee3-0ee9-4897-aabb-79ec8722648e",
+            "_objectVersion": "1",
+            "_refObjectName": "Sprint 4",
+            "CreationDate": "2017-04-06T22:12:30.532Z",
+            "_CreatedAt": "Apr 6",
+            "ObjectID": 35996460,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "EndDate": "2017-06-03T06:59:59.000Z",
+            "Name": "Sprint 4",
+            "Notes": "",
+            "PlanEstimate": null,
+            "PlannedVelocity": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35808274",
+                "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+                "_refObjectName": "mSTAT",
+                "_type": "Project"
+            },
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35996462",
+                "_refObjectUUID": "53b745ee-5437-4d73-bc51-21db0e0158ad",
+                "_type": "RevisionHistory"
+            },
+            "StartDate": "2017-05-22T07:00:00.000Z",
+            "State": "Planning",
+            "TaskActualTotal": null,
+            "TaskEstimateTotal": null,
+            "TaskRemainingTotal": null,
+            "Theme": "",
+            "UserIterationCapacities":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/Iteration/35996460/UserIterationCapacities",
+                "_type": "UserIterationCapacity",
+                "Count": 1
+            },
+            "_type": "Iteration"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/iteration/35996483",
+            "_refObjectUUID": "8c946025-e12a-4f0b-8219-54e21fe00ab2",
+            "_objectVersion": "1",
+            "_refObjectName": "Sprint 5",
+            "CreationDate": "2017-04-06T22:13:03.102Z",
+            "_CreatedAt": "Apr 6",
+            "ObjectID": 35996483,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "EndDate": "2017-06-17T06:59:59.000Z",
+            "Name": "Sprint 5",
+            "Notes": "",
+            "PlanEstimate": null,
+            "PlannedVelocity": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35808274",
+                "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+                "_refObjectName": "mSTAT",
+                "_type": "Project"
+            },
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35996485",
+                "_refObjectUUID": "0c5ba462-75e8-4231-b673-e7007d04b561",
+                "_type": "RevisionHistory"
+            },
+            "StartDate": "2017-06-05T07:00:00.000Z",
+            "State": "Planning",
+            "TaskActualTotal": null,
+            "TaskEstimateTotal": null,
+            "TaskRemainingTotal": null,
+            "Theme": "",
+            "UserIterationCapacities":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/Iteration/35996483/UserIterationCapacities",
+                "_type": "UserIterationCapacity",
+                "Count": 0
+            },
+            "_type": "Iteration"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/iteration/35996506",
+            "_refObjectUUID": "6dd109e2-8bee-4938-96b4-22d88d9815bb",
+            "_objectVersion": "1",
+            "_refObjectName": "Sprint 6",
+            "CreationDate": "2017-04-06T22:13:30.092Z",
+            "_CreatedAt": "Apr 6",
+            "ObjectID": 35996506,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "EndDate": "2017-07-01T06:59:59.000Z",
+            "Name": "Sprint 6",
+            "Notes": "",
+            "PlanEstimate": null,
+            "PlannedVelocity": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35808274",
+                "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+                "_refObjectName": "mSTAT",
+                "_type": "Project"
+            },
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35996508",
+                "_refObjectUUID": "6a97a122-c4f9-4727-91dc-1ea42d75eafd",
+                "_type": "RevisionHistory"
+            },
+            "StartDate": "2017-06-19T07:00:00.000Z",
+            "State": "Planning",
+            "TaskActualTotal": null,
+            "TaskEstimateTotal": null,
+            "TaskRemainingTotal": null,
+            "Theme": "",
+            "UserIterationCapacities":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/Iteration/35996506/UserIterationCapacities",
+                "_type": "UserIterationCapacity",
+                "Count": 0
+            },
+            "_type": "Iteration"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/iteration/35996529",
+            "_refObjectUUID": "44f4b54e-96c7-410f-9d75-e57e0d19400f",
+            "_objectVersion": "2",
+            "_refObjectName": "Sprint 7",
+            "CreationDate": "2017-04-06T22:14:04.256Z",
+            "_CreatedAt": "Apr 6",
+            "ObjectID": 35996529,
+            "VersionId": "2",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "EndDate": "2017-07-15T06:59:59.000Z",
+            "Name": "Sprint 7",
+            "Notes": "",
+            "PlanEstimate": null,
+            "PlannedVelocity": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35808274",
+                "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+                "_refObjectName": "mSTAT",
+                "_type": "Project"
+            },
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35996531",
+                "_refObjectUUID": "7d884bea-70a5-43ac-8186-acec3498135c",
+                "_type": "RevisionHistory"
+            },
+            "StartDate": "2017-07-03T07:00:00.000Z",
+            "State": "Planning",
+            "TaskActualTotal": null,
+            "TaskEstimateTotal": null,
+            "TaskRemainingTotal": null,
+            "Theme": "",
+            "UserIterationCapacities":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/Iteration/35996529/UserIterationCapacities",
+                "_type": "UserIterationCapacity",
+                "Count": 0
+            },
+            "_type": "Iteration"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/iteration/36032857",
+            "_refObjectUUID": "37723d49-8239-4de1-bdf9-58c0f5bab439",
+            "_objectVersion": "1",
+            "_refObjectName": "Sprint 0",
+            "CreationDate": "2017-04-19T18:50:34.234Z",
+            "_CreatedAt": "Apr 19",
+            "ObjectID": 36032857,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "EndDate": "2017-04-08T06:59:59.000Z",
+            "Name": "Sprint 0",
+            "Notes": "",
+            "PlanEstimate": 2,
+            "PlannedVelocity": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35808274",
+                "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+                "_refObjectName": "mSTAT",
+                "_type": "Project"
+            },
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/36032859",
+                "_refObjectUUID": "2d540b67-062e-4698-9a13-da4b63e8bdaa",
+                "_type": "RevisionHistory"
+            },
+            "StartDate": "2017-04-01T07:00:00.000Z",
+            "State": "Planning",
+            "TaskActualTotal": 61.5,
+            "TaskEstimateTotal": 38,
+            "TaskRemainingTotal": 0,
+            "Theme": "",
+            "UserIterationCapacities":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/Iteration/36032857/UserIterationCapacities",
+                "_type": "UserIterationCapacity",
+                "Count": 1
+            },
+            "_type": "Iteration"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/iteration/36155133",
+            "_refObjectUUID": "5bee54e1-9afe-4f19-8d1c-cf54774a8a6d",
+            "_objectVersion": "1",
+            "_refObjectName": "Sprint 9 - System Test",
+            "CreationDate": "2017-05-15T16:27:39.899Z",
+            "_CreatedAt": "May 15",
+            "ObjectID": 36155133,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "EndDate": "2017-08-12T06:59:59.000Z",
+            "Name": "Sprint 9 - System Test",
+            "Notes": "",
+            "PlanEstimate": null,
+            "PlannedVelocity": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35808274",
+                "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+                "_refObjectName": "mSTAT",
+                "_type": "Project"
+            },
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/36155135",
+                "_refObjectUUID": "a6499ee2-917a-457c-94f3-56f31bd5a18d",
+                "_type": "RevisionHistory"
+            },
+            "StartDate": "2017-07-31T07:00:00.000Z",
+            "State": "Planning",
+            "TaskActualTotal": null,
+            "TaskEstimateTotal": null,
+            "TaskRemainingTotal": null,
+            "Theme": "",
+            "UserIterationCapacities":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/Iteration/36155133/UserIterationCapacities",
+                "_type": "UserIterationCapacity",
+                "Count": 0
+            },
+            "_type": "Iteration"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/iteration/36155156",
+            "_refObjectUUID": "09413c0d-27c5-485f-b253-5acc2de6bed3",
+            "_objectVersion": "1",
+            "_refObjectName": "Sprint 10 - UAT",
+            "CreationDate": "2017-05-15T16:28:10.906Z",
+            "_CreatedAt": "May 15",
+            "ObjectID": 36155156,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "EndDate": "2017-08-26T06:59:59.000Z",
+            "Name": "Sprint 10 - UAT",
+            "Notes": "",
+            "PlanEstimate": null,
+            "PlannedVelocity": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35808274",
+                "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+                "_refObjectName": "mSTAT",
+                "_type": "Project"
+            },
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/36155158",
+                "_refObjectUUID": "ac6b86c2-ecc8-4148-a922-6f2d2f0db9da",
+                "_type": "RevisionHistory"
+            },
+            "StartDate": "2017-08-15T07:00:00.000Z",
+            "State": "Planning",
+            "TaskActualTotal": null,
+            "TaskEstimateTotal": null,
+            "TaskRemainingTotal": null,
+            "Theme": "",
+            "UserIterationCapacities":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/Iteration/36155156/UserIterationCapacities",
+                "_type": "UserIterationCapacity",
+                "Count": 0
+            },
+            "_type": "Iteration"
+        },
+                {
+            "_rallyAPIMajor": "2",
+            "_rallyAPIMinor": "0",
+            "_ref": "/slm/webservice/v2.0/iteration/35996559",
+            "_refObjectUUID": "ae03f6ea-ba24-4e9e-9630-744fc7eb593d",
+            "_objectVersion": "1",
+            "_refObjectName": "Sprint 8",
+            "CreationDate": "2017-04-06T22:14:58.988Z",
+            "_CreatedAt": "Apr 6",
+            "ObjectID": 35996559,
+            "VersionId": "1",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/35545775",
+                "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+                "_refObjectName": "Business_Integration",
+                "_type": "Workspace"
+            },
+            "EndDate": "2017-07-29T06:59:59.000Z",
+            "Name": "Sprint 8",
+            "Notes": "",
+            "PlanEstimate": null,
+            "PlannedVelocity": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35808274",
+                "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+                "_refObjectName": "mSTAT",
+                "_type": "Project"
+            },
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35996561",
+                "_refObjectUUID": "d9ae0f7f-554f-43c1-b4a9-08943f0c120f",
+                "_type": "RevisionHistory"
+            },
+            "StartDate": "2017-07-17T07:00:00.000Z",
+            "State": "Planning",
+            "TaskActualTotal": null,
+            "TaskEstimateTotal": null,
+            "TaskRemainingTotal": null,
+            "Theme": "",
+            "UserIterationCapacities":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/Iteration/35996559/UserIterationCapacities",
+                "_type": "UserIterationCapacity",
+                "Count": 0
+            },
+            "_type": "Iteration"
+        }
+    ]
+}}

@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35328096",
     "_refObjectUUID": "8b996f6f-17bb-463a-bc44-c98152d8c71e",
-    "_objectVersion": "15",
+    "_objectVersion": "17",
     "_refObjectName": "Data Integration - Receive discrepancy data for Sat and Sun since those are working days for some employees",
     "CreationDate": "2016-10-31T23:19:46.147Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35328096,
-    "VersionId": "15",
+    "VersionId": "17",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11153",
-    "LastUpdateDate": "2017-01-23T22:11:33.876Z",
+    "LastUpdateDate": "2017-04-25T22:56:02.007Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -116,7 +116,14 @@
     "DragAndDropRank": ",~~hVD42JOl2Y)CB!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
     "InProgressDate": null,
-    "Iteration": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370709",
+        "_refObjectUUID": "0c97f731-42dd-4899-9179-56d46a55e4b1",
+        "_refObjectName": "Sprint 14",
+        "_type": "Iteration"
+    },
     "Parent": null,
     "PlanEstimate": 5,
     "Predecessors":     {

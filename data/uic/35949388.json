@@ -42,7 +42,7 @@
         "_refObjectName": "PRS Data & Reporting",
         "_type": "Project"
     },
-    "TaskEstimates": null,
+    "TaskEstimates": 56,
     "User":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

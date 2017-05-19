@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35962274",
     "_refObjectUUID": "adb92454-1f2e-4146-837f-93bd252ebc2b",
-    "_objectVersion": "6",
-    "_refObjectName": "Analysis - Property Data Warehouse - Data Modeler",
+    "_objectVersion": "27",
+    "_refObjectName": "DM Data Analysis - Property",
     "CreationDate": "2017-03-29T16:43:37.867Z",
-    "_CreatedAt": "today at 9:43 am",
+    "_CreatedAt": "Mar 29",
     "ObjectID": 35962274,
-    "VersionId": "6",
+    "VersionId": "27",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US931",
-    "LastUpdateDate": "2017-03-29T20:43:19.469Z",
+    "LastUpdateDate": "2017-05-04T22:51:54.041Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Analysis - Property Data Warehouse - Data Modeler",
+    "Name": "DM Data Analysis - Property",
     "Notes": "",
     "Owner":     {
         "_rallyAPIMajor": "2",
@@ -90,7 +90,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "In-Progress",
+    "ScheduleState": "Completed",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -122,24 +122,24 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": "O~~y6~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
-    "InProgressDate": "2017-03-29T18:45:34.116Z",
+    "InProgressDate": "2017-05-02T20:23:20.203Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/iteration/35807096",
-        "_refObjectUUID": "bda1bd3f-a9ee-4380-b1ca-f08b9d9af1f8",
-        "_refObjectName": "Sprint 2",
+        "_ref": "/slm/webservice/v2.0/iteration/35807159",
+        "_refObjectUUID": "92558fde-dbd5-440c-b172-acd90a5fe77e",
+        "_refObjectName": "Sprint 3",
         "_type": "Iteration"
     },
     "Parent":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35735672",
-        "_refObjectUUID": "1a34b654-fce0-4996-86a9-5786d145f708",
-        "_refObjectName": "Data Acquisition & Preparation",
+        "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/36069906",
+        "_refObjectUUID": "fd126c8a-11ca-4b0e-97bf-c3faf423234e",
+        "_refObjectName": "Analyze Property Data",
         "_type": "HierarchicalRequirement"
     },
-    "PlanEstimate": null,
+    "PlanEstimate": 5,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -163,10 +163,10 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 25,
-    "TaskRemainingTotal": 25,
-    "TaskStatus": "IN_PROGRESS",
+    "TaskActualTotal": 5,
+    "TaskEstimateTotal": 5,
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

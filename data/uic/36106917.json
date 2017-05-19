@@ -1,0 +1,56 @@
+{"UserIterationCapacity": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/useriterationcapacity/36106917",
+    "_refObjectUUID": "69edaa64-20f4-4445-9c70-0a101d3cb6e5",
+    "_objectVersion": "1",
+    "CreationDate": "2017-05-04T23:53:01.373Z",
+    "_CreatedAt": "May 4",
+    "ObjectID": 36106917,
+    "VersionId": "1",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/35545775",
+        "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+        "_refObjectName": "Business_Integration",
+        "_type": "Workspace"
+    },
+    "Capacity": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35996460",
+        "_refObjectUUID": "5372cee3-0ee9-4897-aabb-79ec8722648e",
+        "_refObjectName": "Sprint 4",
+        "_type": "Iteration"
+    },
+    "Load": null,
+    "Project":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/project/35808274",
+        "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+        "_refObjectName": "mSTAT",
+        "_type": "Project"
+    },
+    "TaskEstimates": null,
+    "User":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/33992963",
+        "_refObjectUUID": "4d5c01b5-f09d-4711-9faf-9f21d84cc82f",
+        "_refObjectName": "Matt Young",
+        "_type": "User"
+    },
+    "Errors": [],
+    "Warnings": []
+}}

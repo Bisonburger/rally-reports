@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35809716",
     "_refObjectUUID": "6af1cf9c-d3fa-4da0-b877-5c31e8accc43",
-    "_objectVersion": "46",
+    "_objectVersion": "70",
     "_refObjectName": "Supporting user story stories",
     "CreationDate": "2017-03-01T21:44:57.497Z",
     "_CreatedAt": "Mar 1",
     "ObjectID": 35809716,
-    "VersionId": "46",
+    "VersionId": "70",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US254",
-    "LastUpdateDate": "2017-03-29T13:22:23.008Z",
+    "LastUpdateDate": "2017-05-02T16:56:11.805Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -102,7 +102,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35809716/Children",
         "_type": "HierarchicalRequirement",
-        "Count": 8
+        "Count": 9
     },
     "DefectStatus": null,
     "Defects":     {
@@ -112,7 +112,7 @@
         "_type": "Defect",
         "Count": 0
     },
-    "DirectChildrenCount": 8,
+    "DirectChildrenCount": 9,
     "DragAndDropRank": "O~~~9~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": "2017-03-16T00:05:42.374Z",
@@ -142,9 +142,9 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 43,
-    "TaskEstimateTotal": 53,
-    "TaskRemainingTotal": 9,
+    "TaskActualTotal": 66,
+    "TaskEstimateTotal": 90,
+    "TaskRemainingTotal": 20,
     "TaskStatus": null,
     "Tasks":     {
         "_rallyAPIMajor": "2",

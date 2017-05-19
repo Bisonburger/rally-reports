@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35960641",
     "_refObjectUUID": "02925a0f-8c59-4a6f-af6d-c727cd54ab2b",
-    "_objectVersion": "1",
+    "_objectVersion": "2",
     "_refObjectName": "[Unfinished] UX design for viewing and entering workflow status",
     "CreationDate": "2017-03-29T16:25:36.297Z",
-    "_CreatedAt": "today at 9:25 am",
+    "_CreatedAt": "Mar 29",
     "ObjectID": 35960641,
-    "VersionId": "1",
+    "VersionId": "2",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US920",
-    "LastUpdateDate": "2017-03-29T16:25:36.430Z",
+    "LastUpdateDate": "2017-04-26T22:47:14.813Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -120,7 +120,7 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~yA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~yAO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": "2017-03-29T16:25:36.342Z",
     "Iteration":     {

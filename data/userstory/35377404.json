@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35377404",
     "_refObjectUUID": "2f02bf50-932e-4083-a80a-04d671ae02bc",
-    "_objectVersion": "5",
-    "_refObjectName": "UI/QC/Tech/Archi Review SP11",
+    "_objectVersion": "39",
+    "_refObjectName": "UI/QC/Tech/ETL/Archi Review SP11",
     "CreationDate": "2016-11-03T23:33:14.699Z",
     "_CreatedAt": "Nov 3, 2016",
     "ObjectID": 35377404,
-    "VersionId": "5",
+    "VersionId": "39",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11202",
-    "LastUpdateDate": "2017-03-08T17:27:47.012Z",
+    "LastUpdateDate": "2017-05-10T23:06:26.241Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "UI/QC/Tech/Archi Review SP11",
+    "Name": "UI/QC/Tech/ETL/Archi Review SP11",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-05-10T18:24:02.005Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,7 +115,7 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hJs42JOl2Y)CB!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
+    "InProgressDate": "2017-05-09T23:03:10.197Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -149,16 +149,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
-    "TaskRemainingTotal": 0,
-    "TaskStatus": "NONE",
+    "TaskActualTotal": 60,
+    "TaskEstimateTotal": 104,
+    "TaskRemainingTotal": 16,
+    "TaskStatus": "IN_PROGRESS",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35377404/Tasks",
         "_type": "Task",
-        "Count": 0
+        "Count": 9
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35882123",
     "_refObjectUUID": "4b81659b-dac4-433f-9319-2ff60c485904",
-    "_objectVersion": "39",
+    "_objectVersion": "40",
     "_refObjectName": "create Solr framework",
     "CreationDate": "2017-03-06T23:14:12.390Z",
     "_CreatedAt": "Mar 6",
     "ObjectID": 35882123,
-    "VersionId": "39",
+    "VersionId": "40",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US650",
-    "LastUpdateDate": "2017-03-28T19:12:26.183Z",
+    "LastUpdateDate": "2017-05-09T19:23:22.252Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -113,7 +113,7 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~{T~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~yHD8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": "2017-03-16T00:05:42.374Z",
     "Iteration":     {

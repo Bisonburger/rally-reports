@@ -199,7 +199,7 @@ gulp.task( 'generate-part2', () => {
 });
 
 gulp.task( 'generate-part3', () => {
-    ['35734993', '35734880'].forEach( (projectId) =>{
+    ['35734993', '35734880', '35808274'].forEach( (projectId) =>{
         console.log( `Building data for ${projectId}`);
         getProjectData(projectId);
         sleep(5000);
@@ -212,7 +212,7 @@ gulp.task( 'generate-part3', () => {
 
 
 function generateDataTask(){
-  runSequence('generate-par1','generate-part2', 'generate-part3');
+  runSequence('generate-part1','generate-part2', 'generate-part3');
 }
 
 gulp.task( 'generate-data', function(){

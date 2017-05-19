@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35935549",
     "_refObjectUUID": "2eb649bd-4206-47c2-b7d4-9e5d1b5f56f8",
-    "_objectVersion": "3",
+    "_objectVersion": "4",
     "_refObjectName": "create governement signoff ??",
     "CreationDate": "2017-03-16T00:40:33.482Z",
     "_CreatedAt": "Mar 15",
     "ObjectID": 35935549,
-    "VersionId": "3",
+    "VersionId": "4",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US908",
-    "LastUpdateDate": "2017-03-16T17:52:28.215Z",
+    "LastUpdateDate": "2017-03-30T18:27:12.667Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -134,14 +134,7 @@
         "Count": 0
     },
     "Recycled": false,
-    "Release":     {
-        "_rallyAPIMajor": "2",
-        "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/release/35734891",
-        "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
-        "_refObjectName": "Dec 2017",
-        "_type": "Release"
-    },
+    "Release": null,
     "Successors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

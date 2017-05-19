@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35336071",
     "_refObjectUUID": "8e3fc12f-158d-4893-9637-d646f9c4faba",
-    "_objectVersion": "28",
+    "_objectVersion": "35",
     "_refObjectName": "Notifications - I need to receive notification when an AVO request has been submitted, with the option to opt out of these emails",
     "CreationDate": "2016-10-31T23:23:06.025Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35336071,
-    "VersionId": "28",
+    "VersionId": "35",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11160",
-    "LastUpdateDate": "2017-03-28T20:33:38.292Z",
+    "LastUpdateDate": "2017-04-11T20:09:10.477Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "In-Progress",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-04-11T20:09:10.434Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -149,10 +149,10 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 1.5,
+    "TaskActualTotal": 0,
     "TaskEstimateTotal": 8,
-    "TaskRemainingTotal": 8,
-    "TaskStatus": "IN_PROGRESS",
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

@@ -5,7 +5,7 @@
     "_refObjectUUID": "19ca8357-b207-46a6-9e79-51b98fc76cb3",
     "_objectVersion": "1",
     "CreationDate": "2017-03-29T13:14:50.204Z",
-    "_CreatedAt": "today at 6:14 am",
+    "_CreatedAt": "Mar 29",
     "ObjectID": 35959875,
     "VersionId": "1",
     "Subscription":     {
@@ -42,7 +42,7 @@
         "_refObjectName": "PRS Java",
         "_type": "Project"
     },
-    "TaskEstimates": 8,
+    "TaskEstimates": null,
     "User":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35724152",
     "_refObjectUUID": "3dede1a5-3396-455e-80b8-8e54b689aff9",
-    "_objectVersion": "74",
-    "_refObjectName": "[Continued] create new contract closeout record",
+    "_objectVersion": "98",
+    "_refObjectName": "[Continued] [Continued] create new contract closeout record",
     "CreationDate": "2017-02-21T17:36:27.761Z",
     "_CreatedAt": "Feb 21",
     "ObjectID": 35724152,
-    "VersionId": "74",
+    "VersionId": "98",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>As a SC Property Manager, once notified &nbsp;I need to create a new closeout record so the workflow can begin:<\/p>User enters the following information:<br /><ol><li><b style=\"mso-bidi-font-weight:normal\">Contract Number <\/b>(copy and paste from email or type ahead)<\/li><li><b style=\"mso-bidi-font-weight:normal\">Contract Type<\/b> (types are: CS, CSNF, CP, CPAF, CPIF, CPFF, FPI, FPIF, FFP, TM) <b style=\"mso-bidi-font-weight:normal\">Note<\/b>: I am waiting for an answer if this is a multi-select or not<\/li><li><b style=\"mso-bidi-font-weight:normal\">Closure Notification Date <\/b><span style=\"mso-bidi-font-weight:normal\">(<\/span>CCN email was sent from ICMS)<\/li><li><b style=\"mso-bidi-font-weight:normal\">Performance End Date<\/b> (That's the date the contract is over)<\/li><li><b style=\"mso-bidi-font-weight:normal\">Closure Status<\/b> (statuses are: In closure, Pre-closure, Closed, Open)<\/li><li><b style=\"mso-bidi-font-weight:normal\">Property Closure Administrator<\/b><span style=\"mso-bidi-font-weight:normal\"> (assign from list)<\/span><b style=\"mso-bidi-font-weight:normal\"><br /><\/b><\/li><li><b style=\"mso-bidi-font-weight:normal\">Property Closure Secondary Admin<\/b><span style=\"mso-bidi-font-weight:normal\"> (assign from list)<\/span><\/li><\/ol>  <ul><li>all fields required<\/li><li>system capture entered by user ID and time stamp<\/li><li>after Enter clicked, system&nbsp;verify that contract # is a valid # in our DB, and unique #<\/li><ul><li>if number is NOT unique, then _______________??<br /><\/li><\/ul><li>if contract # not found, system accepts user entered contract #, and flags \"manual entry\"<br /><\/li><\/ul><p>system creates new record and Detail page opens<\/p><ul><li>system pulls workflow # (if can't, manual entry)<\/li><li>displays apex data, and alternate contract title<br /><\/li><li>system displays contract code (from PCIS)<\/li><li>system displays type, from Apex<\/li><li>system displays planned closeout duration<\/li><li>DCMA check box (from ICMS)? if we get it, otherwise user selects it<br /><\/li><li>user may edit status (from pre or in to closed, or canceled)<\/li><li>system displays perf end date<\/li><li>sys displays project def (multiple) (former GLA Network Activiti)<br /><\/li><li>can all fields be edited?<br /><\/li><li>when clicking save, system will go out and analyze data to display property type (and count ??)<br /><\/li><\/ul><p><br /><\/p><p><br /><\/p><p><br /><\/p>",
+    "Description": "<p>As a SC Property Manager, once notified &nbsp;I need to create a new closeout record so the workflow can begin:<\/p>User enters the following information:<br /><ol><li><b style=\"mso-bidi-font-weight: normal;\">Contract Number <\/b>(copy and paste from email or type ahead)<\/li><li><b style=\"mso-bidi-font-weight: normal;\">Contract Type<\/b> (types are: CS, CSNF, CP, CPAF, CPIF, CPFF, FPI, FPIF, FFP, TM) multi-select <\/li><li><b style=\"mso-bidi-font-weight: normal;\">Closure Notification Date <\/b><span style=\"mso-bidi-font-weight: normal;\">(<\/span>CCN email was sent from ICMS) today or before only<\/li><li><b style=\"mso-bidi-font-weight: normal;\">Performance End Date<\/b> (That's the date the contract is over)<\/li><li><b style=\"mso-bidi-font-weight: normal;\">Closure Status<\/b> (statuses are: In closure, Pre-closure, <font color=\"#ff0000\" style=\"background-color: rgb(255, 255, 255);\">Closed, Open, cancelled<\/font><\/li><li><b style=\"mso-bidi-font-weight: normal;\">Property Closure Administrator<\/b><span style=\"mso-bidi-font-weight: normal;\"> (assign from list)<\/span><b style=\"mso-bidi-font-weight: normal;\"><br /><\/b><\/li><li><b style=\"mso-bidi-font-weight: normal;\">Property Closure Secondary Admin<\/b><span style=\"mso-bidi-font-weight: normal;\"> (assign from list)<\/span><\/li><\/ol>  <ul><li>all fields required<\/li><li>system capture entered by user ID and time stamp<\/li><li>after Enter clicked, system&nbsp;verify that contract # is a valid # in our DB, and unique #<\/li><ul><li>if number is NOT unique, then a message displays allowing user choice of going to existing or starting a new closeout for a different contract<br /><\/li><\/ul><li>if contract # not found, system accepts user entered contract #, and flags \"manual entry\"<br /><\/li><\/ul><p>system creates new record and Detail page opens<\/p><ul><li>system pulls workflow # (if can't, manual entry)<\/li><li>displays apex data, and alternate contract title<br /><\/li><li>system displays contract code (from PCIS)<\/li><li>system displays type, from Apex<\/li><li>system displays planned closeout duration<\/li><li>DCMA check box (from ICMS)? if we get it, otherwise user selects it<br /><\/li><li>user may edit status (from pre or in to closed, or canceled)<\/li><li>system displays perf end date<\/li><li>sys displays project def (multiple) (former GLA Network Activiti)<br /><\/li><li>can all fields be edited?<br /><\/li><li>when clicking save, system will go out and analyze data to display property type (and count ??)<br /><\/li><\/ul><p><br /><\/p><p><br /><\/p><p><br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US36",
-    "LastUpdateDate": "2017-03-29T16:26:10.847Z",
+    "LastUpdateDate": "2017-05-10T21:13:42.752Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "[Continued] create new contract closeout record",
+    "Name": "[Continued] [Continued] create new contract closeout record",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "In-Progress",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-05-10T17:35:38.818Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -119,9 +119,9 @@
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/iteration/35807099",
-        "_refObjectUUID": "0cb5296a-6940-42c2-b235-87d1ddf23515",
-        "_refObjectName": "Sprint 2",
+        "_ref": "/slm/webservice/v2.0/iteration/35807162",
+        "_refObjectUUID": "bcca9b84-de3b-4aa3-8c13-4595597f6530",
+        "_refObjectName": "Sprint 3",
         "_type": "Iteration"
     },
     "Parent":     {
@@ -156,10 +156,10 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 21.5,
-    "TaskEstimateTotal": 24,
-    "TaskRemainingTotal": 8,
-    "TaskStatus": "IN_PROGRESS",
+    "TaskActualTotal": 31,
+    "TaskEstimateTotal": 19,
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

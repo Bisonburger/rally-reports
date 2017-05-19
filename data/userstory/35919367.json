@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35919367",
     "_refObjectUUID": "bfd7445f-4bbf-4b5d-bbed-9f5c769e9bfb",
-    "_objectVersion": "5",
-    "_refObjectName": "Analyze MEQUIPMNT Data (BA)",
+    "_objectVersion": "6",
+    "_refObjectName": "Analyze MEQUIPMNT Data",
     "CreationDate": "2017-03-10T18:48:21.954Z",
     "_CreatedAt": "Mar 10",
     "ObjectID": 35919367,
-    "VersionId": "5",
+    "VersionId": "6",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US861",
-    "LastUpdateDate": "2017-03-10T20:58:39.195Z",
+    "LastUpdateDate": "2017-05-01T22:14:03.891Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Analyze MEQUIPMNT Data (BA)",
+    "Name": "Analyze MEQUIPMNT Data",
     "Notes": "",
     "Owner": null,
     "Project":     {

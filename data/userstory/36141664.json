@@ -1,0 +1,183 @@
+{"HierarchicalRequirement": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/36141664",
+    "_refObjectUUID": "2e1582a9-5345-4e74-b1b1-26e98de4ca2c",
+    "_objectVersion": "13",
+    "_refObjectName": "[Unfinished] enter direction",
+    "CreationDate": "2017-05-09T23:39:11.578Z",
+    "_CreatedAt": "May 9",
+    "ObjectID": 36141664,
+    "VersionId": "13",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/35545775",
+        "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+        "_refObjectName": "Business_Integration",
+        "_type": "Workspace"
+    },
+    "Changesets":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36141664/Changesets",
+        "_type": "Changeset",
+        "Count": 0
+    },
+    "Description": "<p>as the Program Manager designee&nbsp;I need to enter the direction of each item of property so that others can implement the specified action<\/p><p>direction type options: <\/p><ul><li>contract transfer, including to what contract #, dropdown of <font style=\"background-color: rgb(255, 255, 255);\">justification choices per below<\/font><\/li><li>excess - in house<\/li><li>excess - vendor held<\/li><li>un-located<\/li><li>other [comment required]]<\/li><li>not applicable [comment required]<br /><\/li><\/ul><p>transfer justification<\/p><ul><li><font color=\"#000000\">Rate Production<\/font><\/li><li><font color=\"#000000\">Maintenance<\/font><\/li><li><font color=\"#000000\">FMS Sales Configuration<\/font><\/li><li><font color=\"#000000\">Engineering Development<\/font><\/li><li><font color=\"#000000\">Failure / Investigating / Troubleshooting<\/font><\/li><li><font color=\"#000000\">warranty contract<\/font><\/li><li><font color=\"#000000\">depot contract<\/font><\/li><li>Other (comment required)<font face=\"Times New Roman\" size=\"3\">            <\/font><\/li><\/ul><p><br /><\/p><p><em>enter name of POC, charge code,<\/em> <\/p><p>optional attachments may be uploaded [100 mb]<\/p><p><br /><\/p><p>display instructions of next required actions in outside systems - with ability to download a list of items by direction type<\/p><p><br /><br /><br /><\/p><p>Developer Notes:<br />Direction implies that the IT system must create a data model for each individual property.&nbsp;Would the IT System need to track history on individual property?<br /><\/p>",
+    "Discussion":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36141664/Discussion",
+        "_type": "ConversationPost",
+        "Count": 0
+    },
+    "DisplayColor": null,
+    "Expedite": false,
+    "FormattedID": "US1662",
+    "LastUpdateDate": "2017-05-16T00:34:02.548Z",
+    "LatestDiscussionAgeInMinutes": null,
+    "Milestones":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36141664/Milestones",
+        "_type": "Milestone",
+        "_tagsNameArray": [],
+        "Count": 0
+    },
+    "Name": "[Unfinished] enter direction",
+    "Notes": "",
+    "Owner": null,
+    "Project":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/project/35734880",
+        "_refObjectUUID": "b507d189-abd9-439a-b149-3acae592d264",
+        "_refObjectName": "PRS Java",
+        "_type": "Project"
+    },
+    "Ready": false,
+    "RevisionHistory":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/revisionhistory/36141665",
+        "_refObjectUUID": "be084614-6d94-468a-b0e4-4ed30968d0d5",
+        "_type": "RevisionHistory"
+    },
+    "Tags":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36141664/Tags",
+        "_type": "Tag",
+        "_tagsNameArray": [],
+        "Count": 0
+    },
+    "LastBuild": null,
+    "LastRun": null,
+    "PassingTestCaseCount": 0,
+    "ScheduleState": "Completed",
+    "TestCaseCount": 0,
+    "Attachments":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36141664/Attachments",
+        "_type": "Attachment",
+        "Count": 0
+    },
+    "Package": null,
+    "AcceptedDate": null,
+    "Blocked": false,
+    "BlockedReason": null,
+    "Blocker": null,
+    "Children":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36141664/Children",
+        "_type": "HierarchicalRequirement",
+        "Count": 0
+    },
+    "DefectStatus": "NONE",
+    "Defects":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36141664/Defects",
+        "_type": "Defect",
+        "Count": 0
+    },
+    "DirectChildrenCount": 0,
+    "DragAndDropRank": "O~~~@tun+;J,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "HasParent": true,
+    "InProgressDate": "2017-05-09T23:39:11.591Z",
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35807162",
+        "_refObjectUUID": "bcca9b84-de3b-4aa3-8c13-4595597f6530",
+        "_refObjectName": "Sprint 3",
+        "_type": "Iteration"
+    },
+    "Parent":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35723964",
+        "_refObjectUUID": "babeafee-6160-4b92-bef0-0932ecf57738",
+        "_refObjectName": "Property Direction & Workflow",
+        "_type": "HierarchicalRequirement"
+    },
+    "PlanEstimate": 0,
+    "Predecessors":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36141664/Predecessors",
+        "_type": "HierarchicalRequirement",
+        "Count": 0
+    },
+    "Recycled": false,
+    "Release":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/release/35734891",
+        "_refObjectUUID": "5fd6fe50-e1c9-4c18-bce8-bbcfcd158aa3",
+        "_refObjectName": "Dec 2017",
+        "_type": "Release"
+    },
+    "Successors":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36141664/Successors",
+        "_type": "HierarchicalRequirement",
+        "Count": 0
+    },
+    "TaskActualTotal": 41.75,
+    "TaskEstimateTotal": 37,
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
+    "Tasks":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36141664/Tasks",
+        "_type": "Task",
+        "Count": 6
+    },
+    "TestCaseStatus": "NONE",
+    "TestCases":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/36141664/TestCases",
+        "_type": "TestCase",
+        "Count": 0
+    },
+    "c_BizValue": 9,
+    "Feature": null,
+    "PortfolioItem": null,
+    "Errors": [],
+    "Warnings": []
+}}

@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35811743",
     "_refObjectUUID": "f1431f52-880d-4ee6-a90f-0cb0b5cb4e68",
-    "_objectVersion": "4",
+    "_objectVersion": "14",
     "_refObjectName": "sprint 4 defect fixes",
     "CreationDate": "2017-03-02T00:11:31.923Z",
     "_CreatedAt": "Mar 1",
     "ObjectID": 35811743,
-    "VersionId": "4",
+    "VersionId": "14",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US271",
-    "LastUpdateDate": "2017-03-08T16:35:52.585Z",
+    "LastUpdateDate": "2017-05-17T21:32:25.723Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Completed",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -113,9 +113,9 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~~1gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~~W9YTG2[gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
-    "InProgressDate": null,
+    "InProgressDate": "2017-05-11T22:12:46.089Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -156,16 +156,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
+    "TaskActualTotal": 1.75,
     "TaskEstimateTotal": 0,
     "TaskRemainingTotal": 0,
-    "TaskStatus": "NONE",
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35811743/Tasks",
         "_type": "Task",
-        "Count": 0
+        "Count": 3
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

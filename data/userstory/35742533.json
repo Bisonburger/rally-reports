@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35742533",
     "_refObjectUUID": "fa0e58e0-9c8a-49d2-afc8-c5d97ec5f6d3",
-    "_objectVersion": "13",
-    "_refObjectName": "assign actions",
+    "_objectVersion": "42",
+    "_refObjectName": "PM assign actions to Resp Person *",
     "CreationDate": "2017-02-23T00:22:26.922Z",
     "_CreatedAt": "Feb 22",
     "ObjectID": 35742533,
-    "VersionId": "13",
+    "VersionId": "42",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>as a GFM admin or&nbsp;Program Manager I need to assign GFM&nbsp;property actions so that the property can be handled accordingly<\/p><p>for each property line item, user <\/p><ul><li>selects an assignee (role) <\/li><li>enters details (free form text field)<\/li><li>saves entry<\/li><\/ul><p>system<\/p><ul><li>sends assignee a notice of new action <em><strong>&lt;30 day timer per person ???&gt; <\/strong><\/em><\/li><li>displays entered details and&nbsp;area/location for each line item on assignee action dashboard<br /><\/li><\/ul>",
+    "Description": "<p>as a PM or PM PoC&nbsp;I need to assign and inform&nbsp;RP's that they have been assigned to research, report on and recommend direction for selected property line items<\/p><p>for each property line item, PM or PM PoC<\/p><ul><li>selects a RP<\/li><ul><li>by entering name and system auto assigning RP role<\/li><li>may assign same person to multiple items or all<\/li><li>enters optional special instructions (free form text field)<\/li><\/ul><li>saves entry<\/li><\/ul><p>system<\/p><ul><li>sends assignee a consolidated&nbsp;email&nbsp;of all assigned&nbsp;items with a link to record<\/li><li>displays entered details and&nbsp;area/location for each line item on assignee action dashboard<\/li><li><br /><\/li><\/ul>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US96",
-    "LastUpdateDate": "2017-03-16T17:24:39.240Z",
+    "LastUpdateDate": "2017-05-18T19:39:34.542Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "assign actions",
+    "Name": "PM assign actions to Resp Person *",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "In-Progress",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -113,19 +113,26 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~~W/a[gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~yH~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
-    "InProgressDate": null,
-    "Iteration": null,
+    "InProgressDate": "2017-05-17T21:36:54.573Z",
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35807225",
+        "_refObjectUUID": "1674aa33-93df-45ac-ab8c-aec0b8327d20",
+        "_refObjectName": "Sprint 4",
+        "_type": "Iteration"
+    },
     "Parent":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35737329",
-        "_refObjectUUID": "728bb7f2-3ccf-4f24-be81-1c75e26bd026",
-        "_refObjectName": "Gov't Furnished Material",
+        "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35723964",
+        "_refObjectUUID": "babeafee-6160-4b92-bef0-0932ecf57738",
+        "_refObjectName": "Property Direction & Workflow",
         "_type": "HierarchicalRequirement"
     },
-    "PlanEstimate": 13,
+    "PlanEstimate": 8,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -150,15 +157,15 @@
         "Count": 0
     },
     "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
-    "TaskRemainingTotal": 0,
-    "TaskStatus": "NONE",
+    "TaskEstimateTotal": 12,
+    "TaskRemainingTotal": 12,
+    "TaskStatus": "IN_PROGRESS",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35742533/Tasks",
         "_type": "Task",
-        "Count": 0
+        "Count": 5
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

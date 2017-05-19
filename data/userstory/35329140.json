@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35329140",
     "_refObjectUUID": "38ca107b-2245-4fec-a41b-d8e36593229c",
-    "_objectVersion": "33",
+    "_objectVersion": "34",
     "_refObjectName": "Notifications - I want to manage my preferences for receiving notifications",
     "CreationDate": "2016-10-31T23:22:27.841Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35329140,
-    "VersionId": "33",
+    "VersionId": "34",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11159",
-    "LastUpdateDate": "2017-03-29T18:49:19.680Z",
+    "LastUpdateDate": "2017-04-25T18:45:58.562Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -134,7 +134,14 @@
         "Count": 0
     },
     "Recycled": false,
-    "Release": null,
+    "Release":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/release/35284864",
+        "_refObjectUUID": "5b63a09a-fad4-403f-a68b-c8e0e98826ee",
+        "_refObjectName": "Release 1",
+        "_type": "Release"
+    },
     "Successors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

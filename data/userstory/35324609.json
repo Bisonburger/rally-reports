@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35324609",
     "_refObjectUUID": "e53b86b8-0889-42b1-9478-1833da4c362c",
-    "_objectVersion": "20",
+    "_objectVersion": "22",
     "_refObjectName": "Discrepancy Resolution Process - I need to adjust modified work schedule for factories to decrease the number of incorrectly identified discrepancies so that I can save time by not having to resolve these",
     "CreationDate": "2016-10-31T23:08:18.433Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35324609,
-    "VersionId": "20",
+    "VersionId": "22",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11133",
-    "LastUpdateDate": "2017-03-08T16:29:45.566Z",
+    "LastUpdateDate": "2017-05-09T20:15:22.398Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -116,7 +116,14 @@
     "DragAndDropRank": ",~~hN~(cnppXjd+q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
     "InProgressDate": null,
-    "Iteration": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370709",
+        "_refObjectUUID": "0c97f731-42dd-4899-9179-56d46a55e4b1",
+        "_refObjectName": "Sprint 14",
+        "_type": "Iteration"
+    },
     "Parent": null,
     "PlanEstimate": 21,
     "Predecessors":     {

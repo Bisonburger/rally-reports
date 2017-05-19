@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35808211",
     "_refObjectUUID": "a1d5d771-ede2-4625-9463-22aca148523d",
-    "_objectVersion": "23",
+    "_objectVersion": "42",
     "_refObjectName": "sprint 1 feedback changes [should total < 10 hours]",
     "CreationDate": "2017-03-01T20:20:20.015Z",
     "_CreatedAt": "Mar 1",
     "ObjectID": 35808211,
-    "VersionId": "23",
+    "VersionId": "42",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US236",
-    "LastUpdateDate": "2017-03-29T17:50:48.144Z",
+    "LastUpdateDate": "2017-04-25T22:09:27.563Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "In-Progress",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-04-25T22:09:27.531Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -156,16 +156,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 9.5,
-    "TaskRemainingTotal": 9.5,
-    "TaskStatus": "IN_PROGRESS",
+    "TaskActualTotal": 13,
+    "TaskEstimateTotal": 11.5,
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35808211/Tasks",
         "_type": "Task",
-        "Count": 8
+        "Count": 7
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

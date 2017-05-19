@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35328792",
     "_refObjectUUID": "bf05ace0-e1b1-420c-861c-444bae3029b5",
-    "_objectVersion": "18",
-    "_refObjectName": "Notifications - THIRD NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",
+    "_objectVersion": "19",
+    "_refObjectName": "removed - Notifications - THIRD NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",
     "CreationDate": "2016-10-31T23:21:46.062Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35328792,
-    "VersionId": "18",
+    "VersionId": "19",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11157",
-    "LastUpdateDate": "2017-02-15T23:59:34.872Z",
+    "LastUpdateDate": "2017-04-11T20:19:33.252Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Notifications - THIRD NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",
+    "Name": "removed - Notifications - THIRD NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -127,14 +127,7 @@
         "Count": 0
     },
     "Recycled": false,
-    "Release":     {
-        "_rallyAPIMajor": "2",
-        "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/release/35284864",
-        "_refObjectUUID": "5b63a09a-fad4-403f-a68b-c8e0e98826ee",
-        "_refObjectName": "Release 1",
-        "_type": "Release"
-    },
+    "Release": null,
     "Successors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

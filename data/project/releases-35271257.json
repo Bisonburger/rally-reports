@@ -3,65 +3,125 @@
     "_rallyAPIMinor": "0",
     "Errors": [],
     "Warnings": [],
-    "TotalResultCount": 1,
+    "TotalResultCount": 2,
     "StartIndex": 1,
     "PageSize": 200,
-    "Results": [    {
-        "_rallyAPIMajor": "2",
-        "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/release/35284864",
-        "_refObjectUUID": "5b63a09a-fad4-403f-a68b-c8e0e98826ee",
-        "_objectVersion": "5",
-        "_refObjectName": "Release 1",
-        "CreationDate": "2016-10-17T22:50:58.753Z",
-        "_CreatedAt": "Oct 17, 2016",
-        "ObjectID": 35284864,
-        "VersionId": "5",
-        "Subscription":         {
+    "Results":     [
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
-            "_ref": "/slm/webservice/v2.0/subscription/5104",
-            "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
-            "_refObjectName": "raytheon_az_-163",
-            "_type": "Subscription"
+            "_ref": "/slm/webservice/v2.0/release/35284864",
+            "_refObjectUUID": "5b63a09a-fad4-403f-a68b-c8e0e98826ee",
+            "_objectVersion": "5",
+            "_refObjectName": "Release 1",
+            "CreationDate": "2016-10-17T22:50:58.753Z",
+            "_CreatedAt": "Oct 17, 2016",
+            "ObjectID": 35284864,
+            "VersionId": "5",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/69587",
+                "_refObjectUUID": "59391212-ec86-42b1-a315-b881f4b94958",
+                "_refObjectName": "BSD Workspace",
+                "_type": "Workspace"
+            },
+            "Accepted": 377,
+            "GrossEstimateConversionRatio": 1,
+            "Name": "Release 1",
+            "Notes": "",
+            "PlanEstimate": 475,
+            "PlannedVelocity": 22,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35271257",
+                "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
+                "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
+                "_type": "Project"
+            },
+            "ReleaseDate": "2017-08-30T06:59:59.000Z",
+            "ReleaseStartDate": "2016-06-06T07:00:00.000Z",
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/35284866",
+                "_refObjectUUID": "5c8a66d2-d09d-415f-8228-444821f47aa9",
+                "_type": "RevisionHistory"
+            },
+            "State": "Planning",
+            "TaskActualTotal": 1544.6499999999999,
+            "TaskEstimateTotal": 2030.5,
+            "TaskRemainingTotal": 198,
+            "Theme": "",
+            "Version": null,
+            "_type": "Release"
         },
-        "Workspace":         {
+                {
             "_rallyAPIMajor": "2",
             "_rallyAPIMinor": "0",
-            "_ref": "/slm/webservice/v2.0/workspace/69587",
-            "_refObjectUUID": "59391212-ec86-42b1-a315-b881f4b94958",
-            "_refObjectName": "BSD Workspace",
-            "_type": "Workspace"
-        },
-        "Accepted": 291,
-        "GrossEstimateConversionRatio": 1,
-        "Name": "Release 1",
-        "Notes": "",
-        "PlanEstimate": 477,
-        "PlannedVelocity": 22,
-        "Project":         {
-            "_rallyAPIMajor": "2",
-            "_rallyAPIMinor": "0",
-            "_ref": "/slm/webservice/v2.0/project/35271257",
-            "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
-            "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
-            "_type": "Project"
-        },
-        "ReleaseDate": "2017-08-30T06:59:59.000Z",
-        "ReleaseStartDate": "2016-06-06T07:00:00.000Z",
-        "RevisionHistory":         {
-            "_rallyAPIMajor": "2",
-            "_rallyAPIMinor": "0",
-            "_ref": "/slm/webservice/v2.0/revisionhistory/35284866",
-            "_refObjectUUID": "5c8a66d2-d09d-415f-8228-444821f47aa9",
-            "_type": "RevisionHistory"
-        },
-        "State": "Planning",
-        "TaskActualTotal": 1147.9,
-        "TaskEstimateTotal": 1474.5,
-        "TaskRemainingTotal": 194,
-        "Theme": "",
-        "Version": null,
-        "_type": "Release"
-    }]
+            "_ref": "/slm/webservice/v2.0/release/36147863",
+            "_refObjectUUID": "4db7018d-b86a-4ce9-a554-a2fee0b7dddb",
+            "_objectVersion": "4",
+            "_refObjectName": "Post-Deployment Architecture ETL Improvement",
+            "CreationDate": "2017-05-10T20:30:23.505Z",
+            "_CreatedAt": "May 10",
+            "ObjectID": 36147863,
+            "VersionId": "4",
+            "Subscription":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/subscription/5104",
+                "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+                "_refObjectName": "raytheon_az_-163",
+                "_type": "Subscription"
+            },
+            "Workspace":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/workspace/69587",
+                "_refObjectUUID": "59391212-ec86-42b1-a315-b881f4b94958",
+                "_refObjectName": "BSD Workspace",
+                "_type": "Workspace"
+            },
+            "Accepted": null,
+            "GrossEstimateConversionRatio": 1,
+            "Name": "Post-Deployment Architecture ETL Improvement",
+            "Notes": "",
+            "PlanEstimate": null,
+            "PlannedVelocity": null,
+            "Project":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/project/35271257",
+                "_refObjectUUID": "3e899738-85c6-41b3-8437-b38f8811b0da",
+                "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
+                "_type": "Project"
+            },
+            "ReleaseDate": "2017-12-02T06:59:59.000Z",
+            "ReleaseStartDate": "2017-08-28T07:00:00.000Z",
+            "RevisionHistory":             {
+                "_rallyAPIMajor": "2",
+                "_rallyAPIMinor": "0",
+                "_ref": "/slm/webservice/v2.0/revisionhistory/36147865",
+                "_refObjectUUID": "b159535d-1728-4499-b443-7d8735fdedbd",
+                "_type": "RevisionHistory"
+            },
+            "State": "Planning",
+            "TaskActualTotal": 0,
+            "TaskEstimateTotal": 0,
+            "TaskRemainingTotal": 0,
+            "Theme": "<p>IT ETL tasks (e.g. clean up) as recommended by Architect and agreed to by Mgt.<\/p><p>These are IT tasks and have not been&nbsp;requested by the Sponsor Org and Business partners and completion of these tasks is not needed for deployment of AMS AVO and can therefore start during Hypercare as agreed to by IT Mgt. at Gate 7-8. <br /><\/p>",
+            "Version": null,
+            "_type": "Release"
+        }
+    ]
 }}

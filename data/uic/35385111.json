@@ -33,7 +33,7 @@
         "_refObjectName": "Sprint 13",
         "_type": "Iteration"
     },
-    "Load": 0,
+    "Load": 0.5333333333333333,
     "Project":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -42,7 +42,7 @@
         "_refObjectName": "AVO / AMS Enhancements  (PPM 259640)",
         "_type": "Project"
     },
-    "TaskEstimates": null,
+    "TaskEstimates": 32,
     "User":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

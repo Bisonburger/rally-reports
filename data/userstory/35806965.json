@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35806965",
     "_refObjectUUID": "664209e6-ebae-4d90-a311-ef126a62c459",
-    "_objectVersion": "8",
+    "_objectVersion": "9",
     "_refObjectName": "view property on any contract",
     "CreationDate": "2017-03-01T19:39:25.078Z",
     "_CreatedAt": "Mar 1",
     "ObjectID": 35806965,
-    "VersionId": "8",
+    "VersionId": "9",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US228",
-    "LastUpdateDate": "2017-03-14T19:17:24.899Z",
+    "LastUpdateDate": "2017-05-04T20:34:28.328Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -116,7 +116,14 @@
     "DragAndDropRank": "O~~zU/A:&a~9|&s8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": null,
-    "Iteration": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35807291",
+        "_refObjectUUID": "1853c13b-17b8-45ed-9934-f62982876728",
+        "_refObjectName": "Sprint 5",
+        "_type": "Iteration"
+    },
     "Parent":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

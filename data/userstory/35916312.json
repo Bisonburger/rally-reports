@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35916312",
     "_refObjectUUID": "b53f35a8-d0b1-450c-98ad-773217d2092c",
-    "_objectVersion": "4",
+    "_objectVersion": "5",
     "_refObjectName": "Obtain Access to RayTrack Data Source",
     "CreationDate": "2017-03-10T18:47:36.075Z",
     "_CreatedAt": "Mar 10",
     "ObjectID": 35916312,
-    "VersionId": "4",
+    "VersionId": "5",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US814",
-    "LastUpdateDate": "2017-03-10T20:53:16.218Z",
+    "LastUpdateDate": "2017-05-10T20:20:04.609Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -132,7 +132,7 @@
         "_refObjectName": "RayTrack Data",
         "_type": "HierarchicalRequirement"
     },
-    "PlanEstimate": 20,
+    "PlanEstimate": 9,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

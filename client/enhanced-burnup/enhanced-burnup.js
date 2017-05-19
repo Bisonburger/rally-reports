@@ -132,8 +132,10 @@ function EnhancedBurnupChart() {
      * 
      */
     function buildChartJS(chartValues, prj, iterations) {
+        
+        var iterationNames = Object.keys(chartValues); //iterationNames = Object.keys(chartValues).filter( function(name){ return chartValues[name].start <= new Date(); });
 
-        var maxPlanned = Object.keys(chartValues).map(function(e) {
+        var maxPlanned = iterationNames.map(function(e) {
             return chartValues[e].c_planned;
         }).max();
 
@@ -165,59 +167,33 @@ function EnhancedBurnupChart() {
                     }]
                 },
                 maintainAspectRatio: false,
-                layout: {
-                    padding: 10
-                },
-                hover: {
-                    mode: 'x'
-                },
-                tooltips: {
-                    mode: 'x' /*,
-                    callbacks: {
-                        
-                        label(tooltipItem, data) {
-                            var dataset = data.datasets[tooltipItem.datasetIndex];
-                            return ' ' + dataset.label + ': ' + dataset.data[tooltipItem.index] + ' Points';
-                        }
-                    }*/
-
-                }
+                layout: {padding: 10},
+                hover: {mode: 'x'},
+                tooltips: {mode: 'x'}
             };
 
             var data = {
-                labels: Object.keys(chartValues),
+                labels: iterationNames,
                 datasets: [{
                         label: 'Accepted',
-                        data: Object.keys(chartValues).map(function(e) {
+                        data: iterationNames.map(function(e) {
                             return chartValues[e].c_accepted;
                         }),
-                        type: 'line',
                         startAtZero: true,
-                        fill: true,
-                        lineTension: 0,
                         borderColor: '#3465AA',
-                        backgroundColor: 'rgba(52, 101, 170, 0.3)',
-                        pointBorderColor: '#3465AA',
-                        pointBackgroundColor: '#3465AA'
-                    }, {
-                        label: 'Projected',
-                        data: extrapolateBurnup(chartValues, iterations),
+                    },  {
+                        label: "Scope",
                         type: 'line',
-                        startAtZero: true,
                         fill: false,
                         lineTension: 0,
                         borderWidth: 1,
+                        data: iterationNames.map(function(e) {return chartValues[e].c_planned;}),
                         borderDash: [5, 3],
-                        borderColor: 'black',
-                        backgroundColor: 'black',
-                        pointBorderColor: 'black',
-                        pointBackgroundColor: 'black'
-                    }, {
-                        label: "Planned",
-                        data: Object.keys(chartValues).map(function(e) {
-                            return chartValues[e].c_planned;
-                        }),
+                        borderColor: '#E8D7AB',
                         backgroundColor: '#E8D7AB',
+                        pointBorderColor: '#E8D7AB',
+                        pointBackgroundColor: '#E8D7AB'
+
                     }
 
                 ]
@@ -238,6 +214,14 @@ function EnhancedBurnupChart() {
         }
     }
 
+    /**
+     * Compute the iteration in which the story was accepted
+     * 
+     * @param story
+     * @param iterations
+     * 
+     * @return {String}
+     */
     function acceptedIn(story, iterations) {
         var lastIterationName = "UNASSIGNED";
         var storyAcceptedDate = new Date(story.AcceptedDate);
@@ -251,6 +235,28 @@ function EnhancedBurnupChart() {
         return lastIterationName;
     }
 
+    /**
+     * Compute the iteration in which the story was created
+     * 
+     * @param story
+     * @param iterations
+     * 
+     * @return {String}
+     */
+    function createdIn(story, iterations) {
+        var lastIterationName = "UNASSIGNED";
+        var storyCreatedDate = new Date(story.CreationDate);
+        iterations.forEach(
+                function(iteration,idx) {
+                    if (storyCreatedDate >= new Date(iteration.StartDate) && storyCreatedDate <= new Date(iteration.EndDate))
+                        lastIterationName = iteration.Name;
+                    else if( storyCreatedDate <= new Date(iteration.StartDate) && idx === 0 )
+                        lastIterationName = iteration.Name;
+                });
+        return lastIterationName;
+    }
+
+    
     /**
      * Build the chart data for a set of user stories for a given field name
      */
@@ -273,7 +279,8 @@ function EnhancedBurnupChart() {
                 accepted: 0,
                 planned: 0,
                 c_accepted: 0,
-                c_planned: 0
+                c_planned: 0,
+                scope: 0
             };
         });
 
@@ -282,25 +289,24 @@ function EnhancedBurnupChart() {
 
             var iterationName = (story.Iteration) ? story.Iteration.Name : 'UNASSIGNED';
             var storyCompleted = (story.ScheduleState === 'Accepted' || story.ScheduleState === 'Completed') ? 1 : 0;
-
+                
             if (storyCompleted) {
-                var acceptedIter = acceptedIn(story, iterations);
-                console.log('Story ' + story.FormattedID + ':' + story.Name + ' completed in iteration ' + acceptedIter);
+                var acceptedIter = iterationName; //acceptedIn(story, iterations);
+                //console.log('Story ' + story.FormattedID + ':' + story.Name + ' completed in iteration ' + acceptedIter);
                 if (iterHash[acceptedIter])
                     iterHash[acceptedIter].accepted += story.PlanEstimate;
             }
             if (story.Iteration && iterationName !== 'UNASSIGNED') {
-                if (iterHash[iterationName])
-                    iterHash[iterationName].planned += story.PlanEstimate;
+                if (iterHash[iterationName]){
+                    var createdIter = createdIn(story,iterations);  
+                    if( iterHash[createdIter] )
+                        iterHash[createdIter].planned += story.PlanEstimate;
+                }
             }
         });
 
-
-
         // build cumulatives
         var lastKey = undefined;
-
-
 
         iterations.map(function(i) {
             return i.Name;
@@ -315,7 +321,7 @@ function EnhancedBurnupChart() {
             if (!iterHash[iteration].accepted) iterHash[iteration].accepted = 0;
             if (!iterHash[iteration].planned) iterHash[iteration].planned = 0;
 
-            iterHash[iteration].c_accepted += (iterHash[iteration].start <= new Date()) ? (lastValue.c_accepted + iterHash[iteration].accepted) : undefined;
+            iterHash[iteration].c_accepted +=  lastValue.c_accepted + iterHash[iteration].accepted; //(iterHash[iteration].start <= new Date()) ? (lastValue.c_accepted + iterHash[iteration].accepted) : undefined;
             iterHash[iteration].c_planned += lastValue.c_planned + iterHash[iteration].planned;
 
             lastKey = iteration;

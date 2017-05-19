@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35918002",
     "_refObjectUUID": "72c0bce7-5178-406c-a081-b528c352a4ef",
-    "_objectVersion": "5",
+    "_objectVersion": "6",
     "_refObjectName": "Analyze Goods Receipt Data (BA)",
     "CreationDate": "2017-03-10T18:48:01.439Z",
     "_CreatedAt": "Mar 10",
     "ObjectID": 35918002,
-    "VersionId": "5",
+    "VersionId": "6",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US840",
-    "LastUpdateDate": "2017-03-10T20:56:54.009Z",
+    "LastUpdateDate": "2017-05-10T20:19:17.807Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -132,7 +132,7 @@
         "_refObjectName": "Goods Receipt Data (PRISM)",
         "_type": "HierarchicalRequirement"
     },
-    "PlanEstimate": 12,
+    "PlanEstimate": 9,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

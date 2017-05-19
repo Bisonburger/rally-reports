@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35733686",
     "_refObjectUUID": "af68365b-86eb-426f-83ff-900d0ca204ff",
-    "_objectVersion": "12",
-    "_refObjectName": "inactivitiy escalation",
+    "_objectVersion": "17",
+    "_refObjectName": "RP inactivitiy escalation",
     "CreationDate": "2017-02-21T18:18:24.428Z",
     "_CreatedAt": "Feb 21",
     "ObjectID": 35733686,
-    "VersionId": "12",
+    "VersionId": "17",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>as the SC Property Manager (and program manager?) I need to be notified whenever an assigned responsible person has not been active in the system for a period of time so I can take action to move their actions along<\/p><p><br /><\/p><p>if RP has not entered any status update for any item for longer than 30 days<\/p><p>system sends notice to PM<\/p><p>applies to both Utilization and Closeout<\/p><p>system flags ______ ?<br /><\/p>",
+    "Description": "<p>as the SC Property Manager (and program manager?) I need to be notified whenever an assigned responsible person has not been active in the system for a period of time so I can take action to move their actions along<\/p><p><br /><\/p><p>if RP has not entered any status update for any item within ___ days of initial notification, or, __ days of 30 day window<\/p><p>system sends notice to PM<\/p><p>applies to both Utilization and Closeout<\/p><p><br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US46",
-    "LastUpdateDate": "2017-03-28T19:06:43.067Z",
+    "LastUpdateDate": "2017-05-16T00:32:49.859Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "inactivitiy escalation",
+    "Name": "RP inactivitiy escalation",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -113,17 +113,10 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~~@v2[gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "P!!!=_H^a[gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": null,
-    "Iteration":     {
-        "_rallyAPIMajor": "2",
-        "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/iteration/35807225",
-        "_refObjectUUID": "1674aa33-93df-45ac-ab8c-aec0b8327d20",
-        "_refObjectName": "Sprint 4",
-        "_type": "Iteration"
-    },
+    "Iteration": null,
     "Parent":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

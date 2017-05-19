@@ -56,9 +56,9 @@
             },
             "StartDate": "2017-02-13T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 0,
+            "TaskActualTotal": 7,
             "TaskEstimateTotal": 328,
-            "TaskRemainingTotal": 38,
+            "TaskRemainingTotal": 37,
             "Theme": "",
             "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
@@ -118,9 +118,9 @@
             },
             "StartDate": "2017-03-13T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 131,
-            "TaskEstimateTotal": 623,
-            "TaskRemainingTotal": 431,
+            "TaskActualTotal": 324.5,
+            "TaskEstimateTotal": 669,
+            "TaskRemainingTotal": 141.5,
             "Theme": "",
             "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
@@ -180,16 +180,16 @@
             },
             "StartDate": "2017-04-17T07:00:00.000Z",
             "State": "Planning",
-            "TaskActualTotal": 26,
-            "TaskEstimateTotal": 668,
-            "TaskRemainingTotal": 634,
+            "TaskActualTotal": 31,
+            "TaskEstimateTotal": 757,
+            "TaskRemainingTotal": 648,
             "Theme": "",
             "UserIterationCapacities":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
                 "_ref": "/slm/webservice/v2.0/Iteration/35906875/UserIterationCapacities",
                 "_type": "UserIterationCapacity",
-                "Count": 4
+                "Count": 5
             },
             "_type": "Iteration"
         },

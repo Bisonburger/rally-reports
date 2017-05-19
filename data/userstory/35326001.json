@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35326001",
     "_refObjectUUID": "04eb737c-0432-41a8-861e-6e83a52ca94a",
-    "_objectVersion": "14",
-    "_refObjectName": "Reports - I need to export all reports",
+    "_objectVersion": "36",
+    "_refObjectName": "Reports - I need to export all reports to Excel",
     "CreationDate": "2016-10-31T23:12:44.868Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35326001,
-    "VersionId": "14",
+    "VersionId": "36",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p><br /><\/p><p><br /><\/p>",
+    "Description": "<p>look into Solr exporting functionality<\/p><p>ordering of columns<\/p><p>pagination of query vs full return of all rows<\/p><p>markings<\/p><p><br /><\/p><p>current list of reports:<\/p><p><img /><br /><\/p><p><br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11141",
-    "LastUpdateDate": "2017-01-23T22:09:35.493Z",
+    "LastUpdateDate": "2017-05-09T21:08:46.247Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Reports - I need to export all reports",
+    "Name": "Reports - I need to export all reports to Excel",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -116,7 +116,14 @@
     "DragAndDropRank": ",~~hN~$F:A+UpXCB!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
     "InProgressDate": null,
-    "Iteration": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370686",
+        "_refObjectUUID": "2fd3ed28-d802-4e25-a4ab-b9e1c30cd642",
+        "_refObjectName": "Sprint 13",
+        "_type": "Iteration"
+    },
     "Parent": null,
     "PlanEstimate": 13,
     "Predecessors":     {
@@ -143,15 +150,15 @@
         "Count": 0
     },
     "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
-    "TaskRemainingTotal": 0,
+    "TaskEstimateTotal": 24,
+    "TaskRemainingTotal": 24,
     "TaskStatus": "DEFINED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35326001/Tasks",
         "_type": "Task",
-        "Count": 8
+        "Count": 4
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

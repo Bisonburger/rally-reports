@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35326871",
     "_refObjectUUID": "e4fa0de2-5a86-4551-9681-e7b2e9561653",
-    "_objectVersion": "14",
+    "_objectVersion": "33",
     "_refObjectName": "Reports - I need to view Scheduled Start Times for employees for troubleshooting purposes to assist with common discrepancy of Prism not being updated with employee's new schedule.",
     "CreationDate": "2016-10-31T23:15:37.124Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35326871,
-    "VersionId": "14",
+    "VersionId": "33",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11146",
-    "LastUpdateDate": "2017-01-23T22:10:23.245Z",
+    "LastUpdateDate": "2017-05-18T19:38:26.979Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Completed",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -115,8 +115,15 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hN~}wZ>[;Eb#}*HqlQissah/N4f53BjJ,gP!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
-    "Iteration": null,
+    "InProgressDate": "2017-05-11T20:37:36.397Z",
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370686",
+        "_refObjectUUID": "2fd3ed28-d802-4e25-a4ab-b9e1c30cd642",
+        "_refObjectName": "Sprint 13",
+        "_type": "Iteration"
+    },
     "Parent": null,
     "PlanEstimate": 8,
     "Predecessors":     {
@@ -142,16 +149,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
+    "TaskActualTotal": 16,
+    "TaskEstimateTotal": 13,
     "TaskRemainingTotal": 0,
-    "TaskStatus": "DEFINED",
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35326871/Tasks",
         "_type": "Task",
-        "Count": 8
+        "Count": 5
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

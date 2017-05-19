@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35377748",
     "_refObjectUUID": "124be08b-e84d-4196-9157-85a8084cddd1",
-    "_objectVersion": "2",
+    "_objectVersion": "14",
     "_refObjectName": "Usability SP13",
     "CreationDate": "2016-11-03T23:33:58.747Z",
     "_CreatedAt": "Nov 3, 2016",
     "ObjectID": 35377748,
-    "VersionId": "2",
+    "VersionId": "14",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11204",
-    "LastUpdateDate": "2016-11-15T22:20:41.357Z",
+    "LastUpdateDate": "2017-05-18T15:49:02.091Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "In-Progress",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -115,7 +115,7 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hLs7HZDYL=21e8P!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
+    "InProgressDate": "2017-05-15T18:46:23.623Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -149,16 +149,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
-    "TaskRemainingTotal": 0,
-    "TaskStatus": "NONE",
+    "TaskActualTotal": 18.5,
+    "TaskEstimateTotal": 18,
+    "TaskRemainingTotal": 11,
+    "TaskStatus": "IN_PROGRESS",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35377748/Tasks",
         "_type": "Task",
-        "Count": 0
+        "Count": 3
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

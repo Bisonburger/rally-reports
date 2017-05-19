@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35936899",
     "_refObjectUUID": "aa335a78-941e-42a8-bd05-15da973a1f67",
-    "_objectVersion": "4",
+    "_objectVersion": "6",
     "_refObjectName": "Display Worklist",
     "CreationDate": "2017-03-16T17:48:02.016Z",
     "_CreatedAt": "Mar 16",
     "ObjectID": 35936899,
-    "VersionId": "4",
+    "VersionId": "6",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US912",
-    "LastUpdateDate": "2017-03-23T22:35:50.261Z",
+    "LastUpdateDate": "2017-05-03T15:55:53.631Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -120,7 +120,7 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~yD~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~yGO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": null,
     "Iteration": null,

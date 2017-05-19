@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35768036",
     "_refObjectUUID": "4e0f042e-60b1-4555-84ab-3047425ceeb7",
-    "_objectVersion": "4",
+    "_objectVersion": "5",
     "_refObjectName": "Calculate burn down",
     "CreationDate": "2017-02-27T21:14:33.363Z",
     "_CreatedAt": "Feb 27",
     "ObjectID": 35768036,
-    "VersionId": "4",
+    "VersionId": "5",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US151",
-    "LastUpdateDate": "2017-03-06T23:59:34.032Z",
+    "LastUpdateDate": "2017-05-04T20:37:40.916Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -123,7 +123,14 @@
     "DragAndDropRank": "O~~~K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": null,
-    "Iteration": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35807354",
+        "_refObjectUUID": "37fe0f20-85c8-43d5-a023-98f555b53b5d",
+        "_refObjectName": "Sprint 6",
+        "_type": "Iteration"
+    },
     "Parent":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

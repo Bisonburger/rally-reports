@@ -5,7 +5,7 @@
     "_refObjectUUID": "d54d8c83-89a5-4301-b292-8bf1f27cf528",
     "_objectVersion": "4",
     "CreationDate": "2017-03-29T16:38:03.266Z",
-    "_CreatedAt": "today at 9:38 am",
+    "_CreatedAt": "Mar 29",
     "ObjectID": 35961870,
     "VersionId": "4",
     "Subscription":     {
@@ -33,7 +33,7 @@
         "_refObjectName": "Sprint 2",
         "_type": "Iteration"
     },
-    "Load": 1,
+    "Load": 0.2,
     "Project":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -42,7 +42,7 @@
         "_refObjectName": "PRS Data & Reporting",
         "_type": "Project"
     },
-    "TaskEstimates": 40,
+    "TaskEstimates": 8,
     "User":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

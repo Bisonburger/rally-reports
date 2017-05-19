@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35921296",
     "_refObjectUUID": "9084c133-9a88-4114-9903-56002c2bd1d9",
-    "_objectVersion": "8",
+    "_objectVersion": "9",
     "_refObjectName": "Format LTAP Data (Non-ETL)",
     "CreationDate": "2017-03-10T18:53:18.999Z",
     "_CreatedAt": "Mar 10",
     "ObjectID": 35921296,
-    "VersionId": "8",
+    "VersionId": "9",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US887",
-    "LastUpdateDate": "2017-03-10T20:59:29.569Z",
+    "LastUpdateDate": "2017-05-01T22:11:42.265Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -132,7 +132,7 @@
         "_refObjectName": "LTAP Data (PRISM)",
         "_type": "HierarchicalRequirement"
     },
-    "PlanEstimate": 3,
+    "PlanEstimate": 5,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

@@ -56,26 +56,39 @@ US11159,35329140,"Notifications - I want to manage my preferences for receiving 
 US11162,35336419,"Notifications - I need to receive notification when my  AVO request is approved or denied - NEEDS 11164",COMPLETED,16,Sprint 9
 US11191,35375512,"Backlog Refinement SP8",COMPLETED,1,Sprint 9
 US11192,35375684,"Usability SP9",COMPLETED,0,Sprint 9
-US11193,35375856,"UI/QC/Tech/Archi Review SP8",COMPLETED,0,Sprint 9
-US11140,35325827,"Reports - I need to create Ad hoc/customizable reports using (SOLR)",IN_PROGRESS,8,Sprint 10
-US11155,35328444,"Notifications - FIRST NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",DEFINED,8,Sprint 10
-US11160,35336071,"Notifications - I need to receive notification when an AVO request has been submitted, with the option to opt out of these emails",IN_PROGRESS,8,Sprint 10
-US11161,35336245,"Notifications - I need to receive notification when an employee adds an absence to the Automated Call-In System, with the option to opt out of these emails - NEEDS 11164",IN_PROGRESS,8,Sprint 10
-US11194,35376028,"Backlog Refinement SP9",DEFINED,1,Sprint 10
-US11195,35376200,"Usability SP10",NONE,0,Sprint 10
-US11196,35376372,"UI/QC/Tech/Archi Review SP9",DEFINED,0,Sprint 10
-US11197,35376544,"Backlog Refinement SP10",NONE,1,Sprint 11
-US11198,35376716,"Usability SP11",NONE,0,Sprint 11
-US11199,35376888,"UI/QC/Tech/Archi Review SP10",NONE,0,Sprint 11
-US11200,35377060,"Backlog Refinement SP11",NONE,1,Sprint 12
-US11201,35377232,"Usability SP12",NONE,0,Sprint 12
-US11202,35377404,"UI/QC/Tech/Archi Review SP11",NONE,0,Sprint 12
+US11193,35375856,"UI/QC/Tech/ETL/Archi Review SP8",COMPLETED,0,Sprint 9
+US11140,35325827,"Reports - I need to create Ad hoc/customizable reports using (SOLR)",COMPLETED,8,Sprint 10
+US11160,35336071,"Notifications - I need to receive notification when an AVO request has been submitted, with the option to opt out of these emails",COMPLETED,8,Sprint 10
+US11161,35336245,"Notifications - I need to receive notification when an employee adds an absence to the Automated Call-In System, with the option to opt out of these emails - NEEDS 11164",COMPLETED,8,Sprint 10
+US11194,35376028,"Backlog Refinement SP9",COMPLETED,1,Sprint 10
+US11195,35376200,"Usability SP10",COMPLETED,0,Sprint 10
+US11196,35376372,"UI/QC/Tech/ETL/Archi Review SP9",COMPLETED,0,Sprint 10
+US11143,35326349,"Reports - Solr Search - I need to view Pre-Planned Absence Reports (AVO) to assist with manpower planning.",COMPLETED,8,Sprint 11
+US11155,35328444,"Notifications - FIRST NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",COMPLETED,8,Sprint 11
+US11156,35328618,"Notifications - SECOND NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",COMPLETED,8,Sprint 11
+US11198,35376716,"Usability SP11",COMPLETED,0,Sprint 11
+US11199,35376888,"UI/QC/Tech/ETL/Archi Review SP10",COMPLETED,0,Sprint 11
+US11142,35326175,"Reports - I need to view open discrepancies that require supervisor action so they can be addressed in a timely manner per Union rules; Supervisor Discrepancies",IN_PROGRESS,8,Sprint 12
+US11144,35326523,"Reports - I need to view Employee Attendance filter by date range (such as 30, 60, 1 year) for historical comparision and trends.",COMPLETED,8,Sprint 12
+US11165,35336941,"Reports - I need to view Employee or Department Absence to assist with manpower planning and to answer how discrepancies are being answered; already esiting application as multiple reports.",IN_PROGRESS,8,Sprint 12
+US11200,35377060,"Backlog Refinement SP11",COMPLETED,1,Sprint 12
+US11201,35377232,"Usability SP12",COMPLETED,0,Sprint 12
+US11202,35377404,"UI/QC/Tech/ETL/Archi Review SP11",IN_PROGRESS,0,Sprint 12
+US11292,35789989,"Reports - I need to save report templates",COMPLETED,8,Sprint 12
+US11141,35326001,"Reports - I need to export all reports to Excel",DEFINED,16,Sprint 13
+US11145,35326697,"Reports - I need to view Occupation Cost Center by Seniority for manpower planning.",COMPLETED,8,Sprint 13
+US11146,35326871,"Reports - I need to view Scheduled Start Times for employees for troubleshooting purposes to assist with common discrepancy of Prism not being updated with employee's new schedule.",COMPLETED,8,Sprint 13
+US11147,35327045,"Reports - ACS Call Volume and ACS Custom Call Volume",COMPLETED,8,Sprint 13
 US11203,35377576,"Backlog Refinement SP12",NONE,1,Sprint 13
-US11204,35377748,"Usability SP13",NONE,0,Sprint 13
-US11205,35377920,"UI/QC/Tech/Archi Review SP12",NONE,0,Sprint 13
+US11204,35377748,"Usability SP13",IN_PROGRESS,0,Sprint 13
+US11205,35377920,"UI/QC/Tech/Archi Review SP12",IN_PROGRESS,0,Sprint 13
+US11125,35323217,"ACS Call-In Process - I need to make selections via voice recognition so that I don't have to use the phone keypad which could be dangerous when driving - IVR VENDOR TASKS",DEFINED,16,Sprint 14
+US11126,35323391,"ACS Call-In Process - I need to receive broadcast message to pull over if I am driving prior to using the system as a safety reminder - IVR VENDOR TASKS",DEFINED,16,Sprint 14
+US11133,35324609,"Discrepancy Resolution Process - I need to adjust modified work schedule for factories to decrease the number of incorrectly identified discrepancies so that I can save time by not having to resolve these",DEFINED,16,Sprint 14
+US11153,35328096,"Data Integration - Receive discrepancy data for Sat and Sun since those are working days for some employees",DEFINED,8,Sprint 14
 US11206,35378092,"Backlog Refinement SP13",NONE,1,Sprint 14
 US11207,35378264,"Usability SP14",NONE,0,Sprint 14
-US11208,35378436,"UI/QC/Tech/Archi Review SP13",NONE,0,Sprint 14
+US11208,35378436,"UI/QC/Tech/ETL/Archi Review SP13",DEFINED,0,Sprint 14
 US11209,35378608,"Backlog Refinement SP14",NONE,1,Sprint 15
 US11210,35378780,"Usability SP15",NONE,0,Sprint 15
 US11211,35378952,"UI/QC/Tech/Archi Review SP14",NONE,0,Sprint 15
@@ -99,29 +112,21 @@ US11109,35320997,"nice to have - AVO Request Process (UI - Request) - I need to 
 US11113,35321327,"nice to have - AVO Status Process (UI - My AVO) - I need to print AVO",DEFINED,1,null
 US11119,35322168,"removed 0n 11/16/16 - AVO Approval Process (UI - Manage) - I need to "bump" requests based on seniority and floor availability",DEFINED,0,null
 US11121,35322521,"nice to have - AVO Approval Process (UI - Manage) - I need to print AVO",DEFINED,1,null
-US11125,35323217,"ACS Call-In Process - I need to make selections via voice recognition so that I don't have to use the phone keypad which could be dangerous when driving - IVR VENDOR TASKS",DEFINED,16,null
-US11126,35323391,"ACS Call-In Process - I need to receive broadcast message to pull over if I am driving prior to using the system as a safety reminder - IVR VENDOR TASKS",DEFINED,16,null
-US11133,35324609,"Discrepancy Resolution Process - I need to adjust modified work schedule for factories to decrease the number of incorrectly identified discrepancies so that I can save time by not having to resolve these",DEFINED,16,null
 US11136,35325131,"nice to have - Discrepancy Resolution Process - I need to print the "step back" status so that I can attach it for delivery in the event that recipients don't have access to computer.",DEFINED,1,null
-US11141,35326001,"Reports - I need to export all reports",DEFINED,16,null
-US11142,35326175,"Reports - I need to view open discrepancies that require supervisor action so they can be addressed in a timely manner per Union rules; Supervisor Discrepancies",DEFINED,8,null
-US11143,35326349,"Reports - I need to view Pre-Planned Absence Reports (AVO) to assist with manpower planning.",DEFINED,8,null
-US11144,35326523,"Reports - I need to view Employee Attendance filter by date range (such as 30, 60, 1 year) for historical comparision and trends.",DEFINED,8,null
-US11145,35326697,"Reports - I need to view Occupation Cost Center by Seniority for manpower planning.",DEFINED,8,null
-US11146,35326871,"Reports - I need to view Scheduled Start Times for employees for troubleshooting purposes to assist with common discrepancy of Prism not being updated with employee's new schedule.",DEFINED,8,null
-US11147,35327045,"Reports - ACS Call Volume and ACS Custom Call Volume - TBD",DEFINED,8,null
 US11148,35327219,"Admin - I need to maintain look up values to support the application. - REMINDER STORY",DEFINED,16,null
 US11149,35327393,"Admin - I need to maintain user access so that information is limited to the correct audience. - REMINDER STORY",DEFINED,16,null
 US11151,35327748,"removed / redundant - Data Integration - receive updates from SPEED on a daily basis to see all disciplinary actions for an employee",DEFINED,8,null
 US11152,35327922,"removed on 11/16/16 - Data Integration - Updates made to PRISM timecards should automatically be posted to AMS calendar",DEFINED,0,null
-US11153,35328096,"Data Integration - Receive discrepancy data for Sat and Sun since those are working days for some employees",DEFINED,8,null
 US11154,35328270,"removed - Data Integration - Receive from PRISM holiday hours tagged as such eliminating it from showing up as discrepancy",DEFINED,8,null
-US11156,35328618,"Notifications - SECOND NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",DEFINED,8,null
-US11157,35328792,"Notifications - THIRD NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",DEFINED,8,null
+US11157,35328792,"removed - Notifications - THIRD NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",DEFINED,8,null
 US11158,35328966,"removed - Notifications - FOURTH receive notifications of any un-cleared discrepancies on a weekly basis",DEFINED,8,null
 US11163,35336593,"nice to have - Notifications - I need to receive notification when an AVO is cancelled, with the option to opt out of these emails",DEFINED,1,null
-US11165,35336941,"Reports - I need to view Employee or Department Absence to assist with manpower planning and to answer how discrepancies are being answered; already esiting application as multiple reports.",DEFINED,8,null
 US11250,35554151,"nice-to-have /not approved : ACS Call-In Process - ACS / IVR Service Integration",DEFINED,1,null
 US11269,35603106,"nice-to-have / not approved: ACS Call-In Process - ACS/IVR Service Integration (Architecture Requirement)",DEFINED,1,null
 US11290,35743561,"nice to have - Discrepancy Resolution - Dine contractors - augment PeopleSoft data with our own tables to be administered by Operations - to automate discrepancy resolution for them",NONE,1,null
-US11292,35789989,"Reports - I need to save report templates",DEFINED,8,null
+US11353,36149427,"Analyze and Estimate Improvement on ETL for Discrepancy",NONE,0,null
+US11354,36149600,"Analyze and Estimate ETL changes for WMSCOMMON.PRISM",NONE,0,null
+US11355,36150100,"DB References Cleanup Employee List View",NONE,0,null
+US11356,36150230,"DB References Cleanup FMLA View",NONE,0,null
+US11357,36150944,"Create Permissions and Synonyms for ETL user accounts (INFORMATICA_AID)",NONE,0,null
+US11360,36155449,"Refactor deprecated tables and jobs",NONE,0,null

@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35767967",
     "_refObjectUUID": "10a74cf6-f536-4f65-bf96-b2ce7c65dce2",
-    "_objectVersion": "3",
+    "_objectVersion": "4",
     "_refObjectName": "Data visuliation of burn down",
     "CreationDate": "2017-02-27T21:14:19.105Z",
     "_CreatedAt": "Feb 27",
     "ObjectID": 35767967,
-    "VersionId": "3",
+    "VersionId": "4",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US150",
-    "LastUpdateDate": "2017-03-06T23:59:34.051Z",
+    "LastUpdateDate": "2017-05-04T20:37:58.335Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -123,7 +123,14 @@
     "DragAndDropRank": "O~~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": null,
-    "Iteration": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35807354",
+        "_refObjectUUID": "37fe0f20-85c8-43d5-a023-98f555b53b5d",
+        "_refObjectName": "Sprint 6",
+        "_type": "Iteration"
+    },
     "Parent":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

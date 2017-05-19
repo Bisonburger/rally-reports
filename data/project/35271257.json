@@ -45,7 +45,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/Project/35271257/Editors",
         "_type": "User",
-        "Count": 13
+        "Count": 14
     },
     "Iterations":     {
         "_rallyAPIMajor": "2",
@@ -69,7 +69,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/Project/35271257/Releases",
         "_type": "Release",
-        "Count": 1
+        "Count": 2
     },
     "SchemaVersion": "bf99eb3454265d97c626b82abc0a321c",
     "State": "Open",
@@ -78,7 +78,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/Project/35271257/TeamMembers",
         "_type": "User",
-        "Count": 7
+        "Count": 8
     },
     "Errors": [],
     "Warnings": []

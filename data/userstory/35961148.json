@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35961148",
     "_refObjectUUID": "0c1850fe-3a13-4d7e-b670-221125fcdff8",
-    "_objectVersion": "3",
+    "_objectVersion": "4",
     "_refObjectName": "[Unfinished] Select Property Zero Certifiers people",
     "CreationDate": "2017-03-29T16:26:57.975Z",
-    "_CreatedAt": "today at 9:26 am",
+    "_CreatedAt": "Mar 29",
     "ObjectID": 35961148,
-    "VersionId": "3",
+    "VersionId": "4",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US923",
-    "LastUpdateDate": "2017-03-29T16:26:59.952Z",
+    "LastUpdateDate": "2017-05-16T00:26:31.065Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -113,7 +113,7 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~y>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "P!!!<>fh|&s8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": "2017-03-29T16:26:58.014Z",
     "Iteration":     {

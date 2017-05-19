@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35913246",
     "_refObjectUUID": "3a34f2fd-6575-44a6-9377-a41598b89c39",
-    "_objectVersion": "22",
-    "_refObjectName": "Analyze Property Data (BA)",
+    "_objectVersion": "50",
+    "_refObjectName": "BA Data Analysis - Property - Part 2",
     "CreationDate": "2017-03-10T17:42:42.507Z",
     "_CreatedAt": "Mar 10",
     "ObjectID": 35913246,
-    "VersionId": "22",
+    "VersionId": "50",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US774",
-    "LastUpdateDate": "2017-03-29T16:44:59.666Z",
+    "LastUpdateDate": "2017-05-04T22:18:26.470Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,9 +53,16 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Analyze Property Data (BA)",
+    "Name": "BA Data Analysis - Property - Part 2",
     "Notes": "",
-    "Owner": null,
+    "Owner":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/34996915",
+        "_refObjectUUID": "7b864881-f6f1-45c5-a1b4-c2007a466b4f",
+        "_refObjectName": "Diana R",
+        "_type": "User"
+    },
     "Project":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -83,7 +90,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "In-Progress",
+    "ScheduleState": "Completed",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -115,24 +122,24 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": "P!!#[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
-    "InProgressDate": "2017-03-29T16:42:45.059Z",
+    "InProgressDate": "2017-05-04T15:01:13.780Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/iteration/35807096",
-        "_refObjectUUID": "bda1bd3f-a9ee-4380-b1ca-f08b9d9af1f8",
-        "_refObjectName": "Sprint 2",
+        "_ref": "/slm/webservice/v2.0/iteration/35807159",
+        "_refObjectUUID": "92558fde-dbd5-440c-b172-acd90a5fe77e",
+        "_refObjectName": "Sprint 3",
         "_type": "Iteration"
     },
     "Parent":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35913128",
-        "_refObjectUUID": "a0f672cc-e431-491c-b0ff-7b711b98bd3b",
-        "_refObjectName": "PCIS/UPS Data (Property Data Warehouse )",
+        "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/36069906",
+        "_refObjectUUID": "fd126c8a-11ca-4b0e-97bf-c3faf423234e",
+        "_refObjectName": "Analyze Property Data",
         "_type": "HierarchicalRequirement"
     },
-    "PlanEstimate": 9,
+    "PlanEstimate": 6,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -156,16 +163,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 15,
-    "TaskRemainingTotal": 13,
-    "TaskStatus": "IN_PROGRESS",
+    "TaskActualTotal": 20,
+    "TaskEstimateTotal": 9,
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35913246/Tasks",
         "_type": "Task",
-        "Count": 3
+        "Count": 1
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

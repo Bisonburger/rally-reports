@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35811810",
     "_refObjectUUID": "58237637-8886-4116-b66e-a160b1cf38d8",
-    "_objectVersion": "4",
+    "_objectVersion": "5",
     "_refObjectName": "sprint 5 defect fixes",
     "CreationDate": "2017-03-02T00:12:20.179Z",
     "_CreatedAt": "Mar 1",
     "ObjectID": 35811810,
-    "VersionId": "4",
+    "VersionId": "5",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US272",
-    "LastUpdateDate": "2017-03-08T16:35:52.580Z",
+    "LastUpdateDate": "2017-05-04T21:40:38.027Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -113,7 +113,7 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~~1s8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~~tgO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": null,
     "Iteration":     {

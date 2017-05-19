@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35927699",
     "_refObjectUUID": "99ec61d7-79c6-4ce8-be23-b825f3710862",
-    "_objectVersion": "20",
+    "_objectVersion": "44",
     "_refObjectName": "Late to Place PO",
     "CreationDate": "2017-03-14T15:16:49.741Z",
     "_CreatedAt": "Mar 14",
     "ObjectID": 35927699,
-    "VersionId": "20",
+    "VersionId": "44",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US903",
-    "LastUpdateDate": "2017-03-28T15:05:29.978Z",
+    "LastUpdateDate": "2017-04-11T18:40:26.643Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -156,16 +156,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 11,
-    "TaskEstimateTotal": 186,
-    "TaskRemainingTotal": 145,
+    "TaskActualTotal": 48.5,
+    "TaskEstimateTotal": 200,
+    "TaskRemainingTotal": 51.5,
     "TaskStatus": "IN_PROGRESS",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35927699/Tasks",
         "_type": "Task",
-        "Count": 26
+        "Count": 28
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35912634",
     "_refObjectUUID": "9fd534ec-861e-4f0c-8d91-3131e7cee95d",
-    "_objectVersion": "7",
-    "_refObjectName": "Analyze ICMS Data (BA)",
+    "_objectVersion": "9",
+    "_refObjectName": "Analyze ICMS Data (BA) Sprint 4",
     "CreationDate": "2017-03-10T17:36:12.173Z",
     "_CreatedAt": "Mar 10",
     "ObjectID": 35912634,
-    "VersionId": "7",
+    "VersionId": "9",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US767",
-    "LastUpdateDate": "2017-03-10T20:46:02.699Z",
+    "LastUpdateDate": "2017-05-10T20:50:50.666Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,9 +53,16 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Analyze ICMS Data (BA)",
+    "Name": "Analyze ICMS Data (BA) Sprint 4",
     "Notes": "",
-    "Owner": null,
+    "Owner":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/69986",
+        "_refObjectUUID": "d7eeb7a5-bce9-4aa3-8d3a-a5a0e7fbeba9",
+        "_refObjectName": "Brian Kristofitz",
+        "_type": "User"
+    },
     "Project":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

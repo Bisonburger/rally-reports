@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35917547",
     "_refObjectUUID": "f8948b77-8a9c-4435-9694-429df2179af6",
-    "_objectVersion": "4",
+    "_objectVersion": "5",
     "_refObjectName": "Analyze ZCMR Data (BA)",
     "CreationDate": "2017-03-10T18:47:54.917Z",
     "_CreatedAt": "Mar 10",
     "ObjectID": 35917547,
-    "VersionId": "4",
+    "VersionId": "5",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US833",
-    "LastUpdateDate": "2017-03-10T20:54:52.152Z",
+    "LastUpdateDate": "2017-05-10T20:19:33.774Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -132,7 +132,7 @@
         "_refObjectName": "ZCMR Data (PRISM)",
         "_type": "HierarchicalRequirement"
     },
-    "PlanEstimate": 12,
+    "PlanEstimate": 9,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

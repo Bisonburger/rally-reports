@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35961706",
     "_refObjectUUID": "3748db6e-ff51-4c0d-a4bd-2fd5a8b072d6",
-    "_objectVersion": "7",
+    "_objectVersion": "10",
     "_refObjectName": "SOLR POC Support - BA",
     "CreationDate": "2017-03-29T16:30:22.183Z",
-    "_CreatedAt": "today at 9:30 am",
+    "_CreatedAt": "Mar 29",
     "ObjectID": 35961706,
-    "VersionId": "7",
+    "VersionId": "10",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US926",
-    "LastUpdateDate": "2017-03-29T20:44:44.004Z",
+    "LastUpdateDate": "2017-05-01T23:12:04.739Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -90,7 +90,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "In-Progress",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -100,7 +100,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-05-01T23:12:04.709Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -163,10 +163,10 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 4,
+    "TaskActualTotal": 8,
     "TaskEstimateTotal": 8,
-    "TaskRemainingTotal": 4,
-    "TaskStatus": "IN_PROGRESS",
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35899712",
     "_refObjectUUID": "f7f6aa22-f18a-496a-9510-ce84bbc97490",
-    "_objectVersion": "23",
+    "_objectVersion": "27",
     "_refObjectName": "Customer Escapes 1&2",
     "CreationDate": "2017-03-08T22:56:26.686Z",
     "_CreatedAt": "Mar 8",
     "ObjectID": 35899712,
-    "VersionId": "23",
+    "VersionId": "27",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US748",
-    "LastUpdateDate": "2017-03-28T15:06:47.724Z",
+    "LastUpdateDate": "2017-04-06T00:29:01.347Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -156,9 +156,9 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
+    "TaskActualTotal": 3.5,
     "TaskEstimateTotal": 164,
-    "TaskRemainingTotal": 19,
+    "TaskRemainingTotal": 18.5,
     "TaskStatus": "IN_PROGRESS",
     "Tasks":     {
         "_rallyAPIMajor": "2",

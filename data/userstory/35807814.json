@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35807814",
     "_refObjectUUID": "983c8d35-7a23-49ee-903c-82b7cae3c5eb",
-    "_objectVersion": "24",
+    "_objectVersion": "38",
     "_refObjectName": "Defects & Refactoriing",
     "CreationDate": "2017-03-01T19:55:10.392Z",
     "_CreatedAt": "Mar 1",
     "ObjectID": 35807814,
-    "VersionId": "24",
+    "VersionId": "38",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US234",
-    "LastUpdateDate": "2017-03-24T16:31:06.680Z",
+    "LastUpdateDate": "2017-05-17T21:32:25.721Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "In-Progress",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -102,7 +102,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35807814/Children",
         "_type": "HierarchicalRequirement",
-        "Count": 16
+        "Count": 15
     },
     "DefectStatus": null,
     "Defects":     {
@@ -112,10 +112,10 @@
         "_type": "Defect",
         "Count": 0
     },
-    "DirectChildrenCount": 16,
+    "DirectChildrenCount": 15,
     "DragAndDropRank": "P!!\"G~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
-    "InProgressDate": null,
+    "InProgressDate": "2017-03-30T16:26:25.387Z",
     "Iteration": null,
     "Parent":     {
         "_rallyAPIMajor": "2",
@@ -125,7 +125,7 @@
         "_refObjectName": "IT Supporting Activities",
         "_type": "HierarchicalRequirement"
     },
-    "PlanEstimate": 88,
+    "PlanEstimate": 83,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -142,9 +142,9 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 8,
-    "TaskRemainingTotal": 8,
+    "TaskActualTotal": 9.75,
+    "TaskEstimateTotal": 11,
+    "TaskRemainingTotal": 0,
     "TaskStatus": null,
     "Tasks":     {
         "_rallyAPIMajor": "2",

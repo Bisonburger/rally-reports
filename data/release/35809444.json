@@ -29,7 +29,7 @@
     "GrossEstimateConversionRatio": 1,
     "Name": "April 2018",
     "Notes": "",
-    "PlanEstimate": 323,
+    "PlanEstimate": 248,
     "PlannedVelocity": null,
     "Project":     {
         "_rallyAPIMajor": "2",
@@ -49,9 +49,9 @@
         "_type": "RevisionHistory"
     },
     "State": "Planning",
-    "TaskActualTotal": 15,
-    "TaskEstimateTotal": 20,
-    "TaskRemainingTotal": 3,
+    "TaskActualTotal": 78,
+    "TaskEstimateTotal": 52,
+    "TaskRemainingTotal": 35,
     "Theme": "",
     "Version": null,
     "Errors": [],

@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35808442",
     "_refObjectUUID": "74ff57b1-33ff-498f-9b6e-e1dc0523d7c9",
-    "_objectVersion": "7",
+    "_objectVersion": "8",
     "_refObjectName": "sprint 4 feedback changes",
     "CreationDate": "2017-03-01T20:21:25.020Z",
     "_CreatedAt": "Mar 1",
     "ObjectID": 35808442,
-    "VersionId": "7",
+    "VersionId": "8",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US239",
-    "LastUpdateDate": "2017-03-08T16:34:10.122Z",
+    "LastUpdateDate": "2017-05-04T21:40:34.934Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -113,7 +113,7 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~~@y,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~~tO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": null,
     "Iteration":     {

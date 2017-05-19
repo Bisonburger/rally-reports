@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35809775",
     "_refObjectUUID": "8d3e7d2f-091e-4a2c-979c-4b59a134f83a",
-    "_objectVersion": "3",
+    "_objectVersion": "6",
     "_refObjectName": "create daily snapshots of property lists",
     "CreationDate": "2017-03-01T21:49:08.447Z",
     "_CreatedAt": "Mar 1",
     "ObjectID": 35809775,
-    "VersionId": "3",
+    "VersionId": "6",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "need&nbsp; for US57, etc",
+    "Description": "<p>need&nbsp; for US57, etc to create burn down chart of remaining property on the contract<\/p><p>capture list of items and total the quantity<\/p><p>initial snapshot will be permanently kept<\/p><p>rest of snapshots will be kept ___ days/weeks after contract closeout<\/p><p><br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US255",
-    "LastUpdateDate": "2017-03-06T23:58:19.772Z",
+    "LastUpdateDate": "2017-05-18T17:02:27.018Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -113,10 +113,17 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~~8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~yIO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": null,
-    "Iteration": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35807291",
+        "_refObjectUUID": "1853c13b-17b8-45ed-9934-f62982876728",
+        "_refObjectName": "Sprint 5",
+        "_type": "Iteration"
+    },
     "Parent":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

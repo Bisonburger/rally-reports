@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35918132",
     "_refObjectUUID": "121930db-5f98-499d-9b4e-ec09ca7c3b3c",
-    "_objectVersion": "4",
+    "_objectVersion": "5",
     "_refObjectName": "Obtain Access to Goods Receipt Data Source",
     "CreationDate": "2017-03-10T18:48:03.022Z",
     "_CreatedAt": "Mar 10",
     "ObjectID": 35918132,
-    "VersionId": "4",
+    "VersionId": "5",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US842",
-    "LastUpdateDate": "2017-03-10T20:56:51.261Z",
+    "LastUpdateDate": "2017-05-10T20:18:23.056Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -132,7 +132,7 @@
         "_refObjectName": "Goods Receipt Data (PRISM)",
         "_type": "HierarchicalRequirement"
     },
-    "PlanEstimate": 20,
+    "PlanEstimate": 9,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

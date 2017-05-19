@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35915857",
     "_refObjectUUID": "ef5685f3-bec5-4d76-b4f8-cc940f440240",
-    "_objectVersion": "4",
-    "_refObjectName": "Obtain Access to ADSUBCON Data Source",
+    "_objectVersion": "6",
+    "_refObjectName": "Obtain Access to ADSUBCON Data Source- N/A",
     "CreationDate": "2017-03-10T18:47:30.478Z",
     "_CreatedAt": "Mar 10",
     "ObjectID": 35915857,
-    "VersionId": "4",
+    "VersionId": "6",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US807",
-    "LastUpdateDate": "2017-03-10T20:52:44.456Z",
+    "LastUpdateDate": "2017-05-10T20:24:23.185Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Obtain Access to ADSUBCON Data Source",
+    "Name": "Obtain Access to ADSUBCON Data Source- N/A",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -132,7 +132,7 @@
         "_refObjectName": "ADSUBCON Data (PRISM)",
         "_type": "HierarchicalRequirement"
     },
-    "PlanEstimate": 20,
+    "PlanEstimate": 9,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

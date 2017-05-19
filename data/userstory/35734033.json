@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35734033",
     "_refObjectUUID": "929658de-2502-4f04-8763-d446b8d8e247",
-    "_objectVersion": "25",
-    "_refObjectName": "view property list by property type per contract",
+    "_objectVersion": "60",
+    "_refObjectName": "[Continued] view property list by property type per contract *",
     "CreationDate": "2017-02-21T19:36:24.727Z",
     "_CreatedAt": "Feb 21",
     "ObjectID": 35734033,
-    "VersionId": "25",
+    "VersionId": "60",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>as a responsible person I need to see the list of property and materials assigned to me so I know what I need to work on<\/p><p>different columns for each type of property (see Rick's reqmt doc)<\/p><p>Prism, ups, pcis, spcs - part 1<\/p><p>emms,vipers, etc - part 2<br /><\/p><p>sortable by column header<\/p><p><br /><\/p><p>Developer Notes:<\/p><p><b>Material Assignment:<\/b><\/p><p>How is material assigned to a user? Is it based on contract number? YES - 1 RP per contract (based on PM&nbsp;assignment) that person gets entire list<\/p><p><b>Data Summarization:<\/b><br />Implementation of this feature can vary. There could be a database table that calculates line items and stores the result per contract. Or, there could be a database view which automatically sums items.&nbsp; The choice would be depend on the volume of data and performance.<br /><br /><\/p><p><br /><\/p><p><br /><\/p><p><br /><br /><\/p>",
+    "Description": "<p>as <font color=\"#ff0000\">any user<\/font>&nbsp;I need to see the list of property and materials on a <font color=\"#ff0000\">contract in closure<\/font> so I know what I need to work on<\/p><p>different columns for each type of property (see Rick's reqmt doc)<\/p><p>Prism, ups, pcis, spcs - Release 1<\/p><blockquote style=\"margin-right: 0px;\"><p>add emms,vipers, etc - Release 2<br /><\/p><\/blockquote><p>sortable by column header<\/p><ul><li><font style=\"background-color: rgb(255, 242, 204);\" color=\"#ff0000\"><i>zero certifier will assign&nbsp;a PoC&nbsp;to each line item [in ZC area]<\/i><\/font><\/li><li><font color=\"#ff0000\">Program Manager or PM PoC will assign a RP to each line item [in property area]<\/font><\/li><li><font color=\"#ff0000\">CC admin will view the list for accuracy and completeness<\/font><\/li><\/ul><p><br /><\/p><p>Developer Notes:<\/p><p><b>Material Assignment:<\/b><\/p><p><br /><\/p><p><b>Data Summarization:<\/b><br />Implementation of this feature can vary. There could be a database table that calculates line items and stores the result per contract. Or, there could be a database view which automatically sums items.&nbsp; The choice would be depend on the volume of data and performance.<br /><br /><\/p><p><br /><\/p><p><br /><\/p><p><br /><br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US51",
-    "LastUpdateDate": "2017-03-29T15:57:31.606Z",
+    "LastUpdateDate": "2017-05-16T06:26:00.471Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "view property list by property type per contract",
+    "Name": "[Continued] view property list by property type per contract *",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "In-Progress",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -113,15 +113,15 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~~sO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~~@rQM&s8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
-    "InProgressDate": null,
+    "InProgressDate": "2017-03-30T22:23:47.141Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/iteration/35807099",
-        "_refObjectUUID": "0cb5296a-6940-42c2-b235-87d1ddf23515",
-        "_refObjectName": "Sprint 2",
+        "_ref": "/slm/webservice/v2.0/iteration/35807225",
+        "_refObjectUUID": "1674aa33-93df-45ac-ab8c-aec0b8327d20",
+        "_refObjectName": "Sprint 4",
         "_type": "Iteration"
     },
     "Parent":     {
@@ -156,16 +156,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 19,
-    "TaskRemainingTotal": 19,
-    "TaskStatus": "DEFINED",
+    "TaskActualTotal": 3,
+    "TaskEstimateTotal": 8,
+    "TaskRemainingTotal": 6,
+    "TaskStatus": "IN_PROGRESS",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35734033/Tasks",
         "_type": "Task",
-        "Count": 7
+        "Count": 3
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

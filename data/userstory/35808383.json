@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35808383",
     "_refObjectUUID": "3ba3473e-41a0-4b09-a58d-7330d189d88d",
-    "_objectVersion": "5",
+    "_objectVersion": "33",
     "_refObjectName": "sprint 3 feedback changes",
     "CreationDate": "2017-03-01T20:21:05.705Z",
     "_CreatedAt": "Mar 1",
     "ObjectID": 35808383,
-    "VersionId": "5",
+    "VersionId": "33",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US238",
-    "LastUpdateDate": "2017-03-08T16:33:54.756Z",
+    "LastUpdateDate": "2017-05-17T21:33:23.616Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "In-Progress",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -94,9 +94,15 @@
     },
     "Package": null,
     "AcceptedDate": null,
-    "Blocked": false,
+    "Blocked": true,
     "BlockedReason": null,
-    "Blocker": null,
+    "Blocker":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/blocker/36159228",
+        "_refObjectUUID": "1c436d95-2602-420a-8195-07fcdbf8f08c",
+        "_type": "Blocker"
+    },
     "Children":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -113,9 +119,9 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~~@s8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~~W6<v2[gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
-    "InProgressDate": null,
+    "InProgressDate": "2017-05-11T21:19:48.665Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -156,16 +162,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
+    "TaskActualTotal": 8.75,
+    "TaskEstimateTotal": 1,
     "TaskRemainingTotal": 0,
-    "TaskStatus": "NONE",
+    "TaskStatus": "IN_PROGRESS_BLOCKED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35808383/Tasks",
         "_type": "Task",
-        "Count": 0
+        "Count": 13
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

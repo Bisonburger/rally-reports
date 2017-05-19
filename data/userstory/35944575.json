@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35944575",
     "_refObjectUUID": "bf02028f-477f-4127-b906-218dfaf7b36a",
-    "_objectVersion": "9",
+    "_objectVersion": "11",
     "_refObjectName": "product / program hierarchy data feed for all metrics",
     "CreationDate": "2017-03-22T16:14:51.240Z",
     "_CreatedAt": "Mar 22",
     "ObjectID": 35944575,
-    "VersionId": "9",
+    "VersionId": "11",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US914",
-    "LastUpdateDate": "2017-03-27T17:46:02.418Z",
+    "LastUpdateDate": "2017-03-30T16:18:30.925Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -90,7 +90,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "In-Progress",
+    "ScheduleState": "Completed",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -149,10 +149,10 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 19,
+    "TaskActualTotal": 27,
     "TaskEstimateTotal": 21,
     "TaskRemainingTotal": 0,
-    "TaskStatus": "IN_PROGRESS",
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

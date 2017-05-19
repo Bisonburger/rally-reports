@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35810059",
     "_refObjectUUID": "dafbeec0-8d14-4cae-b473-19f683954e2b",
-    "_objectVersion": "6",
-    "_refObjectName": "RP approve or disapprove system ZC",
+    "_objectVersion": "8",
+    "_refObjectName": "PM or PM PoC approve or disapprove system ZC",
     "CreationDate": "2017-03-01T22:13:43.523Z",
     "_CreatedAt": "Mar 1",
     "ObjectID": 35810059,
-    "VersionId": "6",
+    "VersionId": "8",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<li>RP must enter approval for system to complete ZC action<\/li><li>disapproval returns to status: needs cert, goes back in workflow, user must enter comments on why disapproved<br /><\/li>",
+    "Description": "<li>PM (or ZC?)&nbsp;must enter approval for system to complete ZC action<\/li><li>disapproval returns to status: needs cert, goes back in workflow, user must enter comments on why disapproved<br /><\/li>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US258",
-    "LastUpdateDate": "2017-03-08T16:23:04.234Z",
+    "LastUpdateDate": "2017-05-16T21:37:17.943Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "RP approve or disapprove system ZC",
+    "Name": "PM or PM PoC approve or disapprove system ZC",
     "Notes": "",
     "Owner": null,
     "Project":     {

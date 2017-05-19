@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35809939",
     "_refObjectUUID": "f9435f9f-77da-4c3c-aa5f-f3c0858b6ef0",
-    "_objectVersion": "17",
-    "_refObjectName": "upload attachments",
+    "_objectVersion": "45",
+    "_refObjectName": "[Continued] upload attachments",
     "CreationDate": "2017-03-01T22:00:11.596Z",
     "_CreatedAt": "Mar 1",
     "ObjectID": 35809939,
-    "VersionId": "17",
+    "VersionId": "45",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US257",
-    "LastUpdateDate": "2017-03-29T13:22:23.006Z",
+    "LastUpdateDate": "2017-05-05T15:12:51.504Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "upload attachments",
+    "Name": "[Continued] upload attachments",
     "Notes": "",
     "Owner":     {
         "_rallyAPIMajor": "2",
@@ -90,7 +90,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -100,7 +100,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-05-05T15:12:51.476Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -120,15 +120,15 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~~6~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~yH8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
-    "InProgressDate": null,
+    "InProgressDate": "2017-04-27T00:16:02.909Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/iteration/35807099",
-        "_refObjectUUID": "0cb5296a-6940-42c2-b235-87d1ddf23515",
-        "_refObjectName": "Sprint 2",
+        "_ref": "/slm/webservice/v2.0/iteration/35807162",
+        "_refObjectUUID": "bcca9b84-de3b-4aa3-8c13-4595597f6530",
+        "_refObjectName": "Sprint 3",
         "_type": "Iteration"
     },
     "Parent":     {
@@ -139,7 +139,7 @@
         "_refObjectName": "Supporting user story stories",
         "_type": "HierarchicalRequirement"
     },
-    "PlanEstimate": 5,
+    "PlanEstimate": 3,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -163,16 +163,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 9,
-    "TaskRemainingTotal": 9,
-    "TaskStatus": "DEFINED",
+    "TaskActualTotal": 11,
+    "TaskEstimateTotal": 14,
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35809939/Tasks",
         "_type": "Task",
-        "Count": 6
+        "Count": 3
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

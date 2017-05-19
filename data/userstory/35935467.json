@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35935467",
     "_refObjectUUID": "7a66f2eb-ddaf-495c-8e23-62589a2dcaf2",
-    "_objectVersion": "4",
-    "_refObjectName": "assignee updates",
+    "_objectVersion": "6",
+    "_refObjectName": "assignee updates *same as US 40",
     "CreationDate": "2017-03-16T00:35:08.778Z",
     "_CreatedAt": "Mar 15",
     "ObjectID": 35935467,
-    "VersionId": "4",
+    "VersionId": "6",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>as an assignee, I need to provide an update on my actions so management knows if additional actions are required<\/p><p>user:<\/p><ul><li>enters comments (in assignee only comment field), update 30 day timer<\/li><li>may upload attachments<\/li><li>saves<\/li><\/ul><p>system time stamps comments, appends to any prior comments<br /><\/p>",
+    "Description": "<p>as an assigned RP, I need to provide an update on my actions so management knows if additional actions are required<\/p><p>user:<\/p><ul><li>enters comments (in RP only comment field), update 30 day timer<\/li><li>may upload attachments<\/li><li>saves<\/li><\/ul><p>system time stamps comments, appends to any prior comments<br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US907",
-    "LastUpdateDate": "2017-03-16T17:27:35.449Z",
+    "LastUpdateDate": "2017-05-16T19:46:52.592Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "assignee updates",
+    "Name": "assignee updates *same as US 40",
     "Notes": "",
     "Owner": null,
     "Project":     {

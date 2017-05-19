@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35734439",
     "_refObjectUUID": "cbd9c7dd-9802-4d30-9e4f-9310da6704f4",
-    "_objectVersion": "7",
-    "_refObjectName": "added item notification",
+    "_objectVersion": "13",
+    "_refObjectName": "RP new item notification",
     "CreationDate": "2017-02-21T21:31:55.296Z",
     "_CreatedAt": "Feb 21",
     "ObjectID": 35734439,
-    "VersionId": "7",
+    "VersionId": "13",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>as a responsible person I need to be notified when any new property items are added to my list so I don't overlook them<\/p><p><br /><\/p><ul><li>new items appear in list with 'new' flag<\/li><li>flag remains until manually cleared by user<\/li><ul><li>only assigned responsible person can clear<\/li><\/ul><li>user can specify to see/have flagged all items added since a user entered date<\/li><\/ul><p><br /><\/p><p>Developer Notes:<\/p><p>System will need to keep track of items via a daily snapshot. A java cron job could run after data has been loaded to indicate which items are new.<\/p><p>Who tracks changes in data fields? Business analysts or app dev?<br /><\/p>",
+    "Description": "<p>as a responsible person I need to be notified when any new property items are added to my list so I don't overlook them<\/p><p>system identifies newly assigned&nbsp;items, since original or last new item notification, and sends an email to the affected RP<br /><\/p><ul><li>new items appear in list with 'new' flag<\/li><li>flag remains until manually cleared by user<\/li><ul><li>only assigned responsible person can clear<\/li><\/ul><li>user can specify to see/have flagged all items added since a user entered date<\/li><li>30 day time window applied to each new item<\/li><\/ul><p><br /><\/p><p>Developer Notes:<\/p><p>System will need to keep track of items via a daily snapshot. A java cron job could run after data has been loaded to indicate which items are new.<\/p><p>Who tracks changes in data fields? Business analysts or app dev?<br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US57",
-    "LastUpdateDate": "2017-03-07T00:00:50.522Z",
+    "LastUpdateDate": "2017-05-17T17:10:44.104Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "added item notification",
+    "Name": "RP new item notification",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -113,10 +113,17 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~~s~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "P!!!=LbBjJ,gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": null,
-    "Iteration": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35807291",
+        "_refObjectUUID": "1853c13b-17b8-45ed-9934-f62982876728",
+        "_refObjectName": "Sprint 5",
+        "_type": "Iteration"
+    },
     "Parent":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

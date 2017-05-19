@@ -1,71 +1,176 @@
 US766,35912561,"Create ICMS Data Sample",COMPLETED,0,Sprint 1
 US787,35914372,"Identify PCCS Fields",COMPLETED,0,Sprint 1
-US917,35949716,"Obtain Access to Property Data Source",COMPLETED,0,Sprint 1
 US919,35960549,"[Unfinished] Analyze VIPERS Data - Part 1",NONE,0,Sprint 1
 US924,35961308,"[Unfinished] Obtain Access to ICMS Data Source",COMPLETED,0,Sprint 1
-US925,35961477,"[Unfinished] Obtain Access to SPCS Data Source",COMPLETED,0,Sprint 1
-US765,35912477,"[Continued] Obtain Access to ICMS Data Source",IN_PROGRESS,0,Sprint 2
-US768,35912689,"Model ICMS Data",DEFINED,0,Sprint 2
-US773,35913183,"Create Property Data Sample",DEFINED,0,Sprint 2
-US774,35913246,"Analyze Property Data (BA)",IN_PROGRESS,0,Sprint 2
-US775,35913301,"Model Property Data",NONE,0,Sprint 2
-US784,35914089,"Model SPCS Data",DEFINED,0,Sprint 2
-US793,35914905,"Analyze SPCS Data (BA)",DEFINED,0,Sprint 2
-US798,35915272,"[Continued] Analyze VIPERS Data - Part 1",IN_PROGRESS,0,Sprint 2
-US918,35950295,"[Continued] Obtain Access to SPCS Data Source",IN_PROGRESS,0,Sprint 2
-US926,35961706,"SOLR POC Support - BA",IN_PROGRESS,0,Sprint 2
-US929,35961958,"Analysis - Property Data Warehouse - BA",IN_PROGRESS,0,Sprint 2
-US931,35962274,"Analysis - Property Data Warehouse - Data Modeler",IN_PROGRESS,0,Sprint 2
-US776,35913356,"Format Property Data (ETL)",NONE,0,Sprint 3
-US785,35914144,"Format SPCS Data (ETL)",NONE,0,Sprint 3
-US788,35914435,"Obtain Access to PCCS Data Source",IN_PROGRESS,0,Sprint 3
-US789,35914490,"Create  PCCS Data Sample",NONE,0,Sprint 3
-US881,35920667,"Model PROC04 Data",NONE,0,Sprint 3
-US883,35920797,"Create PROC04 Data Sample",NONE,0,Sprint 3
-US767,35912634,"Analyze ICMS Data (BA)",NONE,0,Sprint 4
+US1184,36070613,"Create list of required Property data",COMPLETED,0,Sprint 1
+US1214,36074883,"Identify Data Owners",NONE,0,Sprint 1
+US1215,36074941,"Contact Data Owners",NONE,0,Sprint 1
+US1653,36136299,"ETL Data Analysis - PCCS",IN_PROGRESS,0,Sprint 1
+US1656,36136734,"BA Data Analysis - PCCS - Part 1",COMPLETED,0,Sprint 1
+US793,35914905,"BA Data Analysis - SPCS",COMPLETED,0,Sprint 2
+US926,35961706,"SOLR POC Support - BA",COMPLETED,0,Sprint 2
+US1167,36062316,"[Unfinished] Analysis - GFM Data - BA",NONE,0,Sprint 2
+US1171,36063987,"[Unfinished] [Continued] Obtain Access to ICMS Data Source",COMPLETED,0,Sprint 2
+US1172,36064250,"[Unfinished] Model ICMS Data",COMPLETED,0,Sprint 2
+US1175,36065760,"Research Utilization Property Data",COMPLETED,0,Sprint 2
+US1221,36075650,"ETL Analysis of Raw SPCS Vendor View Source Data",COMPLETED,0,Sprint 2
+US1222,36075723,"Design Raw SPCS Vendor View Table",COMPLETED,0,Sprint 2
+US1240,36078149,"Design RAW_PCIS_ITEM_BASE Table",COMPLETED,0,Sprint 2
+US1276,36080281,"Design RAW_PROP_TRANS_HIST Table",COMPLETED,0,Sprint 2
+US1294,36081347,"Design RAW_CONDITION_CODE_VIEW Table",COMPLETED,0,Sprint 2
+US1312,36082413,"Design RAW_FILE_CODE_VIEW Table",COMPLETED,0,Sprint 2
+US1330,36083479,"Design RAW_BUILDING_VIEW Table",COMPLETED,0,Sprint 2
+US1362,36086093,"Design RAW_PROP_ITEM_BASE Table",COMPLETED,0,Sprint 2
+US1369,36087147,"Analyze SPCS fields - ETL Part 1",COMPLETED,0,Sprint 2
+US1371,36088700,"DM Data Analysis - SPCS",COMPLETED,0,Sprint 2
+US1390,36090901,"Design RAW_SPCS_AUDITOR_VIEW Table",COMPLETED,0,Sprint 2
+US1391,36091028,"ETL Analysis of RAW_SPCS_AUDITOR_VIEW Source Data",COMPLETED,0,Sprint 2
+US1408,36092268,"Design RAW_SPCS_INVENTORY_VIEW Table",COMPLETED,0,Sprint 2
+US1409,36092395,"ETL Analysis of RAW_SPCS_INVENTORY_VIEW Source Data",COMPLETED,0,Sprint 2
+US1426,36093635,"Design RAW_SPCS_SURVEY_VIEW Table",COMPLETED,0,Sprint 2
+US1427,36093762,"ETL Analysis of RAW_SPCS_SURVEY_VIEW Source Data",COMPLETED,0,Sprint 2
+US1444,36095002,"Design RAW_SPCS_CONTACT_VIEWTable",COMPLETED,0,Sprint 2
+US1445,36095129,"ETL Analysis of RAW_SPCS_CONTACT_VIEW Source Data",COMPLETED,0,Sprint 2
+US1480,36097736,"Design DIM_SPCS_VENDOR Table",COMPLETED,0,Sprint 2
+US1481,36097868,"ETL Analysis of DIM_SPCS_VENDOR Source Data",COMPLETED,0,Sprint 2
+US1483,36103424,"BA Data Analysis - Property - Part 1",COMPLETED,0,Sprint 2
+US774,35913246,"BA Data Analysis - Property - Part 2",COMPLETED,0,Sprint 3
+US931,35962274,"DM Data Analysis - Property",COMPLETED,0,Sprint 3
+US1039,35994395,"[Continued] Analysis - GFM Data - BA",COMPLETED,0,Sprint 3
+US1168,36062403,"Create Enterprise Data Request",IN_PROGRESS,0,Sprint 3
+US1179,36068835,"Create Logical Model - Property",COMPLETED,0,Sprint 3
+US1180,36068893,"Create Physical Model - Property",COMPLETED,0,Sprint 3
+US1181,36068958,"Model Peer Review - Property",COMPLETED,0,Sprint 3
+US1186,36070838,"Create Fact Property Item RAD",COMPLETED,0,Sprint 3
+US1236,36076528,"Raw SPCS Vendor View BA Peer Review",COMPLETED,0,Sprint 3
+US1237,36076582,"Create Raw SPCS Vendor View RAD",COMPLETED,0,Sprint 3
+US1254,36078954,"RAW_PCIS_ITEM_BASE BA Peer Review",COMPLETED,0,Sprint 3
+US1272,36080020,"DIM_PCIS_CONTRACT BA Peer Review",COMPLETED,0,Sprint 3
+US1277,36080335,"Create RAW_PROP_TRANS_HIST Data Sample",NONE,0,Sprint 3
+US1286,36080833,"Load Data into RAW_PROP_TRANS_HIST",NONE,0,Sprint 3
+US1288,36080954,"ETL Requirement Analysis for RAW_PROP_TRANS_HIST",NONE,0,Sprint 3
+US1289,36081032,"Complete ETL Fields in RAW_PROP_TRANS_HIST RAD",NONE,0,Sprint 3
+US1290,36081086,"RAW_PROP_TRANS_HIST BA Peer Review",COMPLETED,0,Sprint 3
+US1291,36081140,"Create RAW_PROP_TRANS_HIST RAD",NONE,0,Sprint 3
+US1293,36081274,"ETL Analysis of RAW_CONDITION_CODE_VIEW Source Data",NONE,0,Sprint 3
+US1300,36081677,"Update Implementation Checklist with RAW_CONDITION_CODE_VIEW",NONE,0,Sprint 3
+US1302,36081785,"RAW_CONDITION_CODE_VIEW ETL Peer Review",NONE,0,Sprint 3
+US1303,36081845,"Complete RAW_CONDITION_CODE_VIEW PRC",NONE,0,Sprint 3
+US1304,36081899,"Load Data into RAW_CONDITION_CODE_VIEW",NONE,0,Sprint 3
+US1306,36082020,"ETL Requirement Analysis for RAW_CONDITION_CODE_VIEW",NONE,0,Sprint 3
+US1307,36082098,"Complete ETL Fields in RAW_CONDITION_CODE_VIEW RAD",NONE,0,Sprint 3
+US1308,36082152,"RAW_CONDITION_CODE_VIEW BA Peer Review",COMPLETED,0,Sprint 3
+US1309,36082206,"Create RAW_CONDITION_CODE_VIEW RAD",NONE,0,Sprint 3
+US1311,36082340,"ETL Analysis of RAW_FILE_CODE_VIEW Source Data",NONE,0,Sprint 3
+US1318,36082743,"Update Implementation Checklist with RAW_FILE_CODE_VIEW",NONE,0,Sprint 3
+US1320,36082851,"RAW_FILE_CODE_VIEW ETL Peer Review",NONE,0,Sprint 3
+US1321,36082911,"Complete RAW_FILE_CODE_VIEW PRC",NONE,0,Sprint 3
+US1322,36082965,"Load Data into RAW_FILE_CODE_VIEW",NONE,0,Sprint 3
+US1324,36083086,"ETL Requirement Analysis for RAW_FILE_CODE_VIEW",NONE,0,Sprint 3
+US1325,36083164,"Complete ETL Fields in RAW_FILE_CODE_VIEW RAD",NONE,0,Sprint 3
+US1326,36083218,"RAW_FILE_CODE_VIEW BA Peer Review",COMPLETED,0,Sprint 3
+US1327,36083272,"Create RAW_FILE_CODE_VIEW RAD",NONE,0,Sprint 3
+US1342,36084152,"ETL Requirement Analysis for RAW_BUILDING_VIEW",NONE,0,Sprint 3
+US1343,36084230,"Complete ETL Fields in RAW_BUILDING_VIEW RAD",NONE,0,Sprint 3
+US1344,36084284,"RAW_BUILDING_VIEW BA Peer Review",COMPLETED,0,Sprint 3
+US1345,36084338,"Create RAW_BUILDING_VIEW RAD",NONE,0,Sprint 3
+US1349,36085379,"RAW_PROP_ITEM_BASE BA Peer Review",COMPLETED,0,Sprint 3
+US1370,36087207,"Analyze SPCS fields - ETL Part 2",IN_PROGRESS,0,Sprint 3
+US1376,36089915,"Create RAW_SPCS_AUDITOR_VIEW RAD",COMPLETED,0,Sprint 3
+US1377,36090089,"RAW_SPCS_AUDITOR_VIEW BA Peer Review",COMPLETED,0,Sprint 3
+US1378,36090233,"Complete ETL Fields in RAW_SPCS_AUDITOR_VIEW RAD",NONE,0,Sprint 3
+US1379,36090295,"ETL Requirement Analysis for RAW_SPCS_AUDITOR_VIEW",NONE,0,Sprint 3
+US1381,36090403,"Load Data into RAW_SPCS_AUDITOR_VIEW",NONE,0,Sprint 3
+US1382,36090463,"Complete RAW_SPCS_AUDITOR_VIEW PRC",NONE,0,Sprint 3
+US1383,36090517,"RAW_SPCS_AUDITOR_VIEW ETL Peer Review",COMPLETED,0,Sprint 3
+US1385,36090625,"Update Implementation Checklist for RAW_SPCS_AUDITOR_VIEW",NONE,0,Sprint 3
+US1386,36090685,"Submit Request to Integrate RAW_SPCS_AUDITOR_VIEW to Dev",NONE,0,Sprint 3
+US1389,36090847,"RAW_SPCS_AUDITOR_VIEW Data Sample",NONE,0,Sprint 3
+US1394,36091282,"Create RAW_SPCS_INVENTORY_VIEW RAD",COMPLETED,0,Sprint 3
+US1395,36091456,"RAW_SPCS_INVENTORY_VIEW BA Peer Review",COMPLETED,0,Sprint 3
+US1412,36092649,"Create RAW_SPCS_SURVEY_VIEW RAD",COMPLETED,0,Sprint 3
+US1413,36092823,"RAW_SPCS_SURVEY_VIEW BA Peer Review",COMPLETED,0,Sprint 3
+US1430,36094016,"Create RAW_SPCS_CONTACT_VIEW RAD",COMPLETED,0,Sprint 3
+US1431,36094190,"RAW_SPCS_CONTACT_VIEW BA Peer Review",COMPLETED,0,Sprint 3
+US1448,36095383,"Create DIM_SPCS_AUDITOR RAD",COMPLETED,0,Sprint 3
+US1449,36095557,"DIM_SPCS_AUDITOR BA Peer Review",COMPLETED,0,Sprint 3
+US1450,36095701,"Complete ETL Fields in DIM_SPCS_AUDITOR RAD",COMPLETED,0,Sprint 3
+US1451,36095763,"ETL Requirement Analysis for DIM_SPCS_AUDITOR",COMPLETED,0,Sprint 3
+US1453,36095871,"Load Data into DIM_SPCS_AUDITOR",COMPLETED,0,Sprint 3
+US1454,36095931,"Complete DIM_SPCS_AUDITOR PRC",COMPLETED,0,Sprint 3
+US1455,36095985,"DIM_SPCS_AUDITOR ETL Peer Review",IN_PROGRESS,0,Sprint 3
+US1462,36096369,"Design DIM_SPCS_AUDITOR Table",COMPLETED,0,Sprint 3
+US1463,36096496,"ETL Analysis of DIM_SPCS_AUDITOR Source Data",COMPLETED,0,Sprint 3
+US1467,36096924,"DIM_SPCS_VENDOR BA Peer Review",COMPLETED,0,Sprint 3
+US1471,36097238,"Load Data into DIM_SPCS_VENDOR",NONE,0,Sprint 3
+US1479,36097682,"DIM_SPCS_VENDOR Data Sample",COMPLETED,0,Sprint 3
+US1482,36102266,"Analyze ICMS Data - BA Sprint 3",COMPLETED,0,Sprint 3
+US1489,36106295,"Create DIM_PCIS_CONTRACT_RAD",COMPLETED,0,Sprint 3
+US1490,36106399,"DIM_PCIS_CONTRACT Data Sample",COMPLETED,0,Sprint 3
+US1491,36106503,"Create DIM_SPCS_VENDOR_RAD",COMPLETED,0,Sprint 3
+US1492,36106641,"DIM_SPCS_AUDITOR Data Sample",COMPLETED,0,Sprint 3
+US1493,36106745,"FACT_PROPERTY_ITEM Data Sample",COMPLETED,0,Sprint 3
+US1495,36116272,"Pegging History Data",COMPLETED,0,Sprint 3
+US765,35912477,"[Continued] [Continued] Obtain Access to ICMS Data Source",IN_PROGRESS,0,Sprint 4
+US767,35912634,"Analyze ICMS Data (BA) Sprint 4",NONE,0,Sprint 4
 US769,35912744,"Format ICMS Data (ETL)",NONE,0,Sprint 4
-US791,35914600,"Model PCCS Data",NONE,0,Sprint 4
-US790,35914545,"Analyze PCCS Data (BA)",NONE,0,Sprint 5
-US792,35914655,"Format Data (ETL)",NONE,0,Sprint 5
+US805,35915727,"Preliminary Analysis ADSUBCON Data (BA)",COMPLETED,0,Sprint 4
+US1275,36080208,"ETL Analysis of RAW_PROP_TRANS_HIST Source Data",NONE,0,Sprint 4
+US1281,36080557,"Submit Request to Integrate RAW_PROP_TRANS_HIST to Dev",NONE,0,Sprint 4
+US1282,36080611,"Update Implementation Checklist with RAW_PROP_TRANS_HIST",NONE,0,Sprint 4
+US1284,36080719,"RAW_PROP_TRANS_HIST ETL Peer Review",NONE,0,Sprint 4
+US1285,36080779,"Complete RAW_PROP_TRANS_HIST PRC",NONE,0,Sprint 4
+US1299,36081623,"Submit Request to Integrate RAW_CONDITION_CODE_VIEWto Dev",NONE,0,Sprint 4
+US1317,36082689,"Submit Request to Integrate RAW_FILE_CODE_VIEW to Dev",NONE,0,Sprint 4
+US1611,36129773,"DM Data Analysis - Pegging History",COMPLETED,0,Sprint 4
+US1614,36130233,"BA Data Analysis - Pegging History",IN_PROGRESS,0,Sprint 4
+US1637,36133638,"BA Validation of RAW_FILE_CODE Data",COMPLETED,0,Sprint 4
+US1638,36133693,"BA Validation of RAW_CONDITION_CODE_VIEW Data",COMPLETED,0,Sprint 4
+US1639,36133748,"BA Validation of RAW_PROP_TRANS_HIST Data",COMPLETED,0,Sprint 4
+US1640,36133803,"BA Validation of RAW_BUILDING_VIEW Data",COMPLETED,0,Sprint 4
+US1641,36133858,"BA Validation of RAW_PCIS_ITEM_BASE Data",COMPLETED,0,Sprint 4
+US1642,36133913,"BA Validation of DIM_PCIS_CONTRACT Data",COMPLETED,0,Sprint 4
+US1643,36133968,"BA Validation of FACT_PROPERTY ITEM Data",DEFINED,0,Sprint 4
+US1645,36135091,"BA Validation of RAW_SPCS_CONTACT_VIEW Data",COMPLETED,0,Sprint 4
+US1646,36135146,"BA Validation of RAW_SPCS_SURVEY_VIEW Data",COMPLETED,0,Sprint 4
+US1647,36135201,"BA Validation of RAW_SPCS_INVENTORY_VIEW Data",COMPLETED,0,Sprint 4
+US1648,36135256,"BA Validation of RAW_SPCS_AUDITOR_VIEW Data",COMPLETED,0,Sprint 4
+US1649,36135311,"BA Validation of RAW_SPCS_VENDOR_VIEW Data",COMPLETED,0,Sprint 4
+US1650,36135366,"BA Validation of DIM_SPCS_VENDOR Data",COMPLETED,0,Sprint 4
+US1651,36135421,"BA Validation of DIM_SPCS_AUDITOR Data",COMPLETED,0,Sprint 4
+US1655,36136567,"Create list of required PCCS table and field names",DEFINED,0,Sprint 4
+US1677,36148698,"Finalize and Submit Enterprise Data Request",IN_PROGRESS,0,Sprint 4
+US1678,36151881,"Map Property to Contracts",IN_PROGRESS,0,Sprint 4
+US768,35912689,"[Continued] Model ICMS Data",IN_PROGRESS,0,Sprint 5
 US826,35917092,"Analyze EMMS Data (BA)",NONE,0,Sprint 5
-US874,35920212,"Model LTAP Data (Risk Mitigation)",NONE,0,Sprint 5
-US880,35920594,"Format PROC04 Data (ETL)",NONE,0,Sprint 5
-US882,35920732,"Analyze PROC04 Data (BA)",NONE,0,Sprint 5
+US882,35920732,"Analyze PROC04 Data",NONE,0,Sprint 5
 US886,35921189,"Create LTAP Data Sample",NONE,0,Sprint 5
-US850,35918652,"Identify Pegging History Fields",NONE,0,Sprint 6
-US867,35919757,"Model LiNV Data (Risk Mitigation)",NONE,0,Sprint 6
+US1279,36080443,"Submit Request to Migrate RAW_PROP_TRANS_HIST to Production",NONE,0,Sprint 5
+US1280,36080503,"Submit Request to Migrate RAW_PROP_TRANS_HIST to PreProd",NONE,0,Sprint 5
+US1295,36081401,"Create RAW_CONDITION_CODE_VIEW Data Sample",NONE,0,Sprint 5
+US1298,36081569,"Submit Request to Migrate RAW_CONDITION_CODE_VIEWto PreProd",NONE,0,Sprint 5
+US1316,36082635,"Submit Request to Migrate RAW_FILE_CODE_VIEW to PreProd",NONE,0,Sprint 5
+US1657,36136921,"BA Data Analysis - PCCS - Part 2",NONE,0,Sprint 5
 US869,35919887,"Create LiNV Data Sample",NONE,0,Sprint 6
-US873,35920139,"Format Data (ETL) (Risk Mitigation)",NONE,0,Sprint 6
-US875,35920277,"Analyze LTAP Data (BA)",NONE,0,Sprint 6
+US875,35920277,"Analyze LTAP Data",NONE,0,Sprint 6
 US887,35921296,"Format LTAP Data (Non-ETL)",NONE,0,Sprint 6
+US1387,36090739,"Submit Request to Migrate RAW_SPCS_AUDITOR_VIEW to PreProd",NONE,0,Sprint 6
+US1388,36090793,"Submit Request to Migrate RAW_SPCS_AUDITOR_VIEW to Production",NONE,0,Sprint 6
 US843,35918197,"Identify Goods Receipt Fields",NONE,0,Sprint 7
-US860,35919302,"Model MEQUIPMNT Data (Risk Mitigation)",NONE,0,Sprint 7
 US862,35919432,"Create MEQUIPMNT Data Sample",NONE,0,Sprint 7
-US866,35919684,"Format LiNV Data (ETL) (Risk Mitigation)",NONE,0,Sprint 7
-US868,35919822,"Analyze LiNV Data (BA)",NONE,0,Sprint 7
-US888,35921493,"Format LiNV Data (Non-ETL)",NONE,0,Sprint 7
+US868,35919822,"Analyze LiNV Data",NONE,0,Sprint 7
 US836,35917742,"Identify ZCMR Fields",NONE,0,Sprint 8
-US859,35919229,"Format MEQUIPMNT Data (ETL) (Risk Mitigation)",NONE,0,Sprint 8
-US861,35919367,"Analyze MEQUIPMNT Data (BA)",NONE,0,Sprint 8
-US889,35921700,"Format MEQUIPMNT Data (non-etl)",NONE,0,Sprint 8
-US849,35918587,"Obtain Access to Pegging History Data Source",NONE,0,Sprint 9
-US853,35918847,"Model ZCON7A Data (Risk Mitigation)",NONE,0,Sprint 9
+US861,35919367,"Analyze MEQUIPMNT Data",NONE,0,Sprint 8
 US855,35918977,"Create ZCON7A Data Sample",NONE,0,Sprint 9
 US890,35921953,"Format ZCON7A Data (non-ETL)",NONE,0,Sprint 9
 US822,35916832,"Identify AMIS Fields",NONE,0,Sprint 10
 US842,35918132,"Obtain Access to Goods Receipt Data Source",NONE,0,Sprint 10
-US846,35918392,"Model Pegging History Data (Risk Mitigation)",NONE,0,Sprint 10
-US848,35918522,"Create Pegging History Data Sample",NONE,0,Sprint 10
-US852,35918774,"Format Data (ETL) (Risk Mitigation)",NONE,0,Sprint 10
 US854,35918912,"Analyze ZCON7A Data (BA)",NONE,0,Sprint 10
 US815,35916377,"Identify RayTrack Fields",NONE,0,Sprint 11
 US835,35917677,"Obtain Access to ZCMR Data Source",NONE,0,Sprint 11
 US839,35917937,"Model Goods Receipt Data (Risk Mitigation)",NONE,0,Sprint 11
 US841,35918067,"Create Goods Receipt Data Sample",NONE,0,Sprint 11
-US845,35918319,"Format Data (ETL) (Risk Mitigation)",NONE,0,Sprint 11
-US847,35918457,"Analyze Pegging History Data (BA)",NONE,0,Sprint 11
-US891,35922200,"Format Pegging History Data (non-ETL)",NONE,0,Sprint 11
-US808,35915922,"Identify ADSUBCON Fields",NONE,0,Sprint 12
+US808,35915922,"Identify ADSUBCON Fields- N/A",NONE,0,Sprint 12
 US828,35917222,"Obtain Access to EMMS Data Source",NONE,0,Sprint 12
 US832,35917482,"Model ZCMR Data (Risk Mitigation)",NONE,0,Sprint 12
 US834,35917612,"Create ZCMR Data Sample",NONE,0,Sprint 12
@@ -82,119 +187,14 @@ US814,35916312,"Obtain Access to RayTrack Data Source",NONE,0,Sprint 14
 US818,35916572,"Model AMIS Data",NONE,0,Sprint 14
 US820,35916702,"Create AMIS Data Sample",NONE,0,Sprint 14
 US824,35916954,"Format Data (ETL)",NONE,0,Sprint 14
-US807,35915857,"Obtain Access to ADSUBCON Data Source",NONE,0,Sprint 15
+US807,35915857,"Obtain Access to ADSUBCON Data Source- N/A",NONE,0,Sprint 15
 US811,35916117,"Model RayTrack Data",NONE,0,Sprint 15
 US813,35916247,"Create RayTrack Data Sample",NONE,0,Sprint 15
 US817,35916499,"Format AMIS Data (ETL)",NONE,0,Sprint 15
 US819,35916637,"Analyze AMIS Data (BA)",NONE,0,Sprint 15
-US804,35915662,"Model ADSUBCON Data (Risk Mitigation)",NONE,0,Sprint 16
-US806,35915792,"Create ADSUBCON Data Sample",NONE,0,Sprint 16
+US804,35915662,"Model ADSUBCON Data (Risk Mitigation)- N/A",NONE,0,Sprint 16
+US806,35915792,"Create ADSUBCON Data Sample- N/A",NONE,0,Sprint 16
 US810,35916044,"Format Data (ETL)",NONE,0,Sprint 16
 US812,35916182,"Analyze RayTrack Data (BA)",NONE,0,Sprint 16
 US796,35915134,"Format Data (ETL)",NONE,0,Sprint 17
 US797,35915207,"Model VIPERS Data",NONE,0,Sprint 17
-US803,35915589,"Format Data (ETL) (Risk Mitigation)",NONE,0,Sprint 17
-US805,35915727,"Analyze ADSUBCON Data (BA)",NONE,0,Sprint 17
-US894,35923078,"Format ADSUBCON Data (non-ETL)",NONE,0,Sprint 17
-US32,35723964,"Property Direction & Workflow",null,0,null
-US42,35724486,"Progress & Burndown",null,0,null
-US67,35735414,"Property Views & Reports",null,0,null
-US68,35735469,"in labs",NONE,3,null
-US69,35735540,"compare EMMS, Vipers,  &  UPS",NONE,3,null
-US70,35735613,"compare EMMS and Prism",NONE,3,null
-US71,35735672,"Data Acquisition & Preparation",null,0,null
-US74,35735868,"failure notification",NONE,0,null
-US79,35736424,"view Raytrak",NONE,1,null
-US80,35736487,"upload Mocas report",NONE,0,null
-US86,35737329,"Gov't Furnished Material",null,0,null
-US87,35737661,"IOT report",NONE,3,null
-US93,35742344,"view contract exceptions",NONE,9,null
-US94,35742407,"view last count by storage unit",NONE,9,null
-US95,35742470,"see move status",NONE,3,null
-US223,35801861,"Create IDT Business Layer",null,0,null
-US224,35802430,"Create Analytics Reports",null,0,null
-US225,35802981,"Create BI Service Report",null,0,null
-US226,35803483,"Create BI Service WSDL",null,0,null
-US227,35804076,"Create Xcelsius Dashboard",null,0,null
-US230,35807594,"Production maintenance interruptions",null,0,null
-US433,35842574,"(RPT) Develop IDT Business Layer",DEFINED,0,null
-US438,35842986,"(RPT) Test Data",NONE,0,null
-US439,35843041,"(RPT) Peer Review",NONE,0,null
-US440,35843096,"(RPT) Rework",NONE,0,null
-US441,35843151,"(RPT) Migrate to QA",NONE,0,null
-US442,35843206,"(RPT) Test in QA",NONE,0,null
-US443,35843261,"(RPT) Migrate to Production",NONE,0,null
-US444,35843316,"(RPT) Verify in Production",NONE,0,null
-US454,35844328,"(RPT) Create WSDL",NONE,0,null
-US455,35844463,"(RPT) Test Data in Webi and Xcelsius",NONE,0,null
-US456,35844518,"(RPT) Migrate to QA",NONE,0,null
-US457,35844573,"(RPT) Test in QA",NONE,0,null
-US458,35844628,"(RPT) Migrate to Production",NONE,0,null
-US459,35844683,"(RPT) Verify in Production",NONE,0,null
-US460,35844801,"(RPT) Develop BI Service Report",DEFINED,0,null
-US461,35844984,"(RPT) Test Data",NONE,0,null
-US462,35845039,"(RPT) Test Report (Error Free and Standardization)",NONE,0,null
-US463,35845099,"(RPT) Peer Review",NONE,0,null
-US464,35845154,"(RPT) Documentation",NONE,0,null
-US465,35845209,"(RPT) Migrate to QA",NONE,0,null
-US466,35845264,"(RPT) Test in QA",NONE,0,null
-US467,35845319,"(RPT) Migrate to Production",NONE,0,null
-US468,35845374,"(RPT) Verify in Production",NONE,0,null
-US469,35845524,"(RPT) Develop Xcelsius Dashboard",DEFINED,0,null
-US470,35845743,"(RPT) Test Data to match with Webi BI Reports",NONE,0,null
-US471,35845798,"(RPT) Create Index File",NONE,0,null
-US472,35845853,"(RPT) Testing",NONE,0,null
-US473,35845908,"(RPT) Rework",NONE,0,null
-US474,35845963,"(RPT) Migrate to QA",NONE,0,null
-US475,35846018,"(RPT) Test in QA",NONE,0,null
-US476,35846073,"(RPT) Migrate to Production",NONE,0,null
-US477,35846133,"(RPT) Verify in Production",NONE,0,null
-US478,35846283,"(RPT) Configure Index file on portal",NONE,0,null
-US481,35858646,"(RPT) Develop GFM Universe IDT",NONE,0,null
-US482,35858709,"(RPT) Develop GFM Analytics Webi Reports",NONE,0,null
-US483,35858777,"(RPT) Document GFM Analytics Reports",NONE,0,null
-US484,35859064,"(RPT) Test GFM Analytics Reports",NONE,0,null
-US485,35859207,"(RPT) Peer Review GFM Analytics Reports",NONE,0,null
-US486,35859286,"(RPT) Migrate to QA",NONE,0,null
-US487,35859389,"(RPT) Test in QA",NONE,0,null
-US488,35859464,"(RPT) Migrate to Production",NONE,0,null
-US489,35859543,"(RPT) Verify in Production",NONE,0,null
-US492,35859955,"(RPT) Develop GFM Analytics Reports - Webi",null,0,null
-US496,35861013,"(BI) Sprint Review Changes",null,0,null
-US497,35861070,"sprint 1 feedback changes",NONE,0,null
-US498,35861133,"sprint 2 feedback changes",NONE,0,null
-US499,35861188,"sprint 3 feedback changes",NONE,0,null
-US500,35861243,"sprint 4 feedback changes",NONE,0,null
-US501,35861298,"sprint 5 feedback changes",NONE,0,null
-US502,35861353,"sprint 6 feedback changes",NONE,0,null
-US503,35861408,"sprint 7 feedback changes",NONE,0,null
-US504,35861463,"sprint 8 feedback changes",NONE,0,null
-US505,35861518,"sprint 9 feedback changes",NONE,0,null
-US506,35861573,"sprint 10 feedback changes",NONE,0,null
-US507,35861628,"sprint 11 feedback changes",NONE,0,null
-US508,35861683,"sprint 12 feedback changes",NONE,0,null
-US509,35861738,"sprint 13 feedback changes",NONE,0,null
-US510,35861793,"sprint 14 feedback changes",NONE,0,null
-US511,35861848,"sprint 15 feedback changes",NONE,0,null
-US512,35862351,"(BI) Report Prodution Maintenance Interruption",NONE,0,null
-US513,35862694,"(BI) ETL Prodution Maintenance Interruption",NONE,0,null
-US514,35862771,"(BI) Source System Changes",NONE,0,null
-US515,35862848,"(BI) Business Partner requests additional data field(s)",NONE,0,null
-US528,35864670,"(RPT) Develop TS Test Systems Analytics Reports - Webi",null,0,null
-US529,35864740,"(RPT) Verify in Production",NONE,0,null
-US530,35864821,"(RPT) Migrate to Production",NONE,0,null
-US531,35864908,"(RPT) Test in QA",NONE,0,null
-US532,35864995,"(RPT) Migrate to QA",NONE,0,null
-US533,35865082,"(RPT) Peer Review TS Test Systems Analytics Reports",NONE,0,null
-US534,35865157,"(RPT) Test TS Test Systems Analytics Reports",NONE,0,null
-US535,35865244,"(RPT) Document TS Test Systems  Analytics Reports",NONE,0,null
-US536,35865323,"(RPT) Develop TS Test Systems  Analytics Webi Reports",NONE,0,null
-US537,35865422,"(RPT) Develop TS Test Systems Universe IDT",NONE,0,null
-US558,35867599,"(RPT) Develop PC Production Control Analytics Reports - Webi",null,0,null
-US559,35867675,"(RPT) Verify in Production",NONE,0,null
-US560,35867762,"(RPT) Migrate to Production",NONE,0,null
-US561,35867861,"(RPT) Test in QA",NONE,0,null
-US562,35867960,"(RPT) Migrate to QA",NONE,0,null
-US563,35868059,"(RPT) Peer Review PC Production Control Analytics Reports",NONE,0,null
-US564,35868140,"(RPT) Test PC Production Control Analytics Reports",NONE,0,null
-US565,35868239,"(RPT) Document PC Production Control Analytics Reports",NONE,0,null

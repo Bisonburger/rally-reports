@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35903382",
     "_refObjectUUID": "9a7481e9-fea9-44a2-aa3b-2f47bb21b67d",
-    "_objectVersion": "18",
+    "_objectVersion": "22",
     "_refObjectName": "User Experience",
     "CreationDate": "2017-03-08T23:12:27.625Z",
     "_CreatedAt": "Mar 8",
     "ObjectID": 35903382,
-    "VersionId": "18",
+    "VersionId": "22",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US755",
-    "LastUpdateDate": "2017-03-29T16:25:36.434Z",
+    "LastUpdateDate": "2017-05-16T20:05:24.778Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -109,7 +109,7 @@
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35903382/Children",
         "_type": "HierarchicalRequirement",
-        "Count": 8
+        "Count": 7
     },
     "DefectStatus": null,
     "Defects":     {
@@ -119,7 +119,7 @@
         "_type": "Defect",
         "Count": 0
     },
-    "DirectChildrenCount": 8,
+    "DirectChildrenCount": 7,
     "DragAndDropRank": "O~~zM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": "2017-03-23T22:10:19.913Z",
@@ -151,7 +151,7 @@
     },
     "TaskActualTotal": 0,
     "TaskEstimateTotal": 26,
-    "TaskRemainingTotal": 8,
+    "TaskRemainingTotal": 0,
     "TaskStatus": null,
     "Tasks":     {
         "_rallyAPIMajor": "2",

@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35724372",
     "_refObjectUUID": "c6800eb9-33e2-494e-9b4d-361725c96cd2",
-    "_objectVersion": "16",
-    "_refObjectName": "enter workflow status",
+    "_objectVersion": "50",
+    "_refObjectName": "RP - enter workflow status *",
     "CreationDate": "2017-02-21T17:42:30.625Z",
     "_CreatedAt": "Feb 21",
     "ObjectID": 35724372,
-    "VersionId": "16",
+    "VersionId": "50",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>as an actionee/PoC&nbsp;I need to enter work status updates so managers can see the progress of each CC<\/p><ul><li>auto record user name, date and time for each entry<\/li><li>comments are concatenated and not editable<\/li><li>user select status from list - <font style=\"background-color: rgb(255, 255, 0);\">NEED LIST<\/font><\/li><li>selection of \"other\" status requires a comment<\/li><li>attachments may be uploaded<\/li><li>making a status update to any line item&nbsp;resets that person's 30 [app setting]&nbsp;day timer (later enhancement - check for dirty edit)<br /><\/li><li>lack of any status update by an individual within 30 days generates an escalation notice<\/li><\/ul><p>system emails PM for contract's program, with link to record, so PM can enter actionee name and charge number, <font style=\"background-color: rgb(255, 255, 0);\">and ??<\/font>?<br /><\/p><p>Developer Notes:<\/p><p>Workflows are related to overall contract closeout activities.&nbsp; A program manager will assign a&nbsp;person to a list of property.&nbsp; Separate workflows for this activity does not need to be tracked in PRS.<br /><\/p>",
+    "Description": "<p>as a <font color=\"#ff0000\">P<\/font><font color=\"#ff0000\">rogram responsible person (RP)<\/font> I need to enter work status updates so managers can see the progress of each CC<\/p><ul><li>auto record user name, date and time for each entry<\/li><li>comments are concatenated and not editable<\/li><li>user select status from list - <font style=\"background-color: rgb(255, 255, 0);\">NEED LIST, if GFM need separate list<\/font><\/li><li>selection of \"other\" status requires a comment<\/li><li>attachments may be uploaded<br /><\/li><li><br /><\/li><li><br /><\/li><\/ul><p>Developer Notes:<\/p><p>Workflows are related to overall contract closeout activities.&nbsp; A program manager will assign a&nbsp;person to a list of property.&nbsp; Separate workflows for this activity does not need to be tracked in PRS.<br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US40",
-    "LastUpdateDate": "2017-03-28T23:21:30.858Z",
+    "LastUpdateDate": "2017-05-17T18:01:42.756Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "enter workflow status",
+    "Name": "RP - enter workflow status *",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "In-Progress",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -113,15 +113,15 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~~sgO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~~@g{.X(A>D8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
-    "InProgressDate": null,
+    "InProgressDate": "2017-05-16T19:22:33.718Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/iteration/35807099",
-        "_refObjectUUID": "0cb5296a-6940-42c2-b235-87d1ddf23515",
-        "_refObjectName": "Sprint 2",
+        "_ref": "/slm/webservice/v2.0/iteration/35807225",
+        "_refObjectUUID": "1674aa33-93df-45ac-ab8c-aec0b8327d20",
+        "_refObjectName": "Sprint 4",
         "_type": "Iteration"
     },
     "Parent":     {
@@ -156,16 +156,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
-    "TaskRemainingTotal": 0,
-    "TaskStatus": "NONE",
+    "TaskActualTotal": 5,
+    "TaskEstimateTotal": 15,
+    "TaskRemainingTotal": 9,
+    "TaskStatus": "IN_PROGRESS",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724372/Tasks",
         "_type": "Task",
-        "Count": 0
+        "Count": 4
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35328444",
     "_refObjectUUID": "14efaeff-2fa4-41a5-b61d-1860b69375a5",
-    "_objectVersion": "24",
+    "_objectVersion": "35",
     "_refObjectName": "Notifications - FIRST NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",
     "CreationDate": "2016-10-31T23:20:55.574Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35328444,
-    "VersionId": "24",
+    "VersionId": "35",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11155",
-    "LastUpdateDate": "2017-03-28T21:11:49.974Z",
+    "LastUpdateDate": "2017-04-26T21:27:30.899Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -55,7 +55,14 @@
     },
     "Name": "Notifications - FIRST NOTICE receive notifications of any un-cleared discrepancies on a weekly basis",
     "Notes": "",
-    "Owner": null,
+    "Owner":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/225399",
+        "_refObjectUUID": "54da74e5-db67-4ab8-8d6c-fad2c6341e16",
+        "_refObjectName": "Dave L.",
+        "_type": "User"
+    },
     "Project":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -83,7 +90,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +100,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-04-26T21:27:30.861Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,13 +122,13 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hVD7HZDYL=21e8P!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
+    "InProgressDate": "2017-04-11T19:37:33.737Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/iteration/35370617",
-        "_refObjectUUID": "01fd8edb-1fec-463e-a2f4-93e7d1e43d24",
-        "_refObjectName": "Sprint 10",
+        "_ref": "/slm/webservice/v2.0/iteration/35370640",
+        "_refObjectUUID": "3e75f347-5478-4824-8f81-ec38d0655be1",
+        "_refObjectName": "Sprint 11",
         "_type": "Iteration"
     },
     "Parent": null,
@@ -151,8 +158,8 @@
     },
     "TaskActualTotal": 0,
     "TaskEstimateTotal": 18,
-    "TaskRemainingTotal": 18,
-    "TaskStatus": "DEFINED",
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

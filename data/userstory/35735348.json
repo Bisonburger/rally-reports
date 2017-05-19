@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35735348",
     "_refObjectUUID": "a203e921-7e20-4b38-929d-20141353d011",
-    "_objectVersion": "12",
+    "_objectVersion": "13",
     "_refObjectName": "view summary of all contracts in closure",
     "CreationDate": "2017-02-21T22:44:45.752Z",
     "_CreatedAt": "Feb 21",
     "ObjectID": 35735348,
-    "VersionId": "12",
+    "VersionId": "13",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US66",
-    "LastUpdateDate": "2017-03-09T16:23:55.712Z",
+    "LastUpdateDate": "2017-05-04T20:32:47.971Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -116,7 +116,14 @@
     "DragAndDropRank": "O~~~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": null,
-    "Iteration": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35807291",
+        "_refObjectUUID": "1853c13b-17b8-45ed-9934-f62982876728",
+        "_refObjectName": "Sprint 5",
+        "_type": "Iteration"
+    },
     "Parent":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

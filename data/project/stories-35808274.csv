@@ -1,0 +1,129 @@
+US1134,36032881,"UX - Sprint 0",COMPLETED,0,Sprint 0
+US1017,35991862,"Add Look up Values",COMPLETED,0,Sprint 1
+US1018,35991915,"Edit Look up Values",COMPLETED,0,Sprint 1
+US1019,35991968,"Inactive / Delete Look Ups",COMPLETED,0,Sprint 1
+US1024,35992786,"As a user, I can view the Work Product List to find work products that are applicable to me",COMPLETED,0,Sprint 1
+US1048,35995575,"Provide Link to SCG Source",COMPLETED,0,Sprint 1
+US1071,36001119,"View lookup values",COMPLETED,0,Sprint 1
+US1083,36007505,"Sort Work Product List",COMPLETED,0,Sprint 1
+US1087,36012298,"UX - Sprint 1",COMPLETED,0,Sprint 1
+US1131,36032594,"Populate Changelog",COMPLETED,0,Sprint 1
+US1160,36047960,"[Unfinished] Filter Work Product List",COMPLETED,0,Sprint 1
+US935,35987223,"View work product details",COMPLETED,0,Sprint 2
+US943,35987727,"Work Product Owner Delete Work Product",COMPLETED,0,Sprint 2
+US944,35987780,"Work Product Owner Edit Work Product",COMPLETED,0,Sprint 2
+US986,35990102,"View Contract List",COMPLETED,0,Sprint 2
+US999,35990828,"View My Contracts List",COMPLETED,0,Sprint 2
+US1020,35992550,"Upload DID",COMPLETED,0,Sprint 2
+US1027,35993155,"User Create Work Product",COMPLETED,0,Sprint 2
+US1045,35995411,"Download DID",COMPLETED,0,Sprint 2
+US1067,36000822,"Filter contracts list",COMPLETED,0,Sprint 2
+US1068,36000878,"View DID list",COMPLETED,0,Sprint 2
+US1137,36034683,"Sort Contracts list",COMPLETED,0,Sprint 2
+US1494,36110495,"UX Tasks - Sprint 2",COMPLETED,0,Sprint 2
+US1681,36156560,"[Unfinished] [Unfinished] [Continued] Filter Work Product List",COMPLETED,0,Sprint 2
+US936,35987276,"View Associated Contract to WP",COMPLETED,0,Sprint 3
+US941,35987621,"User Save As/Clone Work Product",DEFINED,0,Sprint 3
+US942,35987674,"Work Product Owner Archive Work Product",COMPLETED,0,Sprint 3
+US948,35987985,"View Work Product Subscriptions List",IN_PROGRESS,0,Sprint 3
+US949,35988046,"Add Subscribers",IN_PROGRESS,0,Sprint 3
+US952,35988270,"Filter Archived Work Product List",DEFINED,0,Sprint 3
+US958,35988613,"View Archived Work Product List",DEFINED,0,Sprint 3
+US964,35988901,"Create Contract",DEFINED,0,Sprint 3
+US970,35989237,"Edit Contract",IN_PROGRESS,0,Sprint 3
+US987,35990163,"View Contract",COMPLETED,0,Sprint 3
+US1009,35991425,"Answer Questions for Contract Artifacts",COMPLETED,0,Sprint 3
+US1010,35991478,"Answer Questions for Non Contract Artifacts",IN_PROGRESS,0,Sprint 3
+US1022,35992667,"View Tailored DIDs",DEFINED,0,Sprint 3
+US1035,35993932,"Change Fields Based on Type",IN_PROGRESS,0,Sprint 3
+US1485,36104471,"[QC13] Filter Work Product List",COMPLETED,0,Sprint 3
+US1496,36116451,"Subscribe to work products from list",DEFINED,0,Sprint 3
+US1658,36137676,"Sprint 3 DEV Tasks",COMPLETED,0,Sprint 3
+US1679,36155699,"UX Tasks - Sprint 3",IN_PROGRESS,0,Sprint 3
+US932,35987063,"Work Product",null,0,null
+US938,35987448,"User Download Work Product",NONE,0,null
+US947,35987939,"Work Product Subscription",null,0,null
+US950,35988099,"Delete Subscribers",DEFINED,0,null
+US951,35988217,"View Work Product History",NONE,0,null
+US955,35988434,"View My Subscribed Work Products",DEFINED,0,null
+US956,35988487,"Auto Subscribe",DEFINED,0,null
+US957,35988540,"Archived Work Products",null,0,null
+US959,35988671,"Contract",null,0,null
+US961,35988763,"Contract Subscriptions",null,0,null
+US962,35988809,"Archived Contracts",null,0,null
+US963,35988855,"Contract Review Process",null,0,null
+US965,35988972,"Save As/Clone Contract",NONE,0,null
+US966,35989025,"Submit Contract for Review",NONE,0,null
+US968,35989131,"Archive Contract",NONE,0,null
+US969,35989184,"Delete Contract",NONE,0,null
+US971,35989290,"Add Associated WP",NONE,0,null
+US975,35989507,"Scenario",null,0,null
+US977,35989609,"Create Scenario",NONE,0,null
+US980,35989776,"Delete Scenario",NONE,0,null
+US982,35989882,"Edit Scenario",NONE,0,null
+US985,35990049,"View Scenario",NONE,0,null
+US988,35990216,"View Work Products",NONE,0,null
+US989,35990269,"View Contract Subscription",NONE,0,null
+US990,35990330,"Add Subscribers",NONE,0,null
+US991,35990383,"Delete Subscribers",NONE,0,null
+US992,35990441,"Remove Associated Contract",NONE,0,null
+US993,35990494,"View Archived Contracts List",NONE,0,null
+US994,35990555,"Filter Archived Contracts List",NONE,0,null
+US995,35990608,"Approve Contract",NONE,0,null
+US996,35990669,"Reject Contract",NONE,0,null
+US997,35990722,"Demote Contract",NONE,0,null
+US1000,35990881,"View Contracts I Need to Review",NONE,0,null
+US1001,35990950,"View My Contract Subscriptions",NONE,0,null
+US1004,35991173,"View Contract History",NONE,0,null
+US1005,35991226,"DID",null,0,null
+US1006,35991272,"Admin",null,0,null
+US1007,35991318,"Marking Guide",null,0,null
+US1008,35991364,"View Recommended Markings",NONE,0,null
+US1021,35992621,"Tailored DID",null,0,null
+US1029,35993286,"Upload Other Doc",NONE,0,null
+US1030,35993339,"Upload Tailored DID",NONE,0,null
+US1031,35993549,"Work Product Document Validation",null,0,null
+US1032,35993595,"Upload Document For Validation",NONE,0,null
+US1033,35993666,"Work Product History",null,0,null
+US1034,35993886,"Contract Reviewers",null,0,null
+US1036,35993985,"Work Product Type - Analysis Document",null,0,null
+US1037,35994237,"Add Reviewer",NONE,0,null
+US1038,35994296,"Delete Reviewer",NONE,0,null
+US1040,35994563,"Contract History",null,0,null
+US1041,35994738,"Contract Work Products",null,0,null
+US1043,35995147,"View Scenario List",NONE,0,null
+US1046,35995464,"Help",null,0,null
+US1047,35995510,"SCG Link",null,0,null
+US1049,35995636,"Provide Links to Documents",NONE,0,null
+US1050,35995697,"Provide Admin Contact Info",NONE,0,null
+US1051,35995750,"PDS Link",null,0,null
+US1052,35995796,"Provide PDS Link",NONE,0,null
+US1053,35995859,"Preview Scenario",NONE,0,null
+US1057,35999097,"Upload Existing Document to be Marked",NONE,0,null
+US1058,35999188,"Download document with recommended markings",NONE,0,null
+US1059,35999342,"Create analysis document",NONE,0,null
+US1060,35999405,"Download analysis document",NONE,0,null
+US1061,35999626,"Notify Users of Change",null,0,null
+US1062,35999672,"Create change notification job",NONE,0,null
+US1063,35999733,"Create change notification emails",NONE,0,null
+US1064,35999819,"Create change log subscription view",NONE,0,null
+US1065,36000583,"Select template type",NONE,0,null
+US1066,36000671,"Submit contract for approval",NONE,0,null
+US1069,36001007,"Upload documents",NONE,0,null
+US1070,36001066,"View uploaded documents",NONE,0,null
+US1072,36001300,"View default marking options",NONE,0,null
+US1073,36001356,"Edit default marking options",NONE,0,null
+US1074,36001412,"Delete default marking options",NONE,0,null
+US1075,36001474,"Add default section option",NONE,0,null
+US1076,36001530,"Edit default section option",NONE,0,null
+US1077,36001586,"Delete default section option",NONE,0,null
+US1078,36001642,"PSS",null,0,null
+US1079,36001686,"Download PSS",NONE,0,null
+US1080,36001761,"Search for contract in ICMS",NONE,0,null
+US1081,36001841,"Provide suggestions on use",NONE,0,null
+US1082,36004053,"Create master scenario for contract",NONE,0,null
+US1129,36032485,"Footer",null,0,null
+US1159,36047842,"Filter Work Product List",null,0,null
+US1484,36104338,"[Continued] Filter Work Product List",null,0,null
+US1498,36118617,"Sort Archived Work Product List",NONE,0,null
+US1680,36156423,"[Unfinished] [Continued] Filter Work Product List",null,0,null

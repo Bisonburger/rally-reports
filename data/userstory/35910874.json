@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35910874",
     "_refObjectUUID": "6af1016f-a9e0-49b6-a59a-fa589d92373c",
-    "_objectVersion": "14",
+    "_objectVersion": "18",
     "_refObjectName": "[Continued] create user roles and permissions",
     "CreationDate": "2017-03-10T16:22:25.910Z",
     "_CreatedAt": "Mar 10",
     "ObjectID": 35910874,
-    "VersionId": "14",
+    "VersionId": "18",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US763",
-    "LastUpdateDate": "2017-03-29T16:26:36.269Z",
+    "LastUpdateDate": "2017-05-09T19:22:36.541Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "In-Progress",
+    "ScheduleState": "Completed",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -113,7 +113,7 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "P!!!<O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~~3O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": "2017-03-29T16:26:36.243Z",
     "Iteration":     {
@@ -156,10 +156,10 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
+    "TaskActualTotal": 4,
     "TaskEstimateTotal": 6,
-    "TaskRemainingTotal": 6,
-    "TaskStatus": "DEFINED",
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

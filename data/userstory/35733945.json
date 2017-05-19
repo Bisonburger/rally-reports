@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35733945",
     "_refObjectUUID": "1d863634-0c3b-4cc2-aff8-8ccade46fa09",
-    "_objectVersion": "10",
-    "_refObjectName": "direction notification",
+    "_objectVersion": "37",
+    "_refObjectName": "ZC assign ZC PoCs",
     "CreationDate": "2017-02-21T18:31:09.196Z",
     "_CreatedAt": "Feb 21",
     "ObjectID": 35733945,
-    "VersionId": "10",
+    "VersionId": "37",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>as a responsible person I need to be immediately notified any time a property direction is entered so I can promptly work on it<\/p><p><br /><\/p><p>group notices based on user preference<\/p><p>update&nbsp;users action&nbsp;dashboard<\/p><p><br /><\/p><p>Similar to previous story<\/p><p><br /><\/p><p>Developer Notes:<\/p><p>How often is property direction changed? Should it be locked down at some point during the workflow.<br /><\/p>",
+    "Description": "<p><font style=\"background-color: rgb(255, 255, 0);\"><br /><\/font><\/p><p>as a&nbsp;ZC I &nbsp;need to&nbsp;assign PoC's to&nbsp;work on property whose direction has been confirmed<\/p><p>ZC assigns a ZC PoC for each item. (same as other assign person functions)<\/p><ul style=\"margin-right: 0px;\"><li>Assignee receives email (consolidating all line item) and actions added to their dashboard<\/li><\/ul><p>=============================================================<\/p><p>note for potential future story to simplify business process:<br /><\/p><ul><li>for transfer: to closeout admin group email (already exists - get from Cheryl)<\/li><li>for excess: to GFM and&nbsp;external plant clearance group emails <\/li><li><font color=\"#000000\">need to check PMRT functionality from logistics to avoid duplicating effort<\/font><\/li><li>for lost: to lost group email<\/li><\/ul><p><i><font style=\"background-color: rgb(255, 255, 0);\"><br /><\/font><\/i><\/p><p><br /><\/p><p><br /><\/p><ul><li><br /><\/li><\/ul>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US50",
-    "LastUpdateDate": "2017-03-28T19:06:50.304Z",
+    "LastUpdateDate": "2017-05-18T16:15:44.359Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "direction notification",
+    "Name": "ZC assign ZC PoCs",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -113,15 +113,15 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~~@w^a[gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~yHa[gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": null,
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/iteration/35807225",
-        "_refObjectUUID": "1674aa33-93df-45ac-ab8c-aec0b8327d20",
-        "_refObjectName": "Sprint 4",
+        "_ref": "/slm/webservice/v2.0/iteration/35807291",
+        "_refObjectUUID": "1853c13b-17b8-45ed-9934-f62982876728",
+        "_refObjectName": "Sprint 5",
         "_type": "Iteration"
     },
     "Parent":     {
@@ -157,15 +157,15 @@
         "Count": 0
     },
     "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
-    "TaskRemainingTotal": 0,
-    "TaskStatus": "NONE",
+    "TaskEstimateTotal": 14,
+    "TaskRemainingTotal": 14,
+    "TaskStatus": "DEFINED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35733945/Tasks",
         "_type": "Task",
-        "Count": 0
+        "Count": 6
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

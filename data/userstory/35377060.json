@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35377060",
     "_refObjectUUID": "8216df28-57f3-4f9c-b991-11b5d0672fd0",
-    "_objectVersion": "5",
+    "_objectVersion": "8",
     "_refObjectName": "Backlog Refinement SP11",
     "CreationDate": "2016-11-03T23:32:12.496Z",
     "_CreatedAt": "Nov 3, 2016",
     "ObjectID": 35377060,
-    "VersionId": "5",
+    "VersionId": "8",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11200",
-    "LastUpdateDate": "2017-02-16T19:15:18.975Z",
+    "LastUpdateDate": "2017-05-10T18:24:16.201Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-05-10T18:24:16.178Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,7 +115,7 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hKs/rs~'/^{Zq!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
+    "InProgressDate": "2017-05-09T23:04:42.862Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -152,13 +152,13 @@
     "TaskActualTotal": 0,
     "TaskEstimateTotal": 0,
     "TaskRemainingTotal": 0,
-    "TaskStatus": "NONE",
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35377060/Tasks",
         "_type": "Task",
-        "Count": 0
+        "Count": 1
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

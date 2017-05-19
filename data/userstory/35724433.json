@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35724433",
     "_refObjectUUID": "7d2c95d8-fb0c-4f33-8331-aaacdd9d005f",
-    "_objectVersion": "18",
-    "_refObjectName": "enter direction",
+    "_objectVersion": "90",
+    "_refObjectName": "[Continued] RP enter direction *",
     "CreationDate": "2017-02-21T17:42:39.292Z",
     "_CreatedAt": "Feb 21",
     "ObjectID": 35724433,
-    "VersionId": "18",
+    "VersionId": "90",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -32,7 +32,7 @@
         "_type": "Changeset",
         "Count": 0
     },
-    "Description": "<p>as the Program Manager I need to enter the direction of each item of property so that others can implement the specified action<\/p><p>direction type options: <\/p><ul><li>transfer, including to what contract #<\/li><li>clear<\/li><li>lost<br /><\/li><\/ul><p>optional attachments may be uploaded<\/p><p>impacted responsible persons are notified of a newly entered direction<\/p><p>display instructions of next required actions in outside systems - with ability to download a list of items by direction type<\/p><p>[post it note:&nbsp; \"sam screener - program POC]?<br /><br /><br /><\/p><p>Developer Notes:<br />Direction implies that the IT system must create a data model for each individual property.&nbsp;Would the IT System need to track history on individual property?<br /><\/p>",
+    "Description": "<p>as <font color=\"#ff0000\">a <\/font>Program <font color=\"#ff0000\">RP<\/font>,&nbsp;I need to enter the direction of each item of property <font color=\"#ff0000\">assigned to me <\/font>so that others can implement the specified action<\/p><p>direction type options: <\/p><ul><li>contract transfer, including to what contract #, dropdown of <font style=\"background-color: rgb(255, 255, 255);\">justification (see below)<\/font><\/li><li>excess - in house<\/li><li>excess - vendor held<\/li><li>un-located<\/li><li>other [comment required]]<\/li><li>not applicable [comment required]<br /><\/li><\/ul><p>transfer justification<\/p><ul><li><font color=\"#000000\">Rate Production<\/font><\/li><li><font color=\"#000000\">Maintenance<\/font><\/li><li><font color=\"#000000\">FMS Sales Configuration<\/font><\/li><li><font color=\"#000000\">Engineering Development<\/font><\/li><li><font color=\"#000000\">Failure / Investigating / Troubleshooting<\/font><\/li><li><font color=\"#000000\">warranty contract<\/font><\/li><li><font color=\"#000000\">depot contract<\/font><\/li><li>Other (Explain)<font face=\"Times New Roman\" size=\"3\">            <\/font><\/li><\/ul><p><br /><\/p><p><i>enter name of POC, charge code,<\/i> <\/p><p>optional attachments may be uploaded [100 mb]<\/p><p><br /><\/p><p>display instructions of next required actions in outside systems - with ability to download a list of items by direction type<\/p><p><br /><br /><br /><\/p><p>Developer Notes:<br />Direction implies that the IT system must create a data model for each individual property.&nbsp;Would the IT System need to track history on individual property?<br /><\/p>",
     "Discussion":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US41",
-    "LastUpdateDate": "2017-03-16T00:04:05.627Z",
+    "LastUpdateDate": "2017-05-17T21:25:25.090Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "enter direction",
+    "Name": "[Continued] RP enter direction *",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "In-Progress",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -113,15 +113,15 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "P!!!@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~~@hH<1/a[gO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
-    "InProgressDate": null,
+    "InProgressDate": "2017-04-27T23:16:53.762Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/iteration/35807162",
-        "_refObjectUUID": "bcca9b84-de3b-4aa3-8c13-4595597f6530",
-        "_refObjectName": "Sprint 3",
+        "_ref": "/slm/webservice/v2.0/iteration/35807225",
+        "_refObjectUUID": "1674aa33-93df-45ac-ab8c-aec0b8327d20",
+        "_refObjectName": "Sprint 4",
         "_type": "Iteration"
     },
     "Parent":     {
@@ -156,16 +156,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
-    "TaskRemainingTotal": 0,
-    "TaskStatus": "NONE",
+    "TaskActualTotal": 23.5,
+    "TaskEstimateTotal": 34,
+    "TaskRemainingTotal": 5,
+    "TaskStatus": "IN_PROGRESS",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35724433/Tasks",
         "_type": "Task",
-        "Count": 0
+        "Count": 7
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

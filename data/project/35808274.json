@@ -1,0 +1,86 @@
+{"Project": {
+    "_rallyAPIMajor": "2",
+    "_rallyAPIMinor": "0",
+    "_ref": "/slm/webservice/v2.0/project/35808274",
+    "_refObjectUUID": "84d05999-e6e8-4e38-a921-d49c07cad45a",
+    "_objectVersion": "9",
+    "_refObjectName": "mSTAT",
+    "CreationDate": "2017-03-01T20:20:32.182Z",
+    "_CreatedAt": "Mar 1",
+    "ObjectID": 35808274,
+    "VersionId": "9",
+    "Subscription":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/subscription/5104",
+        "_refObjectUUID": "8edcc979-ce87-48f7-b129-699a393f58d8",
+        "_refObjectName": "raytheon_az_-163",
+        "_type": "Subscription"
+    },
+    "Workspace":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/workspace/35545775",
+        "_refObjectUUID": "18aa1d93-8bed-4a17-9d78-280593283b1f",
+        "_refObjectName": "Business_Integration",
+        "_type": "Workspace"
+    },
+    "BuildDefinitions":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35808274/BuildDefinitions",
+        "_type": "BuildDefinition",
+        "Count": 1
+    },
+    "Children":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35808274/Children",
+        "_type": "Project",
+        "Count": 0
+    },
+    "Description": "Marking Standard Template Automation Tool",
+    "Editors":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35808274/Editors",
+        "_type": "User",
+        "Count": 12
+    },
+    "Iterations":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35808274/Iterations",
+        "_type": "Iteration",
+        "Count": 11
+    },
+    "Name": "mSTAT",
+    "Notes": "",
+    "Owner":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/user/53903",
+        "_refObjectUUID": "a24c06a7-19e5-483a-aa4c-90b00190b229",
+        "_refObjectName": "Rhonda",
+        "_type": "User"
+    },
+    "Parent": null,
+    "Releases":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35808274/Releases",
+        "_type": "Release",
+        "Count": 1
+    },
+    "SchemaVersion": "5e22df7e7202e0155f63d93bb206d695",
+    "State": "Open",
+    "TeamMembers":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/Project/35808274/TeamMembers",
+        "_type": "User",
+        "Count": 8
+    },
+    "Errors": [],
+    "Warnings": []
+}}

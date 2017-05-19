@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35326697",
     "_refObjectUUID": "5f9d98a0-3606-4926-87f9-04aa0932eab3",
-    "_objectVersion": "14",
+    "_objectVersion": "28",
     "_refObjectName": "Reports - I need to view Occupation Cost Center by Seniority for manpower planning.",
     "CreationDate": "2016-10-31T23:14:48.866Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35326697,
-    "VersionId": "14",
+    "VersionId": "28",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11145",
-    "LastUpdateDate": "2017-01-23T22:10:15.127Z",
+    "LastUpdateDate": "2017-05-18T19:38:30.903Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Completed",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -115,8 +115,15 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hN~}wZ<&AVi+QZ*yW0{aaGkkFeN0H^a[gP!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
-    "Iteration": null,
+    "InProgressDate": "2017-05-10T16:40:24.196Z",
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370686",
+        "_refObjectUUID": "2fd3ed28-d802-4e25-a4ab-b9e1c30cd642",
+        "_refObjectName": "Sprint 13",
+        "_type": "Iteration"
+    },
     "Parent": null,
     "PlanEstimate": 8,
     "Predecessors":     {
@@ -142,16 +149,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
+    "TaskActualTotal": 16,
+    "TaskEstimateTotal": 13,
     "TaskRemainingTotal": 0,
-    "TaskStatus": "DEFINED",
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35326697/Tasks",
         "_type": "Task",
-        "Count": 8
+        "Count": 5
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

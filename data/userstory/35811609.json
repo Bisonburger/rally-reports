@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35811609",
     "_refObjectUUID": "d9eadae0-ee75-4e01-bf0d-0bdb1f9811c8",
-    "_objectVersion": "8",
-    "_refObjectName": "sprint 2 defect fixes",
+    "_objectVersion": "18",
+    "_refObjectName": "sprint 2 defect fixes, refactoring, etc",
     "CreationDate": "2017-03-02T00:10:53.577Z",
     "_CreatedAt": "Mar 1",
     "ObjectID": 35811609,
-    "VersionId": "8",
+    "VersionId": "18",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US269",
-    "LastUpdateDate": "2017-03-29T00:14:00.084Z",
+    "LastUpdateDate": "2017-04-25T21:33:35.398Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "sprint 2 defect fixes",
+    "Name": "sprint 2 defect fixes, refactoring, etc",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-04-25T21:33:35.385Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,7 +115,7 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": "P!!!?8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
-    "InProgressDate": null,
+    "InProgressDate": "2017-03-30T16:26:25.387Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -156,16 +156,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 8,
-    "TaskRemainingTotal": 8,
-    "TaskStatus": "DEFINED",
+    "TaskActualTotal": 8,
+    "TaskEstimateTotal": 11,
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35811609/Tasks",
         "_type": "Task",
-        "Count": 1
+        "Count": 4
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

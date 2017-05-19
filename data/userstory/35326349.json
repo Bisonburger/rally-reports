@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35326349",
     "_refObjectUUID": "b0cdcd3d-8538-477b-b87e-f13d05d5e113",
-    "_objectVersion": "15",
-    "_refObjectName": "Reports - I need to view Pre-Planned Absence Reports (AVO) to assist with manpower planning.",
+    "_objectVersion": "45",
+    "_refObjectName": "Reports - Solr Search - I need to view Pre-Planned Absence Reports (AVO) to assist with manpower planning.",
     "CreationDate": "2016-10-31T23:13:43.154Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35326349,
-    "VersionId": "15",
+    "VersionId": "45",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11143",
-    "LastUpdateDate": "2017-01-23T22:10:01.201Z",
+    "LastUpdateDate": "2017-04-27T15:39:16.053Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Reports - I need to view Pre-Planned Absence Reports (AVO) to assist with manpower planning.",
+    "Name": "Reports - Solr Search - I need to view Pre-Planned Absence Reports (AVO) to assist with manpower planning.",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-04-27T15:39:16.012Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,8 +115,15 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hN}Rw.ZFNz'ou1Zo4np>D8P!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
-    "Iteration": null,
+    "InProgressDate": "2017-04-21T22:10:22.620Z",
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370640",
+        "_refObjectUUID": "3e75f347-5478-4824-8f81-ec38d0655be1",
+        "_refObjectName": "Sprint 11",
+        "_type": "Iteration"
+    },
     "Parent": null,
     "PlanEstimate": 8,
     "Predecessors":     {
@@ -142,16 +149,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
+    "TaskActualTotal": 35,
+    "TaskEstimateTotal": 18,
     "TaskRemainingTotal": 0,
-    "TaskStatus": "DEFINED",
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35326349/Tasks",
         "_type": "Task",
-        "Count": 8
+        "Count": 4
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

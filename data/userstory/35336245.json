@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35336245",
     "_refObjectUUID": "635da184-b638-43e8-922b-7095ba561aa3",
-    "_objectVersion": "22",
+    "_objectVersion": "26",
     "_refObjectName": "Notifications - I need to receive notification when an employee adds an absence to the Automated Call-In System, with the option to opt out of these emails - NEEDS 11164",
     "CreationDate": "2016-10-31T23:24:04.497Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35336245,
-    "VersionId": "22",
+    "VersionId": "26",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11161",
-    "LastUpdateDate": "2017-03-28T20:44:15.459Z",
+    "LastUpdateDate": "2017-04-11T20:09:36.828Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "In-Progress",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-04-11T20:09:36.790Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -149,10 +149,10 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 1.5,
+    "TaskActualTotal": 0,
     "TaskEstimateTotal": 12,
-    "TaskRemainingTotal": 12,
-    "TaskStatus": "IN_PROGRESS",
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

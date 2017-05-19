@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35916767",
     "_refObjectUUID": "67e32bb5-a9ff-4ef9-a816-1ec364c4f672",
-    "_objectVersion": "5",
+    "_objectVersion": "6",
     "_refObjectName": "Obtain Access to AMIS Data Source",
     "CreationDate": "2017-03-10T18:47:42.053Z",
     "_CreatedAt": "Mar 10",
     "ObjectID": 35916767,
-    "VersionId": "5",
+    "VersionId": "6",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US821",
-    "LastUpdateDate": "2017-03-10T20:53:35.257Z",
+    "LastUpdateDate": "2017-05-10T20:20:14.238Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -132,7 +132,7 @@
         "_refObjectName": "AMIS Data",
         "_type": "HierarchicalRequirement"
     },
-    "PlanEstimate": 20,
+    "PlanEstimate": 9,
     "Predecessors":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

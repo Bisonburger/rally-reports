@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35935300",
     "_refObjectUUID": "66e8abe1-d328-4db7-af06-dd5ad5d62f29",
-    "_objectVersion": "3",
+    "_objectVersion": "7",
     "_refObjectName": "GFM overview",
     "CreationDate": "2017-03-16T00:02:11.729Z",
     "_CreatedAt": "Mar 15",
     "ObjectID": 35935300,
-    "VersionId": "3",
+    "VersionId": "7",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US906",
-    "LastUpdateDate": "2017-03-16T17:16:43.577Z",
+    "LastUpdateDate": "2017-05-10T16:17:44.145Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -113,10 +113,17 @@
         "Count": 0
     },
     "DirectChildrenCount": 0,
-    "DragAndDropRank": "O~~yH~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+    "DragAndDropRank": "O~~~0|&s8O~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
     "InProgressDate": null,
-    "Iteration": null,
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35807354",
+        "_refObjectUUID": "37fe0f20-85c8-43d5-a023-98f555b53b5d",
+        "_refObjectName": "Sprint 6",
+        "_type": "Iteration"
+    },
     "Parent":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

@@ -38,7 +38,7 @@
             "GrossEstimateConversionRatio": 1,
             "Name": "Dec 2017",
             "Notes": "",
-            "PlanEstimate": 13,
+            "PlanEstimate": 26,
             "PlannedVelocity": null,
             "Project":             {
                 "_rallyAPIMajor": "2",
@@ -92,11 +92,11 @@
                 "_refObjectName": "Business_Integration",
                 "_type": "Workspace"
             },
-            "Accepted": 87,
+            "Accepted": 18,
             "GrossEstimateConversionRatio": 1,
             "Name": "Dec 2017",
             "Notes": "",
-            "PlanEstimate": 572,
+            "PlanEstimate": 398.9000000000002,
             "PlannedVelocity": null,
             "Project":             {
                 "_rallyAPIMajor": "2",
@@ -116,9 +116,9 @@
                 "_type": "RevisionHistory"
             },
             "State": "Planning",
-            "TaskActualTotal": 193,
-            "TaskEstimateTotal": 366,
-            "TaskRemainingTotal": 162,
+            "TaskActualTotal": 456,
+            "TaskEstimateTotal": 525,
+            "TaskRemainingTotal": 85,
             "Theme": "",
             "Version": null,
             "_type": "Release"
@@ -212,7 +212,7 @@
             "GrossEstimateConversionRatio": 1,
             "Name": "April 2018",
             "Notes": "",
-            "PlanEstimate": 323,
+            "PlanEstimate": 248,
             "PlannedVelocity": null,
             "Project":             {
                 "_rallyAPIMajor": "2",
@@ -232,9 +232,9 @@
                 "_type": "RevisionHistory"
             },
             "State": "Planning",
-            "TaskActualTotal": 15,
-            "TaskEstimateTotal": 20,
-            "TaskRemainingTotal": 3,
+            "TaskActualTotal": 78,
+            "TaskEstimateTotal": 52,
+            "TaskRemainingTotal": 35,
             "Theme": "",
             "Version": null,
             "_type": "Release"

@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35920732",
     "_refObjectUUID": "3d2d031c-fbf6-4406-a998-2ebf0539ff04",
-    "_objectVersion": "4",
-    "_refObjectName": "Analyze PROC04 Data (BA)",
+    "_objectVersion": "6",
+    "_refObjectName": "Analyze PROC04 Data",
     "CreationDate": "2017-03-10T18:48:39.168Z",
     "_CreatedAt": "Mar 10",
     "ObjectID": 35920732,
-    "VersionId": "4",
+    "VersionId": "6",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US882",
-    "LastUpdateDate": "2017-03-10T21:00:07.372Z",
+    "LastUpdateDate": "2017-05-01T22:08:23.020Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Analyze PROC04 Data (BA)",
+    "Name": "Analyze PROC04 Data",
     "Notes": "",
     "Owner": null,
     "Project":     {

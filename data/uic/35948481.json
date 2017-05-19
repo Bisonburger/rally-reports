@@ -33,7 +33,7 @@
         "_refObjectName": "Sprint 2",
         "_type": "Iteration"
     },
-    "Load": 0.9782608695652174,
+    "Load": 0.5434782608695652,
     "Project":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -42,7 +42,7 @@
         "_refObjectName": "PRS Data & Reporting",
         "_type": "Project"
     },
-    "TaskEstimates": 45,
+    "TaskEstimates": 25,
     "User":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",

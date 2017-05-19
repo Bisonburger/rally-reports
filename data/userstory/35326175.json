@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35326175",
     "_refObjectUUID": "e559e97d-e4d7-4c9a-aea2-c387804b560a",
-    "_objectVersion": "16",
+    "_objectVersion": "46",
     "_refObjectName": "Reports - I need to view open discrepancies that require supervisor action so they can be addressed in a timely manner per Union rules; Supervisor Discrepancies",
     "CreationDate": "2016-10-31T23:13:11.121Z",
     "_CreatedAt": "Oct 31, 2016",
     "ObjectID": 35326175,
-    "VersionId": "16",
+    "VersionId": "46",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US11142",
-    "LastUpdateDate": "2017-01-23T22:09:53.102Z",
+    "LastUpdateDate": "2017-05-10T18:24:32.698Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Accepted",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -93,7 +93,7 @@
         "Count": 0
     },
     "Package": null,
-    "AcceptedDate": null,
+    "AcceptedDate": "2017-05-10T18:24:32.679Z",
     "Blocked": false,
     "BlockedReason": null,
     "Blocker": null,
@@ -115,8 +115,15 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": ",~~hN}Rr38>0N5^![/GfFKXmD8P!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
     "HasParent": false,
-    "InProgressDate": null,
-    "Iteration": null,
+    "InProgressDate": "2017-04-26T22:01:06.838Z",
+    "Iteration":     {
+        "_rallyAPIMajor": "2",
+        "_rallyAPIMinor": "0",
+        "_ref": "/slm/webservice/v2.0/iteration/35370663",
+        "_refObjectUUID": "85ab2443-be44-4bff-99bd-1e2f0888087c",
+        "_refObjectName": "Sprint 12",
+        "_type": "Iteration"
+    },
     "Parent": null,
     "PlanEstimate": 8,
     "Predecessors":     {
@@ -142,16 +149,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 0,
-    "TaskRemainingTotal": 0,
-    "TaskStatus": "DEFINED",
+    "TaskActualTotal": 19,
+    "TaskEstimateTotal": 13,
+    "TaskRemainingTotal": 2,
+    "TaskStatus": "IN_PROGRESS",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35326175/Tasks",
         "_type": "Task",
-        "Count": 8
+        "Count": 5
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {

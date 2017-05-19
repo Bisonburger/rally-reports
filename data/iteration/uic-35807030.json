@@ -51,7 +51,7 @@
                 "_refObjectName": "PRS Data & Reporting",
                 "_type": "Project"
             },
-            "TaskEstimates": null,
+            "TaskEstimates": 20,
             "User":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
@@ -161,7 +161,7 @@
                 "_refObjectName": "PRS Data & Reporting",
                 "_type": "Project"
             },
-            "TaskEstimates": 73,
+            "TaskEstimates": 33,
             "User":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",
@@ -216,7 +216,7 @@
                 "_refObjectName": "PRS Data & Reporting",
                 "_type": "Project"
             },
-            "TaskEstimates": 61,
+            "TaskEstimates": 16,
             "User":             {
                 "_rallyAPIMajor": "2",
                 "_rallyAPIMinor": "0",

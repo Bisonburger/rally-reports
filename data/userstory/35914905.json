@@ -3,12 +3,12 @@
     "_rallyAPIMinor": "0",
     "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35914905",
     "_refObjectUUID": "96d808c4-1f74-4f76-8e62-e543e23a1060",
-    "_objectVersion": "11",
-    "_refObjectName": "Analyze SPCS Data (BA)",
+    "_objectVersion": "21",
+    "_refObjectName": "BA Data Analysis - SPCS",
     "CreationDate": "2017-03-10T18:45:07.653Z",
     "_CreatedAt": "Mar 10",
     "ObjectID": 35914905,
-    "VersionId": "11",
+    "VersionId": "21",
     "Subscription":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -43,7 +43,7 @@
     "DisplayColor": null,
     "Expedite": false,
     "FormattedID": "US793",
-    "LastUpdateDate": "2017-03-29T16:50:42.073Z",
+    "LastUpdateDate": "2017-05-04T16:30:33.875Z",
     "LatestDiscussionAgeInMinutes": null,
     "Milestones":     {
         "_rallyAPIMajor": "2",
@@ -53,7 +53,7 @@
         "_tagsNameArray": [],
         "Count": 0
     },
-    "Name": "Analyze SPCS Data (BA)",
+    "Name": "BA Data Analysis - SPCS",
     "Notes": "",
     "Owner": null,
     "Project":     {
@@ -83,7 +83,7 @@
     "LastBuild": null,
     "LastRun": null,
     "PassingTestCaseCount": 0,
-    "ScheduleState": "Defined",
+    "ScheduleState": "Completed",
     "TestCaseCount": 0,
     "Attachments":     {
         "_rallyAPIMajor": "2",
@@ -115,7 +115,7 @@
     "DirectChildrenCount": 0,
     "DragAndDropRank": "P!!#eO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
     "HasParent": true,
-    "InProgressDate": null,
+    "InProgressDate": "2017-04-07T14:48:28.223Z",
     "Iteration":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
@@ -127,9 +127,9 @@
     "Parent":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
-        "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/35913971",
-        "_refObjectUUID": "695eae3d-20d9-47c5-bd60-c3969ab5c5ed",
-        "_refObjectName": "SPCS Data (Propery Data Warehouse)",
+        "_ref": "/slm/webservice/v2.0/hierarchicalrequirement/36086821",
+        "_refObjectUUID": "9ae2e168-9263-4b9b-a071-e3c64e01480d",
+        "_refObjectName": "Analyze SPCS Data",
         "_type": "HierarchicalRequirement"
     },
     "PlanEstimate": 1,
@@ -156,16 +156,16 @@
         "_type": "HierarchicalRequirement",
         "Count": 0
     },
-    "TaskActualTotal": 0,
-    "TaskEstimateTotal": 6,
-    "TaskRemainingTotal": 6,
-    "TaskStatus": "DEFINED",
+    "TaskActualTotal": 19.5,
+    "TaskEstimateTotal": 22,
+    "TaskRemainingTotal": 0,
+    "TaskStatus": "COMPLETED",
     "Tasks":     {
         "_rallyAPIMajor": "2",
         "_rallyAPIMinor": "0",
         "_ref": "/slm/webservice/v2.0/HierarchicalRequirement/35914905/Tasks",
         "_type": "Task",
-        "Count": 2
+        "Count": 3
     },
     "TestCaseStatus": "NONE",
     "TestCases":     {
