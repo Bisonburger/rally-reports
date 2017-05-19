@@ -1,17 +1,6 @@
 /*
     enhanced-burnup.js:  
     
-    MIT License:
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-    
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
-    
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -42,6 +31,11 @@ function EnhancedBurnupChart() {
     this.updateChart = updateChart;
     this.init = init;
 
+    /**
+     * Update the releases values; called when the project changes
+     * 
+     * @param projectId
+     */
     function updateReleases(projectId) {
         rally.getProject(projectId).then(function(prj) {
             rally.getReleasesForProject(prj).then(function(releases) {
@@ -74,6 +68,14 @@ function EnhancedBurnupChart() {
         });
     }
 
+    /**
+     * Compute the average velocity
+     * 
+     * @param chartValues
+     * @param iterations
+     * 
+     * @return {Number} average accepted stories
+     */
     function averageVelocity(chartValues, iterations) {
         var actives =
             iterations.filter(function(s) {
@@ -82,9 +84,7 @@ function EnhancedBurnupChart() {
                 return chartValues[sp.Name].accepted;
             });
 
-        var sum = actives.reduce(function(p, c) {
-            return p + c;
-        });
+        var sum = actives.reduce(function(p, c) {return p + c;});
 
         return {
             mean: sum / actives.length,
@@ -94,21 +94,18 @@ function EnhancedBurnupChart() {
 
     /**
      * Extrapolates the line required to get to 100% BV using simple linear extrapolation
-     * Note that we need at least 2 points to successfuly extrapolate the data, we'll
-     * fail silently if this isnt the case - and no projections will be displayed
+     * Note that we need at least 2 points to successfully extrapolate the data, we'll
+     * fail silently if this isn't the case - and no projections will be displayed
      */
-    function extrapolateBurnup(chartValues, iterations) {
+    function extrapolateBurnup(chartValues, iterations, max) {
         var cumulatives =
-            iterations.filter(function(s) {
-                return new Date(s.EndDate) <= new Date();
-            })
-            .map(function(sp) {
-                return chartValues[sp.Name].c_accepted;
-            });
+            iterations
+                .filter(function(s) {return new Date(s.EndDate) <= new Date();})
+                .map(function(sp) {return chartValues[sp.Name].c_accepted;});
 
         var aV = averageVelocity(chartValues, iterations);
 
-        $('#velocityTrend').html('Mean Velocity: ' + aV.mean + ((aV.last > aV.mean) ? '<span style="color: green">&#x25B2;</span>' : (aV.last < aV.mean) ? '<span style="color: red">&#x25BC;</span>' : ''));
+        $('#velocityTrend').html('Mean Velocity: ' + Math.round(aV.mean) + ((aV.last > aV.mean) ? '<span style="color: green">&#x25B2;</span>' : (aV.last < aV.mean) ? '<span style="color: red">&#x25BC;</span>' : ''));
 
         var ex = new extrapolate();
 
@@ -121,8 +118,10 @@ function EnhancedBurnupChart() {
             return (i === cumulatives.length - 1) ? Math.roundx(cumulatives[cumulatives.length - 1]) : undefined;
         });
 
-        for (var idx = cumulatives.length; idx < iterations.length; idx++)
-            ext.push(Math.roundx(ex.getLinear(idx)));
+        for (var idx = cumulatives.length; idx < iterations.length; idx++){
+            var e = Math.roundx(ex.getLinear(idx));
+            ext.push( ( ext[idx-1] < max )? e : undefined );
+        }
         return ext;
 
     }
@@ -130,6 +129,9 @@ function EnhancedBurnupChart() {
     /**
      * Build the actual chart from the data; uses Chart.js.
      * 
+     * @param chartValues
+     * @param prj
+     * @param iterations
      */
     function buildChartJS(chartValues, prj, iterations) {
         
@@ -169,35 +171,57 @@ function EnhancedBurnupChart() {
                 maintainAspectRatio: false,
                 layout: {padding: 10},
                 hover: {mode: 'x'},
-                tooltips: {mode: 'x'}
+                tooltips: {mode: 'x'},
+                elements:{ point: { radius: 0} } // hide points
             };
 
             var data = {
                 labels: iterationNames,
                 datasets: [{
                         label: 'Accepted',
-                        data: iterationNames.map(function(e) {
-                            return chartValues[e].c_accepted;
-                        }),
+                        data: iterationNames.map(function(e) {return chartValues[e].c_accepted;}),
                         startAtZero: true,
                         borderColor: '#3465AA',
+                        backgroundColor: '#3465AA'
                     },  {
                         label: "Scope",
                         type: 'line',
+                        cubicInterpolationMode: 'default',
                         fill: false,
                         lineTension: 0,
                         borderWidth: 1,
                         data: iterationNames.map(function(e) {return chartValues[e].c_planned;}),
                         borderDash: [5, 3],
-                        borderColor: '#E8D7AB',
-                        backgroundColor: '#E8D7AB',
-                        pointBorderColor: '#E8D7AB',
-                        pointBackgroundColor: '#E8D7AB'
+                        borderColor: 'orange', //'#E8D7AB',
+                        backgroundColor: 'orange', //'#E8D7AB',
+                        pointBorderColor: 'orange', //'#E8D7AB',
+                        pointBackgroundColor: 'orange' //'#E8D7AB'
 
-                    }
-
+                    }                    
                 ]
             };
+            
+            var currentProj = (iterationNames.map(function(e){ return chartValues[e]; } ).filter(function(v){ return v.end >= new Date() }).length) > 0;
+            
+            console.log( 'current proj = '  + currentProj );
+             
+            // only add projections if its still a current project
+            if( currentProj )
+            data.datasets.push({
+                label: 'Projected',
+                data: extrapolateBurnup(chartValues, iterations, maxPlanned),
+                type: 'line',
+                startAtZero: true,
+                fill: false,
+                lineTension: 0,
+                borderWidth: 1,
+                borderDash: [5, 3],
+                borderColor: 'black',
+                backgroundColor: 'black',
+                pointBorderColor: 'black',
+                pointBackgroundColor: 'black'
+            });
+
 
             var ctx = $("#myChart");
             ctx.show();
@@ -259,11 +283,17 @@ function EnhancedBurnupChart() {
     
     /**
      * Build the chart data for a set of user stories for a given field name
+     * 
+     * @param userStories
+     * @param iterations
+     * 
+     * @return hash where keys are iteration names and values are objects containing the data
      */
     function buildChartData(userStories, iterations) {
 
         var iterHash = {};
-
+        
+        // sort the iterations by date
         iterations.sort(function(a, b) {
             var aD = new Date(a.StartDate);
             var bD = new Date(b.StartDate);
@@ -271,7 +301,7 @@ function EnhancedBurnupChart() {
                 (aD > bD) ? 1 : 0;
         });
 
-
+        // create the basic data for each
         iterations.forEach(function(iteration) {
             iterHash[iteration.Name] = {
                 start: new Date(iteration.StartDate),
@@ -289,13 +319,14 @@ function EnhancedBurnupChart() {
 
             var iterationName = (story.Iteration) ? story.Iteration.Name : 'UNASSIGNED';
             var storyCompleted = (story.ScheduleState === 'Accepted' || story.ScheduleState === 'Completed') ? 1 : 0;
-                
+            
             if (storyCompleted) {
-                var acceptedIter = iterationName; //acceptedIn(story, iterations);
+                var acceptedIter = acceptedIn(story, iterations);
                 //console.log('Story ' + story.FormattedID + ':' + story.Name + ' completed in iteration ' + acceptedIter);
                 if (iterHash[acceptedIter])
                     iterHash[acceptedIter].accepted += story.PlanEstimate;
             }
+            
             if (story.Iteration && iterationName !== 'UNASSIGNED') {
                 if (iterHash[iterationName]){
                     var createdIter = createdIn(story,iterations);  
@@ -305,12 +336,11 @@ function EnhancedBurnupChart() {
             }
         });
 
-        // build cumulatives
+        // build cumulative values
         var lastKey = undefined;
 
-        iterations.map(function(i) {
-            return i.Name;
-        }).forEach(function(iteration) {
+        iterations.map(function(i) {return i.Name;})
+            .forEach(function(iteration) {
             var lastValue = (lastKey) ? iterHash[lastKey] : {
                 accepted: 0,
                 planned: 0,
@@ -331,7 +361,12 @@ function EnhancedBurnupChart() {
         return iterHash;
     }
 
-
+    /**
+     * update the chart data 
+     * 
+     * @param projectId
+     * 
+     */
     function updateChart(projectId) {
         rally.getProject(projectId).then(function(prj) {
             rally.getStoriesForProject(prj).then(function(stories) {
@@ -356,8 +391,12 @@ function EnhancedBurnupChart() {
 
     }
 
+    /**
+     * Initialize the chart and data
+     */
     function init() {
 
+        // get the projects and put them in the dropdown
         rally.getProjects().then(function(projectSummaries) {
             $.when.apply(null, rally.hydrateProjects(projectSummaries)).then(function() {
 
@@ -380,10 +419,7 @@ function EnhancedBurnupChart() {
             });
         });
     }
-
     return this;
-
 };
 
-if (typeof module !== 'undefined')
-    module.exports = EnhancedBurnupChart;
+if (typeof module !== 'undefined') module.exports = EnhancedBurnupChart;
